@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" font-family="sans-serif" font-size="13">
+  <title>Точки аускультации лёгких: спереди и сзади (схема)</title>
+  <rect width="760" height="520" fill="#ffffff"/>
+
+  <!-- ===== СПЕРЕДИ ===== -->
+  <text x="190" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Спереди (facies anterior)</text>
+  <text x="70" y="52" text-anchor="middle" fill="#666">правая</text>
+  <text x="310" y="52" text-anchor="middle" fill="#666">левая</text>
+  <!-- туловище -->
+  <path d="M150 60 Q190 50 230 60 L232 80 Q300 86 322 110 L312 440 Q190 470 68 440 L58 110 Q80 86 148 80 Z" fill="none" stroke="#333" stroke-width="2"/>
+  <!-- ключицы -->
+  <path d="M86 108 Q130 96 182 112" fill="none" stroke="#555" stroke-width="3"/>
+  <path d="M198 112 Q250 96 294 108" fill="none" stroke="#555" stroke-width="3"/>
+  <!-- грудина -->
+  <rect x="181" y="112" width="18" height="170" rx="6" fill="none" stroke="#777" stroke-width="1.5"/>
+  <!-- среднеключичные линии -->
+  <line x1="130" y1="100" x2="130" y2="420" stroke="#999" stroke-dasharray="5 5"/>
+  <line x1="250" y1="100" x2="250" y2="420" stroke="#999" stroke-dasharray="5 5"/>
+  <text x="130" y="436" text-anchor="middle" font-size="11" fill="#777">l. medioclavicularis</text>
+  <text x="250" y="436" text-anchor="middle" font-size="11" fill="#777">l. medioclavicularis</text>
+  <!-- область сердца слева (пациента) -->
+  <ellipse cx="228" cy="262" rx="44" ry="50" fill="#eeeeee" stroke="#aaa"/>
+  <text x="228" y="266" text-anchor="middle" font-size="11" fill="#888">сердце</text>
+  <!-- точки: 1 надключичные, 2 подключичные, 3 ниже по среднеключичной, 4 боковые -->
+  <g fill="#222">
+    <circle cx="112" cy="90" r="9"/><circle cx="268" cy="90" r="9"/>
+    <circle cx="130" cy="140" r="9"/><circle cx="250" cy="140" r="9"/>
+    <circle cx="130" cy="210" r="9"/><circle cx="250" cy="200" r="9"/>
+    <circle cx="130" cy="300" r="9"/>
+    <circle cx="74" cy="250" r="9"/><circle cx="306" cy="250" r="9"/>
+    <circle cx="78" cy="330" r="9"/><circle cx="302" cy="330" r="9"/>
+  </g>
+  <g fill="#fff" font-size="11" font-weight="bold" text-anchor="middle">
+    <text x="112" y="94">1</text><text x="268" y="94">1</text>
+    <text x="130" y="144">2</text><text x="250" y="144">2</text>
+    <text x="130" y="214">3</text><text x="250" y="204">3</text>
+    <text x="130" y="304">3</text>
+    <text x="74" y="254">4</text><text x="306" y="254">4</text>
+    <text x="78" y="334">4</text><text x="302" y="334">4</text>
+  </g>
+  <!-- стрелка сравнения -->
+  <path d="M142 140 L238 140" stroke="#1a5fb4" stroke-width="2" marker-end="url(#a)" marker-start="url(#a)"/>
+  <text x="190" y="132" text-anchor="middle" font-size="11" fill="#1a5fb4">сравнить</text>
+
+  <!-- ===== СЗАДИ ===== -->
+  <text x="570" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Сзади (facies posterior)</text>
+  <text x="450" y="52" text-anchor="middle" fill="#666">левая</text>
+  <text x="690" y="52" text-anchor="middle" fill="#666">правая</text>
+  <path d="M530 60 Q570 50 610 60 L612 80 Q680 86 702 110 L692 440 Q570 470 448 440 L438 110 Q460 86 528 80 Z" fill="none" stroke="#333" stroke-width="2"/>
+  <!-- позвоночник -->
+  <line x1="570" y1="70" x2="570" y2="450" stroke="#777" stroke-width="2" stroke-dasharray="2 6"/>
+  <!-- лопатки -->
+  <path d="M470 120 L548 118 L520 260 Z" fill="none" stroke="#555" stroke-width="2"/>
+  <path d="M670 120 L592 118 L620 260 Z" fill="none" stroke="#555" stroke-width="2"/>
+  <text x="500" y="150" font-size="11" fill="#777">scapula</text>
+  <!-- точки: 5 надлопаточные, 6 межлопаточные, 7 подлопаточные -->
+  <g fill="#222">
+    <circle cx="505" cy="100" r="9"/><circle cx="635" cy="100" r="9"/>
+    <circle cx="552" cy="170" r="9"/><circle cx="588" cy="170" r="9"/>
+    <circle cx="552" cy="225" r="9"/><circle cx="588" cy="225" r="9"/>
+    <circle cx="500" cy="300" r="9"/><circle cx="640" cy="300" r="9"/>
+    <circle cx="505" cy="370" r="9"/><circle cx="635" cy="370" r="9"/>
+  </g>
+  <g fill="#fff" font-size="11" font-weight="bold" text-anchor="middle">
+    <text x="505" y="104">5</text><text x="635" y="104">5</text>
+    <text x="552" y="174">6</text><text x="588" y="174">6</text>
+    <text x="552" y="229">6</text><text x="588" y="229">6</text>
+    <text x="500" y="304">7</text><text x="640" y="304">7</text>
+    <text x="505" y="374">7</text><text x="635" y="374">7</text>
+  </g>
+
+  <!-- легенда -->
+  <g font-size="12" fill="#222">
+    <text x="30" y="480">1 — надключичные ямки · 2 — подключичные (I–II межреберье) · 3 — по среднеключичной линии ниже (слева — до сердца)</text>
+    <text x="30" y="500">4 — боковые (подмышечные линии) · 5 — надлопаточные · 6 — межлопаточные · 7 — подлопаточные (по лопаточным линиям)</text>
+  </g>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#1a5fb4"/>
+    </marker>
+  </defs>
+</svg>
