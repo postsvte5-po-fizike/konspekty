@@ -4,10 +4,9 @@ configuration:
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  analytics:
-    provider: plausible
+  analytics: null
   locale: ru-RU
-  baseUrl: example.github.io/site
+  baseUrl: postsvte5-po-fizike.github.io/konspekty
   ignorePatterns:
     - private
     - templates
