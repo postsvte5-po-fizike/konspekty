@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <title>Основной дыхательный шум: варианты и причины (схема)</title>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#495057"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="560" fill="#ffffff"/>
+
+  <!-- корень -->
+  <rect x="380" y="18" width="240" height="46" rx="23" fill="#1b1e23"/>
+  <text x="500" y="47" text-anchor="middle" fill="#ffffff" font-weight="bold" font-size="16">Основной дыхательный шум</text>
+
+  <!-- две ветви -->
+  <path d="M440 64 C400 90 300 90 250 112" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M560 64 C600 90 700 90 750 112" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- везикулярное -->
+  <rect x="90" y="114" width="320" height="70" rx="12" fill="#e6fcf5" stroke="#0ca678" stroke-width="2"/>
+  <text x="250" y="142" text-anchor="middle" font-weight="bold" font-size="16" fill="#087f5b">Везикулярное (альвеолы)</text>
+  <text x="250" y="166" text-anchor="middle" fill="#1b1e23">«ф»: весь вдох + 1/3 выдоха</text>
+
+  <!-- бронхиальное -->
+  <rect x="590" y="114" width="320" height="70" rx="12" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="2"/>
+  <text x="750" y="142" text-anchor="middle" font-weight="bold" font-size="16" fill="#1864ab">Бронхиальное (гортань)</text>
+  <text x="750" y="166" text-anchor="middle" fill="#1b1e23">«х»: выдох громче и длиннее вдоха</text>
+
+  <!-- ветви везикулярного -->
+  <g fill="none" stroke="#0ca678" stroke-width="1.8">
+    <path d="M150 184 L150 230"/><path d="M150 230 L110 230 L110 250" marker-end="url(#ar)"/>
+    <path d="M150 230 L250 230 L250 250" marker-end="url(#ar)"/>
+    <path d="M150 230 L390 230 L390 250" marker-end="url(#ar)"/>
+  </g>
+  <g font-size="13">
+    <rect x="20" y="252" width="180" height="150" rx="10" fill="#ffffff" stroke="#0ca678"/>
+    <text x="110" y="274" text-anchor="middle" font-weight="bold" fill="#087f5b">Ослаблено / нет</text>
+    <text x="32" y="298" fill="#1b1e23">• эмфизема</text>
+    <text x="32" y="318" fill="#1b1e23">• начало крупозной пневм.</text>
+    <text x="32" y="338" fill="#1b1e23">• обтурация бронха</text>
+    <text x="32" y="358" fill="#1b1e23">• боль, перелом рёбер</text>
+    <text x="32" y="378" fill="#1b1e23">• выпот, воздух, толстая</text>
+    <text x="44" y="394" fill="#1b1e23">плевра</text>
+
+    <rect x="210" y="252" width="84" height="150" rx="10" fill="#ffffff" stroke="#0ca678"/>
+    <text x="252" y="274" text-anchor="middle" font-weight="bold" fill="#087f5b">Жёсткое</text>
+    <text x="252" y="300" text-anchor="middle" fill="#1b1e23">бронхит;</text>
+    <text x="252" y="320" text-anchor="middle" fill="#1b1e23">вдох и</text>
+    <text x="252" y="340" text-anchor="middle" fill="#1b1e23">выдох</text>
+    <text x="252" y="360" text-anchor="middle" fill="#1b1e23">усилены</text>
+
+    <rect x="304" y="252" width="176" height="150" rx="10" fill="#ffffff" stroke="#0ca678"/>
+    <text x="392" y="274" text-anchor="middle" font-weight="bold" fill="#087f5b">Саккадированное</text>
+    <text x="316" y="298" fill="#1b1e23">вдох толчками</text>
+    <text x="316" y="320" fill="#1b1e23">• холод, дрожь,</text>
+    <text x="328" y="338" fill="#1b1e23">патология мышц</text>
+    <text x="316" y="360" fill="#1b1e23">• локально — очаг</text>
+    <text x="328" y="378" fill="#1b1e23">в верхушке (tbc)</text>
+  </g>
+
+  <!-- ветви бронхиального -->
+  <g fill="none" stroke="#1c7ed6" stroke-width="1.8">
+    <path d="M750 184 L750 230"/>
+    <path d="M750 230 L570 230 L570 250" marker-end="url(#ar)"/>
+    <path d="M750 230 L700 230 L700 250" marker-end="url(#ar)"/>
+    <path d="M750 230 L820 230 L820 250" marker-end="url(#ar)"/>
+    <path d="M750 230 L930 230 L930 250" marker-end="url(#ar)"/>
+  </g>
+  <g font-size="13">
+    <rect x="496" y="252" width="140" height="150" rx="10" fill="#ffffff" stroke="#1c7ed6"/>
+    <text x="566" y="274" text-anchor="middle" font-weight="bold" fill="#1864ab">Над уплотнением</text>
+    <text x="508" y="298" fill="#1b1e23">крупозная</text>
+    <text x="508" y="316" fill="#1b1e23">пневмония (II ст.),</text>
+    <text x="508" y="334" fill="#1b1e23">инфаркт лёгкого,</text>
+    <text x="508" y="352" fill="#1b1e23">компрессионный</text>
+    <text x="508" y="370" fill="#1b1e23">ателектаз (тихое,</text>
+    <text x="508" y="388" fill="#1b1e23">как «эхо»)</text>
+
+    <rect x="644" y="252" width="112" height="150" rx="10" fill="#ffffff" stroke="#1c7ed6"/>
+    <text x="700" y="274" text-anchor="middle" font-weight="bold" fill="#1864ab">Амфорическое</text>
+    <text x="700" y="298" text-anchor="middle" fill="#1b1e23">гладкостенная</text>
+    <text x="700" y="316" text-anchor="middle" fill="#1b1e23">полость</text>
+    <text x="700" y="334" text-anchor="middle" fill="#1b1e23">5–6 см +</text>
+    <text x="700" y="352" text-anchor="middle" fill="#1b1e23">крупный</text>
+    <text x="700" y="370" text-anchor="middle" fill="#1b1e23">бронх</text>
+
+    <rect x="764" y="252" width="112" height="150" rx="10" fill="#ffffff" stroke="#1c7ed6"/>
+    <text x="820" y="274" text-anchor="middle" font-weight="bold" fill="#1864ab">Металлич.</text>
+    <text x="820" y="298" text-anchor="middle" fill="#1b1e23">открытый</text>
+    <text x="820" y="316" text-anchor="middle" fill="#1b1e23">пневмоторакс</text>
+
+    <rect x="884" y="252" width="104" height="150" rx="10" fill="#ffffff" stroke="#1c7ed6"/>
+    <text x="936" y="274" text-anchor="middle" font-weight="bold" fill="#1864ab">Стенотич.</text>
+    <text x="936" y="298" text-anchor="middle" fill="#1b1e23">сужение</text>
+    <text x="936" y="316" text-anchor="middle" fill="#1b1e23">трахеи /</text>
+    <text x="936" y="334" text-anchor="middle" fill="#1b1e23">крупного</text>
+    <text x="936" y="352" text-anchor="middle" fill="#1b1e23">бронха</text>
+  </g>
+
+  <!-- смешанное -->
+  <rect x="290" y="440" width="420" height="72" rx="12" fill="#fff9db" stroke="#f08c00" stroke-width="2"/>
+  <text x="500" y="466" text-anchor="middle" font-weight="bold" font-size="15" fill="#e67700">Везикулобронхиальное (смешанное)</text>
+  <text x="500" y="490" text-anchor="middle" fill="#1b1e23">вдох — везикулярный, выдох — бронхиальный:</text>
+  <text x="500" y="506" text-anchor="middle" fill="#1b1e23" font-size="13">очаговая пневмония, инфильтративный tbc, пневмосклероз</text>
+  <path d="M390 402 L430 438" fill="none" stroke="#f08c00" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+  <path d="M566 402 L560 438" fill="none" stroke="#f08c00" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+
+  <text x="500" y="546" text-anchor="middle" font-size="12" fill="#6c717a">По: Гребенев А.Л. Пропедевтика внутренних болезней, 6-е изд., 2018 — гл. 5, «Аускультация»</text>
+</svg>

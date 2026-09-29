@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 690" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <title>Точки аускультации лёгких: спереди, сбоку и сзади (схема)</title>
   <defs>
     <radialGradient id="skin" cx="50%" cy="40%" r="70%">
@@ -69,25 +69,41 @@
     <line x1="130" y1="112" x2="130" y2="500"/>
     <line x1="270" y1="112" x2="270" y2="500"/>
   </g>
+  <g stroke="#e8590c" stroke-width="1.1" stroke-dasharray="2 5" opacity="0.8">
+    <line x1="90" y1="200" x2="90" y2="470"/>
+    <line x1="314" y1="200" x2="314" y2="470"/>
+  </g>
   <text x="130" y="520" text-anchor="middle" font-size="10" fill="#6c717a">l. medioclavicularis dextra</text>
   <text x="270" y="520" text-anchor="middle" font-size="10" fill="#6c717a">l. medioclavicularis sinistra</text>
 
-  <!-- точки спереди (в межреберьях по среднеключичной линии) -->
-  <use href="#pt" x="116" y="94"/><use href="#pt" x="284" y="94"/>
-  <use href="#pt" x="130" y="156"/><use href="#pt" x="270" y="156"/>
-  <use href="#pt" x="130" y="186"/><use href="#pt" x="270" y="186"/>
-  <use href="#pt" x="130" y="216"/><use href="#pt" x="270" y="206"/>
-  <use href="#pt" x="130" y="246"/>
-  <use href="#pt" x="130" y="276"/>
+  <!-- точки спереди (по рис. 21 Гребенева) -->
+  <use href="#pt" x="116" y="94"/>
+  <use href="#pt" x="284" y="94"/>
+  <use href="#pt" x="130" y="150"/>
+  <use href="#pt" x="272" y="150"/>
+  <use href="#pt" x="130" y="190"/>
+  <use href="#pt" x="128" y="230"/>
+  <use href="#pt" x="290" y="188"/>
+  <use href="#pt" x="92" y="262"/>
+  <use href="#pt" x="90" y="300"/>
+  <use href="#pt" x="94" y="338"/>
+  <use href="#pt" x="314" y="262"/>
+  <use href="#pt" x="314" y="300"/>
   <g fill="#fff" font-size="11" font-weight="bold" text-anchor="middle">
-    <text x="116" y="98">1</text><text x="284" y="98">1</text>
-    <text x="130" y="160">2</text><text x="270" y="160">2</text>
-    <text x="130" y="190">3</text><text x="270" y="190">3</text>
-    <text x="130" y="220">4</text><text x="270" y="210">4</text>
-    <text x="130" y="250">5</text>
-    <text x="130" y="280">6</text>
+    <text x="116" y="98">1</text>
+    <text x="284" y="98">1</text>
+    <text x="130" y="154">2</text>
+    <text x="272" y="154">2</text>
+    <text x="130" y="194">3</text>
+    <text x="128" y="234">3</text>
+    <text x="290" y="192">3</text>
+    <text x="92" y="266">4</text>
+    <text x="90" y="304">4</text>
+    <text x="94" y="342">4</text>
+    <text x="314" y="266">4</text>
+    <text x="314" y="304">4</text>
   </g>
-  <path d="M143 156 L257 156" stroke="#0b7285" stroke-width="1.8" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <path d="M143 150 L259 150" stroke="#0b7285" stroke-width="1.8" marker-start="url(#arr)" marker-end="url(#arr)"/>
   <text x="200" y="100" text-anchor="middle" font-size="11" fill="#0b7285">справа ↔ слева</text>
 
   <!-- ================= СБОКУ ================= -->
@@ -115,10 +131,11 @@
   <path d="M436 322 C470 352 520 372 564 392" fill="none" stroke="#1c7ed6" stroke-width="1.8" stroke-dasharray="6 5"/>
   <use href="#ptL" x="500" y="128"/>
   <use href="#ptL" x="500" y="236"/>
-  <use href="#ptL" x="500" y="278"/>
-  <use href="#ptL" x="500" y="318"/>
+  <use href="#ptL" x="500" y="290"/>
   <g fill="#fff" font-size="11" font-weight="bold" text-anchor="middle">
-    <text x="500" y="132">7</text><text x="500" y="240">8</text><text x="500" y="282">8</text><text x="500" y="322">8</text>
+    <text x="500" y="132">8</text>
+    <text x="500" y="240">8</text>
+    <text x="500" y="294">8</text>
   </g>
 
   <!-- ================= СЗАДИ ================= -->
@@ -171,33 +188,39 @@
   <path d="M700 400 C730 412 770 418 804 404" fill="none" stroke="#1c7ed6" stroke-width="1.8" stroke-dasharray="6 5"/>
   <path d="M920 400 C890 412 850 418 816 404" fill="none" stroke="#1c7ed6" stroke-width="1.8" stroke-dasharray="6 5"/>
   <!-- точки сзади -->
-  <use href="#ptB" x="746" y="112"/><use href="#ptB" x="874" y="112"/>
-  <use href="#ptB" x="792" y="180"/><use href="#ptB" x="828" y="180"/>
-  <use href="#ptB" x="790" y="222"/><use href="#ptB" x="830" y="222"/>
-  <use href="#ptB" x="788" y="264"/><use href="#ptB" x="832" y="264"/>
-  <use href="#ptB" x="752" y="316"/><use href="#ptB" x="868" y="316"/>
-  <use href="#ptB" x="752" y="352"/><use href="#ptB" x="868" y="352"/>
-  <use href="#ptB" x="752" y="386"/><use href="#ptB" x="868" y="386"/>
+  <use href="#ptB" x="746" y="112"/>
+  <use href="#ptB" x="874" y="112"/>
+  <use href="#ptB" x="790" y="190"/>
+  <use href="#ptB" x="830" y="190"/>
+  <use href="#ptB" x="788" y="250"/>
+  <use href="#ptB" x="832" y="250"/>
+  <use href="#ptB" x="752" y="320"/>
+  <use href="#ptB" x="868" y="320"/>
+  <use href="#ptB" x="752" y="366"/>
+  <use href="#ptB" x="868" y="366"/>
   <g fill="#fff" font-size="11" font-weight="bold" text-anchor="middle">
-    <text x="746" y="116">9</text><text x="874" y="116">9</text>
-    <text x="792" y="184">10</text><text x="828" y="184">10</text>
-    <text x="790" y="226">10</text><text x="830" y="226">10</text>
-    <text x="788" y="268">10</text><text x="832" y="268">10</text>
-    <text x="752" y="320">11</text><text x="868" y="320">11</text>
-    <text x="752" y="356">11</text><text x="868" y="356">11</text>
-    <text x="752" y="390">11</text><text x="868" y="390">11</text>
+    <text x="746" y="116">5</text>
+    <text x="874" y="116">5</text>
+    <text x="790" y="194">6</text>
+    <text x="830" y="194">6</text>
+    <text x="788" y="254">6</text>
+    <text x="832" y="254">6</text>
+    <text x="752" y="324">7</text>
+    <text x="868" y="324">7</text>
+    <text x="752" y="370">7</text>
+    <text x="868" y="370">7</text>
   </g>
 
   <!-- ================= ЛЕГЕНДА ================= -->
   <g font-size="12.5" fill="#1b1e23">
     <circle cx="40" cy="586" r="8" fill="#0b7285"/>
-    <text x="56" y="590">1 — надключичные ямки; 2–6 — I, II, III (слева до сердца), IV, V межреберья по среднеключичной линии</text>
-    <circle cx="40" cy="612" r="8" fill="#e8590c"/>
-    <text x="56" y="616">7 — подмышечная ямка; 8 — IV–VII межреберья по средней подмышечной линии (руки за голову)</text>
+    <text x="56" y="590">1 — надключичные ямки; 2 — под ключицей; 3 — вниз по среднеключичной (шаг 3–4 см; слева — кнаружи, в обход сердца)</text>
+    <circle cx="40" cy="612" r="8" fill="#0b7285"/>
+    <text x="56" y="616">4 — латеральнее, по передней подмышечной линии (оранжевый пунктир)</text>
     <circle cx="40" cy="638" r="8" fill="#6741d9"/>
-    <text x="56" y="642">9 — надлопаточные ямки; 10 — межлопаточное пространство (3 уровня); 11 — VII–IX межреберья по лопаточным линиям</text>
-    <line x1="30" y1="664" x2="52" y2="664" stroke="#1c7ed6" stroke-width="2" stroke-dasharray="6 5"/>
-    <text x="56" y="668">нижняя граница лёгких (схематично)   ·   ↔ в каждой паре: сначала справа, затем симметрично слева</text>
+    <text x="56" y="642">5 — надлопаточные; 6 — межлопаточно, 2 уровня (руки скрещены на груди); 7 — ниже углов лопаток, 2 уровня</text>
+    <circle cx="40" cy="664" r="8" fill="#e8590c"/>
+    <text x="56" y="668">8 — подмышечные области (ладони за голову) · синий пунктир — нижняя граница лёгких · по: Гребенев, 2018, рис. 21</text>
   </g>
   <defs>
     <marker id="arr" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">

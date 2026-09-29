@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <title>Как отличить побочный дыхательный шум: алгоритм у постели (схема)</title>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#495057"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="600" fill="#ffffff"/>
+
+  <!-- старт -->
+  <rect x="400" y="16" width="200" height="44" rx="22" fill="#1b1e23"/>
+  <text x="500" y="44" text-anchor="middle" fill="#ffffff" font-weight="bold" font-size="16">Побочный шум</text>
+  <path d="M500 60 L500 86" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- вопрос 1: кашель -->
+  <path d="M500 88 L640 136 L500 184 L360 136 Z" fill="#fff9db" stroke="#f08c00" stroke-width="2"/>
+  <text x="500" y="130" text-anchor="middle" font-weight="bold" fill="#1b1e23">① Покашлять:</text>
+  <text x="500" y="150" text-anchor="middle" fill="#1b1e23">шум изменился?</text>
+
+  <!-- ДА: хрипы -->
+  <path d="M360 136 L220 136 L220 214" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="290" y="126" text-anchor="middle" font-weight="bold" fill="#2b8a3e">ДА</text>
+  <rect x="80" y="216" width="280" height="54" rx="12" fill="#f8f9fa" stroke="#495057" stroke-width="2"/>
+  <text x="220" y="240" text-anchor="middle" font-weight="bold" fill="#1b1e23">ХРИПЫ (бронхи, полость)</text>
+  <text x="220" y="259" text-anchor="middle" font-size="13" fill="#495057">каков звук?</text>
+  <path d="M160 270 L110 318" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M280 270 L330 318" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="20" y="320" width="190" height="108" rx="12" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="2"/>
+  <text x="115" y="344" text-anchor="middle" font-weight="bold" fill="#1864ab">Сухие</text>
+  <text x="115" y="366" text-anchor="middle" font-size="13" fill="#1b1e23">свист / жужжание</text>
+  <text x="115" y="386" text-anchor="middle" font-size="13" fill="#1b1e23">вдох и выдох</text>
+  <text x="115" y="406" text-anchor="middle" font-size="13" fill="#1b1e23">сужение бронха,</text>
+  <text x="115" y="422" text-anchor="middle" font-size="13" fill="#1b1e23">вязкая мокрота</text>
+  <rect x="230" y="320" width="200" height="108" rx="12" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="2"/>
+  <text x="330" y="344" text-anchor="middle" font-weight="bold" fill="#1864ab">Влажные</text>
+  <text x="330" y="366" text-anchor="middle" font-size="13" fill="#1b1e23">лопающиеся пузырьки</text>
+  <text x="330" y="386" text-anchor="middle" font-size="13" fill="#1b1e23">громче на вдохе</text>
+  <text x="330" y="406" text-anchor="middle" font-size="13" fill="#1b1e23">жидкий секрет:</text>
+  <text x="330" y="422" text-anchor="middle" font-size="13" fill="#1b1e23">мелко-/средне-/крупно-</text>
+
+  <!-- НЕТ: вопрос 2 фаза -->
+  <path d="M640 136 L760 136 L760 196" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="700" y="126" text-anchor="middle" font-weight="bold" fill="#c92a2a">НЕТ</text>
+  <path d="M760 198 L900 246 L760 294 L620 246 Z" fill="#fff9db" stroke="#f08c00" stroke-width="2"/>
+  <text x="760" y="240" text-anchor="middle" font-weight="bold" fill="#1b1e23">② Фаза дыхания?</text>
+  <text x="760" y="260" text-anchor="middle" font-size="13" fill="#1b1e23">когда слышно</text>
+
+  <!-- только высота вдоха → крепитация -->
+  <path d="M620 246 L560 246 L560 480" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="590" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#1b1e23" transform="rotate(-90 590 300)">только высота вдоха</text>
+  <rect x="460" y="482" width="220" height="100" rx="12" fill="#fff5f5" stroke="#e03131" stroke-width="2"/>
+  <text x="570" y="506" text-anchor="middle" font-weight="bold" fill="#c92a2a">КРЕПИТАЦИЯ</text>
+  <text x="570" y="528" text-anchor="middle" font-size="13" fill="#1b1e23">альвеолы, однородный треск</text>
+  <text x="570" y="548" text-anchor="middle" font-size="13" fill="#1b1e23">«растирание волос у уха»</text>
+  <text x="570" y="568" text-anchor="middle" font-size="13" fill="#1b1e23">от кашля не меняется</text>
+
+  <!-- вдох и выдох → вопрос 3-4 -->
+  <path d="M900 246 L940 246 L940 330 L880 330" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="962" y="290" text-anchor="middle" font-size="13" font-weight="bold" fill="#1b1e23" transform="rotate(90 962 290)">вдох и выдох</text>
+  <rect x="700" y="312" width="178" height="112" rx="12" fill="#fff9db" stroke="#f08c00" stroke-width="2"/>
+  <text x="789" y="336" text-anchor="middle" font-weight="bold" fill="#1b1e23">③ Надавить</text>
+  <text x="789" y="354" text-anchor="middle" font-size="13" fill="#1b1e23">стетоскопом → громче?</text>
+  <text x="789" y="380" text-anchor="middle" font-weight="bold" fill="#1b1e23">④ Ложное дыхание:</text>
+  <text x="789" y="398" text-anchor="middle" font-size="13" fill="#1b1e23">рот и нос закрыты,</text>
+  <text x="789" y="414" text-anchor="middle" font-size="13" fill="#1b1e23">живот втянуть/выпятить</text>
+  <path d="M789 424 L789 480" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="806" y="458" font-weight="bold" fill="#2b8a3e">ДА, слышно</text>
+  <rect x="700" y="482" width="280" height="100" rx="12" fill="#ebfbee" stroke="#2f9e44" stroke-width="2"/>
+  <text x="840" y="506" text-anchor="middle" font-weight="bold" fill="#2b8a3e">ШУМ ТРЕНИЯ ПЛЕВРЫ</text>
+  <text x="840" y="528" text-anchor="middle" font-size="13" fill="#1b1e23">шёлк → хруст снега, «у уха»</text>
+  <text x="840" y="548" text-anchor="middle" font-size="13" fill="#1b1e23">нижнебоковые отделы</text>
+  <text x="840" y="568" text-anchor="middle" font-size="13" fill="#1b1e23">может ощущаться ладонью</text>
+
+  <text x="215" y="480" font-size="12.5" fill="#6c717a">Хрипы и крепитация при ложном дыхании</text>
+  <text x="215" y="497" font-size="12.5" fill="#6c717a">исчезают: воздух по бронхам не идёт.</text>
+  <text x="215" y="520" font-size="12" fill="#6c717a">По: Гребенев А.Л., 2018, гл. 5</text>
+</svg>
