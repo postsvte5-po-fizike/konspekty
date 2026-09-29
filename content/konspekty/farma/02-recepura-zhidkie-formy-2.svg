@@ -5,19 +5,19 @@
 <ellipse cx="110" cy="120" rx="34" ry="20" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="2"/><rect x="140" y="116" width="80" height="8" rx="4" fill="#1c7ed6"/>
 <text x="110" y="162" text-anchor="middle" font-weight="bold" fill="#1864ab">чайная</text><text x="110" y="182" text-anchor="middle" fill="#1b1e23">5 мл</text>
 <ellipse cx="300" cy="120" rx="42" ry="24" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="2"/><rect x="338" y="115" width="90" height="9" rx="4" fill="#1c7ed6"/>
-<text x="300" y="166" text-anchor="middle" font-weight="bold" fill="#1864ab">десертная</text><text x="300" y="186" text-anchor="middle" fill="#1b1e23">7,5 мл</text>
+<text x="300" y="166" text-anchor="middle" font-weight="bold" fill="#1864ab">десертная</text><text x="300" y="186" text-anchor="middle" fill="#1b1e23">10 мл (кафедра)</text>
 <ellipse cx="510" cy="120" rx="52" ry="30" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="2"/><rect x="558" y="114" width="100" height="10" rx="5" fill="#1c7ed6"/>
 <text x="510" y="172" text-anchor="middle" font-weight="bold" fill="#1864ab">столовая</text><text x="510" y="192" text-anchor="middle" fill="#1b1e23">15 мл</text>
 <path d="M800 80 C790 100 780 112 780 124 A20 20 0 0 0 820 124 C820 112 810 100 800 80 Z" fill="#d0ebff" stroke="#1c7ed6" stroke-width="2"/>
-<text x="800" y="172" text-anchor="middle" font-weight="bold" fill="#1864ab">1 мл водного</text><text x="800" y="192" text-anchor="middle" fill="#1b1e23">раствора = 20 капель</text>
+<text x="800" y="166" text-anchor="middle" font-weight="bold" fill="#1864ab">в 1 г растворителя:</text><text x="800" y="186" text-anchor="middle" fill="#1b1e23">вода 20 · спирт 40 · масло 30 капель</text>
 <rect x="30" y="220" width="440" height="220" rx="12" fill="#fff9db" stroke="#f08c00" stroke-width="2"/>
 <text x="250" y="248" text-anchor="middle" font-weight="bold" font-size="15" fill="#e67700">Формулы</text>
 <text x="46" y="282" fill="#1b1e23" font-weight="bold">1) Концентрация, %</text>
 <text x="46" y="306" fill="#1b1e23">= разовая доза (г) / разовый объём (мл) × 100</text>
 <text x="46" y="340" fill="#1b1e23" font-weight="bold">2) Общий объём, мл</text>
 <text x="46" y="364" fill="#1b1e23">= разовый объём × приёмов в день × дней</text>
-<text x="46" y="398" fill="#1b1e23" font-weight="bold">Капли:</text>
-<text x="46" y="420" fill="#1b1e23">N капель = N/20 мл → считаем, как с ложкой</text>
+<text x="46" y="398" fill="#1b1e23" font-weight="bold">Магистральный раствор: X = C% · ОВ / 100</text>
+<text x="46" y="420" fill="#1b1e23">Настойки: M = d (мл) · n (≈ 40 приёмов)</text>
 <rect x="500" y="220" width="470" height="220" rx="12" fill="#e6fcf5" stroke="#0ca678" stroke-width="2"/>
 <text x="735" y="248" text-anchor="middle" font-weight="bold" font-size="15" fill="#087f5b">Пример</text>
 <text x="516" y="278" fill="#1b1e23">Нужно 0,3 г в 1 столовой ложке, 3 раза в день, 6 дней</text>
@@ -25,5 +25,5 @@
 <text x="516" y="332" fill="#1b1e23">2) 15 мл × 3 × 6 = <tspan font-weight="bold">270 мл</tspan></text>
 <text x="516" y="366" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Solutionis Natrii bromidi 2% — 270 ml</text>
 <text x="516" y="390" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.S. По 1 столовой ложке 3 раза в день.</text>
-<text x="516" y="424" font-size="12" fill="#495057">Капли: 10 капель = 0,5 мл; нужно 0,0005 г → 0,1%</text>
+<text x="516" y="424" font-size="12" fill="#495057">Настойка 20 капель ≈ 0,5 мл × 40 = 20 мл</text>
 </svg>
