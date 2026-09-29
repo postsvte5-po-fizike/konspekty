@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <title>Строение рецепта и классификация лекарственных форм (схема)</title>
+  <rect width="1000" height="640" fill="#ffffff"/>
+  <text x="250" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#1b1e23">Строение рецепта</text>
+  <text x="740" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#1b1e23">Лекарственные формы</text>
+
+  <!-- бланк -->
+  <rect x="30" y="48" width="440" height="560" rx="10" fill="#fffdf5" stroke="#868e96" stroke-width="2"/>
+  <rect x="30" y="48" width="440" height="96" rx="10" fill="#f1f3f5"/>
+  <text x="46" y="72" font-size="12.5" fill="#495057">Штамп и данные медорганизации · дата</text>
+  <text x="46" y="92" font-size="12.5" fill="#495057">ФИО пациента, дата рождения / возраст</text>
+  <text x="46" y="112" font-size="12.5" fill="#495057">ФИО лечащего врача</text>
+  <text x="46" y="132" font-size="12.5" fill="#495057" font-weight="bold">← «вводная часть» (на русском)</text>
+
+  <text x="46" y="176" font-size="22" font-weight="bold" fill="#c92a2a" font-family="Georgia, serif">Rp.:</text>
+  <text x="110" y="176" font-size="12.5" fill="#c92a2a">Recipe — «Возьми» (обращение к фармацевту)</text>
+
+  <text x="70" y="212" font-size="16" fill="#1b1e23" font-family="Georgia, serif" font-style="italic">Tabulettam Paracetamoli 0,5</text>
+  <text x="70" y="236" font-size="16" fill="#1b1e23" font-family="Georgia, serif" font-style="italic">D.t.d. N. 20</text>
+  <text x="70" y="260" font-size="16" fill="#1b1e23" font-family="Georgia, serif" font-style="italic">S. По 1 таблетке при t° выше 38,5 °C,</text>
+  <text x="86" y="282" font-size="16" fill="#1b1e23" font-family="Georgia, serif" font-style="italic">не чаще 4 раз в сутки.</text>
+
+  <g font-size="12" fill="#1b1e23">
+    <rect x="40" y="306" width="422" height="112" rx="8" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="58" y="326" font-weight="bold" fill="#1864ab">Designatio materiarum — перечень веществ (латынь):</text>
+    <text x="58" y="344" font-size="11.3">• лекарственная форма и вещества — в родительном падеже</text>
+    <text x="58" y="362" font-size="11.3">• развёрнутая пропись: Basis → Adjuvans → Corrigens → Constituens</text>
+    <text x="58" y="380" font-size="11.3">• масса — в граммах (1,0), объём — в мл; капли — gtts + римская цифра</text>
+    <text x="58" y="398" font-size="11.3">• дозы в ЕД (ED) — для веществ, дозируемых в единицах действия</text>
+    <text x="58" y="414" font-size="11.3">• aa (ana) — «поровну»; ad — «до» (довести до объёма)</text>
+
+    <rect x="46" y="426" width="408" height="62" rx="8" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="58" y="446" font-weight="bold" fill="#2b8a3e">Subscriptio — указание фармацевту:</text>
+    <text x="58" y="464">M.f. … (смешай, чтобы образовалось…) · D.t.d. N. … (выдай такие</text>
+    <text x="58" y="480">дозы числом…) · D.S. / M.D.S. · in amp., in caps. gel., in tab.</text>
+
+    <rect x="46" y="496" width="408" height="62" rx="8" fill="#f8f9fa" stroke="#dee2e6"/>
+    <text x="58" y="516" font-weight="bold" fill="#e67700">Signatura — для пациента (по-русски):</text>
+    <text x="58" y="534">доза на приём · сколько раз и когда · способ применения</text>
+    <text x="58" y="550">(«по 1 таблетке 3 раза в день после еды», «в/м по 1 мл»)</text>
+  </g>
+  <text x="46" y="590" font-size="12.5" fill="#495057">Подпись и личная печать врача · срок действия рецепта</text>
+
+  <!-- классификация -->
+  <g font-size="12.5">
+    <rect x="500" y="48" width="150" height="190" rx="10" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="2"/>
+    <text x="575" y="70" text-anchor="middle" font-weight="bold" fill="#1864ab">Твёрдые</text>
+    <text x="512" y="92" fill="#1b1e23">таблетки (Tabulettae)</text>
+    <text x="512" y="110" fill="#1b1e23">драже (Dragee)</text>
+    <text x="512" y="128" fill="#1b1e23">порошки (Pulveres)</text>
+    <text x="512" y="146" fill="#1b1e23">гранулы (Granula)</text>
+    <text x="512" y="164" fill="#1b1e23">капсулы (Capsulae)*</text>
+    <text x="512" y="182" fill="#1b1e23">сборы (Species)</text>
+    <text x="512" y="200" fill="#1b1e23">пилюли (Pilulae)</text>
+    <text x="512" y="226" font-size="10.5" fill="#495057">* у Харкевича — отдельно</text>
+
+    <rect x="665" y="48" width="150" height="190" rx="10" fill="#fff4e6" stroke="#e8590c" stroke-width="2"/>
+    <text x="740" y="70" text-anchor="middle" font-weight="bold" fill="#d9480f">Мягкие</text>
+    <text x="677" y="92" fill="#1b1e23">мази (Unguenta)</text>
+    <text x="677" y="110" fill="#1b1e23">пасты (Pastae)</text>
+    <text x="677" y="128" fill="#1b1e23">суппозитории</text>
+    <text x="689" y="146" fill="#1b1e23">(Suppositoria)</text>
+    <text x="677" y="164" fill="#1b1e23">пластыри</text>
+    <text x="689" y="182" fill="#1b1e23">(Emplastra)</text>
+    <text x="677" y="200" fill="#1b1e23">кремы, гели</text>
+
+    <rect x="830" y="48" width="150" height="190" rx="10" fill="#e6fcf5" stroke="#0ca678" stroke-width="2"/>
+    <text x="905" y="70" text-anchor="middle" font-weight="bold" fill="#087f5b">Жидкие</text>
+    <text x="842" y="92" fill="#1b1e23">растворы</text>
+    <text x="842" y="110" fill="#1b1e23">суспензии, эмульсии</text>
+    <text x="842" y="128" fill="#1b1e23">настои, отвары</text>
+    <text x="842" y="146" fill="#1b1e23">настойки, экстракты</text>
+    <text x="842" y="164" fill="#1b1e23">новогаленовые</text>
+    <text x="842" y="182" fill="#1b1e23">слизи, микстуры</text>
+    <text x="842" y="200" fill="#1b1e23">линименты</text>
+
+    <rect x="500" y="252" width="480" height="70" rx="10" fill="#fff5f5" stroke="#e03131" stroke-width="2"/>
+    <text x="740" y="274" text-anchor="middle" font-weight="bold" fill="#c92a2a">Для инъекций (стерильные, апирогенные)</text>
+    <text x="740" y="294" text-anchor="middle" fill="#1b1e23">ампулы (in ampullis) · флаконы (после D.t.d. N. ничего не пишут)</text>
+    <text x="740" y="312" text-anchor="middle" fill="#1b1e23">аптечное изготовление → Sterilisetur! · термолабильное → Adde aseptice</text>
+
+    <rect x="500" y="336" width="480" height="48" rx="10" fill="#f3f0ff" stroke="#6741d9" stroke-width="2"/>
+    <text x="740" y="356" text-anchor="middle" font-weight="bold" fill="#5f3dc4">Разные: аэрозоли, плёнки глазные, трансдермальные системы</text>
+    <text x="740" y="374" text-anchor="middle" fill="#1b1e23">выписываются сокращённо</text>
+  </g>
+
+  <!-- сокращённая vs развёрнутая -->
+  <rect x="500" y="398" width="480" height="210" rx="10" fill="#fff9db" stroke="#f08c00" stroke-width="2"/>
+  <text x="740" y="422" text-anchor="middle" font-weight="bold" font-size="14" fill="#e67700">Сокращённая или развёрнутая пропись?</text>
+  <g font-size="12.5" fill="#1b1e23">
+    <text x="514" y="448" font-weight="bold">Сокращённая:</text>
+    <text x="514" y="466">начинается с формы: Solutionis…, Unguenti…, Tabulettam…</text>
+    <text x="514" y="484">официнальные и заводские формы (таблетки, драже, настойки,</text>
+    <text x="514" y="502">экстракты, мази фабричные) — ТОЛЬКО сокращённо</text>
+    <text x="514" y="528" font-weight="bold">Развёрнутая:</text>
+    <text x="514" y="546">перечислить все ингредиенты с количествами + M.f. …</text>
+    <text x="514" y="564">магистральные мази не на вазелине, пасты, микстуры,</text>
+    <text x="514" y="582">растворы на особом масле/спирте, суппозитории в аптеке</text>
+    <text x="514" y="600" font-size="11.5" fill="#495057">По: Харкевич Д.А. Основы фармакологии, 2015, Приложение «Общая рецептура»</text>
+  </g>
+</svg>

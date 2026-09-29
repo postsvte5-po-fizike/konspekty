@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <title>Четыре типа рецепторов и передача сигнала (схема)</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#495057"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="600" fill="#ffffff"/>
+  <text x="500" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1b1e23">Типы рецепторов по способу передачи сигнала</text>
+
+  <!-- мембрана -->
+  <rect x="20" y="130" width="960" height="34" fill="#fff4e6"/>
+  <line x1="20" y1="130" x2="980" y2="130" stroke="#e8590c" stroke-width="2"/>
+  <line x1="20" y1="164" x2="980" y2="164" stroke="#e8590c" stroke-width="2"/>
+  <text x="26" y="124" font-size="11" fill="#d9480f">снаружи клетки</text>
+  <text x="26" y="180" font-size="11" fill="#d9480f">цитоплазма</text>
+
+  <!-- 1. Ионотропный -->
+  <text x="130" y="58" text-anchor="middle" font-weight="bold" font-size="14" fill="#1864ab">1. Ионотропные</text>
+  <text x="130" y="76" text-anchor="middle" font-size="12" fill="#495057">(лиганд-зависимые каналы)</text>
+  <rect x="100" y="118" width="22" height="58" rx="6" fill="#74c0fc" stroke="#1864ab"/>
+  <rect x="138" y="118" width="22" height="58" rx="6" fill="#74c0fc" stroke="#1864ab"/>
+  <circle cx="130" cy="104" r="9" fill="#e03131"/>
+  <text x="146" y="100" font-size="11" fill="#c92a2a">лиганд</text>
+  <path d="M130 90 L130 210" stroke="#1c7ed6" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#a)"/>
+  <text x="130" y="228" text-anchor="middle" font-size="12" fill="#1b1e23">вход ионов Na⁺, Ca²⁺ или Cl⁻</text>
+  <text x="130" y="246" text-anchor="middle" font-size="12" fill="#1b1e23">→ де-/гиперполяризация</text>
+  <text x="130" y="264" text-anchor="middle" font-size="12" fill="#1b1e23" font-weight="bold">миллисекунды</text>
+
+  <!-- 2. GPCR -->
+  <text x="380" y="58" text-anchor="middle" font-weight="bold" font-size="14" fill="#5f3dc4">2. Сопряжённые с G-белком</text>
+  <text x="380" y="76" text-anchor="middle" font-size="12" fill="#495057">(7 трансмембранных доменов)</text>
+  <path d="M320 120 q6 22 0 44 M334 120 q6 22 0 44 M348 120 q6 22 0 44 M362 120 q6 22 0 44 M376 120 q6 22 0 44 M390 120 q6 22 0 44 M404 120 q6 22 0 44" fill="none" stroke="#6741d9" stroke-width="3"/>
+  <circle cx="362" cy="106" r="9" fill="#e03131"/>
+  <ellipse cx="428" cy="182" rx="26" ry="14" fill="#d0bfff" stroke="#6741d9"/>
+  <text x="428" y="186" text-anchor="middle" font-size="11" fill="#1b1e23">G αβγ</text>
+  <path d="M428 196 L428 214" stroke="#495057" stroke-width="1.6" marker-end="url(#a)"/>
+  <g font-size="12" fill="#1b1e23">
+    <text x="300" y="232">Gs → аденилатциклаза ↑ → цАМФ ↑</text>
+    <text x="300" y="250">Gi → аденилатциклаза ↓ → цАМФ ↓</text>
+    <text x="300" y="268">Gq → фосфолипаза C → ИФ₃ (Ca²⁺ ↑) + ДАГ</text>
+    <text x="300" y="286" font-weight="bold">секунды</text>
+  </g>
+
+  <!-- 3. Тирозинкиназные -->
+  <text x="640" y="58" text-anchor="middle" font-weight="bold" font-size="14" fill="#2b8a3e">3. Рецепторные</text>
+  <text x="640" y="76" text-anchor="middle" font-size="12" fill="#495057">протеинкиназы (тирозинкиназы)</text>
+  <path d="M622 96 L622 190 M658 96 L658 190" stroke="#2f9e44" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="640" cy="96" r="9" fill="#e03131"/>
+  <rect x="606" y="188" width="32" height="20" rx="5" fill="#b2f2bb" stroke="#2f9e44"/>
+  <rect x="642" y="188" width="32" height="20" rx="5" fill="#b2f2bb" stroke="#2f9e44"/>
+  <text x="640" y="228" text-anchor="middle" font-size="12" fill="#1b1e23">димеризация → аутофосфорилирование</text>
+  <text x="640" y="246" text-anchor="middle" font-size="12" fill="#1b1e23">по тирозину → каскад киназ</text>
+  <text x="640" y="264" text-anchor="middle" font-size="12" fill="#1b1e23" font-weight="bold">минуты — часы</text>
+
+  <!-- 4. Внутриклеточные -->
+  <text x="870" y="58" text-anchor="middle" font-weight="bold" font-size="14" fill="#c92a2a">4. Внутриклеточные</text>
+  <text x="870" y="76" text-anchor="middle" font-size="12" fill="#495057">(ядерные, регулируют транскрипцию)</text>
+  <circle cx="870" cy="104" r="9" fill="#e03131"/>
+  <path d="M870 116 L870 196" stroke="#e03131" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#a)"/>
+  <text x="862" y="150" font-size="11" fill="#c92a2a" text-anchor="end">липофильный —</text>
+  <text x="862" y="164" font-size="11" fill="#c92a2a" text-anchor="end">проходит мембрану</text>
+  <ellipse cx="870" cy="252" rx="80" ry="46" fill="#fff5f5" stroke="#c92a2a" stroke-width="1.5"/>
+  <text x="870" y="238" text-anchor="middle" font-size="12" fill="#1b1e23">ядро: комплекс</text>
+  <text x="870" y="256" text-anchor="middle" font-size="12" fill="#1b1e23">рецептор–лиганд → ДНК</text>
+  <text x="870" y="274" text-anchor="middle" font-size="12" fill="#1b1e23">→ синтез белков</text>
+  <text x="870" y="316" text-anchor="middle" font-size="12" fill="#1b1e23" font-weight="bold">часы — дни</text>
+
+  <!-- примеры -->
+  <rect x="20" y="340" width="960" height="200" rx="12" fill="#f8f9fa" stroke="#adb5bd"/>
+  <text x="500" y="364" text-anchor="middle" font-weight="bold" font-size="14" fill="#1b1e23">Примеры рецепторов и лекарственных лигандов</text>
+  <g font-size="12.5" fill="#1b1e23">
+    <text x="36" y="392" font-weight="bold" fill="#1864ab">Ионотропные</text>
+    <text x="36" y="412">N-холинорецепторы</text>
+    <text x="36" y="430">(миорелаксанты)</text>
+    <text x="36" y="450">ГАМК-A рецептор</text>
+    <text x="36" y="468">(бензодиазепины)</text>
+    <text x="36" y="488">NMDA-глутаматный</text>
+    <text x="36" y="506">(кетамин)</text>
+
+    <text x="280" y="392" font-weight="bold" fill="#5f3dc4">G-белок</text>
+    <text x="280" y="412">М-холинорецепторы (атропин)</text>
+    <text x="280" y="430">α- и β-адренорецепторы</text>
+    <text x="280" y="448">(адреналин, пропранолол)</text>
+    <text x="280" y="466">опиоидные μ (морфин)</text>
+    <text x="280" y="484">H₁/H₂-гистаминовые</text>
+    <text x="280" y="502">D₂-дофаминовые</text>
+
+    <text x="560" y="392" font-weight="bold" fill="#2b8a3e">Тирозинкиназы</text>
+    <text x="560" y="412">рецептор инсулина (инсулин)</text>
+    <text x="560" y="430">рецепторы факторов роста</text>
+    <text x="560" y="448">(мишень противоопухолевых</text>
+    <text x="560" y="466">ингибиторов тирозинкиназ,</text>
+    <text x="560" y="484">напр. иматиниб)</text>
+
+    <text x="800" y="392" font-weight="bold" fill="#c92a2a">Внутриклеточные</text>
+    <text x="800" y="412">глюкокортикоиды</text>
+    <text x="800" y="430">(преднизолон)</text>
+    <text x="800" y="450">половые гормоны</text>
+    <text x="800" y="470">гормоны щитовидной</text>
+    <text x="800" y="488">железы (левотироксин)</text>
+    <text x="800" y="508">витамин D (кальцитриол)</text>
+  </g>
+  <text x="20" y="582" font-size="11" fill="#6c717a">Схема, не в масштабе. Время — ориентир скорости ответа от быстрого (каналы) к медленному (ядерные рецепторы).</text>
+</svg>

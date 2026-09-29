@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <title>Фармакокинетика: путь лекарства в организме (схема)</title>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#495057"/>
+    </marker>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#e03131"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="640" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1b1e23">Фармакокинетика: всасывание → распределение → биотрансформация → выведение</text>
+
+  <!-- ВВЕДЕНИЕ -->
+  <rect x="20" y="60" width="200" height="200" rx="12" fill="#f8f9fa" stroke="#495057" stroke-width="2"/>
+  <text x="120" y="84" text-anchor="middle" font-weight="bold" fill="#1b1e23">Пути введения</text>
+  <text x="34" y="110" fill="#0b7285" font-weight="bold">Энтеральные</text>
+  <text x="34" y="130" font-size="13" fill="#1b1e23">• внутрь (per os)</text>
+  <text x="34" y="148" font-size="13" fill="#1b1e23">• сублингвально</text>
+  <text x="34" y="166" font-size="13" fill="#1b1e23">• ректально</text>
+  <text x="34" y="192" fill="#c92a2a" font-weight="bold">Парентеральные</text>
+  <text x="34" y="212" font-size="13" fill="#1b1e23">• в/в, в/м, п/к</text>
+  <text x="34" y="230" font-size="13" fill="#1b1e23">• ингаляционно</text>
+  <text x="34" y="248" font-size="13" fill="#1b1e23">• местно, трансдермально</text>
+
+  <!-- ЖКТ и печень -->
+  <rect x="260" y="60" width="210" height="84" rx="12" fill="#e6fcf5" stroke="#0ca678" stroke-width="2"/>
+  <text x="365" y="84" text-anchor="middle" font-weight="bold" fill="#087f5b">ЖКТ: всасывание</text>
+  <text x="365" y="106" text-anchor="middle" font-size="13" fill="#1b1e23">через мембраны энтероцитов</text>
+  <text x="365" y="126" text-anchor="middle" font-size="13" fill="#1b1e23">(пассивная диффузия чаще всего)</text>
+  <path d="M220 130 L258 110" stroke="#495057" stroke-width="2" marker-end="url(#a)"/>
+  <text x="224" y="146" font-size="12" fill="#495057">per os</text>
+
+  <rect x="250" y="176" width="230" height="84" rx="12" fill="#fff4e6" stroke="#e8590c" stroke-width="2"/>
+  <text x="365" y="200" text-anchor="middle" font-weight="bold" fill="#d9480f">Печень</text>
+  <text x="365" y="222" text-anchor="middle" font-size="13" fill="#1b1e23">пресистемная элиминация</text>
+  <text x="365" y="242" text-anchor="middle" font-size="13" fill="#1b1e23">(«эффект первого прохождения»)</text>
+  <path d="M365 144 L365 174" stroke="#495057" stroke-width="2" marker-end="url(#a)"/>
+  <text x="372" y="164" font-size="12" fill="#495057">воротная вена</text>
+
+  <!-- системный кровоток -->
+  <rect x="520" y="60" width="220" height="200" rx="12" fill="#fff5f5" stroke="#e03131" stroke-width="2.5"/>
+  <text x="630" y="86" text-anchor="middle" font-weight="bold" font-size="15" fill="#c92a2a">Системный кровоток</text>
+  <text x="630" y="110" text-anchor="middle" font-size="13" fill="#1b1e23">биодоступность F — доля дозы,</text>
+  <text x="630" y="128" text-anchor="middle" font-size="13" fill="#1b1e23">дошедшая сюда в неизменённом виде</text>
+  <text x="630" y="148" text-anchor="middle" font-size="13" fill="#1b1e23">(в/в: F = 100%)</text>
+  <circle cx="580" cy="190" r="14" fill="#ffc9c9" stroke="#c92a2a"/>
+  <text x="580" y="195" text-anchor="middle" font-size="11" fill="#1b1e23">Л</text>
+  <rect x="598" y="178" width="36" height="24" rx="6" fill="#d0ebff" stroke="#1c7ed6"/>
+  <text x="616" y="195" text-anchor="middle" font-size="11" fill="#1b1e23">альб</text>
+  <circle cx="680" cy="190" r="14" fill="#ffc9c9" stroke="#c92a2a"/>
+  <text x="680" y="195" text-anchor="middle" font-size="11" fill="#1b1e23">Л</text>
+  <text x="590" y="224" text-anchor="middle" font-size="11.5" fill="#1864ab">связанная —</text>
+  <text x="590" y="240" text-anchor="middle" font-size="11.5" fill="#1864ab">депо, не действует</text>
+  <text x="690" y="224" text-anchor="middle" font-size="11.5" fill="#c92a2a">свободная —</text>
+  <text x="690" y="240" text-anchor="middle" font-size="11.5" fill="#c92a2a">действует</text>
+  <path d="M470 218 L518 190" stroke="#495057" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M220 214 C360 300 440 290 518 236" fill="none" stroke="#c92a2a" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+  <text x="300" y="300" font-size="12" fill="#c92a2a">в/в, сублингв., ректально (частично) — минуя печень</text>
+
+  <!-- распределение -->
+  <rect x="780" y="60" width="200" height="200" rx="12" fill="#f3f0ff" stroke="#6741d9" stroke-width="2"/>
+  <text x="880" y="84" text-anchor="middle" font-weight="bold" fill="#5f3dc4">Распределение</text>
+  <text x="794" y="108" font-size="13" fill="#1b1e23">• ткани-мишени</text>
+  <text x="794" y="128" font-size="13" fill="#1b1e23">• депо (жир, кость)</text>
+  <text x="794" y="148" font-size="13" fill="#1b1e23">• барьеры: ГЭБ,</text>
+  <text x="806" y="166" font-size="13" fill="#1b1e23">плацентарный</text>
+  <text x="794" y="192" font-size="13" fill="#1b1e23">Vd = D / C₀</text>
+  <text x="794" y="212" font-size="12" fill="#495057">кажущийся объём:</text>
+  <text x="794" y="230" font-size="12" fill="#495057">большой → вещество</text>
+  <text x="794" y="248" font-size="12" fill="#495057">«ушло» в ткани</text>
+  <path d="M740 160 L778 160" stroke="#495057" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M778 176 L742 176" stroke="#495057" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- биотрансформация -->
+  <rect x="236" y="340" width="360" height="150" rx="12" fill="#fff4e6" stroke="#e8590c" stroke-width="2"/>
+  <text x="415" y="364" text-anchor="middle" font-weight="bold" fill="#d9480f">Биотрансформация (печень, микросомы)</text>
+  <text x="248" y="390" font-size="13" fill="#1b1e23" font-weight="bold">Фаза I — несинтетическая:</text>
+  <text x="248" y="408" font-size="13" fill="#1b1e23">окисление (цитохром P450), восстановление,</text>
+  <text x="248" y="426" font-size="13" fill="#1b1e23">гидролиз → появляется/открывается группа</text>
+  <text x="248" y="452" font-size="13" fill="#1b1e23" font-weight="bold">Фаза II — синтетическая (конъюгация):</text>
+  <text x="248" y="470" font-size="13" fill="#1b1e23">глюкуронирование, сульфатирование, ацетилирование,</text>
+  <text x="248" y="486" font-size="13" fill="#1b1e23">метилирование, с глутатионом → водорастворимо</text>
+  <path d="M630 262 C630 300 560 320 540 338" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- выведение -->
+  <rect x="640" y="340" width="340" height="150" rx="12" fill="#e7f5ff" stroke="#1c7ed6" stroke-width="2"/>
+  <text x="810" y="364" text-anchor="middle" font-weight="bold" fill="#1864ab">Выведение (экскреция)</text>
+  <text x="654" y="390" font-size="13" fill="#1b1e23">• почки: фильтрация + секреция − реабсорбция</text>
+  <text x="654" y="410" font-size="13" fill="#1b1e23">• желчь → кишечник (↺ кишечно-печёночная</text>
+  <text x="666" y="428" font-size="13" fill="#1b1e23">циркуляция)</text>
+  <text x="654" y="448" font-size="13" fill="#1b1e23">• лёгкие (летучие), молоко, пот, слюна</text>
+  <text x="654" y="472" font-size="13" fill="#1864ab">Cl = k·Vd;  t½ = 0,693·Vd / Cl</text>
+  <path d="M596 414 L638 414" stroke="#495057" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M700 262 C720 300 760 320 780 338" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#a)"/>
+  <text x="742" y="300" font-size="12" fill="#495057">неизменённым</text>
+
+  <!-- элиминация -->
+  <rect x="20" y="520" width="960" height="90" rx="12" fill="#fff9db" stroke="#f08c00" stroke-width="2"/>
+  <text x="500" y="546" text-anchor="middle" font-weight="bold" fill="#e67700">Элиминация = биотрансформация + экскреция (удаление активного вещества из организма)</text>
+  <text x="500" y="570" text-anchor="middle" font-size="13" fill="#1b1e23">Клиренс (Cl) — объём плазмы, очищаемый от вещества за единицу времени; общий Cl = почечный + печёночный + прочий</text>
+  <text x="500" y="592" text-anchor="middle" font-size="13" fill="#1b1e23">Почечная / печёночная недостаточность → Cl ↓ → t½ ↑ → кумуляция: дозу ↓ или интервал ↑</text>
+
+  <text x="20" y="632" font-size="11" fill="#6c717a">Схема, не в масштабе. Л — лекарство, альб — альбумин плазмы.</text>
+</svg>
