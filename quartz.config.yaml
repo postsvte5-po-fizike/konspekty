@@ -15,30 +15,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
+      header: Inter
       body: Source Sans Pro
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#fbfaf7"
+        lightgray: "#e2e0da"
+        gray: "#a6a39b"
+        darkgray: "#33363b"
+        dark: "#1b1e23"
+        secondary: "#0b7285"
+        tertiary: "#e8590c"
+        highlight: rgba(11, 114, 133, 0.10)
+        textHighlight: "#ffe06688"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#16181c"
+        lightgray: "#2d3036"
+        gray: "#6c717a"
+        darkgray: "#d9dbdf"
+        dark: "#f1f2f4"
+        secondary: "#4fc3dc"
+        tertiary: "#ffa94d"
+        highlight: rgba(79, 195, 220, 0.12)
+        textHighlight: "#b8860b88"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -109,6 +109,11 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      title: Inter
+      header: Inter
+      body: Source Sans Pro
+      code: IBM Plex Mono
   - source: "@quartz-themes/core"
     enabled: true
     options:
@@ -162,7 +167,7 @@ plugins:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
@@ -257,7 +262,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5

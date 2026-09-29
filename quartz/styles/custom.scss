@@ -1,3 +1,157 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ===== Конспекты Стаса: пользовательские стили =====
+
+// --- Цветные callout-блоки ---
+// Тема @quartz-themes красит заголовки через свои переменные, поэтому задаём цвет напрямую.
+@mixin callout-color($c, $bg) {
+  --color: #{$c};
+  --callout-title-color: #{$c};
+  border-color: #{$c} !important;
+  background-color: #{$bg} !important;
+
+  .callout-title,
+  .callout-title > .callout-title-inner > p {
+    color: #{$c} !important;
+  }
+
+  .callout-title .callout-icon {
+    background-color: #{$c} !important;
+  }
+}
+
+// NB! — самое важное: красный, толстая левая полоса, жирный заголовок
+html body article .callout[data-callout="nb"] {
+  @include callout-color(#d6336c, #d6336c14);
+  --callout-icon: var(--callout-icon-danger);
+  border-width: 2px !important;
+  border-left-width: 7px !important;
+
+  .callout-title > .callout-title-inner > p {
+    font-weight: 800;
+    letter-spacing: 0.02em;
+  }
+
+  strong {
+    color: #c2255c;
+  }
+}
+
+html[saved-theme="dark"] body article .callout[data-callout="nb"] {
+  @include callout-color(#ff6b8b, #ff6b8b1f);
+
+  strong {
+    color: #ffa8bd;
+  }
+}
+
+// «Сверх программы» и «Как запомнить» (tip) — фиолетовый
+html body article .callout[data-callout="tip"] {
+  @include callout-color(#7048e8, #7048e810);
+}
+
+html[saved-theme="dark"] body article .callout[data-callout="tip"] {
+  @include callout-color(#b197fc, #b197fc14);
+}
+
+// Цели занятия (abstract) — бирюзовый
+html body article .callout[data-callout="abstract"] {
+  @include callout-color(#0c8599, #0c859912);
+}
+
+html[saved-theme="dark"] body article .callout[data-callout="abstract"] {
+  @include callout-color(#3bc9db, #3bc9db14);
+}
+
+// --- Все callout: ровные внутренние отступы, без пустых строк ---
+.callout {
+  padding: 0.2rem 1.1rem 0.6rem;
+  border-radius: 8px;
+
+  .callout-content > p:first-child:empty {
+    display: none;
+  }
+}
+
+// --- Таблицы: компактно, не вылезают за колонку ---
+article {
+  .table-container,
+  & > table {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    line-height: 1.45;
+
+    th,
+    td {
+      padding: 0.45rem 0.6rem;
+      vertical-align: top;
+      overflow-wrap: anywhere;
+      hyphens: auto;
+    }
+
+    th {
+      background: color-mix(in srgb, var(--secondary) 16%, var(--light));
+      color: var(--dark);
+    }
+
+    tr:nth-child(even) td {
+      background: color-mix(in srgb, var(--lightgray) 25%, transparent);
+    }
+  }
+
+  // --- Схемы (SVG, картинки, Mermaid) не шире колонки ---
+  img,
+  object,
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  object[type="image/svg+xml"] {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid var(--lightgray);
+  }
+
+  pre:has(> code.mermaid),
+  .mermaid {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+
+  // --- Жирное — чуть цветом, чтобы глаз цеплялся ---
+  strong {
+    color: var(--dark);
+  }
+
+  // --- Длинные слова и латынь не ломают вёрстку ---
+  p,
+  li {
+    overflow-wrap: break-word;
+  }
+}
+
+// --- Заголовки: одна гарнитура, аккуратные отступы ---
+article h2 {
+  margin-top: 2.2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--lightgray);
+}
+
+article h3 {
+  margin-top: 1.6rem;
+  color: var(--secondary);
+}
+
+// --- Проводник: длинные названия не раздувают список ---
+.explorer li > a,
+.explorer .folder-title {
+  line-height: 1.3;
+}
