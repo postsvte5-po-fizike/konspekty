@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 694" font-family="Helvetica, Arial, sans-serif">
+<title>Шаблоны прописи: жидкие формы и инъекции</title>
+<rect width="1000" height="694" fill="#ffffff"/>
+<text x="500.0" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#1b1e23">Шаблоны прописи: жидкие формы и инъекции</text>
+<rect x="16" y="56" width="312" height="136" rx="10" fill="#ffffff" stroke="#0ca678" stroke-width="2"/>
+<rect x="16" y="56" width="312" height="30" rx="10" fill="#0ca678"/>
+<rect x="16" y="76" width="312" height="10" fill="#0ca678"/>
+<text x="28" y="77" font-weight="bold" fill="#ffffff" font-size="14">Раствор водный</text>
+<text x="30" y="108" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Solutionis X 2% — 200 ml</text>
+<text x="30" y="130" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.S. …</text>
+<text x="30" y="160" font-size="12" fill="#495057">концентрация: %, 1:5000, 0,1 — 500 ml</text>
+<rect x="344" y="56" width="312" height="136" rx="10" fill="#ffffff" stroke="#0ca678" stroke-width="2"/>
+<rect x="344" y="56" width="312" height="30" rx="10" fill="#0ca678"/>
+<rect x="344" y="76" width="312" height="10" fill="#0ca678"/>
+<text x="356" y="77" font-weight="bold" fill="#ffffff" font-size="14">Раствор масляный / спиртовой</text>
+<text x="358" y="108" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Solutionis X oleosae</text>
+<text x="358" y="130" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">10% — 50 ml</text>
+<text x="358" y="152" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.S. …</text>
+<text x="358" y="182" font-size="12" fill="#495057">spirituosae — спиртовой</text>
+<rect x="672" y="56" width="312" height="136" rx="10" fill="#ffffff" stroke="#0ca678" stroke-width="2"/>
+<rect x="672" y="56" width="312" height="30" rx="10" fill="#0ca678"/>
+<rect x="672" y="76" width="312" height="10" fill="#0ca678"/>
+<text x="684" y="77" font-weight="bold" fill="#ffffff" font-size="14">Раствор развёрнуто</text>
+<text x="686" y="108" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: X 5,0</text>
+<text x="686" y="130" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Olei Vaselini ad 50 ml</text>
+<text x="686" y="152" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">M.D.S. …</text>
+<text x="686" y="182" font-size="12" fill="#495057">особый растворитель</text>
+<rect x="16" y="208" width="312" height="136" rx="10" fill="#ffffff" stroke="#0ca678" stroke-width="2"/>
+<rect x="16" y="208" width="312" height="30" rx="10" fill="#0ca678"/>
+<rect x="16" y="228" width="312" height="10" fill="#0ca678"/>
+<text x="28" y="229" font-weight="bold" fill="#ffffff" font-size="14">Суспензия</text>
+<text x="30" y="260" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Suspensionis X 0,5% — 10 ml</text>
+<text x="30" y="282" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.S. … Перед употреблением</text>
+<text x="30" y="304" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">взбалтывать.</text>
+<text x="30" y="334" font-size="12" fill="#495057">не на воде → развёрнуто + M.f. suspensio</text>
+<rect x="344" y="208" width="312" height="136" rx="10" fill="#ffffff" stroke="#0ca678" stroke-width="2"/>
+<rect x="344" y="208" width="312" height="30" rx="10" fill="#0ca678"/>
+<rect x="344" y="228" width="312" height="10" fill="#0ca678"/>
+<text x="356" y="229" font-weight="bold" fill="#ffffff" font-size="14">Эмульсия</text>
+<text x="358" y="260" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Emulsi olei Ricini</text>
+<text x="358" y="282" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">30 ml — 200 ml</text>
+<text x="358" y="304" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.S. …</text>
+<text x="358" y="334" font-size="12" fill="#495057">масло : эмульгатор : вода = 2 : 1 : 17</text>
+<rect x="672" y="208" width="312" height="136" rx="10" fill="#ffffff" stroke="#0ca678" stroke-width="2"/>
+<rect x="672" y="208" width="312" height="30" rx="10" fill="#0ca678"/>
+<rect x="672" y="228" width="312" height="10" fill="#0ca678"/>
+<text x="684" y="229" font-weight="bold" fill="#ffffff" font-size="14">Настой / отвар</text>
+<text x="686" y="260" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Infusi herbae X</text>
+<text x="686" y="282" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">6,0 — 180 ml</text>
+<text x="686" y="304" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.S. …</text>
+<text x="686" y="334" font-size="12" fill="#495057">часть растения обязательно; 1:10</text>
+<rect x="16" y="360" width="312" height="136" rx="10" fill="#ffffff" stroke="#f08c00" stroke-width="2"/>
+<rect x="16" y="360" width="312" height="30" rx="10" fill="#f08c00"/>
+<rect x="16" y="380" width="312" height="10" fill="#f08c00"/>
+<text x="28" y="381" font-weight="bold" fill="#ffffff" font-size="14">Настойка</text>
+<text x="30" y="412" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Tincturae X 25 ml</text>
+<text x="30" y="434" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.S. По 20 капель …</text>
+<text x="30" y="464" font-size="12" fill="#495057">без концентрации; 5–30 капель</text>
+<rect x="344" y="360" width="312" height="136" rx="10" fill="#ffffff" stroke="#f08c00" stroke-width="2"/>
+<rect x="344" y="360" width="312" height="30" rx="10" fill="#f08c00"/>
+<rect x="344" y="380" width="312" height="10" fill="#f08c00"/>
+<text x="356" y="381" font-weight="bold" fill="#ffffff" font-size="14">Экстракт</text>
+<text x="358" y="412" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Extracti X fluidi 25 ml</text>
+<text x="358" y="434" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.S. …</text>
+<text x="358" y="464" font-size="12" fill="#495057">fluidi / spissi / sicci</text>
+<rect x="672" y="360" width="312" height="136" rx="10" fill="#ffffff" stroke="#f08c00" stroke-width="2"/>
+<rect x="672" y="360" width="312" height="30" rx="10" fill="#f08c00"/>
+<rect x="672" y="380" width="312" height="10" fill="#f08c00"/>
+<text x="684" y="381" font-weight="bold" fill="#ffffff" font-size="14">Микстура</text>
+<text x="686" y="412" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Infusi … 6,0 — 180 ml</text>
+<text x="686" y="434" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Natrii bromidi 6,0</text>
+<text x="686" y="456" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">M.D.S. …</text>
+<text x="686" y="486" font-size="12" fill="#495057">≥ 3 ингредиентов; полусокращённо</text>
+<rect x="16" y="512" width="312" height="136" rx="10" fill="#ffffff" stroke="#e03131" stroke-width="2"/>
+<rect x="16" y="512" width="312" height="30" rx="10" fill="#e03131"/>
+<rect x="16" y="532" width="312" height="10" fill="#e03131"/>
+<text x="28" y="533" font-weight="bold" fill="#ffffff" font-size="14">Ампулы</text>
+<text x="30" y="564" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Solutionis X 40% — 10 ml</text>
+<text x="30" y="586" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.t.d. N. 10 in ampullis</text>
+<text x="30" y="608" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">S. …</text>
+<text x="30" y="638" font-size="12" fill="#495057">сухое: X 0,005 D.t.d. N. … in amp.</text>
+<rect x="344" y="512" width="312" height="136" rx="10" fill="#ffffff" stroke="#e03131" stroke-width="2"/>
+<rect x="344" y="512" width="312" height="30" rx="10" fill="#e03131"/>
+<rect x="344" y="532" width="312" height="10" fill="#e03131"/>
+<text x="356" y="533" font-weight="bold" fill="#ffffff" font-size="14">Флаконы</text>
+<text x="358" y="564" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: X 1,0</text>
+<text x="358" y="586" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.t.d. N. 10</text>
+<text x="358" y="608" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">S. Растворить в … Вводить …</text>
+<text x="358" y="638" font-size="12" fill="#495057">после D.t.d. N. — ничего</text>
+<rect x="672" y="512" width="312" height="136" rx="10" fill="#ffffff" stroke="#e03131" stroke-width="2"/>
+<rect x="672" y="512" width="312" height="30" rx="10" fill="#e03131"/>
+<rect x="672" y="532" width="312" height="10" fill="#e03131"/>
+<text x="684" y="533" font-weight="bold" fill="#ffffff" font-size="14">Аптечная инъекция</text>
+<text x="686" y="564" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Solutionis X 0,9% — 500 ml</text>
+<text x="686" y="586" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Sterilisetur!</text>
+<text x="686" y="608" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.S. …</text>
+<text x="686" y="638" font-size="12" fill="#495057">термолабильное: Adde aseptice</text>
+<text x="16" y="684" font-size="11.5" fill="#6c717a">По: Харкевич Д.А. Основы фармакологии, 2015, Приложение «Общая рецептура». X — любое вещество; концентрации условные.</text>
+</svg>

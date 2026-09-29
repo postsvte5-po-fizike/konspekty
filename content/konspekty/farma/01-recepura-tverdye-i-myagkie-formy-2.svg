@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 782" font-family="Helvetica, Arial, sans-serif">
+<title>Шаблоны прописи: твёрдые и мягкие формы</title>
+<rect width="1000" height="782" fill="#ffffff"/>
+<text x="500.0" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#1b1e23">Шаблоны прописи: твёрдые и мягкие формы</text>
+<rect x="16" y="56" width="312" height="136" rx="10" fill="#ffffff" stroke="#1c7ed6" stroke-width="2"/>
+<rect x="16" y="56" width="312" height="30" rx="10" fill="#1c7ed6"/>
+<rect x="16" y="76" width="312" height="10" fill="#1c7ed6"/>
+<text x="28" y="77" font-weight="bold" fill="#ffffff" font-size="14">Таблетки — вариант 1</text>
+<text x="30" y="108" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: X 0,5</text>
+<text x="30" y="130" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.t.d. N. 20 in tabulettis</text>
+<text x="30" y="152" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">S. …</text>
+<text x="30" y="182" font-size="12" fill="#495057">X — вещество в род. падеже; доза на 1 приём</text>
+<rect x="344" y="56" width="312" height="136" rx="10" fill="#ffffff" stroke="#1c7ed6" stroke-width="2"/>
+<rect x="344" y="56" width="312" height="30" rx="10" fill="#1c7ed6"/>
+<rect x="344" y="76" width="312" height="10" fill="#1c7ed6"/>
+<text x="356" y="77" font-weight="bold" fill="#ffffff" font-size="14">Таблетки — вариант 2</text>
+<text x="358" y="108" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Tabulettam X 0,5</text>
+<text x="358" y="130" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.t.d. N. 20</text>
+<text x="358" y="152" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">S. …</text>
+<text x="358" y="182" font-size="12" fill="#495057">Tabulettam — вин. падеж ед. ч.</text>
+<rect x="672" y="56" width="312" height="136" rx="10" fill="#ffffff" stroke="#1c7ed6" stroke-width="2"/>
+<rect x="672" y="56" width="312" height="30" rx="10" fill="#1c7ed6"/>
+<rect x="672" y="76" width="312" height="10" fill="#1c7ed6"/>
+<text x="684" y="77" font-weight="bold" fill="#ffffff" font-size="14">Драже</text>
+<text x="686" y="108" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Dragee X 0,05</text>
+<text x="686" y="130" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.t.d. N. 20</text>
+<text x="686" y="152" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">S. …</text>
+<text x="686" y="182" font-size="12" fill="#495057">одна форма прописи</text>
+<rect x="16" y="208" width="312" height="158" rx="10" fill="#ffffff" stroke="#1c7ed6" stroke-width="2"/>
+<rect x="16" y="208" width="312" height="30" rx="10" fill="#1c7ed6"/>
+<rect x="16" y="228" width="312" height="10" fill="#1c7ed6"/>
+<text x="28" y="229" font-weight="bold" fill="#ffffff" font-size="14">Капсулы</text>
+<text x="30" y="260" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: X 0,02</text>
+<text x="30" y="282" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.t.d. N. 28</text>
+<text x="30" y="304" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">in capsulis gelatinosis</text>
+<text x="30" y="334" font-size="12" fill="#495057">мягкие — … gelatinosis elasticis</text>
+<rect x="344" y="208" width="312" height="158" rx="10" fill="#ffffff" stroke="#1c7ed6" stroke-width="2"/>
+<rect x="344" y="208" width="312" height="30" rx="10" fill="#1c7ed6"/>
+<rect x="344" y="228" width="312" height="10" fill="#1c7ed6"/>
+<text x="356" y="229" font-weight="bold" fill="#ffffff" font-size="14">Порошок разделённый</text>
+<text x="358" y="260" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: X 0,02</text>
+<text x="358" y="282" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Sacchari 0,3</text>
+<text x="358" y="304" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">M.f. pulvis</text>
+<text x="358" y="326" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.t.d. N. 10</text>
+<text x="358" y="356" font-size="12" fill="#495057">доза &lt; 0,1 → сахар 0,3</text>
+<rect x="672" y="208" width="312" height="158" rx="10" fill="#ffffff" stroke="#1c7ed6" stroke-width="2"/>
+<rect x="672" y="208" width="312" height="30" rx="10" fill="#1c7ed6"/>
+<rect x="672" y="228" width="312" height="10" fill="#1c7ed6"/>
+<text x="684" y="229" font-weight="bold" fill="#ffffff" font-size="14">Порошок неразделённый</text>
+<text x="686" y="260" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: X subtilissimi 10,0</text>
+<text x="686" y="282" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.S. Присыпать …</text>
+<text x="686" y="312" font-size="12" fill="#495057">наружный, «мельчайший»</text>
+<rect x="16" y="382" width="312" height="180" rx="10" fill="#ffffff" stroke="#e8590c" stroke-width="2"/>
+<rect x="16" y="382" width="312" height="30" rx="10" fill="#e8590c"/>
+<rect x="16" y="402" width="312" height="10" fill="#e8590c"/>
+<text x="28" y="403" font-weight="bold" fill="#ffffff" font-size="14">Мазь официнальная</text>
+<text x="30" y="434" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Unguenti X 3% — 15,0</text>
+<text x="30" y="456" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.S. …</text>
+<text x="30" y="486" font-size="12" fill="#495057">только сокращённо</text>
+<rect x="344" y="382" width="312" height="180" rx="10" fill="#ffffff" stroke="#e8590c" stroke-width="2"/>
+<rect x="344" y="382" width="312" height="30" rx="10" fill="#e8590c"/>
+<rect x="344" y="402" width="312" height="10" fill="#e8590c"/>
+<text x="356" y="403" font-weight="bold" fill="#ffffff" font-size="14">Мазь магистральная</text>
+<text x="358" y="434" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: X 1,0</text>
+<text x="358" y="456" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Vaselini ad 50,0</text>
+<text x="358" y="478" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">M.f. unguentum</text>
+<text x="358" y="500" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.S. …</text>
+<text x="358" y="530" font-size="12" fill="#495057">не на вазелине / сложная / ЕД — так</text>
+<rect x="672" y="382" width="312" height="180" rx="10" fill="#ffffff" stroke="#e8590c" stroke-width="2"/>
+<rect x="672" y="382" width="312" height="30" rx="10" fill="#e8590c"/>
+<rect x="672" y="402" width="312" height="10" fill="#e8590c"/>
+<text x="684" y="403" font-weight="bold" fill="#ffffff" font-size="14">Паста</text>
+<text x="686" y="434" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: X 10,0</text>
+<text x="686" y="456" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Amyli</text>
+<text x="686" y="478" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Zinci oxydi aa 5,0</text>
+<text x="686" y="500" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Vaselini ad 50,0</text>
+<text x="686" y="522" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">M.f. pasta</text>
+<text x="686" y="552" font-size="12" fill="#495057">порошков ≥ 25%</text>
+<rect x="16" y="578" width="312" height="158" rx="10" fill="#ffffff" stroke="#e8590c" stroke-width="2"/>
+<rect x="16" y="578" width="312" height="30" rx="10" fill="#e8590c"/>
+<rect x="16" y="598" width="312" height="10" fill="#e8590c"/>
+<text x="28" y="599" font-weight="bold" fill="#ffffff" font-size="14">Суппозитории официнальные</text>
+<text x="30" y="630" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Suppositorium cum X 0,2</text>
+<text x="30" y="652" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.t.d. N. 10</text>
+<text x="30" y="674" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">S. …</text>
+<text x="30" y="704" font-size="12" fill="#495057">X — в творительном падеже</text>
+<rect x="344" y="578" width="312" height="158" rx="10" fill="#ffffff" stroke="#e8590c" stroke-width="2"/>
+<rect x="344" y="578" width="312" height="30" rx="10" fill="#e8590c"/>
+<rect x="344" y="598" width="312" height="10" fill="#e8590c"/>
+<text x="356" y="599" font-weight="bold" fill="#ffffff" font-size="14">Суппозитории магистральные</text>
+<text x="358" y="630" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: X 0,1</text>
+<text x="358" y="652" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Olei Cacao q.s.</text>
+<text x="358" y="674" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">ut fiat suppositorium rectale</text>
+<text x="358" y="696" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.t.d. N. 10</text>
+<text x="358" y="726" font-size="12" fill="#495057">ректальные 3,0 г, вагинальные 4,0 г</text>
+<rect x="672" y="578" width="312" height="158" rx="10" fill="#ffffff" stroke="#6741d9" stroke-width="2"/>
+<rect x="672" y="578" width="312" height="30" rx="10" fill="#6741d9"/>
+<rect x="672" y="598" width="312" height="10" fill="#6741d9"/>
+<text x="684" y="599" font-weight="bold" fill="#ffffff" font-size="14">Торговое название</text>
+<text x="686" y="630" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Rp.: Tabulettas «…» N. 20</text>
+<text x="686" y="652" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">Suppositoria «…» N. 10</text>
+<text x="686" y="674" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#1b1e23">D.S. …</text>
+<text x="686" y="704" font-size="12" fill="#495057">название — в именительном падеже</text>
+<text x="16" y="772" font-size="11.5" fill="#6c717a">По: Харкевич Д.А. Основы фармакологии, 2015, Приложение «Общая рецептура». X — любое вещество; дозы условные.</text>
+</svg>
