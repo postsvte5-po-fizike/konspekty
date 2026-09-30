@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 932 294" font-family="Arial, Helvetica, sans-serif">
+<rect width="932" height="294" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="466" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Условия патологического бронхиального дыхания</text>
+<line x1="364.4" y1="88.0" x2="466.1" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="596.5" y1="88.0" x2="466.1" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="466.1" y1="170.0" x2="143.5" y2="214.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="466.1" y1="170.0" x2="398.2" y2="214.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="466.1" y1="170.0" x2="631.4" y2="214.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="466.1" y1="170.0" x2="830.7" y2="214.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="246.0" y="52.0" width="236.8" height="36.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="364.4" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Уплотнение лёгочной ткани</text>
+<rect x="506.7" y="52.0" width="179.4" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="596.5" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">+ проходимый бронх</text>
+<rect x="306.8" y="134.0" width="318.6" height="36.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="466.1" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">Патологическое бронхиальное дыхание</text>
+<rect x="24.0" y="216.0" width="238.9" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="143.5" y="239.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Экссудат</text>
+<text x="143.5" y="257.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">крупозная пневмония II ст.</text>
+<rect x="286.9" y="216.0" width="222.6" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="398.2" y="239.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Сдавление</text>
+<text x="398.2" y="257.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">компрессионный ателектаз</text>
+<rect x="533.5" y="216.0" width="195.8" height="54.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="631.4" y="239.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">Соединительная ткань</text>
+<text x="631.4" y="257.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#212529">пневмосклероз</text>
+<rect x="753.3" y="216.0" width="154.8" height="54.0" rx="9" fill="#e6fcf5" stroke="#0c8599" stroke-width="2"/>
+<text x="830.7" y="239.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#084c56">Полость + бронх</text>
+<text x="830.7" y="257.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#084c56">амфорическое</text>
+</svg>

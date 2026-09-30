@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 879 230" font-family="Arial, Helvetica, sans-serif">
+<rect width="879" height="230" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="439" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Вынужденное положение → о чём думать</text>
+<line x1="134.2" y1="97.0" x2="161.8" y2="150.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="337.6" y1="106.0" x2="387.8" y2="150.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="528.7" y1="97.0" x2="584.2" y2="150.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="752.6" y1="97.0" x2="763.0" y2="159.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="24.0" y="61.0" width="220.4" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="134.2" y="84.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Одышка: сидя, ноги вниз</text>
+<rect x="268.4" y="52.0" width="138.5" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="337.6" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Опора руками,</text>
+<text x="337.6" y="93.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">наклон вперёд</text>
+<rect x="430.8" y="61.0" width="195.8" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="528.7" y="84.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Лёжа на больном боку</text>
+<rect x="650.6" y="61.0" width="204.0" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="752.6" y="84.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Лёжа на здоровом боку</text>
+<rect x="46.4" y="152.0" width="230.8" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="161.8" y="175.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Ортопноэ</text>
+<text x="161.8" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">сердечная недостаточность</text>
+<rect x="301.1" y="152.0" width="173.4" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="387.8" y="175.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Приступ</text>
+<text x="387.8" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">бронхиальной астмы</text>
+<rect x="498.5" y="152.0" width="171.2" height="54.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="584.2" y="175.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Плеврит, абсцесс,</text>
+<text x="584.2" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">бронхоэктазы</text>
+<rect x="693.8" y="161.0" width="138.5" height="36.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="763.0" y="184.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">Перелом рёбер</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1077 312" font-family="Arial, Helvetica, sans-serif">
+<rect width="1077" height="312" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="538" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Формы грудной клетки</text>
+<line x1="538.5" y1="88.0" x2="453.1" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="538.5" y1="88.0" x2="607.4" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="453.1" y1="170.0" x2="106.6" y2="223.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="453.1" y1="170.0" x2="294.8" y2="223.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="453.1" y1="170.0" x2="465.4" y2="223.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="607.4" y1="170.0" x2="627.9" y2="223.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="607.4" y1="170.0" x2="798.5" y2="232.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="607.4" y1="170.0" x2="974.4" y2="214.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="440.6" y="52.0" width="195.8" height="36.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="538.5" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">Форма грудной клетки</text>
+<rect x="396.2" y="134.0" width="113.9" height="36.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="453.1" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Нормальные</text>
+<rect x="534.1" y="134.0" width="146.7" height="36.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="607.4" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Патологические</text>
+<rect x="24.0" y="225.0" width="165.2" height="54.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="106.6" y="248.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Нормостеническая</text>
+<text x="106.6" y="266.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">конус, угол ≈ 90°</text>
+<rect x="213.2" y="225.0" width="163.0" height="54.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="294.8" y="248.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Гиперстеническая</text>
+<text x="294.8" y="266.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">цилиндр, &gt; 90°</text>
+<rect x="400.3" y="225.0" width="130.3" height="54.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="465.4" y="248.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Астеническая</text>
+<text x="465.4" y="266.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">узкая, &lt; 90°</text>
+<rect x="554.5" y="225.0" width="146.7" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="627.9" y="248.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Эмфизематозная</text>
+<text x="627.9" y="266.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">бочка</text>
+<rect x="725.2" y="234.0" width="146.7" height="36.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="798.5" y="257.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Паралитическая</text>
+<rect x="895.9" y="216.0" width="157.0" height="72.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="974.4" y="239.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Рахитическая,</text>
+<text x="974.4" y="257.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">воронкообразная,</text>
+<text x="974.4" y="275.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">ладьевидная</text>
+</svg>

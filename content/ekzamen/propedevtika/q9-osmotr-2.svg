@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 472 312" font-family="Arial, Helvetica, sans-serif">
+<rect width="472" height="312" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="236" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Асимметрия грудной клетки</text>
+<line x1="235.9" y1="88.0" x2="130.1" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="235.9" y1="88.0" x2="338.7" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="130.1" y1="188.0" x2="117.8" y2="241.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="338.7" y1="188.0" x2="341.7" y2="232.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="105.2" y="52.0" width="261.3" height="36.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="235.9" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">Одна половина грудной клетки</text>
+<rect x="39.3" y="134.0" width="181.6" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="130.1" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Увеличена, отстаёт</text>
+<text x="130.1" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">межрёберья выбухают</text>
+<rect x="244.9" y="134.0" width="187.6" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="338.7" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Уменьшена, западает</text>
+<text x="338.7" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">плечо опущено</text>
+<rect x="24.0" y="243.0" width="187.6" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="117.8" y="266.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Выпот, пневмоторакс</text>
+<rect x="235.6" y="234.0" width="212.2" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="341.7" y="257.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Пневмосклероз, спайки,</text>
+<text x="341.7" y="275.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">ателектаз, резекция</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 469 330" font-family="Arial, Helvetica, sans-serif">
+<rect width="469" height="330" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="235" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Как меняется звук трения по ходу болезни</text>
+<line x1="234.6" y1="106.0" x2="234.6" y2="150.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="234.6" y1="206.0" x2="234.6" y2="250.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="128.5" y="52.0" width="212.2" height="54.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="234.6" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Начало сухого плеврита</text>
+<text x="234.6" y="93.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">шёлк, шорох</text>
+<rect x="147.9" y="152.0" width="173.4" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="234.6" y="175.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Разгар</text>
+<text x="234.6" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">скрип, хруст снега</text>
+<rect x="119.2" y="252.0" width="230.8" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="234.6" y="275.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Рассасывание экссудата</text>
+<text x="234.6" y="293.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">грубый, ощущается ладонью</text>
+</svg>

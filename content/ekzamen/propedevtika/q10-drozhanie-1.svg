@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1138 312" font-family="Arial, Helvetica, sans-serif">
+<rect width="1138" height="312" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="569" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Голосовое дрожание: диагностическое значение</text>
+<line x1="568.9" y1="88.0" x2="479.5" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="568.9" y1="88.0" x2="635.9" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="479.5" y1="170.0" x2="147.6" y2="214.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="479.5" y1="170.0" x2="385.9" y2="223.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="635.9" y1="170.0" x2="586.4" y2="223.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="635.9" y1="170.0" x2="803.2" y2="223.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="635.9" y1="170.0" x2="1024.0" y2="232.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="352.2" y="52.0" width="433.3" height="36.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="568.9" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">Голосовое дрожание: «тридцать три» низким голосом</text>
+<rect x="424.5" y="134.0" width="110.0" height="36.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="479.5" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">УСИЛЕНО</text>
+<rect x="558.5" y="134.0" width="154.8" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="635.9" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">ОСЛАБЛЕНО / НЕТ</text>
+<rect x="24.0" y="216.0" width="247.1" height="72.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="147.6" y="239.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Уплотнение ткани</text>
+<text x="147.6" y="257.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">пневмония, инфаркт лёгкого,</text>
+<text x="147.6" y="275.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">компрессионный ателектаз</text>
+<rect x="295.1" y="225.0" width="181.6" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="385.9" y="248.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Полость,</text>
+<text x="385.9" y="266.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">связанная с бронхом</text>
+<rect x="500.7" y="225.0" width="171.2" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="586.4" y="248.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Жидкость / воздух</text>
+<text x="586.4" y="266.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">в плевре</text>
+<rect x="696.0" y="225.0" width="214.4" height="54.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="803.2" y="248.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">Закупорка бронха</text>
+<text x="803.2" y="266.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#321b7a">обтурационный ателектаз</text>
+<rect x="934.3" y="234.0" width="179.4" height="36.0" rx="9" fill="#e6fcf5" stroke="#0c8599" stroke-width="2"/>
+<text x="1024.0" y="257.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#084c56">Эмфизема, ожирение</text>
+</svg>

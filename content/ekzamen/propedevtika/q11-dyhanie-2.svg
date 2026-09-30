@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 578 330" font-family="Arial, Helvetica, sans-serif">
+<rect width="578" height="330" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="289" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Тахипноэ и брадипноэ — причины</text>
+<line x1="289.1" y1="88.0" x2="203.8" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="289.1" y1="88.0" x2="370.4" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="203.8" y1="170.0" x2="142.4" y2="214.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="370.4" y1="170.0" x2="419.5" y2="223.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="211.7" y="52.0" width="154.8" height="36.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="289.1" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">Частота дыхания</text>
+<rect x="134.6" y="134.0" width="138.5" height="36.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="203.8" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Тахипноэ &gt; 20</text>
+<rect x="297.0" y="134.0" width="146.7" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="370.4" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Брадипноэ &lt; 16</text>
+<rect x="24.0" y="216.0" width="236.8" height="90.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="142.4" y="239.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Дыхательная поверхность ↓</text>
+<text x="142.4" y="257.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">сужение мелких бронхов</text>
+<text x="142.4" y="275.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">боль (перелом рёбер)</text>
+<text x="142.4" y="293.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">высокая диафрагма</text>
+<rect x="284.8" y="225.0" width="269.5" height="72.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="419.5" y="248.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Угнетение дыхательного центра</text>
+<text x="419.5" y="266.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">отёк мозга, менингит</text>
+<text x="419.5" y="284.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">кома: уремия, диабет</text>
+</svg>

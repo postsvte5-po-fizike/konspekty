@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 785 270" font-family="Arial, Helvetica, sans-serif">
+<rect width="785" height="270" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="392" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Порядок сравнительной перкуссии</text>
+<line x1="290.9" y1="79.0" x2="312.9" y2="79.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="461.6" y1="79.0" x2="483.6" y2="79.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="587.6" y1="106.0" x2="97.3" y2="159.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="170.7" y1="188.0" x2="192.7" y2="188.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="376.3" y1="188.0" x2="398.3" y2="188.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="573.7" y1="188.0" x2="595.7" y2="188.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="95.1" y="61.0" width="195.8" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="193.0" y="84.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">1. Надключичные ямки</text>
+<rect x="314.9" y="61.0" width="146.7" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="388.3" y="84.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">2. По ключицам</text>
+<rect x="485.6" y="52.0" width="204.0" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="587.6" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">3. Межрёберья спереди</text>
+<text x="587.6" y="93.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">до IV ребра</text>
+<rect x="24.0" y="161.0" width="146.7" height="54.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="97.3" y="184.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">4. Подмышечные</text>
+<text x="97.3" y="202.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">руки за голову</text>
+<rect x="194.7" y="161.0" width="181.6" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="285.5" y="184.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">5. Надлопаточные</text>
+<text x="285.5" y="202.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">палец горизонтально</text>
+<rect x="400.3" y="152.0" width="173.4" height="72.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="487.0" y="175.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">6. Межлопаточные</text>
+<text x="487.0" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">палец вертикально,</text>
+<text x="487.0" y="211.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">руки скрещены</text>
+<rect x="597.7" y="170.0" width="163.0" height="36.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="679.2" y="193.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">7. Подлопаточные</text>
+<text x="392" y="252" text-anchor="middle" font-size="12" fill="#495057">Каждая точка → сразу симметричная точка другой стороны</text>
+</svg>

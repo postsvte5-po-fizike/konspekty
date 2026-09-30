@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 334 558" font-family="Arial, Helvetica, sans-serif">
+<rect width="334" height="558" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="167" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Порядок расспроса</text>
+<line x1="166.9" y1="88.0" x2="166.9" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="166.9" y1="188.0" x2="166.9" y2="232.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="166.9" y1="270.0" x2="166.9" y2="314.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="166.9" y1="370.0" x2="166.9" y2="414.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="166.9" y1="452.0" x2="166.9" y2="496.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="69.0" y="52.0" width="195.8" height="36.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="166.9" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">Приветствие, контакт</text>
+<rect x="69.0" y="134.0" width="195.8" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="166.9" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">«Что вас беспокоит?»</text>
+<text x="166.9" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">свободный рассказ</text>
+<rect x="44.5" y="234.0" width="244.9" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="166.9" y="257.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Детализация основных жалоб</text>
+<rect x="69.0" y="316.0" width="195.8" height="54.0" rx="9" fill="#e6fcf5" stroke="#0c8599" stroke-width="2"/>
+<text x="166.9" y="339.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#084c56">Расспрос по системам</text>
+<text x="166.9" y="357.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#084c56">status functionalis</text>
+<rect x="24.0" y="416.0" width="285.9" height="36.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="166.9" y="439.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Анамнез болезни → анамнез жизни</text>
+<rect x="36.3" y="498.0" width="261.3" height="36.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="166.9" y="521.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Запись после каждого раздела</text>
+</svg>

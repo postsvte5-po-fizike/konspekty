@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Arial, Helvetica, sans-serif">
+<rect width="760" height="400" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="380" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Перемежающаяся лихорадка (малярия)</text>
+<line x1="70" y1="320" x2="730" y2="320" stroke="#212529" stroke-width="2"/>
+<line x1="70" y1="50" x2="70" y2="320" stroke="#212529" stroke-width="2"/>
+<text x="117.1" y="338" text-anchor="middle" font-size="12" fill="#212529">1</text>
+<text x="211.4" y="338" text-anchor="middle" font-size="12" fill="#212529">2</text>
+<text x="305.7" y="338" text-anchor="middle" font-size="12" fill="#212529">3</text>
+<text x="400.0" y="338" text-anchor="middle" font-size="12" fill="#212529">4</text>
+<text x="494.3" y="338" text-anchor="middle" font-size="12" fill="#212529">5</text>
+<text x="588.6" y="338" text-anchor="middle" font-size="12" fill="#212529">6</text>
+<text x="682.9" y="338" text-anchor="middle" font-size="12" fill="#212529">7</text>
+<line x1="70" y1="295.5" x2="730" y2="295.5" stroke="#dee2e6"/>
+<text x="62" y="299.5" text-anchor="end" font-size="12" fill="#212529">36</text>
+<line x1="70" y1="197.3" x2="730" y2="197.3" stroke="#dee2e6"/>
+<text x="62" y="201.3" text-anchor="end" font-size="12" fill="#212529">38</text>
+<line x1="70" y1="148.2" x2="730" y2="148.2" stroke="#dee2e6"/>
+<text x="62" y="152.2" text-anchor="end" font-size="12" fill="#212529">39</text>
+<line x1="70" y1="99.1" x2="730" y2="99.1" stroke="#dee2e6"/>
+<text x="62" y="103.1" text-anchor="end" font-size="12" fill="#212529">40</text>
+<line x1="70" y1="50.0" x2="730" y2="50.0" stroke="#dee2e6"/>
+<text x="62" y="54.0" text-anchor="end" font-size="12" fill="#212529">41</text>
+<line x1="70" y1="246.4" x2="730" y2="246.4" stroke="#495057" stroke-width="1.5" stroke-dasharray="6,4"/>
+<rect x="76" y="227.4" width="43.1" height="16" fill="#ffffff" opacity="0.85"/>
+<text x="80" y="240.4" font-size="12" fill="#495057">37 °C</text>
+<polyline points="93.6,266.0 140.7,123.6 187.9,270.9 235.0,108.9 282.1,261.1 329.3,128.5 376.4,266.0 423.6,113.8 470.7,270.9 517.9,123.6 565.0,261.1 612.1,108.9 659.3,266.0 706.4,128.5" fill="none" stroke="#2b8a3e" stroke-width="3" stroke-linejoin="round"/>
+<line x1="80" y1="368" x2="110" y2="368" stroke="#2b8a3e" stroke-width="3"/>
+<text x="116" y="372" font-size="12" fill="#212529">перемежающаяся: колебания &gt; 1 °C, минимум в норме</text>
+<text x="400.0" y="356" text-anchor="middle" font-size="13" fill="#212529">дни</text>
+<text x="18" y="185.0" text-anchor="middle" font-size="13" fill="#212529" transform="rotate(-90 18 185.0)">°C</text>
+</svg>

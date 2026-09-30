@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 512" font-family="Arial, Helvetica, sans-serif">
+<rect width="760" height="512" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="380" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Схема истории болезни (методичка кафедры)</text>
+<line x1="211.6" y1="70.0" x2="233.6" y2="70.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="345.6" y1="70.0" x2="367.6" y2="70.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="549.0" y1="70.0" x2="571.0" y2="70.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="654.5" y1="88.0" x2="380.0" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="380.0" y1="188.0" x2="188.9" y2="232.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="311.4" y1="261.0" x2="333.4" y2="261.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="531.2" y1="261.0" x2="553.2" y2="261.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="624.4" y1="279.0" x2="380.0" y2="332.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="380.0" y1="388.0" x2="200.1" y2="441.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="261.1" y1="461.0" x2="283.1" y2="461.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="407.2" y1="461.0" x2="429.2" y2="461.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="24.0" y="52.0" width="187.6" height="36.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="117.8" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">1. Паспортная часть</text>
+<rect x="235.6" y="52.0" width="110.0" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="290.6" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">2. Жалобы</text>
+<rect x="369.6" y="52.0" width="179.4" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="459.3" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">3. Анамнез болезни</text>
+<rect x="573.0" y="52.0" width="163.0" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="654.5" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">4. Анамнез жизни</text>
+<rect x="260.6" y="134.0" width="238.9" height="54.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="380.0" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">5. Объективный статус</text>
+<text x="380.0" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">общий осмотр → по системам</text>
+<rect x="66.4" y="234.0" width="244.9" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="188.9" y="257.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">6. Предварительный диагноз</text>
+<text x="188.9" y="275.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">в день поступления</text>
+<rect x="335.4" y="243.0" width="195.8" height="36.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="433.3" y="266.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">7. План обследования</text>
+<rect x="555.2" y="243.0" width="138.5" height="36.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="624.4" y="266.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">8. Результаты</text>
+<rect x="264.7" y="334.0" width="230.8" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="380.0" y="357.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">9. Клинический диагноз</text>
+<text x="380.0" y="375.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">на 3-й день + обоснование</text>
+<rect x="139.0" y="443.0" width="122.1" height="36.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="200.1" y="466.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">10. Лечение</text>
+<rect x="285.1" y="443.0" width="122.1" height="36.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="346.2" y="466.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">11. Дневник</text>
+<rect x="431.2" y="434.0" width="189.8" height="54.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="526.1" y="457.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">12. Эпикриз</text>
+<text x="526.1" y="475.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#321b7a">МКБ-10, рекомендации</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 427 398" font-family="Arial, Helvetica, sans-serif">
+<rect width="427" height="398" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="214" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Путь вибрации при голосовом дрожании</text>
+<line x1="213.5" y1="88.0" x2="213.5" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="213.5" y1="188.0" x2="213.5" y2="232.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="213.5" y1="270.0" x2="213.5" y2="314.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="132.0" y="52.0" width="163.0" height="36.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="213.5" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">Голосовые связки</text>
+<rect x="135.0" y="134.0" width="157.0" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="213.5" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Воздушный столб</text>
+<text x="213.5" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">трахеи и бронхов</text>
+<rect x="140.2" y="234.0" width="146.7" height="36.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="213.5" y="257.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Лёгочная ткань</text>
+<rect x="78.8" y="316.0" width="269.5" height="36.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="213.5" y="339.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Грудная стенка → ладонь врача</text>
+<text x="214" y="380" text-anchor="middle" font-size="12" fill="#495057">Плотная ткань проводит лучше; жидкость и воздух в плевре гасят вибрацию</text>
+</svg>

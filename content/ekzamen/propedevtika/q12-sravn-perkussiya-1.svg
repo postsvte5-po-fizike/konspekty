@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 747 312" font-family="Arial, Helvetica, sans-serif">
+<rect width="747" height="312" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="373" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Перкуторный звук — от содержания воздуха</text>
+<line x1="373.3" y1="88.0" x2="82.9" y2="141.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="373.3" y1="88.0" x2="216.9" y2="141.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="373.3" y1="88.0" x2="358.0" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="373.3" y1="88.0" x2="514.5" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="373.3" y1="88.0" x2="663.8" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="82.9" y1="179.0" x2="79.0" y2="232.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="216.9" y1="179.0" x2="223.1" y2="241.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="358.0" y1="188.0" x2="367.3" y2="241.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="514.5" y1="188.0" x2="503.2" y2="241.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="663.8" y1="188.0" x2="653.4" y2="241.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="205.8" y="52.0" width="335.0" height="36.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="373.3" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">Сколько воздуха в лёгком под пальцем?</text>
+<rect x="27.9" y="143.0" width="110.0" height="36.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="82.9" y="166.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Норма</text>
+<rect x="161.9" y="143.0" width="110.0" height="36.0" rx="9" fill="#fff9db" stroke="#e67700" stroke-width="2"/>
+<text x="216.9" y="166.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b3a00">Меньше</text>
+<rect x="295.9" y="134.0" width="124.3" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="358.0" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Нет совсем</text>
+<text x="358.0" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">или жидкость</text>
+<rect x="444.1" y="134.0" width="140.7" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="514.5" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Больше,</text>
+<text x="514.5" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">эластичность ↓</text>
+<rect x="608.8" y="134.0" width="110.0" height="54.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="663.8" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">Полость</text>
+<text x="663.8" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#321b7a">с воздухом</text>
+<rect x="24.0" y="234.0" width="110.0" height="54.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="79.0" y="257.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Ясный</text>
+<text x="79.0" y="275.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">лёгочный</text>
+<rect x="158.0" y="243.0" width="130.3" height="36.0" rx="9" fill="#fff9db" stroke="#e67700" stroke-width="2"/>
+<text x="223.1" y="266.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b3a00">Притупленный</text>
+<rect x="312.3" y="243.0" width="110.0" height="36.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="367.3" y="266.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Тупой</text>
+<rect x="446.3" y="243.0" width="113.9" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="503.2" y="266.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Коробочный</text>
+<rect x="584.2" y="243.0" width="138.5" height="36.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="653.4" y="266.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">Тимпанический</text>
+</svg>

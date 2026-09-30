@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 655 412" font-family="Arial, Helvetica, sans-serif">
+<rect width="655" height="412" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="328" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Отёки: быстрый дифференциальный диагноз</text>
+<line x1="327.5" y1="106.0" x2="327.5" y2="150.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="327.5" y1="188.0" x2="131.2" y2="232.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="327.5" y1="188.0" x2="357.3" y2="232.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="327.5" y1="188.0" x2="553.6" y2="241.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="131.2" y1="288.0" x2="142.4" y2="341.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="357.3" y1="288.0" x2="276.4" y2="341.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="553.6" y1="279.0" x2="461.5" y2="332.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="221.4" y="52.0" width="212.2" height="54.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="327.5" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">Отёк: надавить пальцем</text>
+<text x="327.5" y="93.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#212529">над костью → ямка</text>
+<rect x="262.4" y="152.0" width="130.3" height="36.0" rx="9" fill="#fff9db" stroke="#e67700" stroke-width="2"/>
+<text x="327.5" y="175.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b3a00">Где начался?</text>
+<rect x="24.0" y="234.0" width="214.4" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="131.2" y="257.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Ноги, к вечеру</text>
+<text x="131.2" y="275.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">кожа синюшная, холодная</text>
+<rect x="262.4" y="234.0" width="189.8" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="357.3" y="257.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Лицо, веки, утром</text>
+<text x="357.3" y="275.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">кожа бледная, тёплая</text>
+<rect x="476.2" y="243.0" width="154.8" height="36.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="553.6" y="266.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Одна конечность</text>
+<rect x="87.4" y="343.0" width="110.0" height="36.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="142.4" y="366.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Сердечный</text>
+<rect x="221.4" y="343.0" width="110.0" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="276.4" y="366.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Почечный</text>
+<rect x="355.4" y="334.0" width="212.2" height="54.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="461.5" y="357.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Местный: тромбоз вены,</text>
+<text x="461.5" y="375.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">сдавление</text>
+</svg>
