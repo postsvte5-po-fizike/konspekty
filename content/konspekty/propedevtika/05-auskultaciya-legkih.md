@@ -254,11 +254,15 @@ tags: [propedevtika, auskultaciya, legkie, dyhatelnye-shumy]
 
 ![[05-auskultaciya-legkih-1.svg]]
 
+<a class="fig-open" href="05-auskultaciya-legkih-1.svg" target="_blank">Открыть схему крупно ↗</a>
+
 *Схема, не в масштабе; точки — по рис. 21 учебника Гребенева (2018). Сверить: атлас Неттера — грудная клетка, проекции лёгких и плевры. Цвет: бирюзовый — спереди, оранжевый — подмышечные области, фиолетовый — сзади; синий пунктир — нижняя граница лёгких.*
 
 ### Схема 2. Где рождается звук
 
 ![[05-auskultaciya-legkih-2.svg]]
+
+<a class="fig-open" href="05-auskultaciya-legkih-2.svg" target="_blank">Открыть схему крупно ↗</a>
 
 *Схема, не в масштабе: одно лёгкое, ветвление бронхов упрощено. Сверить: атлас Неттера — трахея и бронхиальное дерево, плевра.*
 
@@ -266,9 +270,13 @@ tags: [propedevtika, auskultaciya, legkie, dyhatelnye-shumy]
 
 ![[05-auskultaciya-legkih-3.svg]]
 
+<a class="fig-open" href="05-auskultaciya-legkih-3.svg" target="_blank">Открыть схему крупно ↗</a>
+
 ### Схема 4. Как отличить побочный шум — алгоритм у постели
 
 ![[05-auskultaciya-legkih-4.svg]]
+
+<a class="fig-open" href="05-auskultaciya-legkih-4.svg" target="_blank">Открыть схему крупно ↗</a>
 
 ## 3. Клиническая связь
 

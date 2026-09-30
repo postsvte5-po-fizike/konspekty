@@ -530,3 +530,29 @@ html body .verify::before {
   -webkit-mask: var(--icon-verify) center / contain no-repeat; mask: var(--icon-verify) center / contain no-repeat;
 }
 html body article .verify, html body article td .verify { color: var(--verify-text) !important; font-family: var(--font-body) !important; }
+
+/* ===== панели по краям экрана, схемы шире колонки текста ===== */
+@media all and (min-width: 1200px) {
+  html body .page, html body div#quartz-root.page { max-width: none !important; width: 100% !important; }
+  html body .page > #quartz-body { max-width: none !important; width: 100% !important; margin: 0 !important; }
+}
+html body .page > #quartz-body .center { max-width: 100% !important; min-width: 0 !important; width: auto !important; box-sizing: border-box !important; }
+@media all and (min-width: 800px) and (max-width: 1199px) {
+  html body .page > #quartz-body { grid-template-columns: var(--sidebar-left) minmax(0, 1fr) !important; }
+  html body .page > #quartz-body > .center { grid-area: grid-center !important; width: 100% !important; margin: 0 !important; }
+}
+@media all and (min-width: 800px) {
+  html body .page > #quartz-body .center { container-type: inline-size; }
+}
+@media all and (min-width: 800px) {
+  html body article p:has(> object) {
+    width: min(100cqw, 1180px); max-width: none; position: relative; left: 50%; transform: translateX(-50%);
+  }
+}
+html body article p:has(> object) + p a.fig-open, html body article a.fig-open {
+  margin-left: .6em; font-style: normal; font-size: var(--fs-xs); white-space: nowrap;
+}
+
+/* плашка «проверить» переносится внутри строки */
+html body .verify { display: inline !important; white-space: normal !important; padding: 0 7px 0 5px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+html body .verify::before { display: inline-block; vertical-align: -.15em; margin-right: 4px; }

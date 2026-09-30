@@ -275,11 +275,15 @@ tags: [farma, farmakokinetika, obshaya-farmakologiya]
 
 ![[03-farmakokinetika-1.svg]]
 
+<a class="fig-open" href="03-farmakokinetika-1.svg" target="_blank">Открыть схему крупно ↗</a>
+
 *Схема, не в масштабе: пути введения, пресистемная элиминация, связь с белками, распределение, фазы биотрансформации, выведение, клиренс.*
 
 ### Схема 2. Кривые «концентрация — время»
 
 ![[03-farmakokinetika-2.svg]]
+
+<a class="fig-open" href="03-farmakokinetika-2.svg" target="_blank">Открыть схему крупно ↗</a>
 
 *Иллюстрация (одночастевая модель): Cmax, tmax, AUC, биодоступность; накопление до равновесной концентрации за 4–5 t½ и терапевтическое окно.*
 

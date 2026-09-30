@@ -319,9 +319,13 @@ tags: [farma, recepura, lekarstvennye-formy]
 
 ![[01-recepura-tverdye-i-myagkie-formy-1.svg]]
 
+<a class="fig-open" href="01-recepura-tverdye-i-myagkie-formy-1.svg" target="_blank">Открыть схему крупно ↗</a>
+
 ### Схема 2. Шаблоны прописи твёрдых и мягких форм
 
 ![[01-recepura-tverdye-i-myagkie-formy-2.svg]]
+
+<a class="fig-open" href="01-recepura-tverdye-i-myagkie-formy-2.svg" target="_blank">Открыть схему крупно ↗</a>
 
 ## 3. Клиническая связь
 

@@ -1,31 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1130 230" font-family="Arial, Helvetica, sans-serif">
-<rect width="1130" height="230" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670 378" font-family="Arial, Helvetica, sans-serif">
+<rect width="670" height="378" fill="#ffffff"/>
 <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
-<text x="565" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Виды комы (Гребенев, методичка)</text>
-<line x1="565.2" y1="88.0" x2="123.0" y2="141.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
-<line x1="565.2" y1="88.0" x2="323.4" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
-<line x1="565.2" y1="88.0" x2="507.5" y2="141.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
-<line x1="565.2" y1="88.0" x2="676.2" y2="141.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
-<line x1="565.2" y1="88.0" x2="819.3" y2="150.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
-<line x1="565.2" y1="88.0" x2="1003.3" y2="141.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
-<rect x="510.2" y="52.0" width="110.0" height="36.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
-<text x="565.2" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Кома</text>
-<rect x="24.0" y="143.0" width="198.0" height="54.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
-<text x="123.0" y="166.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">Алкогольная</text>
-<text x="123.0" y="184.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#321b7a">запах, зрачки широкие</text>
-<rect x="246.0" y="134.0" width="154.8" height="72.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
-<text x="323.4" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Апоплексическая</text>
-<text x="323.4" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">лицо багровое,</text>
-<text x="323.4" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">дыхание шумное</text>
-<rect x="424.8" y="143.0" width="165.2" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
-<text x="507.5" y="166.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Диабетическая /</text>
-<text x="507.5" y="184.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">гипогликемическая</text>
-<rect x="614.1" y="143.0" width="124.3" height="54.0" rx="9" fill="#fff9db" stroke="#e67700" stroke-width="2"/>
-<text x="676.2" y="166.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b3a00">Уремическая</text>
-<text x="676.2" y="184.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6b3a00">зрачки узкие</text>
-<rect x="762.3" y="152.0" width="113.9" height="36.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
-<text x="819.3" y="175.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Печёночная</text>
-<rect x="900.2" y="143.0" width="206.2" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
-<text x="1003.3" y="166.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Эпилептическая</text>
-<text x="1003.3" y="184.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">судороги, прикус языка</text>
+<text x="335" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Виды комы (Гребенев, методичка)</text>
+<line x1="144.0" y1="205.0" x2="197.0" y2="75.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="144.0" y1="205.0" x2="197.0" y2="127.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="144.0" y1="205.0" x2="197.0" y2="179.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="144.0" y1="205.0" x2="197.0" y2="231.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="144.0" y1="205.0" x2="197.0" y2="283.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="144.0" y1="205.0" x2="197.0" y2="335.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="24.0" y="186.0" width="120.0" height="38.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="84.0" y="210.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#7a1010">Кома</text>
+<rect x="200.0" y="56.0" width="446.4" height="38.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="423.2" y="80.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#321b7a">Алкогольная — запах алкоголя, зрачки широкие</text>
+<rect x="200.0" y="108.0" width="446.4" height="38.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="423.2" y="132.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#7a1010">Апоплексическая — лицо багровое, дыхание шумное</text>
+<rect x="200.0" y="160.0" width="446.4" height="38.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="423.2" y="184.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#6e2305">Диабетическая / гипогликемическая</text>
+<rect x="200.0" y="212.0" width="446.4" height="38.0" rx="9" fill="#fff9db" stroke="#e67700" stroke-width="2"/>
+<text x="423.2" y="236.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#6b3a00">Уремическая — зрачки узкие</text>
+<rect x="200.0" y="264.0" width="446.4" height="38.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="423.2" y="288.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#154d22">Печёночная</text>
+<rect x="200.0" y="316.0" width="446.4" height="38.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="423.2" y="340.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#0b3d6b">Эпилептическая — судороги, прикус языка</text>
 </svg>

@@ -1,37 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 930 230" font-family="Arial, Helvetica, sans-serif">
-<rect width="930" height="230" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 637 398" font-family="Arial, Helvetica, sans-serif">
+<rect width="637" height="398" fill="#ffffff"/>
 <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
-<text x="465" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Виды действия лекарственных веществ — по парам</text>
-<line x1="465.0" y1="88.0" x2="86.1" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
-<line x1="465.0" y1="88.0" x2="234.4" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
-<line x1="465.0" y1="88.0" x2="375.6" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
-<line x1="465.0" y1="88.0" x2="512.6" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
-<line x1="465.0" y1="88.0" x2="669.1" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
-<line x1="465.0" y1="88.0" x2="836.7" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
-<rect x="354.8" y="52.0" width="220.4" height="36.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
-<text x="465.0" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">Действие ЛВ на организм</text>
-<rect x="24.0" y="134.0" width="124.3" height="72.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
-<text x="86.1" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">По месту</text>
-<text x="86.1" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">местное /</text>
-<text x="86.1" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">резорбтивное</text>
-<rect x="172.3" y="134.0" width="124.3" height="72.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
-<text x="234.4" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">По пути</text>
-<text x="234.4" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">прямое /</text>
-<text x="234.4" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">рефлекторное</text>
-<rect x="320.6" y="134.0" width="110.0" height="72.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
-<text x="375.6" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">По цели</text>
-<text x="375.6" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#321b7a">главное /</text>
-<text x="375.6" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#321b7a">побочное</text>
-<rect x="454.6" y="134.0" width="116.1" height="72.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
-<text x="512.6" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">По связи</text>
-<text x="512.6" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">обратимое /</text>
-<text x="512.6" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">необратимое</text>
-<rect x="594.6" y="134.0" width="148.8" height="72.0" rx="9" fill="#e6fcf5" stroke="#0c8599" stroke-width="2"/>
-<text x="669.1" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#084c56">По мишени</text>
-<text x="669.1" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#084c56">избирательное /</text>
-<text x="669.1" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#084c56">неизбирательное</text>
-<rect x="767.5" y="134.0" width="138.5" height="72.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
-<text x="836.7" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Нежелательное</text>
-<text x="836.7" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">токсическое,</text>
-<text x="836.7" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">аллергическое</text>
+<text x="319" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Виды действия лекарственных веществ — по парам</text>
+<line x1="154.5" y1="215.0" x2="207.5" y2="75.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="154.5" y1="215.0" x2="207.5" y2="127.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="154.5" y1="215.0" x2="207.5" y2="179.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="154.5" y1="215.0" x2="207.5" y2="231.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="154.5" y1="215.0" x2="207.5" y2="283.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="154.5" y1="215.0" x2="207.5" y2="345.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="24.0" y="186.0" width="130.5" height="58.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="89.3" y="210.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#212529">Действие ЛВ</text>
+<text x="89.3" y="230.0" text-anchor="middle" font-size="15" font-weight="normal" fill="#212529">на организм</text>
+<rect x="210.5" y="56.0" width="402.5" height="38.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="411.8" y="80.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#0b3d6b">По месту: местное / резорбтивное</text>
+<rect x="210.5" y="108.0" width="402.5" height="38.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="411.8" y="132.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#154d22">По пути: прямое / рефлекторное</text>
+<rect x="210.5" y="160.0" width="402.5" height="38.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="411.8" y="184.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#321b7a">По цели: главное / побочное</text>
+<rect x="210.5" y="212.0" width="402.5" height="38.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="411.8" y="236.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#6e2305">По связи: обратимое / необратимое</text>
+<rect x="210.5" y="264.0" width="402.5" height="38.0" rx="9" fill="#e6fcf5" stroke="#0c8599" stroke-width="2"/>
+<text x="411.8" y="288.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#084c56">По мишени: избирательное / неизбирательное</text>
+<rect x="210.5" y="316.0" width="402.5" height="58.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="411.8" y="340.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#7a1010">Нежелательное: токсическое, аллергическое,</text>
+<text x="411.8" y="360.0" text-anchor="middle" font-size="15" font-weight="normal" fill="#7a1010">идиосинкразия</text>
 </svg>

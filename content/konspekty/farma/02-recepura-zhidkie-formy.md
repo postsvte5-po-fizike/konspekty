@@ -242,9 +242,13 @@ tags: [farma, recepura, zhidkie-formy, inekcii]
 
 ![[02-recepura-zhidkie-formy-1.svg]]
 
+<a class="fig-open" href="02-recepura-zhidkie-formy-1.svg" target="_blank">Открыть схему крупно ↗</a>
+
 ### Схема 2. Расчёт раствора внутрь
 
 ![[02-recepura-zhidkie-formy-2.svg]]
+
+<a class="fig-open" href="02-recepura-zhidkie-formy-2.svg" target="_blank">Открыть схему крупно ↗</a>
 
 ## 3. Клиническая связь
 

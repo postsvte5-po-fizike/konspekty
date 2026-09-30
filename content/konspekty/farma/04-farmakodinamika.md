@@ -494,9 +494,13 @@ tags: [farma, farmakodinamika, obshaya-farmakologiya, receptory]
 
 ![[04-farmakodinamika-1.svg]]
 
+<a class="fig-open" href="04-farmakodinamika-1.svg" target="_blank">Открыть схему крупно ↗</a>
+
 ### Схема 2. Кривые «доза — эффект»
 
 ![[04-farmakodinamika-2.svg]]
+
+<a class="fig-open" href="04-farmakodinamika-2.svg" target="_blank">Открыть схему крупно ↗</a>
 
 ## 3. Клиническая связь
 
