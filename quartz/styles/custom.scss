@@ -523,3 +523,10 @@ html body .backlinks li > a:hover { color: var(--accent-text); }
   html body .page > #quartz-body .center { width: 100%; box-sizing: border-box; }
   html body article .table-container { max-width: 100%; }
 }
+
+/* плашка [проверить] */
+html body .verify::before {
+  content: ""; width: 1.05em; height: 1.05em; background: currentColor;
+  -webkit-mask: var(--icon-verify) center / contain no-repeat; mask: var(--icon-verify) center / contain no-repeat;
+}
+html body article .verify, html body article td .verify { color: var(--verify-text) !important; font-family: var(--font-body) !important; }
