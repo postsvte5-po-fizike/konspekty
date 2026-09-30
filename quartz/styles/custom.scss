@@ -1,231 +1,525 @@
 @use "./variables.scss" as *;
 
-// ===== Конспекты Стаса: пользовательские стили =====
+// ===== Конспекты Стаса: дизайн из Claude Design (_система/дизайн/Konspekty-Stasa-standalone.html) =====
 
-// --- Цветные callout-блоки ---
-// Тема @quartz-themes красит заголовки через свои переменные, поэтому задаём цвет напрямую.
-@mixin callout-color($c, $bg) {
-  --color: #{$c};
-  --callout-title-color: #{$c};
-  border-color: #{$c} !important;
-  background-color: #{$bg} !important;
+/* --- шрифты (самохостинг, OFL) --- */
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 500; font-display: swap; src: url('/konspekty/static/fonts/cormorant-garamond-cyrillic-ext-c91a6dde.woff2') format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 500; font-display: swap; src: url('/konspekty/static/fonts/cormorant-garamond-cyrillic-6d314ca4.woff2') format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 500; font-display: swap; src: url('/konspekty/static/fonts/cormorant-garamond-latin-ext-1aaca3c2.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 500; font-display: swap; src: url('/konspekty/static/fonts/cormorant-garamond-latin-6c00f6ef.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 600; font-display: swap; src: url('/konspekty/static/fonts/cormorant-garamond-cyrillic-ext-c91a6dde.woff2') format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 600; font-display: swap; src: url('/konspekty/static/fonts/cormorant-garamond-cyrillic-6d314ca4.woff2') format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 600; font-display: swap; src: url('/konspekty/static/fonts/cormorant-garamond-latin-ext-1aaca3c2.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 600; font-display: swap; src: url('/konspekty/static/fonts/cormorant-garamond-latin-6c00f6ef.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Lora'; font-style: italic; font-weight: 400; font-display: swap; src: url('/konspekty/static/fonts/lora-cyrillic-ext-62007a5a.woff2') format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+@font-face { font-family: 'Lora'; font-style: italic; font-weight: 400; font-display: swap; src: url('/konspekty/static/fonts/lora-cyrillic-6a581005.woff2') format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+@font-face { font-family: 'Lora'; font-style: italic; font-weight: 400; font-display: swap; src: url('/konspekty/static/fonts/lora-math-3723b33d.woff2') format('woff2'); unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+@font-face { font-family: 'Lora'; font-style: italic; font-weight: 400; font-display: swap; src: url('/konspekty/static/fonts/lora-symbols-05d004f1.woff2') format('woff2'); unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+@font-face { font-family: 'Lora'; font-style: italic; font-weight: 400; font-display: swap; src: url('/konspekty/static/fonts/lora-latin-ext-89c4b1dd.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Lora'; font-style: italic; font-weight: 400; font-display: swap; src: url('/konspekty/static/fonts/lora-latin-b9997362.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Lora'; font-style: normal; font-weight: 400; font-display: swap; src: url('/konspekty/static/fonts/lora-cyrillic-ext-5032c4d4.woff2') format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+@font-face { font-family: 'Lora'; font-style: normal; font-weight: 400; font-display: swap; src: url('/konspekty/static/fonts/lora-cyrillic-a06a17f4.woff2') format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+@font-face { font-family: 'Lora'; font-style: normal; font-weight: 400; font-display: swap; src: url('/konspekty/static/fonts/lora-math-0cda813e.woff2') format('woff2'); unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+@font-face { font-family: 'Lora'; font-style: normal; font-weight: 400; font-display: swap; src: url('/konspekty/static/fonts/lora-symbols-f0db56ef.woff2') format('woff2'); unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+@font-face { font-family: 'Lora'; font-style: normal; font-weight: 400; font-display: swap; src: url('/konspekty/static/fonts/lora-latin-ext-51c429b1.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Lora'; font-style: normal; font-weight: 400; font-display: swap; src: url('/konspekty/static/fonts/lora-latin-a64795df.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Lora'; font-style: normal; font-weight: 600; font-display: swap; src: url('/konspekty/static/fonts/lora-cyrillic-ext-5032c4d4.woff2') format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+@font-face { font-family: 'Lora'; font-style: normal; font-weight: 600; font-display: swap; src: url('/konspekty/static/fonts/lora-cyrillic-a06a17f4.woff2') format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+@font-face { font-family: 'Lora'; font-style: normal; font-weight: 600; font-display: swap; src: url('/konspekty/static/fonts/lora-math-0cda813e.woff2') format('woff2'); unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+@font-face { font-family: 'Lora'; font-style: normal; font-weight: 600; font-display: swap; src: url('/konspekty/static/fonts/lora-symbols-f0db56ef.woff2') format('woff2'); unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+@font-face { font-family: 'Lora'; font-style: normal; font-weight: 600; font-display: swap; src: url('/konspekty/static/fonts/lora-latin-ext-51c429b1.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Lora'; font-style: normal; font-weight: 600; font-display: swap; src: url('/konspekty/static/fonts/lora-latin-a64795df.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
-  .callout-title,
-  .callout-title > .callout-title-inner > p {
-    color: #{$c} !important;
-  }
+/* --- токены дизайна --- */
+:root {
+  
+  --font-heading: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-body: "Lora", Georgia, "Times New Roman", serif;
+  --fw-regular: 400;
+  --fw-strong: 600;
+  --fw-heading: 600;
+  --fw-display: 500;
 
-  .callout-title .callout-icon {
-    background-color: #{$c} !important;
+  
+  --fs-xs: 12.5px;      
+  --fs-sm: 14px;        
+  --fs-ui: 15px;        
+  --fs-table: 14.5px;
+  --fs-callout: 16px;
+  --fs-body: 17.5px;
+  --fs-h4: 18px;        
+  --fs-h3: 25px;        
+  --fs-h2: 33px;
+  --fs-h1: 46px;        
+  --fs-formula: 32px;
+  --lh-body: 1.72;
+  --lh-callout: 1.62;
+  --lh-table: 1.45;
+  --lh-heading: 1.14;
+
+  
+  --space-1: 4.6px;
+  --space-2: 9.2px;
+  --space-3: 13.8px;
+  --space-4: 18.4px;
+  --space-6: 27.6px;
+  --space-8: 36.8px;
+  --space-12: 55.2px;
+  --space-16: 73.6px;
+
+  
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 7px;
+  --radius-pill: 999px;
+
+  
+  --measure: 44rem;
+  --sidebar-left: 272px;
+  --sidebar-right: 236px;
+
+  
+  --hue-nb: 25;        
+  --hue-trap: 55;      
+  --hue-formula: 85;   
+  --hue-summary: 150;  
+  --hue-patient: 195;  
+  --hue-source: 245;   
+  --hue-quiz: 285;     
+  --hue-extra: 330;    
+                       
+
+  
+  --icon-nb: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M12 4.5v9'/%3E%3Cpath d='M12 19.5h.01'/%3E%3C/svg%3E");
+  --icon-formula: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 7V4H6l6 8-6 8h12v-3'/%3E%3C/svg%3E");
+  --icon-extra: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20'/%3E%3Cpath d='M12 7v6'/%3E%3Cpath d='M9 10h6'/%3E%3C/svg%3E");
+  --icon-goals: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Ccircle cx='12' cy='12' r='6'/%3E%3Ccircle cx='12' cy='12' r='2'/%3E%3C/svg%3E");
+  --icon-answer: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 2h4'/%3E%3Cpath d='M12 14l3-3'/%3E%3Ccircle cx='12' cy='14' r='8'/%3E%3C/svg%3E");
+  --icon-source: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M15 3h6v6'/%3E%3Cpath d='M10 14 21 3'/%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3C/svg%3E");
+  --icon-trap: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3'/%3E%3Cpath d='M12 9v4'/%3E%3Cpath d='M12 17h.01'/%3E%3C/svg%3E");
+  --icon-patient: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M11 2v2'/%3E%3Cpath d='M5 2v2'/%3E%3Cpath d='M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1'/%3E%3Cpath d='M8 15a6 6 0 0 0 12 0v-3'/%3E%3Ccircle cx='20' cy='10' r='2'/%3E%3C/svg%3E");
+  --icon-quiz: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3'/%3E%3Cpath d='M12 17h.01'/%3E%3C/svg%3E");
+  --icon-todo: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='5' width='6' height='6' rx='1'/%3E%3Cpath d='m3 17 2 2 4-4'/%3E%3Cpath d='M13 6h8'/%3E%3Cpath d='M13 12h8'/%3E%3Cpath d='M13 18h8'/%3E%3C/svg%3E");
+  --icon-verify: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M12 8v4'/%3E%3Cpath d='M12 16h.01'/%3E%3C/svg%3E");
+  --icon-chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+}
+
+:root:root, :root:root[saved-theme="light"] {
+  color-scheme: light;
+  --bg: #f3f2f2;
+  --bg-elevated: #f9f8f7;
+  --surface: #eae9e9;
+  --text: #201f1d;
+  --text-muted: #5b5856;
+  --text-faint: #75716d;
+  --divider: color-mix(in srgb, #201f1d 13%, transparent);
+  --divider-strong: color-mix(in srgb, #201f1d 26%, transparent);
+  --accent: #b68235;
+  --accent-text: #7d5411;
+  --accent-tint: #fbefdd;
+  --link: #7d5411;
+  --link-underline: color-mix(in srgb, #b68235 55%, transparent);
+  --selection: color-mix(in srgb, #b68235 28%, transparent);
+  --highlight: #fbe3b8;              
+
+  --figure-bg: #ffffff;
+  --figure-border: color-mix(in srgb, #201f1d 12%, transparent);
+  --figure-shadow: 0 1px 2px color-mix(in srgb, #2d2b2b 10%, transparent);
+
+  --table-bg: #f9f8f7;
+  --table-head: #edebe9;
+  --table-hover: #f1efec;
+
+  /* выноски: светлота/насыщенность, тон берётся из --hue-* */
+  --co-bg-l: .972;   --co-bg-c: .018;
+  --co-border-l: .80; --co-border-c: .065;
+  --co-title-l: .46; --co-title-c: .105;
+  --nb-bg: oklch(.945 .045 25);
+  --nb-border: oklch(.58 .17 25);
+  --nb-title: oklch(.46 .17 25);
+  --nb-on: oklch(.985 .01 25);
+
+  
+  --verify-bg: oklch(.945 .07 95);
+  --verify-text: oklch(.42 .09 75);
+  --verify-border: oklch(.70 .12 85);
+
+  --shadow-sm: 0 1px 2px color-mix(in srgb, #2d2b2b 14%, transparent);
+  --shadow-md: 0 3px 10px color-mix(in srgb, #2d2b2b 16%, transparent);
+  --shadow-lg: 0 12px 32px color-mix(in srgb, #2d2b2b 22%, transparent);
+}
+
+:root:root[saved-theme="dark"] {
+  color-scheme: dark;
+  --bg: #1a1918;
+  --bg-elevated: #211f1e;
+  --surface: #262422;
+  --text: #e7e3de;
+  --text-muted: #aba59f;
+  --text-faint: #8f8983;
+  --divider: color-mix(in srgb, #e7e3de 12%, transparent);
+  --divider-strong: color-mix(in srgb, #e7e3de 24%, transparent);
+  --accent: #e1ad66;
+  --accent-text: #f2c485;
+  --accent-tint: color-mix(in srgb, #e1ad66 13%, transparent);
+  --link: #f2c485;
+  --link-underline: color-mix(in srgb, #e1ad66 50%, transparent);
+  --selection: color-mix(in srgb, #e1ad66 30%, transparent);
+  --highlight: color-mix(in srgb, #e1ad66 26%, transparent);
+
+  --figure-bg: #ffffff;   
+  --figure-border: transparent;
+  --figure-shadow: 0 0 0 1px rgba(0,0,0,.45), 0 6px 20px rgba(0,0,0,.35);
+
+  --table-bg: #1f1e1c;
+  --table-head: #292725;
+  --table-hover: #262422;
+
+  --co-bg-l: .255;   --co-bg-c: .024;
+  --co-border-l: .44; --co-border-c: .065;
+  --co-title-l: .84; --co-title-c: .085;
+  --nb-bg: oklch(.30 .075 25);
+  --nb-border: oklch(.64 .16 25);
+  --nb-title: oklch(.87 .09 25);
+  --nb-on: oklch(.985 .01 25);
+
+  --verify-bg: oklch(.33 .06 90);
+  --verify-text: oklch(.89 .09 90);
+  --verify-border: oklch(.58 .09 90);
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.35);
+  --shadow-md: 0 3px 10px rgba(0,0,0,.4);
+  --shadow-lg: 0 12px 32px rgba(0,0,0,.5);
+}
+
+@media (max-width: 800px) {
+  :root {
+    --fs-body: 16.5px;
+    --fs-callout: 15.5px;
+    --fs-table: 13.5px;
+    --fs-h1: 36px;
+    --fs-h2: 28px;
+    --fs-h3: 22px;
+    --fs-h4: 17px;
+    --fs-formula: 25px;
+    --lh-body: 1.66;
   }
 }
 
-// NB! — самое важное: красный, толстая левая полоса, жирный заголовок
-html body article .callout[data-callout="nb"] {
-  @include callout-color(#d6336c, #d6336c14);
-  --callout-icon: var(--callout-icon-danger);
-  border-width: 2px !important;
-  border-left-width: 7px !important;
-
-  .callout-title > .callout-title-inner > p {
-    font-weight: 800;
-    letter-spacing: 0.02em;
-  }
-
-  strong {
-    color: #c2255c;
-  }
+/* --- переменные Quartz ← токены дизайна --- */
+:root:root, :root:root[saved-theme="light"], :root:root[saved-theme="dark"] {
+  --light: var(--bg);
+  --lightgray: color-mix(in srgb, var(--text) 13%, var(--bg));
+  --gray: var(--text-faint);
+  --darkgray: var(--text);
+  --dark: var(--text);
+  --secondary: var(--accent-text);
+  --tertiary: var(--accent);
+  --highlight: var(--accent-tint);
+  --textHighlight: var(--highlight);
+  --bodyFont: var(--font-body);
+  --headerFont: var(--font-heading);
 }
 
-html[saved-theme="dark"] body article .callout[data-callout="nb"] {
-  @include callout-color(#ff6b8b, #ff6b8b1f);
-
-  strong {
-    color: #ffa8bd;
-  }
+/* ===================== база ===================== */
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 24px; }
+html body {
+  background: var(--bg); color: var(--text);
+  font-family: var(--font-body); font-size: var(--fs-body); line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+html body a { color: var(--link); }
+html body article a, html body .center a:not(.tag-link) {
+  text-decoration: underline; text-decoration-color: var(--link-underline);
+  text-decoration-thickness: 1px; text-underline-offset: 3px; background: none;
+}
+html body article a:hover { text-decoration-color: var(--link); }
+html body ::selection { background: var(--selection); }
+html body :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+html body h1, html body h2, html body h3, html body h4 {
+  font-family: var(--font-heading); font-weight: var(--fw-heading);
+  line-height: var(--lh-heading); letter-spacing: -.01em; color: var(--text); text-wrap: balance;
 }
 
-// «Сверх программы» и «Как запомнить» (tip) — фиолетовый
-html body article .callout[data-callout="tip"] {
-  @include callout-color(#7048e8, #7048e810);
-}
-
-html[saved-theme="dark"] body article .callout[data-callout="tip"] {
-  @include callout-color(#b197fc, #b197fc14);
-}
-
-// Цели занятия (abstract) — бирюзовый
-html body article .callout[data-callout="abstract"] {
-  @include callout-color(#0c8599, #0c859912);
-}
-
-html[saved-theme="dark"] body article .callout[data-callout="abstract"] {
-  @include callout-color(#3bc9db, #3bc9db14);
-}
-
-
-// --- ФОРМУЛА — рамка: крупный шрифт, по центру, двойная граница ---
-html body article .callout[data-callout="formula"] {
-  @include callout-color(#1864ab, #e7f5ff);
-  --callout-icon: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 7V4H6l6 8-6 8h12v-3"/></svg>');
-  border-style: double !important;
-  border-width: 4px !important;
-  border-radius: 10px;
-  margin: 1.2rem 0;
-
-  .callout-title > .callout-title-inner > p {
-    font-weight: 700;
-    letter-spacing: 0.02em;
-  }
-
-  .callout-content {
-    text-align: center;
-
-    p {
-      font-size: 0.92rem;
-      line-height: 1.8;
-      margin: 0.35rem 0;
-      color: var(--darkgray);
-    }
-
-    strong {
-      font-family: var(--codeFont);
-      font-size: 1.18rem;
-      font-weight: 700;
-      color: #0b4d8c;
-    }
-  }
-}
-
-html[saved-theme="dark"] body article .callout[data-callout="formula"] {
-  @include callout-color(#74c0fc, #1c2a3a);
-
-  .callout-content strong {
-    color: #a5d8ff;
-  }
-}
-
-// --- Все callout: ровные внутренние отступы, без пустых строк ---
-.callout {
-  padding: 0.2rem 1.1rem 0.6rem;
-  border-radius: 8px;
-
-  .callout-content > p:first-child:empty {
-    display: none;
-  }
-}
-
-// --- Таблицы: компактно, не вылезают за колонку ---
-article {
-  .table-container,
-  & > table {
-    overflow-x: auto;
-    max-width: 100%;
-  }
-
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.95rem;
-    line-height: 1.45;
-
-    th,
-    td {
-      padding: 0.45rem 0.6rem;
-      vertical-align: top;
-      overflow-wrap: anywhere;
-      hyphens: auto;
-    }
-
-    th {
-      background: color-mix(in srgb, var(--secondary) 16%, var(--light));
-      color: var(--dark);
-    }
-
-    tr:nth-child(even) td {
-      background: color-mix(in srgb, var(--lightgray) 25%, transparent);
-    }
-  }
-
-  // --- Схемы (SVG, картинки, Mermaid) не шире колонки ---
-  img,
-  object,
-  svg {
-    max-width: 100%;
-    height: auto;
-  }
-
-  object[type="image/svg+xml"] {
-    width: 100%;
-    background: #ffffff;
-    border-radius: 8px;
-    border: 1px solid var(--lightgray);
-  }
-
-  pre:has(> code.mermaid),
-  .mermaid {
-    overflow-x: auto;
-    max-width: 100%;
-  }
-
-  // --- Жирное — чуть цветом, чтобы глаз цеплялся ---
-  strong {
-    color: var(--dark);
-  }
-
-  // --- Длинные слова и латынь не ломают вёрстку ---
-  p,
-  li {
-    overflow-wrap: break-word;
-  }
-}
-
-// --- Заголовки: одна гарнитура, аккуратные отступы ---
-article h2 {
-  margin-top: 2.2rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 2px solid var(--lightgray);
-}
-
-article h3 {
-  margin-top: 1.6rem;
-  color: var(--secondary);
-}
-
-// --- Проводник: длинные названия не раздувают список ---
-.explorer li > a,
-.explorer .folder-title {
-  line-height: 1.3;
-}
-
-/* ── Раскладка: проводник к левому краю, оглавление к правому, центр шире ── */
+/* ===================== раскладка ===================== */
 @media all and (min-width: 1200px) {
-  html body .page {
-    max-width: 2100px;
-  }
+  html body .page { max-width: 1440px; margin: 0 auto; }
   html body .page > #quartz-body {
-    width: 100% !important;
-    max-width: none !important;
-    grid-template-columns: 260px minmax(0, 1fr) 260px;
-    column-gap: 2.5rem;
+    grid-template-columns: var(--sidebar-left) minmax(0, 1fr) var(--sidebar-right);
+    column-gap: 0; width: 100%;
   }
-  html body .page > #quartz-body .sidebar {
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
-  }
-  html body .page > #quartz-body .sidebar.right {
-    padding-left: 0;
-  }
-  html body .page > #quartz-body .sidebar.left {
-    padding-right: 0;
-  }
+  html body .page > #quartz-body .sidebar.left { border-right: 1px solid var(--divider); }
 }
-@media all and (min-width: 800px) and (max-width: 1200px) {
-  html body .page > #quartz-body {
-    grid-template-columns: 230px minmax(0, 1fr);
-  }
-  html body .page > #quartz-body .sidebar.left {
-    padding-left: 1rem;
-    padding-right: 0.5rem;
-  }
+html body .page > #quartz-body .sidebar {
+  padding: var(--space-8) var(--space-6);
+  scrollbar-width: thin; scrollbar-color: var(--divider-strong) transparent;
+}
+html body .page > #quartz-body .center { padding: var(--space-8) var(--space-12) var(--space-16); }
+html body .page > #quartz-body .center > * { max-width: var(--measure); margin-inline: auto; }
+@media all and (max-width: 800px) {
+  html body .page > #quartz-body .center { padding: var(--space-6) 18px var(--space-8); }
+}
+
+/* ===================== левая панель ===================== */
+html body .page-title { margin: 0; font-size: 28px; line-height: 1.05; font-family: var(--font-heading); font-weight: var(--fw-heading); }
+html body .page-title a { color: var(--text); text-decoration: none; }
+html body .page-title a:hover { color: var(--accent-text); }
+html body .search > .search-button {
+  display: flex; align-items: center; gap: 10px; height: 38px; padding: 0 12px;
+  border: 1px solid var(--divider-strong); border-radius: var(--radius-md);
+  background: var(--bg-elevated); color: var(--text-faint); font-family: var(--font-body); font-size: var(--fs-sm);
+}
+html body .search > .search-button:hover { border-color: var(--accent); color: var(--text-muted); }
+html body .search > .search-button p { margin: 0; color: inherit; }
+html body .search > .search-button svg { width: 16px; height: 16px; flex: none; }
+html body .search > .search-button svg .search-path { stroke: currentColor; }
+html body button.darkmode {
+  width: 38px; height: 38px; display: grid; place-items: center; margin: 0;
+  border: 1px solid var(--divider-strong); border-radius: var(--radius-md); background: transparent; color: var(--text-muted);
+}
+html body button.darkmode:hover { color: var(--accent-text); border-color: var(--accent); }
+html body button.darkmode svg { width: 18px; height: 18px; fill: currentColor; }
+html body .explorer .explorer-toggle h2,
+html body .explorer button.title-button h2,
+html body .explorer .explorer-toggle,
+html body .toc .toc-header h3 {
+  font-family: var(--font-body); font-size: var(--fs-xs); font-weight: 600;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--text-faint);
+}
+html body .explorer ul { list-style: none; }
+html body .explorer .folder-button, html body .explorer .folder-title {
+  font-family: var(--font-body); font-size: var(--fs-ui); font-weight: 600; color: var(--text);
+}
+html body .explorer .folder-outer .folder-button { font-size: var(--fs-sm); }
+html body .explorer .folder-icon { color: var(--text-faint); }
+html body .explorer .folder-outer > ul { border-left: 1px solid var(--divider); }
+html body .explorer li > a {
+  display: block; padding: 4px 8px; border-radius: var(--radius-md);
+  font-family: var(--font-body); font-size: var(--fs-sm); line-height: 1.4; color: var(--text-muted); text-decoration: none; opacity: 1;
+}
+html body .explorer li > a:hover { color: var(--text); background: color-mix(in srgb, var(--text) 5%, transparent); }
+html body .explorer li > a.active { color: var(--accent-text); background: var(--accent-tint); font-weight: 600; opacity: 1; }
+
+/* ===================== шапка статьи ===================== */
+html body .breadcrumb-container { font-size: var(--fs-sm); color: var(--text-faint); margin: 0 0 var(--space-4); }
+html body .breadcrumb-container a { color: var(--text-muted); text-decoration: none; }
+html body .breadcrumb-container a:hover { color: var(--accent-text); }
+html body .breadcrumb-element p { color: var(--text-faint); }
+html body h1.article-title { margin: 0 0 var(--space-3); font-size: var(--fs-h1); font-weight: var(--fw-display); line-height: 1.06; letter-spacing: -.02em; }
+html body .content-meta { margin: 0 0 var(--space-6); font-size: var(--fs-sm); color: var(--text-faint); }
+
+/* ===================== текст ===================== */
+html body article { overflow-wrap: break-word; }
+html body article p { margin: 0 0 var(--space-4); text-wrap: pretty; }
+html body article h2 { margin: var(--space-16) 0 var(--space-4); padding-top: var(--space-6); font-size: var(--fs-h2); border-top: 1px solid var(--divider); }
+html body article h3 { margin: var(--space-8) 0 var(--space-3); font-size: var(--fs-h3); }
+html body article h4 { margin: var(--space-6) 0 var(--space-2); font-family: var(--font-body); font-size: var(--fs-h4); font-weight: 600; letter-spacing: 0; color: var(--accent-text); }
+html body article h2, html body article h3, html body article h4 { scroll-margin-top: 72px; }
+html body article strong, html body article b, html body p > strong { font-weight: var(--fw-strong); color: inherit; }
+html body article ul, html body article ol { margin: 0 0 var(--space-4); padding-left: 1.35em; }
+html body article li { margin: .3em 0; padding-left: .15em; }
+html body article li > ul, html body article li > ol { margin: .3em 0 .1em; }
+html body article ul > li::marker { color: var(--accent); }
+html body article ul ul > li { list-style-type: "–"; padding-left: .5em; }
+html body article ul ul > li::marker { color: var(--text-faint); }
+html body article ol > li::marker { color: var(--accent-text); font-weight: 600; font-variant-numeric: tabular-nums; }
+html body article blockquote:not(.callout) { margin: var(--space-6) 0; padding: 0 0 0 var(--space-4); color: var(--text-muted); font-style: italic; border-left: 1px solid var(--divider-strong); }
+html body article mark, html body .text-highlight { color: inherit; background: var(--highlight); padding: 0 .12em; border-radius: var(--radius-sm); }
+html body article a[role="anchor"] { color: var(--text-faint); }
+html body .verify {
+  display: inline-flex; align-items: center; gap: 4px; margin: 0 2px; padding: 0 8px 0 5px;
+  font-size: .76em; line-height: 1.6; font-weight: 600; white-space: nowrap; vertical-align: .1em;
+  color: var(--verify-text); background: var(--verify-bg); border: 1px dashed var(--verify-border); border-radius: var(--radius-pill);
+}
+
+/* ===================== схемы и подписи ===================== */
+html body article p:has(> object) { margin: var(--space-8) 0 var(--space-2); }
+html body article object[type="image/svg+xml"] {
+  display: block; width: 100%; height: auto; max-width: 100%; box-sizing: border-box;
+  padding: var(--space-4); background: var(--figure-bg);
+  border: 1px solid var(--figure-border); border-radius: var(--radius-lg); box-shadow: var(--figure-shadow);
+}
+html body article p:has(> object) + p { margin: 0 0 var(--space-2); font-size: var(--fs-sm); line-height: 1.5; color: var(--text-muted); }
+html body article p:has(> object) + p + p:has(> strong:first-child),
+html body article .table-container + p + p:has(> strong:first-child) {
+  margin: 0 0 var(--space-8); padding: var(--space-2) var(--space-3);
+  font-size: var(--fs-sm); line-height: 1.55; background: var(--accent-tint); border-radius: var(--radius-md);
+}
+html body article p:has(> object) + p + p > strong:first-child,
+html body article .table-container + p + p > strong:first-child { color: var(--accent-text); }
+html body article .table-container + p:has(> em:only-child) { margin: calc(-1 * var(--space-3)) 0 var(--space-2); font-size: var(--fs-sm); color: var(--text-muted); }
+@media all and (max-width: 800px) { html body article object[type="image/svg+xml"] { padding: var(--space-2); } }
+
+/* ===================== таблицы ===================== */
+html body article .table-container {
+  margin: var(--space-6) 0; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--divider); border-radius: var(--radius-lg); background: var(--table-bg);
+}
+html body article .table-container > table { width: 100%; margin: 0; border-collapse: separate; border-spacing: 0;
+  font-size: var(--fs-table); line-height: var(--lh-table); font-variant-numeric: tabular-nums; }
+html body article th, html body article td { min-width: 7.5em; padding: 9px 12px; text-align: left; vertical-align: top; border: 0; }
+html body article th { vertical-align: bottom; font-size: 13px; font-weight: 600; line-height: 1.3; color: var(--text-muted);
+  background: var(--table-head); border-bottom: 1px solid var(--divider-strong); }
+html body article td { border-bottom: 1px solid var(--divider); }
+html body article tr:last-child td { border-bottom: 0; }
+html body article th:first-child, html body article td:first-child { position: sticky; left: 0; z-index: 1; box-shadow: inset -1px 0 0 var(--divider); }
+html body article td:first-child { font-weight: 600; background: var(--table-bg); color: var(--text); }
+html body article tbody tr:hover td { background: var(--table-hover); }
+html body article tbody tr:nth-child(2n) { background: transparent; }
+@media all and (max-width: 800px) {
+  html body article th, html body article td { min-width: 8em; padding: 8px 10px; }
+  html body article th:first-child, html body article td:first-child { min-width: 6.8em; }
+}
+
+/* ===================== выноски ===================== */
+html body article .callout {
+  --hue: var(--hue-source); --icon: var(--icon-source);
+  --co-fill: oklch(var(--co-bg-l) var(--co-bg-c) var(--hue));
+  --co-line: oklch(var(--co-border-l) var(--co-border-c) var(--hue));
+  --co-ink: oklch(var(--co-title-l) var(--co-title-c) var(--hue));
+  margin: var(--space-6) 0 !important; padding: var(--space-3) var(--space-4) var(--space-4) !important;
+  background: var(--co-fill) !important; border: 1px solid var(--co-line) !important; border-radius: var(--radius-lg) !important;
+  box-shadow: none !important;
+  font-size: var(--fs-callout); line-height: var(--lh-callout); color: var(--text); font-style: normal;
+}
+html body article .callout > .callout-title { display: flex; align-items: center; gap: 10px; padding: 0 !important;
+  color: var(--co-ink) !important; font-family: var(--font-body); font-size: var(--fs-ui); font-weight: 600; line-height: 1.35; }
+html body article .callout > .callout-title .callout-title-inner,
+html body article .callout > .callout-title .callout-title-inner > p { color: var(--co-ink) !important; margin: 0; font-weight: 600; }
+html body article .callout > .callout-title .callout-icon {
+  width: 18px; height: 18px; flex: none; background: currentColor !important;
+  -webkit-mask: var(--icon) center / contain no-repeat !important; mask: var(--icon) center / contain no-repeat !important;
+}
+html body article .callout > .callout-content { margin-top: var(--space-2); padding: 0 !important; }
+html body article .callout > .callout-content > :last-child { margin-bottom: 0; }
+html body article .callout p { margin-bottom: var(--space-2); }
+html body article .callout ul > li::marker { color: var(--co-ink); }
+html body article .callout.is-collapsible > .callout-title { cursor: pointer; user-select: none; }
+html body article .callout .fold-callout-icon { order: 3; color: var(--co-ink); }
+html body article .callout.is-collapsible:not(.is-collapsed) > .callout-content {
+  margin-top: var(--space-3); padding-top: var(--space-3) !important; border-top: 1px dashed var(--co-line); }
+
+html body article .callout[data-callout="abstract"] { --hue: var(--hue-summary); --icon: var(--icon-goals); }
+html body article .callout[data-callout="tip"]      { --hue: var(--hue-extra);   --icon: var(--icon-extra); }
+html body article .callout[data-callout="info"]     { --hue: var(--hue-source);  --icon: var(--icon-source); }
+html body article .callout[data-callout="warning"]  { --hue: var(--hue-trap);    --icon: var(--icon-trap); }
+html body article .callout[data-callout="example"]  { --hue: var(--hue-patient); --icon: var(--icon-patient); }
+html body article .callout[data-callout="question"] { --hue: var(--hue-quiz);    --icon: var(--icon-quiz); }
+html body article .callout[data-callout="formula"]  { --hue: var(--hue-formula); --icon: var(--icon-formula); }
+html body article .callout[data-callout="todo"]     { --icon: var(--icon-todo); --co-bg-c: 0; --co-border-c: 0; --co-title-c: 0; }
+
+/* NB! */
+html body article .callout[data-callout="nb"] {
+  background: var(--nb-bg) !important; border: 1.5px solid var(--nb-border) !important; box-shadow: var(--shadow-sm) !important;
+  padding: var(--space-4) !important;
+}
+html body article .callout[data-callout="nb"] > .callout-title,
+html body article .callout[data-callout="nb"] > .callout-title .callout-title-inner > p { color: var(--nb-title) !important; font-size: 16.5px; }
+html body article .callout[data-callout="nb"] > .callout-title .callout-icon {
+  width: 26px; height: 26px; display: grid; place-items: center; border-radius: var(--radius-md);
+  background: var(--nb-border) !important; -webkit-mask: none !important; mask: none !important;
+}
+html body article .callout[data-callout="nb"] > .callout-title .callout-icon::after {
+  content: ""; width: 16px; height: 16px; background: var(--nb-on);
+  -webkit-mask: var(--icon-nb) center / contain no-repeat; mask: var(--icon-nb) center / contain no-repeat;
+}
+html body article .callout[data-callout="nb"] .callout-content { font-size: calc(var(--fs-callout) + .5px); }
+html body article .callout[data-callout="nb"] ul > li::marker { color: var(--nb-border); }
+
+/* формула */
+html body article .callout[data-callout="formula"] .callout-content p {
+  text-align: center; font-size: var(--fs-sm); line-height: 1.9; color: var(--text-muted);
+}
+html body article .callout[data-callout="formula"] .callout-content strong {
+  display: inline-block; margin: var(--space-1) 0; font-family: var(--font-heading); font-weight: var(--fw-display);
+  font-size: clamp(20px, 3.2vw, 28px); line-height: 1.25; color: var(--text); letter-spacing: .01em;
+}
+
+/* самопроверка */
+html body article .callout[data-callout="question"] .callout-title-inner::before {
+  content: "Самопроверка"; display: block; margin-bottom: 2px; font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--co-ink);
+}
+html body article .callout[data-callout="question"] .callout-title-inner > p { color: var(--text) !important; font-size: var(--fs-callout); }
+html body article .callout[data-callout="question"] > .callout-title::after {
+  content: "Скрыть ответ"; order: 2; flex: none; padding: 2px 10px; font-size: 12.5px; font-weight: 600;
+  border: 1px solid var(--co-line); border-radius: var(--radius-pill);
+}
+html body article .callout[data-callout="question"].is-collapsed > .callout-title::after { content: "Показать ответ"; }
+@media all and (max-width: 800px) {
+  html body article .callout { padding: 12px 14px 14px !important; }
+  html body article .callout[data-callout="question"] > .callout-title::after { content: "Скрыть"; }
+  html body article .callout[data-callout="question"].is-collapsed > .callout-title::after { content: "Ответ"; }
+}
+
+/* ===================== оглавление ===================== */
+html body .toc ul.toc-content { list-style: none; margin: 0; padding: 0; }
+html body .toc ul.toc-content > li > a {
+  position: relative; display: block; padding: 4px 0 4px 14px; font-family: var(--font-body);
+  font-size: var(--fs-sm); line-height: 1.4; color: var(--text-muted); text-decoration: none; opacity: 1;
+}
+html body .toc ul.toc-content > li.depth-1 > a { padding-left: 28px; font-size: 13.5px; color: var(--text-faint); }
+html body .toc ul.toc-content > li.depth-2 > a { padding-left: 40px; font-size: 13px; color: var(--text-faint); }
+html body .toc ul.toc-content > li > a:hover { color: var(--text); }
+html body .toc ul.toc-content > li > a.in-view { color: var(--accent-text); opacity: 1; }
+html body .toc ul.toc-content > li > a.in-view::before {
+  content: ""; position: absolute; left: 1px; top: .95em; width: 5px; height: 5px; border-radius: 50%; background: var(--accent);
+}
+html body .toc ul.toc-content > li.depth-1 > a.in-view::before { left: 15px; }
+
+/* ===================== прочее ===================== */
+@supports (animation-timeline: scroll()) {
+  html body::before { content: ""; position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 50;
+    background: var(--accent); transform-origin: 0 50%; transform: scaleX(0);
+    animation: read-progress linear both; animation-timeline: scroll(root); }
+  @keyframes read-progress { to { transform: scaleX(1); } }
+}
+@media print {
+  html body::before, html body .sidebar, html body .breadcrumb-container { display: none !important; }
+  html body .callout.is-collapsed > .callout-content { display: block !important; }
+  html body * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+
+/* ===================== приоритет шрифтов дизайна над темой ===================== */
+html body, html body .sidebar, html body .center,
+html body article :is(p, li, td, th, blockquote, dd, dt, span, a, em, strong, b, i, sub, sup, div),
+html body .callout :is(p, li, div, span) {
+  font-family: var(--font-body) !important;
+}
+html body :is(h1, h2, h3, .page-title, .page-title a, h1.article-title) { font-family: var(--font-heading) !important; }
+html body article h4 { font-family: var(--font-body) !important; }
+html body article :is(code, pre, kbd) { font-family: var(--codeFont), ui-monospace, monospace !important; }
+html body article .callout[data-callout="formula"] .callout-content strong { font-family: var(--font-heading) !important; }
+/* кнопка темы: тема quartz-themes делает саму кнопку маской-иконкой — снимаем маску и рисуем иконку внутри рамки */
+html body button.darkmode { -webkit-mask: none !important; mask: none !important; background: transparent !important; }
+html body button.darkmode::before {
+  content: ""; width: 18px; height: 18px; background: currentColor;
+  -webkit-mask: var(--sun-icon) center / contain no-repeat; mask: var(--sun-icon) center / contain no-repeat;
+}
+:root[saved-theme="dark"] body button.darkmode::before {
+  -webkit-mask: var(--moon-icon) center / contain no-repeat; mask: var(--moon-icon) center / contain no-repeat;
+}
+
+/* основной цвет абзацев (тема перекрашивает <p> в серый) */
+html body article p, html body article .callout .callout-content p, html body article li { color: var(--text); }
+html body article p:has(> object) + p { color: var(--text-muted); }
+html body article .callout[data-callout="formula"] .callout-content p { color: var(--text-muted); }
+
+/* обратные ссылки — как оглавление */
+html body .backlinks > h3, html body .backlinks .backlinks-header h3 {
+  font-family: var(--font-body) !important; font-size: var(--fs-xs); font-weight: 600;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--text-faint); margin: 0 0 var(--space-2);
+}
+html body .backlinks ul { list-style: none; margin: 0; padding: 0; }
+html body .backlinks li > a {
+  display: block; padding: 4px 0 4px 14px; font-family: var(--font-body) !important;
+  font-size: var(--fs-sm); line-height: 1.4; font-weight: 400; color: var(--text-muted); text-decoration: none; background: none;
+}
+html body .backlinks li > a:hover { color: var(--accent-text); }
+
+/* телефон: колонка не шире экрана, широкие таблицы прокручиваются внутри рамки */
+@media all and (max-width: 800px) {
+  html body .page > #quartz-body { grid-template-columns: minmax(0, 1fr) !important; }
+  html body .page > #quartz-body > * { min-width: 0 !important; max-width: 100vw; }
+  html body .page > #quartz-body .center { width: 100%; box-sizing: border-box; }
+  html body article .table-container { max-width: 100%; }
 }
