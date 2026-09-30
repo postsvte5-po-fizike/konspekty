@@ -63,6 +63,48 @@ html[saved-theme="dark"] body article .callout[data-callout="abstract"] {
   @include callout-color(#3bc9db, #3bc9db14);
 }
 
+
+// --- ФОРМУЛА — рамка: крупный шрифт, по центру, двойная граница ---
+html body article .callout[data-callout="formula"] {
+  @include callout-color(#1864ab, #e7f5ff);
+  --callout-icon: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 7V4H6l6 8-6 8h12v-3"/></svg>');
+  border-style: double !important;
+  border-width: 4px !important;
+  border-radius: 10px;
+  margin: 1.2rem 0;
+
+  .callout-title > .callout-title-inner > p {
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  .callout-content {
+    text-align: center;
+
+    p {
+      font-size: 0.92rem;
+      line-height: 1.8;
+      margin: 0.35rem 0;
+      color: var(--darkgray);
+    }
+
+    strong {
+      font-family: var(--codeFont);
+      font-size: 1.18rem;
+      font-weight: 700;
+      color: #0b4d8c;
+    }
+  }
+}
+
+html[saved-theme="dark"] body article .callout[data-callout="formula"] {
+  @include callout-color(#74c0fc, #1c2a3a);
+
+  .callout-content strong {
+    color: #a5d8ff;
+  }
+}
+
 // --- Все callout: ровные внутренние отступы, без пустых строк ---
 .callout {
   padding: 0.2rem 1.1rem 0.6rem;
