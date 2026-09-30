@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525 476" font-family="Arial, Helvetica, sans-serif">
+<rect width="525" height="476" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="263" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Куда теряется доза при приёме внутрь</text>
+<line x1="262.7" y1="88.0" x2="147.6" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="179.0" y="100.0" width="52.1" height="18" rx="4" fill="#ffffff" stroke="#adb5bd"/>
+<text x="205.1" y="114.0" text-anchor="middle" font-size="12" fill="#212529">потери</text>
+<line x1="262.7" y1="88.0" x2="398.2" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="398.2" y1="188.0" x2="262.7" y2="232.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="262.7" y1="270.0" x2="262.7" y2="314.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="262.7" y1="370.0" x2="262.7" y2="414.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="172.9" y="52.0" width="179.4" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="262.7" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Доза внутрь — 100%</text>
+<rect x="24.0" y="134.0" width="247.1" height="54.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="147.6" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">Просвет ЖКТ</text>
+<text x="147.6" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#212529">не всосалось, разрушено HCl</text>
+<rect x="295.1" y="134.0" width="206.2" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="398.2" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Стенка кишки</text>
+<text x="398.2" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">CYP3A4, P-гликопротеин</text>
+<rect x="193.4" y="234.0" width="138.5" height="36.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="262.7" y="257.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Воротная вена</text>
+<rect x="175.9" y="316.0" width="173.4" height="54.0" rx="9" fill="#fff9db" stroke="#e67700" stroke-width="2"/>
+<text x="262.7" y="339.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b3a00">Печень</text>
+<text x="262.7" y="357.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6b3a00">первое прохождение</text>
+<rect x="156.6" y="416.0" width="212.2" height="36.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="262.7" y="439.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Системный кровоток = F</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 574 412" font-family="Arial, Helvetica, sans-serif">
+<rect width="574" height="412" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="287" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Какие пути минуют печень</text>
+<line x1="79.0" y1="97.0" x2="193.6" y2="159.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="193.6" y1="197.0" x2="210.0" y2="250.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="210.0" y1="306.0" x2="287.1" y2="350.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="213.0" y1="97.0" x2="368.4" y2="150.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="354.1" y1="106.0" x2="368.4" y2="150.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="495.3" y1="97.0" x2="368.4" y2="150.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="368.4" y1="206.0" x2="385.8" y2="259.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="385.8" y1="297.0" x2="287.1" y2="350.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="24.0" y="61.0" width="110.0" height="36.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="79.0" y="84.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Внутрь</text>
+<rect x="158.0" y="61.0" width="110.0" height="36.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="213.0" y="84.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Под язык</text>
+<rect x="292.0" y="52.0" width="124.3" height="54.0" rx="9" fill="#e6fcf5" stroke="#0c8599" stroke-width="2"/>
+<text x="354.1" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#084c56">Ректально</text>
+<text x="354.1" y="93.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#084c56">нижняя треть</text>
+<rect x="440.3" y="61.0" width="110.0" height="36.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="495.3" y="84.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">В/в</text>
+<rect x="124.4" y="161.0" width="138.5" height="36.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="193.6" y="184.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Воротная вена</text>
+<rect x="286.9" y="152.0" width="163.0" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="368.4" y="175.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Верхняя / нижняя</text>
+<text x="368.4" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">полая вена</text>
+<rect x="123.3" y="252.0" width="173.4" height="54.0" rx="9" fill="#fff9db" stroke="#e67700" stroke-width="2"/>
+<text x="210.0" y="275.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b3a00">ПЕЧЕНЬ</text>
+<text x="210.0" y="293.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6b3a00">первое прохождение</text>
+<rect x="320.7" y="261.0" width="130.3" height="36.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="385.8" y="284.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">минуя печень</text>
+<rect x="197.4" y="352.0" width="179.4" height="36.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="287.1" y="375.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">Системный кровоток</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 212" font-family="Arial, Helvetica, sans-serif">
+<rect width="570" height="212" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="285" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Заместительная и профилактическая терапия</text>
+<line x1="134.2" y1="88.0" x2="174.0" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="407.2" y1="88.0" x2="416.5" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="24.0" y="52.0" width="220.4" height="36.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="134.2" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Дефицит своего вещества</text>
+<rect x="268.4" y="52.0" width="277.7" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="407.2" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Здоровый человек, риск болезни</text>
+<rect x="54.6" y="134.0" width="238.9" height="54.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="174.0" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Заместительная</text>
+<text x="174.0" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">инсулин, левотироксин, B₁₂</text>
+<rect x="317.5" y="134.0" width="198.0" height="54.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="416.5" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Профилактическая</text>
+<text x="416.5" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">вакцина, антиагрегант</text>
+</svg>

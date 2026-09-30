@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="Arial, Helvetica, sans-serif">
+<rect width="760" height="380" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="380" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Каждый период полувыведения — минус половина</text>
+<line x1="70" y1="320" x2="730" y2="320" stroke="#212529" stroke-width="2"/>
+<line x1="70" y1="50" x2="70" y2="320" stroke="#212529" stroke-width="2"/>
+<text x="70.0" y="338" text-anchor="middle" font-size="12" fill="#212529">0</text>
+<text x="202.0" y="338" text-anchor="middle" font-size="12" fill="#212529">1</text>
+<text x="334.0" y="338" text-anchor="middle" font-size="12" fill="#212529">2</text>
+<text x="466.0" y="338" text-anchor="middle" font-size="12" fill="#212529">3</text>
+<text x="598.0" y="338" text-anchor="middle" font-size="12" fill="#212529">4</text>
+<text x="730.0" y="338" text-anchor="middle" font-size="12" fill="#212529">5</text>
+<line x1="70" y1="320.0" x2="730" y2="320.0" stroke="#dee2e6"/>
+<text x="62" y="324.0" text-anchor="end" font-size="12" fill="#212529">0</text>
+<line x1="70" y1="252.5" x2="730" y2="252.5" stroke="#dee2e6"/>
+<text x="62" y="256.5" text-anchor="end" font-size="12" fill="#212529">25</text>
+<line x1="70" y1="185.0" x2="730" y2="185.0" stroke="#dee2e6"/>
+<text x="62" y="189.0" text-anchor="end" font-size="12" fill="#212529">50</text>
+<line x1="70" y1="50.0" x2="730" y2="50.0" stroke="#dee2e6"/>
+<text x="62" y="54.0" text-anchor="end" font-size="12" fill="#212529">100</text>
+<line x1="70" y1="185.0" x2="730" y2="185.0" stroke="#c92a2a" stroke-width="1.5" stroke-dasharray="6,4"/>
+<rect x="76" y="166.0" width="78.2" height="16" fill="#ffffff" opacity="0.85"/>
+<text x="80" y="179.0" font-size="12" fill="#c92a2a">50% — 1 t½</text>
+<line x1="70" y1="252.5" x2="730" y2="252.5" stroke="#e67700" stroke-width="1.5" stroke-dasharray="6,4"/>
+<rect x="76" y="233.5" width="78.2" height="16" fill="#ffffff" opacity="0.85"/>
+<text x="80" y="246.5" font-size="12" fill="#e67700">25% — 2 t½</text>
+<line x1="70" y1="311.9" x2="730" y2="311.9" stroke="#2b8a3e" stroke-width="1.5" stroke-dasharray="6,4"/>
+<rect x="76" y="292.9" width="148.4" height="16" fill="#ffffff" opacity="0.85"/>
+<text x="80" y="305.9" font-size="12" fill="#2b8a3e">≈3% — 5 t½: выведено</text>
+<polyline points="70.0,50.0 76.6,59.2 83.2,68.1 89.8,76.7 96.4,85.0 103.0,93.0 109.6,100.7 116.2,108.2 122.8,115.4 129.4,122.3 136.0,129.1 142.6,135.6 149.2,141.9 155.8,147.9 162.4,153.8 169.0,159.5 175.6,164.9 182.2,170.2 188.8,175.3 195.4,180.2 202.0,185.0 208.6,189.6 215.2,194.0 221.8,198.3 228.4,202.5 235.0,206.5 241.6,210.3 248.2,214.1 254.8,217.7 261.4,221.2 268.0,224.5 274.6,227.8 281.2,230.9 287.8,234.0 294.4,236.9 301.0,239.7 307.6,242.5 314.2,245.1 320.8,247.7 327.4,250.1 334.0,252.5 340.6,254.8 347.2,257.0 353.8,259.2 360.4,261.2 367.0,263.2 373.6,265.2 380.2,267.0 386.8,268.8 393.4,270.6 400.0,272.3 406.6,273.9 413.2,275.5 419.8,277.0 426.4,278.4 433.0,279.9 439.6,281.2 446.2,282.6 452.8,283.8 459.4,285.1 466.0,286.2 472.6,287.4 479.2,288.5 485.8,289.6 492.4,290.6 499.0,291.6 505.6,292.6 512.2,293.5 518.8,294.4 525.4,295.3 532.0,296.1 538.6,296.9 545.2,297.7 551.8,298.5 558.4,299.2 565.0,299.9 571.6,300.6 578.2,301.3 584.8,301.9 591.4,302.5 598.0,303.1 604.6,303.7 611.2,304.3 617.8,304.8 624.4,305.3 631.0,305.8 637.6,306.3 644.2,306.8 650.8,307.2 657.4,307.6 664.0,308.1 670.6,308.5 677.2,308.9 683.8,309.2 690.4,309.6 697.0,310.0 703.6,310.3 710.2,310.6 716.8,311.0 723.4,311.3 730.0,311.6" fill="none" stroke="#1864ab" stroke-width="3" stroke-linejoin="round"/>
+<text x="400.0" y="356" text-anchor="middle" font-size="13" fill="#212529">число периодов t½</text>
+<text x="18" y="185.0" text-anchor="middle" font-size="13" fill="#212529" transform="rotate(-90 18 185.0)">осталось, %</text>
+</svg>

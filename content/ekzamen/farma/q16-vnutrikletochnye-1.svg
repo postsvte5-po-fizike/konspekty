@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 301 576" font-family="Arial, Helvetica, sans-serif">
+<rect width="301" height="576" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="150" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Внутриклеточный рецептор</text>
+<line x1="150.4" y1="106.0" x2="150.4" y2="150.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="150.4" y1="206.0" x2="150.4" y2="250.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="150.4" y1="288.0" x2="150.4" y2="332.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="150.4" y1="370.0" x2="150.4" y2="414.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="150.4" y1="452.0" x2="150.4" y2="496.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="60.6" y="52.0" width="179.4" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="150.4" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Липофильный лиганд</text>
+<text x="150.4" y="93.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">проходит мембрану</text>
+<rect x="48.4" y="152.0" width="204.0" height="54.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="150.4" y="175.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">Рецептор в цитоплазме</text>
+<text x="150.4" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#321b7a">+ белки-шапероны</text>
+<rect x="72.9" y="252.0" width="154.8" height="36.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="150.4" y="275.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Комплекс → ядро</text>
+<rect x="89.3" y="334.0" width="122.1" height="36.0" rx="9" fill="#fff9db" stroke="#e67700" stroke-width="2"/>
+<text x="150.4" y="357.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b3a00">Связь с ДНК</text>
+<rect x="52.5" y="416.0" width="195.8" height="36.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="150.4" y="439.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Транскрипция ↑ или ↓</text>
+<rect x="44.3" y="498.0" width="212.2" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="150.4" y="521.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Синтез белков меняется</text>
+<text x="150.4" y="539.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">эффект — часы–дни</text>
+</svg>

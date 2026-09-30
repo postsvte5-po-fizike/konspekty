@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 449 494" font-family="Arial, Helvetica, sans-serif">
+<rect width="449" height="494" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="225" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Ионотропный рецептор</text>
+<line x1="224.7" y1="88.0" x2="224.7" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="224.7" y1="188.0" x2="155.8" y2="232.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="224.7" y1="188.0" x2="322.3" y2="232.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="155.8" y1="270.0" x2="131.2" y2="314.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="322.3" y1="270.0" x2="305.9" y2="314.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="131.2" y1="370.0" x2="126.0" y2="423.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="305.9" y1="370.0" x2="338.7" y2="414.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="169.7" y="52.0" width="110.0" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="224.7" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Лиганд</text>
+<rect x="139.1" y="134.0" width="171.2" height="54.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="224.7" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">Канал открывается</text>
+<text x="224.7" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#321b7a">мс</text>
+<rect x="70.1" y="234.0" width="171.2" height="36.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="155.8" y="257.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Na⁺ / Ca²⁺ внутрь</text>
+<rect x="265.4" y="234.0" width="113.9" height="36.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="322.3" y="257.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Cl⁻ внутрь</text>
+<rect x="61.9" y="316.0" width="138.5" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="131.2" y="339.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Деполяризация</text>
+<text x="131.2" y="357.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">возбуждение</text>
+<rect x="224.4" y="316.0" width="163.0" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="305.9" y="339.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Гиперполяризация</text>
+<text x="305.9" y="357.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">торможение</text>
+<rect x="24.0" y="425.0" width="204.0" height="36.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="126.0" y="448.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">N-холино, NMDA, 5-HT₃</text>
+<rect x="252.0" y="416.0" width="173.4" height="54.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="338.7" y="439.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">ГАМК-A</text>
+<text x="338.7" y="457.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">БЗД, барбитураты ↑</text>
+</svg>

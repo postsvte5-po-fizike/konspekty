@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 664 130" font-family="Arial, Helvetica, sans-serif">
+<rect width="664" height="130" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="332" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Четыре типа рецепторов — по скорости ответа</text>
+<line x1="148.3" y1="79.0" x2="170.3" y2="79.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="282.3" y1="79.0" x2="304.3" y2="79.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="461.1" y1="79.0" x2="483.1" y2="79.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="24.0" y="52.0" width="124.3" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="86.1" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Ионотропные</text>
+<text x="86.1" y="93.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">миллисекунды</text>
+<rect x="172.3" y="52.0" width="110.0" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="227.3" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">G-белок</text>
+<text x="227.3" y="93.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">секунды</text>
+<rect x="306.3" y="52.0" width="154.8" height="54.0" rx="9" fill="#fff9db" stroke="#e67700" stroke-width="2"/>
+<text x="383.7" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b3a00">Тирозинкиназные</text>
+<text x="383.7" y="93.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6b3a00">минуты–часы</text>
+<rect x="485.1" y="52.0" width="154.8" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="562.6" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Внутриклеточные</text>
+<text x="562.6" y="93.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">часы–дни</text>
+</svg>

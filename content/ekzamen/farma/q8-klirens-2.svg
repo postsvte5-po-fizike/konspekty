@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392 312" font-family="Arial, Helvetica, sans-serif">
+<rect width="392" height="312" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="196" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Виды клиренса (методичка)</text>
+<line x1="196.0" y1="88.0" x2="123.0" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="196.0" y1="88.0" x2="263.0" y2="141.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="263.0" y1="179.0" x2="110.7" y2="232.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="263.0" y1="179.0" x2="294.8" y2="241.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="126.8" y="52.0" width="138.5" height="36.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="196.0" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">Общий клиренс</text>
+<rect x="68.0" y="134.0" width="110.0" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="123.0" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Почечный</text>
+<text x="123.0" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">с мочой</text>
+<rect x="202.0" y="143.0" width="122.1" height="36.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="263.0" y="166.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Внепочечный</text>
+<rect x="24.0" y="234.0" width="173.4" height="54.0" rx="9" fill="#fff9db" stroke="#e67700" stroke-width="2"/>
+<text x="110.7" y="257.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b3a00">Печёночный</text>
+<text x="110.7" y="275.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6b3a00">метаболизм + желчь</text>
+<rect x="221.4" y="243.0" width="146.7" height="36.0" rx="9" fill="#e6fcf5" stroke="#0c8599" stroke-width="2"/>
+<text x="294.8" y="266.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#084c56">Лёгочный и др.</text>
+</svg>

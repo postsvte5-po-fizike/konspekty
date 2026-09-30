@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 657 348" font-family="Arial, Helvetica, sans-serif">
+<rect width="657" height="348" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="329" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Виды транспорта через мембрану</text>
+<line x1="328.6" y1="88.0" x2="123.0" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="328.6" y1="88.0" x2="336.8" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="328.6" y1="88.0" x2="542.4" y2="141.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="123.0" y1="206.0" x2="127.1" y2="250.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="336.8" y1="206.0" x2="328.6" y2="250.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="542.4" y1="197.0" x2="530.1" y2="259.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="226.6" y="52.0" width="204.0" height="36.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="328.6" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">Мембрана: как пройти?</text>
+<rect x="24.0" y="134.0" width="198.0" height="72.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="123.0" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">Пассивная диффузия</text>
+<text x="123.0" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">по градиенту, без АТФ</text>
+<text x="123.0" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">липофильные</text>
+<rect x="246.0" y="134.0" width="181.6" height="72.0" rx="9" fill="#e6fcf5" stroke="#0c8599" stroke-width="2"/>
+<text x="336.8" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#084c56">Фильтрация</text>
+<text x="336.8" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#084c56">водные поры</text>
+<text x="336.8" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#084c56">мелкие гидрофильные</text>
+<rect x="451.6" y="143.0" width="181.6" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="542.4" y="166.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Облегчённая</text>
+<text x="542.4" y="184.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">переносчик, без АТФ</text>
+<rect x="28.1" y="252.0" width="198.0" height="72.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="127.1" y="275.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Активный транспорт</text>
+<text x="127.1" y="293.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">против градиента, АТФ</text>
+<text x="127.1" y="311.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">насыщаем</text>
+<rect x="250.1" y="252.0" width="157.0" height="72.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="328.6" y="275.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">Пиноцитоз</text>
+<text x="328.6" y="293.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#321b7a">пузырёк</text>
+<text x="328.6" y="311.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#321b7a">крупные молекулы</text>
+<rect x="431.1" y="261.0" width="198.0" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="530.1" y="284.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">P-гликопротеин</text>
+<text x="530.1" y="302.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">выкачивает ЛС обратно</text>
+</svg>

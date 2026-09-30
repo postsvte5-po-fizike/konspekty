@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 532 312" font-family="Arial, Helvetica, sans-serif">
+<rect width="532" height="312" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="266" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Два способа блокировать N-холинорецептор мышцы</text>
+<line x1="180.9" y1="106.0" x2="155.2" y2="150.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="367.9" y1="106.0" x2="364.9" y2="150.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="155.2" y1="206.0" x2="266.2" y2="250.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="364.9" y1="206.0" x2="266.2" y2="250.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="91.2" y="52.0" width="179.4" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="180.9" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Антидеполяризующий</text>
+<text x="180.9" y="93.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">миорелаксант</text>
+<rect x="294.6" y="52.0" width="146.7" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="367.9" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Деполяризующий</text>
+<text x="367.9" y="93.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">суксаметоний</text>
+<rect x="68.5" y="152.0" width="173.4" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="155.2" y="175.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Занимает N-ХР,</text>
+<text x="155.2" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">канал не открывает</text>
+<rect x="265.9" y="152.0" width="198.0" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="364.9" y="175.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Открывает канал →</text>
+<text x="364.9" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">стойкая деполяризация</text>
+<rect x="168.3" y="252.0" width="195.8" height="36.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="266.2" y="275.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">Нервно-мышечный блок</text>
+</svg>

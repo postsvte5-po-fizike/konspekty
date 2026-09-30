@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 926 230" font-family="Arial, Helvetica, sans-serif">
+<rect width="926" height="230" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="463" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Что бывает при повторном применении</text>
+<line x1="462.8" y1="88.0" x2="79.0" y2="141.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="462.8" y1="88.0" x2="227.2" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="462.8" y1="88.0" x2="385.6" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="462.8" y1="88.0" x2="535.8" y2="132.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="462.8" y1="88.0" x2="694.2" y2="141.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="462.8" y1="88.0" x2="846.5" y2="141.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="360.8" y="52.0" width="204.0" height="36.0" rx="9" fill="#f1f3f5" stroke="#495057" stroke-width="2"/>
+<text x="462.8" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#212529">Повторное введение ЛВ</text>
+<rect x="24.0" y="143.0" width="110.0" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="79.0" y="166.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Кумуляция</text>
+<text x="79.0" y="184.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">эффект ↑</text>
+<rect x="158.0" y="134.0" width="138.5" height="72.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="227.2" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Толерантность</text>
+<text x="227.2" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">эффект ↓</text>
+<text x="227.2" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">за дни</text>
+<rect x="320.5" y="134.0" width="130.3" height="72.0" rx="9" fill="#e6fcf5" stroke="#0c8599" stroke-width="2"/>
+<text x="385.6" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#084c56">Тахифилаксия</text>
+<text x="385.6" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#084c56">эффект ↓</text>
+<text x="385.6" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#084c56">за часы</text>
+<rect x="474.8" y="134.0" width="122.1" height="72.0" rx="9" fill="#f3f0ff" stroke="#5f3dc4" stroke-width="2"/>
+<text x="535.8" y="157.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#321b7a">Зависимость</text>
+<text x="535.8" y="175.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#321b7a">отмена →</text>
+<text x="535.8" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#321b7a">абстиненция</text>
+<rect x="620.8" y="143.0" width="146.7" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="694.2" y="166.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Сенсибилизация</text>
+<text x="694.2" y="184.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">→ аллергия</text>
+<rect x="791.5" y="143.0" width="110.0" height="54.0" rx="9" fill="#fff9db" stroke="#e67700" stroke-width="2"/>
+<text x="846.5" y="166.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b3a00">Синдром</text>
+<text x="846.5" y="184.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6b3a00">отмены</text>
+</svg>

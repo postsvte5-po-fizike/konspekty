@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 361 566" font-family="Arial, Helvetica, sans-serif">
+<rect width="361" height="566" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
+<text x="180" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Биотрансформация: фазы I и II</text>
+<line x1="180.3" y1="106.0" x2="180.3" y2="150.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="180.3" y1="224.0" x2="180.3" y2="268.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="180.3" y1="324.0" x2="180.3" y2="368.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="180.3" y1="442.0" x2="180.3" y2="486.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="73.1" y="52.0" width="214.4" height="54.0" rx="9" fill="#fff4e6" stroke="#d9480f" stroke-width="2"/>
+<text x="180.3" y="75.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6e2305">Липофильное ЛВ</text>
+<text x="180.3" y="93.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6e2305">плохо выводится почками</text>
+<rect x="24.0" y="152.0" width="312.6" height="72.0" rx="9" fill="#fff9db" stroke="#e67700" stroke-width="2"/>
+<text x="180.3" y="175.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b3a00">ФАЗА I</text>
+<text x="180.3" y="193.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6b3a00">окисление, восстановление, гидролиз</text>
+<text x="180.3" y="211.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#6b3a00">цитохром P450</text>
+<rect x="74.2" y="270.0" width="212.2" height="54.0" rx="9" fill="#fff0f0" stroke="#c92a2a" stroke-width="2"/>
+<text x="180.3" y="293.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a1010">Метаболит: неактивный,</text>
+<text x="180.3" y="311.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#7a1010">активный или токсичный</text>
+<rect x="56.8" y="370.0" width="247.1" height="72.0" rx="9" fill="#ebfbee" stroke="#2b8a3e" stroke-width="2"/>
+<text x="180.3" y="393.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#154d22">ФАЗА II — конъюгация</text>
+<text x="180.3" y="411.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">глюкуроновая к-та, сульфат,</text>
+<text x="180.3" y="429.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#154d22">ацетил, глутатион</text>
+<rect x="94.7" y="488.0" width="171.2" height="54.0" rx="9" fill="#e7f5ff" stroke="#1864ab" stroke-width="2"/>
+<text x="180.3" y="511.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b3d6b">Полярный конъюгат</text>
+<text x="180.3" y="529.0" text-anchor="middle" font-size="14" font-weight="normal" fill="#0b3d6b">→ моча, желчь</text>
+</svg>
