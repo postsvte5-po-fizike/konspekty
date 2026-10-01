@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <title>Подготовка трансплантата из сухожилия: обвивной шов и укладка в 2, 3 и 4 пучка на петлю кортикальной пуговицы (схема)</title>
+  <defs>
+    <linearGradient id="tn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eadcc6"/><stop offset="0.5" stop-color="#fbf5ea"/><stop offset="1" stop-color="#e2d0b6"/>
+    </linearGradient>
+    <g id="btn">
+      <rect x="-34" y="-7" width="68" height="14" rx="7" fill="#343a40"/>
+      <circle r="9" fill="#343a40"/>
+    </g>
+  </defs>
+  <rect width="1000" height="760" fill="#ffffff"/>
+  <text x="500" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1b1e23">Как шьют и складывают трансплантат из сухожилия</text>
+  <text x="500" y="48" text-anchor="middle" font-size="12" fill="#6c717a">синий — нерассасывающаяся нить; серая петля — петля кортикальной пуговицы (бедренный конец)</text>
+
+  <!-- ===== A. Обвивной шов ===== -->
+  <text x="40" y="84" font-size="15" font-weight="bold" fill="#1b1e23">A. Обвивной шов (whipstitch) на конце сухожилия</text>
+  <rect x="60" y="112" width="400" height="34" rx="17" fill="url(#tn)" stroke="#8a7a64" stroke-width="1.8"/>
+  <path d="M60 129 C60 112 74 112 78 112 M60 129 C60 146 74 146 78 146" fill="none" stroke="#8a7a64" stroke-width="1.8"/>
+  <!-- стежки: нить проходит насквозь и охватывает сухожилие -->
+  <g fill="none" stroke="#1c3fa8" stroke-width="2.6" stroke-linecap="round">
+    <path d="M110 104 L120 154"/><path d="M150 104 L160 154"/><path d="M190 104 L200 154"/><path d="M230 104 L240 154"/><path d="M270 104 L280 154"/>
+    <path d="M120 154 C132 162 146 104 150 104"/><path d="M160 154 C172 162 186 104 190 104"/><path d="M200 154 C212 162 226 104 230 104"/><path d="M240 154 C252 162 266 104 270 104"/>
+    <path d="M110 104 C90 96 60 92 30 100"/><path d="M280 154 C300 170 330 176 360 172"/>
+  </g>
+  <text x="24" y="122" font-size="11" fill="#1c3fa8">нить</text>
+  <text x="300" y="200" font-size="11" fill="#1c3fa8">к началу шва</text>
+  <line x1="110" y1="176" x2="150" y2="176" stroke="#495057" stroke-width="1"/>
+  <text x="130" y="192" text-anchor="middle" font-size="10.5" fill="#495057">≈ 0,5 см</text>
+  <text x="480" y="122" font-size="12" fill="#1b1e23">• 4–5 стежков от самого конца сухожилия;</text>
+  <text x="480" y="140" font-size="12" fill="#1b1e23">• каждый стежок прокалывает сухожилие насквозь</text>
+  <text x="494" y="156" font-size="12" fill="#1b1e23">и охватывает его снаружи (обвивает);</text>
+  <text x="480" y="174" font-size="12" fill="#1b1e23">• в блокирующем варианте (locking, Кракова) петля</text>
+  <text x="494" y="190" font-size="12" fill="#1b1e23">каждого стежка затягивается — шов меньше ползёт;</text>
+  <text x="480" y="208" font-size="12" fill="#1b1e23">• за концы нити трансплантат тянут и натягивают.</text>
+
+  <line x1="30" y1="232" x2="970" y2="232" stroke="#dee2e6"/>
+
+  <!-- ===== B. 2 пучка ===== -->
+  <text x="40" y="262" font-size="15" font-weight="bold" fill="#1b1e23">B. Вдвое — 2 пучка</text>
+  <use href="#btn" x="150" y="300"/>
+  <path d="M136 306 C120 330 124 352 150 356 C176 352 180 330 164 306" fill="none" stroke="#adb5bd" stroke-width="4"/>
+  <path d="M132 370 L132 650" stroke="#8a7a64" stroke-width="24" stroke-linecap="butt"/><path d="M132 370 L132 650" stroke="#f6eddd" stroke-width="20" stroke-linecap="butt"/><path d="M168 370 L168 650" stroke="#8a7a64" stroke-width="24" stroke-linecap="butt"/><path d="M168 370 L168 650" stroke="#f6eddd" stroke-width="20" stroke-linecap="butt"/><path d="M132 372 A18.0 18.0 0 0 1 168 372" fill="none" stroke="#8a7a64" stroke-width="24"/><path d="M132 372 A18.0 18.0 0 0 1 168 372" fill="none" stroke="#f6eddd" stroke-width="20"/>
+  <g stroke="#1c3fa8" stroke-width="2.4" fill="none">
+    <path d="M116 600 L184 606 M116 614 L184 620 M116 628 L184 634 M116 642 L184 648"/>
+    <path d="M140 652 C136 676 120 690 104 700 M160 652 C164 676 180 690 196 700"/>
+  </g>
+  <text x="196" y="380" font-size="10.5" fill="#495057">перегиб в петле</text>
+  <text x="150" y="724" text-anchor="middle" font-size="11" fill="#495057">середина — в петле;</text>
+  <text x="150" y="740" text-anchor="middle" font-size="11" fill="#495057">свободные концы сшиты вместе</text>
+
+  <!-- ===== C. 3 пучка ===== -->
+  <text x="300" y="262" font-size="15" font-weight="bold" fill="#1b1e23">C. Втрое — 3 пучка</text>
+  <use href="#btn" x="440" y="300"/>
+  <path d="M440 306 C424 330 428 352 458 356 C484 352 486 330 470 306" fill="none" stroke="#adb5bd" stroke-width="4"/>
+  <path d="M410 384 L410 640" stroke="#8a7a64" stroke-width="24" stroke-linecap="butt"/><path d="M410 384 L410 640" stroke="#f6eddd" stroke-width="20" stroke-linecap="butt"/><path d="M442 372 L442 640" stroke="#8a7a64" stroke-width="24" stroke-linecap="butt"/><path d="M442 372 L442 640" stroke="#f6eddd" stroke-width="20" stroke-linecap="butt"/><path d="M474 372 L474 628" stroke="#8a7a64" stroke-width="24" stroke-linecap="butt"/><path d="M474 372 L474 628" stroke="#f6eddd" stroke-width="20" stroke-linecap="butt"/>
+  <path d="M442 374 A16.0 16.0 0 0 1 474 374" fill="none" stroke="#8a7a64" stroke-width="24"/><path d="M442 374 A16.0 16.0 0 0 1 474 374" fill="none" stroke="#f6eddd" stroke-width="20"/><path d="M410 640 A16.0 16.0 0 0 0 442 640" fill="none" stroke="#8a7a64" stroke-width="24"/><path d="M410 640 A16.0 16.0 0 0 0 442 640" fill="none" stroke="#f6eddd" stroke-width="20"/>
+  <path d="M398 384 L422 384" stroke="#8a7a64" stroke-width="1.6"/>
+  <path d="M462 628 L486 628" stroke="#8a7a64" stroke-width="1.6"/>
+  <g stroke="#1c3fa8" stroke-width="2.4" fill="none">
+    <path d="M394 394 L490 400 M394 408 L490 414"/>
+    <path d="M394 600 L490 606 M394 614 L490 620"/>
+    <path d="M410 386 C400 360 380 350 364 344"/><path d="M474 628 C490 650 504 660 520 664"/>
+  </g>
+  <text x="300" y="352" font-size="10.5" fill="#495057">свободный конец 1</text>
+  <text x="498" y="684" font-size="10.5" fill="#495057">свободный конец 2</text>
+  <text x="488" y="350" font-size="10.5" fill="#495057">перегиб в петле</text>
+  <text x="340" y="676" font-size="10.5" fill="#495057">перегиб внизу</text>
+  <text x="440" y="700" text-anchor="middle" font-size="11" fill="#495057">делят на трети, одна треть — в петле;</text>
+  <text x="440" y="714" text-anchor="middle" font-size="11" fill="#495057">каждый конец прошит и пришит</text>
+  <text x="440" y="728" text-anchor="middle" font-size="11" fill="#495057">к двум другим пучкам</text>
+  <text x="440" y="742" text-anchor="middle" font-size="11" fill="#c92a2a">(и к петле — прочнее всего)</text>
+
+  <!-- ===== D. 4 пучка ===== -->
+  <text x="600" y="262" font-size="15" font-weight="bold" fill="#1b1e23">D. Вчетверо — 4 пучка</text>
+  <use href="#btn" x="760" y="300"/>
+  <path d="M746 306 C730 330 734 352 760 356 C786 352 790 330 774 306" fill="none" stroke="#adb5bd" stroke-width="4"/>
+  <path d="M722 384 L722 640" stroke="#8a7a64" stroke-width="24" stroke-linecap="butt"/><path d="M722 384 L722 640" stroke="#f6eddd" stroke-width="20" stroke-linecap="butt"/><path d="M798 384 L798 640" stroke="#8a7a64" stroke-width="24" stroke-linecap="butt"/><path d="M798 384 L798 640" stroke="#f6eddd" stroke-width="20" stroke-linecap="butt"/><path d="M722 386 A38.0 38.0 0 0 1 798 386" fill="none" stroke="#8a7a64" stroke-width="24"/><path d="M722 386 A38.0 38.0 0 0 1 798 386" fill="none" stroke="#f6eddd" stroke-width="20"/>
+  <path d="M748 372 L748 640" stroke="#8a7a64" stroke-width="24" stroke-linecap="butt"/><path d="M748 372 L748 640" stroke="#efe2cc" stroke-width="20" stroke-linecap="butt"/><path d="M772 372 L772 640" stroke="#8a7a64" stroke-width="24" stroke-linecap="butt"/><path d="M772 372 L772 640" stroke="#efe2cc" stroke-width="20" stroke-linecap="butt"/><path d="M748 374 A12.0 12.0 0 0 1 772 374" fill="none" stroke="#8a7a64" stroke-width="24"/><path d="M748 374 A12.0 12.0 0 0 1 772 374" fill="none" stroke="#efe2cc" stroke-width="20"/>
+  <g stroke="#1c3fa8" stroke-width="2.4" fill="none">
+    <path d="M706 598 L814 604 M706 612 L814 618 M706 626 L814 632"/>
+    <path d="M735 652 C730 676 716 690 700 700 M785 652 C790 676 804 690 820 700"/>
+  </g>
+  <text x="760" y="724" text-anchor="middle" font-size="11" fill="#495057">1 сухожилие, сложенное дважды,</text>
+  <text x="760" y="740" text-anchor="middle" font-size="11" fill="#495057">или 2 сухожилия (ST + G) вдвое</text>
+
+  <!-- подсказка про диаметр -->
+  <rect x="852" y="300" width="132" height="240" rx="10" fill="#f8f9fa" stroke="#ced4da"/>
+  <text x="864" y="324" font-size="12" font-weight="bold" fill="#1b1e23">Зачем складывать</text>
+  <text x="864" y="346" font-size="11" fill="#1b1e23">Больше пучков —</text>
+  <text x="864" y="362" font-size="11" fill="#1b1e23">толще трансплантат,</text>
+  <text x="864" y="378" font-size="11" fill="#1b1e23">но короче.</text>
+  <text x="864" y="404" font-size="11" fill="#1b1e23">Диаметр меряют</text>
+  <text x="864" y="420" font-size="11" fill="#1b1e23">калибровочным</text>
+  <text x="864" y="436" font-size="11" fill="#1b1e23">блоком; по нему</text>
+  <text x="864" y="452" font-size="11" fill="#1b1e23">выбирают сверло.</text>
+  <text x="864" y="478" font-size="11" fill="#c92a2a">&lt; 8 мм — выше</text>
+  <text x="864" y="494" font-size="11" fill="#c92a2a">риск разрыва</text>
+  <text x="864" y="510" font-size="11" fill="#c92a2a">трансплантата</text>
+  <text x="864" y="528" font-size="9.5" fill="#6c717a">(Vinagre et al., 2017)</text>
+</svg>
