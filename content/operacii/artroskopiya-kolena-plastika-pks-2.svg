@@ -1,93 +1,147 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" font-family="Helvetica, Arial, sans-serif" font-size="13">
-  <title>Правая большеберцовая кость сверху: мениски, места прикрепления крестообразных связок и опасные структуры сзади (схема)</title>
-  <rect width="1000" height="660" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <title>Правая большеберцовая кость сверху: мениски, места прикрепления крестообразных связок, структуры вокруг и сзади (схема)</title>
+  <defs>
+    <radialGradient id="plateau" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#f9f4ec"/><stop offset="1" stop-color="#e6d8c3"/>
+    </radialGradient>
+    <linearGradient id="men" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7e7f3"/><stop offset="1" stop-color="#a9c8e0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="700" fill="#ffffff"/>
 
-  <text x="320" y="32" text-anchor="middle" font-size="17" font-weight="bold" fill="#1b1e23">Правая tibia, вид сверху (на уровне суставной щели)</text>
-  <text x="320" y="62" text-anchor="middle" font-size="12" fill="#6c717a">спереди ↑</text>
-  <text x="100" y="100" text-anchor="middle" font-size="12" fill="#6c717a">← медиально</text>
-  <text x="540" y="100" text-anchor="middle" font-size="12" fill="#6c717a">латерально →</text>
-  <text x="320" y="640" text-anchor="middle" font-size="12" fill="#6c717a">сзади ↓ (подколенная ямка)</text>
+  <text x="320" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1b1e23">Правая tibia сверху (бедро снято)</text>
+  <text x="320" y="48" text-anchor="middle" font-size="12" fill="#6c717a">спереди ↑ · сзади ↓ (подколенная ямка)</text>
+  <text x="40" y="86" font-size="12" fill="#6c717a">← медиально</text>
+  <text x="600" y="86" text-anchor="end" font-size="12" fill="#6c717a">латерально →</text>
 
-  <!-- связка надколенника -->
-  <rect x="290" y="72" width="60" height="40" rx="6" fill="#e9dcc6" stroke="#a08c6c" stroke-width="1.5"/>
-  <text x="320" y="96" text-anchor="middle" font-size="10" fill="#5c4f3d">lig. patellae</text>
+  <!-- связка надколенника и жировое тело -->
+  <path d="M250 112 C270 100 370 100 392 112 L402 150 C370 160 272 160 240 150 Z" fill="#ffe9a8" stroke="#d9b24c" stroke-dasharray="4 3"/>
+  <rect x="284" y="66" width="74" height="44" rx="8" fill="#f3efe4" stroke="#a89f88"/>
+  <text x="321" y="92" text-anchor="middle" font-size="10.5" fill="#6b624f">lig. patellae</text>
+  <text x="408" y="130" font-size="10" fill="#9a7a1c">corpus adiposum</text>
 
-  <!-- плато большеберцовой кости -->
-  <path d="M320 118 C410 116 500 140 540 200 C570 250 566 320 530 360 C500 392 450 398 400 392 C370 388 350 400 320 404 C290 400 270 388 240 392 C190 398 130 390 104 356 C74 316 72 250 100 200 C140 140 230 120 320 118 Z"
-        fill="#f4ede4" stroke="#8a7f72" stroke-width="2.5"/>
+  <!-- tractus iliotibialis (к бугорку Жерди) -->
+  <ellipse cx="548" cy="162" rx="22" ry="12" fill="#eef0f2" stroke="#9aa3ad"/>
+  <text x="560" y="140" font-size="10" fill="#5f6b77">tractus iliotibialis</text>
 
-  <!-- медиальный мениск (C) -->
-  <path d="M270 168 C190 160 120 200 112 270 C106 330 150 376 230 380 C262 381 282 376 296 362
-           L282 344 C268 354 252 358 232 357 C176 354 140 322 144 272 C150 216 200 190 262 192 Z"
-        fill="#bfd7ea" stroke="#3a6f99" stroke-width="1.5"/>
-  <text x="205" y="268" text-anchor="middle" font-size="12" fill="#3a6f99">мед. мениск</text><text x="205" y="284" text-anchor="middle" font-size="11" fill="#3a6f99">(форма C)</text>
+  <!-- плато -->
+  <path d="M320 150 C384 142 456 150 505 178 C548 204 566 248 560 292 C554 336 524 366 478 376
+           C444 383 410 380 388 392 C370 402 356 418 334 418 C312 418 298 404 282 394
+           C258 380 220 388 180 384 C124 378 86 344 82 290 C78 234 104 186 160 164
+           C210 146 266 152 320 150 Z" fill="url(#plateau)" stroke="#8a7a64" stroke-width="2.5"/>
+  <!-- суставные площадки (хрящ) -->
+  <ellipse cx="196" cy="276" rx="88" ry="86" fill="#eef3f7" stroke="#c5d3de" stroke-width="1"/>
+  <ellipse cx="468" cy="270" rx="70" ry="72" fill="#eef3f7" stroke="#c5d3de" stroke-width="1"/>
+  <!-- межмыщелковое возвышение -->
+  <path d="M300 236 C306 250 308 290 304 314" fill="none" stroke="#b9a68a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M346 232 C352 250 352 288 346 312" fill="none" stroke="#b9a68a" stroke-width="7" stroke-linecap="round"/>
+  <text x="326" y="345" text-anchor="middle" font-size="9.5" fill="#7a6a54">eminentia</text>
+  <text x="326" y="356" text-anchor="middle" font-size="9.5" fill="#7a6a54">intercondylaris</text>
+
+  <!-- медиальный мениск (C, открыт широко) -->
+  <path d="M270 172 C200 156 116 186 104 264 C94 334 146 372 214 372 C240 372 262 366 282 354"
+        fill="none" stroke="#3a6f99" stroke-width="30" stroke-linecap="round"/>
+  <path d="M270 172 C200 156 116 186 104 264 C94 334 146 372 214 372 C240 372 262 366 282 354"
+        fill="none" stroke="url(#men)" stroke-width="27" stroke-linecap="round"/>
   <!-- латеральный мениск (почти кольцо) -->
-  <path d="M352 196 C410 168 500 182 522 246 C540 300 504 360 440 364 C400 366 368 350 352 330
-           L370 316 C384 332 404 340 436 340 C486 336 506 296 494 254 C480 206 420 198 374 218 Z"
-        fill="#bfd7ea" stroke="#3a6f99" stroke-width="1.5"/>
-  <text x="440" y="268" text-anchor="middle" font-size="12" fill="#3a6f99">лат. мениск</text><text x="440" y="284" text-anchor="middle" font-size="11" fill="#3a6f99">(почти кольцо)</text>
+  <path d="M368 206 C394 168 520 170 536 250 C548 318 504 352 456 350 C420 348 388 336 368 318"
+        fill="none" stroke="#3a6f99" stroke-width="28" stroke-linecap="round"/>
+  <path d="M368 206 C394 168 520 170 536 250 C548 318 504 352 456 350 C420 348 388 336 368 318"
+        fill="none" stroke="url(#men)" stroke-width="25" stroke-linecap="round"/>
+  <!-- поперечная связка колена -->
+  <path d="M262 168 C300 160 340 168 372 196" fill="none" stroke="#7d8b99" stroke-width="2.5"/>
+  <text x="196" y="232" text-anchor="middle" font-size="12" fill="#2d5a80">meniscus</text>
+  <text x="196" y="247" text-anchor="middle" font-size="12" fill="#2d5a80">medialis</text>
+  <text x="458" y="262" text-anchor="middle" font-size="12" fill="#2d5a80">meniscus</text>
+  <text x="458" y="277" text-anchor="middle" font-size="12" fill="#2d5a80">lateralis</text>
 
-  <!-- ПКС: место прикрепления спереди -->
-  <ellipse cx="318" cy="218" rx="26" ry="18" fill="#2b8a3e" opacity="0.85"/>
-  <text x="318" y="223" text-anchor="middle" fill="#ffffff" font-weight="bold" font-size="12">ПКС</text>
-  <!-- ЗКС: сзади, на заднем скате -->
-  <ellipse cx="320" cy="378" rx="24" ry="14" fill="#5f3dc4" opacity="0.85"/>
-  <text x="320" y="383" text-anchor="middle" fill="#ffffff" font-weight="bold" font-size="12">ЗКС</text>
+  <!-- ПКС (место прикрепления спереди, у переднего рога латерального мениска) -->
+  <path d="M310 196 C326 188 346 194 350 214 C354 238 340 256 324 256 C306 256 298 238 300 218 C301 208 304 200 310 196 Z" fill="#2b8a3e" opacity="0.88"/>
+  <text x="326" y="230" text-anchor="middle" fill="#ffffff" font-weight="bold" font-size="12">ПКС</text>
+  <!-- ЗКС — на заднем скате, ниже уровня плато -->
+  <path d="M302 388 C316 380 346 380 362 390 C366 404 352 418 332 418 C312 418 298 404 302 388 Z" fill="#5f3dc4" opacity="0.88"/>
+  <text x="332" y="406" text-anchor="middle" fill="#ffffff" font-weight="bold" font-size="11">ЗКС</text>
+
+  <!-- МКС по медиальному краю -->
+  <path d="M96 210 C80 250 78 310 96 352" fill="none" stroke="#a89f88" stroke-width="10" stroke-linecap="round"/>
+  <path d="M96 210 C80 250 78 310 96 352" fill="none" stroke="#f3efe4" stroke-width="6" stroke-linecap="round"/>
+  <text x="70" y="290" text-anchor="end" font-size="10" fill="#6b624f">lig. coll.</text>
+  <text x="70" y="302" text-anchor="end" font-size="10" fill="#6b624f">tibiale</text>
 
   <!-- задняя капсула -->
-  <path d="M120 392 C200 418 260 418 320 420 C380 418 440 418 520 392" fill="none" stroke="#8a7f72" stroke-width="2" stroke-dasharray="6 4"/>
-  <text x="540" y="400" font-size="11" fill="#6c717a">задняя капсула</text>
+  <path d="M110 380 C190 412 262 428 334 432 C410 428 480 410 552 372" fill="none" stroke="#8a7a64" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="226" y="410" text-anchor="middle" font-size="10" fill="#6c717a">задняя капсула</text>
 
-  <!-- зона опасности -->
-  <ellipse cx="335" cy="482" rx="92" ry="62" fill="#ffe3e3" stroke="#c92a2a" stroke-width="2" stroke-dasharray="6 4"/>
-  <!-- подколенная артерия, вена, большеберцовый нерв (НЕВА) -->
-  <circle cx="318" cy="450" r="14" fill="#c92a2a"/>
-  <text x="318" y="455" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="bold">A</text>
-  <circle cx="348" cy="480" r="15" fill="#1c4fd6"/>
-  <text x="348" y="485" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="bold">V</text>
-  <circle cx="376" cy="516" r="11" fill="#d4a500"/>
-  <text x="376" y="520" text-anchor="middle" fill="#1b1e23" font-size="10" font-weight="bold">N</text>
+  <!-- латерально-сзади: подколенная мышца, LCL, головка малоберцовой, двуглавая, малоберцовый нерв -->
+  <ellipse cx="506" cy="372" rx="12" ry="9" fill="#c8665a" stroke="#a5493e"/>
+  <text x="470" y="448" font-size="10" fill="#a5493e">tendo m. poplitei</text>
+  <line x1="500" y1="440" x2="505" y2="382" stroke="#a5493e" stroke-width="0.8"/>
+  <ellipse cx="560" cy="410" rx="30" ry="22" fill="#efe4d2" stroke="#8a7a64" stroke-dasharray="4 3"/>
+  <text x="560" y="414" text-anchor="middle" font-size="9.5" fill="#7a6a54">caput fibulae</text>
+  <circle cx="578" cy="384" r="7" fill="#f3efe4" stroke="#a89f88" stroke-width="2"/>
+  <text x="590" y="380" font-size="10" fill="#6b624f">lig. coll. fibulare</text>
+  <ellipse cx="604" cy="440" rx="18" ry="12" fill="#f3efe4" stroke="#a89f88"/>
+  <text x="650" y="466" text-anchor="end" font-size="10" fill="#6b624f">m. biceps femoris</text>
+  <circle cx="580" cy="482" r="9" fill="#d4a500" stroke="#c92a2a" stroke-width="2"/>
+  <text x="470" y="510" font-size="10.5" fill="#8a6d00">n. fibularis communis</text>
 
-  <!-- сухожилие двуглавой и общий малоберцовый нерв -->
-  <ellipse cx="560" cy="430" rx="20" ry="14" fill="#e9dcc6" stroke="#a08c6c" stroke-width="1.5"/>
-  <text x="560" y="465" text-anchor="middle" font-size="10" fill="#5c4f3d">m. biceps femoris</text>
-  <circle cx="528" cy="446" r="10" fill="#d4a500" stroke="#c92a2a" stroke-width="2"/>
-  <text x="470" y="500" font-size="11" fill="#8a6d00">n. fibularis communis</text>
+  <!-- икроножная мышца -->
+  <ellipse cx="210" cy="484" rx="46" ry="30" fill="#de8e80" opacity="0.75" stroke="#a5493e"/>
+  <text x="210" y="488" text-anchor="middle" font-size="9.5" fill="#ffffff">caput mediale</text>
+  <ellipse cx="458" cy="540" rx="40" ry="26" fill="#de8e80" opacity="0.75" stroke="#a5493e"/>
+  <text x="458" y="544" text-anchor="middle" font-size="9.5" fill="#ffffff">caput laterale</text>
+  <text x="336" y="572" text-anchor="middle" font-size="10" fill="#a5493e">m. gastrocnemius (обе головки)</text>
 
-  <!-- медиально: портняжная мышца и n. saphenus -->
-  <ellipse cx="128" cy="420" rx="22" ry="14" fill="#e9dcc6" stroke="#a08c6c" stroke-width="1.5"/>
-  <text x="128" y="452" text-anchor="middle" font-size="10" fill="#5c4f3d">m. sartorius</text>
-  <circle cx="156" cy="440" r="8" fill="#d4a500" stroke="#c92a2a" stroke-width="2"/>
-  <text x="168" y="470" font-size="11" fill="#8a6d00">n. saphenus</text>
-  <!-- сухожилия гусиной лапки -->
-  <circle cx="160" cy="402" r="7" fill="#e9dcc6" stroke="#a08c6c"/>
-  <circle cx="182" cy="414" r="7" fill="#e9dcc6" stroke="#a08c6c"/>
-  <text x="196" y="446" font-size="10" fill="#5c4f3d">gracilis, semitendinosus</text>
+  <!-- подколенный пучок (НЕВА): артерия ближе к капсуле -->
+  <ellipse cx="334" cy="482" rx="74" ry="64" fill="#ffe3e3" stroke="#c92a2a" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <circle cx="324" cy="452" r="13" fill="#c92a2a"/><text x="324" y="457" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">A</text>
+  <ellipse cx="346" cy="480" rx="15" ry="12" fill="#1c4fd6"/><text x="346" y="485" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">V</text>
+  <circle cx="366" cy="512" r="10" fill="#d4a500"/><text x="366" y="516" text-anchor="middle" fill="#1b1e23" font-size="10" font-weight="bold">N</text>
 
-  <!-- легенда -->
-  <rect x="640" y="70" width="345" height="510" rx="10" fill="#f8f9fa" stroke="#ced4da"/>
-  <text x="658" y="98" font-size="15" font-weight="bold" fill="#1b1e23">Обозначения</text>
-  <ellipse cx="672" cy="126" rx="14" ry="10" fill="#2b8a3e"/>
-  <text x="694" y="130" fill="#1b1e23">место прикрепления ПКС —</text>
-  <text x="694" y="146" font-size="11" fill="#6c717a">центр большеберцового канала</text>
-  <ellipse cx="672" cy="172" rx="14" ry="10" fill="#5f3dc4"/>
-  <text x="694" y="176" fill="#1b1e23">место прикрепления ЗКС —</text>
-  <text x="694" y="192" font-size="11" fill="#6c717a">задний ориентир для направителя</text>
-  <rect x="660" y="208" width="24" height="16" fill="#bfd7ea" stroke="#3a6f99"/>
-  <text x="694" y="221" fill="#1b1e23">мениски</text>
-  <circle cx="672" cy="250" r="10" fill="#c92a2a"/><text x="694" y="254" fill="#1b1e23">A — a. poplitea (ближе к кости)</text>
-  <circle cx="672" cy="278" r="10" fill="#1c4fd6"/><text x="694" y="282" fill="#1b1e23">V — v. poplitea</text>
-  <circle cx="672" cy="306" r="10" fill="#d4a500"/><text x="694" y="310" fill="#1b1e23">N — n. tibialis (поверхностнее)</text>
-  <text x="658" y="338" font-size="11" fill="#6c717a">НЕВА: Нерв–Вена–Артерия сзади наперёд</text>
-  <text x="658" y="353" font-size="11" fill="#6c717a">(Николаев, рис. 3.22)</text>
+  <!-- медиально-сзади: полуперепончатая, гусиная лапка, подкожный нерв -->
+  <ellipse cx="168" cy="418" rx="20" ry="14" fill="#f3efe4" stroke="#a89f88"/>
+  <text x="168" y="446" text-anchor="middle" font-size="9.5" fill="#6b624f">semimembranosus</text>
+  <circle cx="122" cy="402" r="8" fill="#f3efe4" stroke="#a89f88"/>
+  <circle cx="104" cy="386" r="8" fill="#f3efe4" stroke="#a89f88"/>
+  <ellipse cx="82" cy="404" rx="16" ry="12" fill="#de8e80" opacity="0.8" stroke="#a5493e"/>
+  <circle cx="98" cy="424" r="7" fill="#d4a500" stroke="#c92a2a" stroke-width="2"/>
+  <text x="40" y="460" font-size="10" fill="#6b624f">sartorius, gracilis,</text>
+  <text x="40" y="472" font-size="10" fill="#6b624f">semitendinosus</text>
+  <text x="40" y="492" font-size="10.5" fill="#8a6d00">n. saphenus</text>
 
-  <rect x="652" y="372" width="322" height="196" rx="8" fill="#fff5f5" stroke="#c92a2a"/>
-  <text x="666" y="396" font-size="14" font-weight="bold" fill="#c92a2a">Чем грозит</text>
-  <text x="666" y="420" fill="#1b1e23">• спица/сверло большеберцового канала,</text>
-  <text x="678" y="438" fill="#1b1e23">ушедшие за заднюю кортикальную</text>
-  <text x="678" y="456" fill="#1b1e23">пластинку → подколенные сосуды</text>
-  <text x="666" y="482" fill="#1b1e23">• шов заднего рога мениска «снаружи»:</text>
-  <text x="678" y="500" fill="#1b1e23">латерально — n. fibularis communis,</text>
-  <text x="678" y="518" fill="#1b1e23">медиально — n. saphenus</text>
-  <text x="666" y="544" fill="#1b1e23">• забор сухожилий → n. saphenus</text>
+  <!-- ===== ЛЕГЕНДА ===== -->
+  <g transform="translate(668 70)">
+  <rect x="0" y="0" width="318" height="296" rx="10" fill="#f8f9fa" stroke="#ced4da"/>
+  <text x="16" y="28" font-size="15" font-weight="bold" fill="#1b1e23">Обозначения</text>
+  <ellipse cx="30" cy="54" rx="14" ry="10" fill="#2b8a3e"/>
+  <text x="52" y="52" fill="#1b1e23">место прикрепления ПКС —</text>
+  <text x="52" y="67" font-size="11" fill="#6c717a">центр большеберцового канала</text>
+  <ellipse cx="30" cy="94" rx="14" ry="10" fill="#5f3dc4"/>
+  <text x="52" y="92" fill="#1b1e23">место прикрепления ЗКС —</text>
+  <text x="52" y="107" font-size="11" fill="#6c717a">задний ориентир для направителя</text>
+  <rect x="16" y="124" width="28" height="14" rx="7" fill="#a9c8e0" stroke="#3a6f99"/>
+  <text x="52" y="136" fill="#1b1e23">мениски</text>
+  <circle cx="30" cy="162" r="10" fill="#c92a2a"/><text x="52" y="166" fill="#1b1e23">A — a. poplitea (ближе к капсуле)</text>
+  <circle cx="30" cy="190" r="10" fill="#1c4fd6"/><text x="52" y="194" fill="#1b1e23">V — v. poplitea</text>
+  <circle cx="30" cy="218" r="10" fill="#d4a500"/><text x="52" y="222" fill="#1b1e23">N — n. tibialis (поверхностнее)</text>
+  <text x="16" y="250" font-size="11" fill="#6c717a">НЕВА: Нерв–Вена–Артерия сзади наперёд</text>
+  <text x="16" y="265" font-size="11" fill="#6c717a">(Николаев, с. 143, рис. 3.22–3.23).</text>
+  <text x="16" y="282" font-size="11" fill="#6c717a">Расстояния условные.</text>
+  </g>
+
+  <g transform="translate(668 384)">
+  <rect x="0" y="0" width="318" height="262" rx="10" fill="#fff5f5" stroke="#c92a2a"/>
+  <text x="16" y="26" font-size="14" font-weight="bold" fill="#c92a2a">Что чем грозит при пластике ПКС</text>
+  <text x="16" y="52" fill="#1b1e23">• подколенные сосуды — шов заднего</text>
+  <text x="28" y="70" fill="#1b1e23">рога мениска, шейвер у задней</text>
+  <text x="28" y="88" fill="#1b1e23">капсулы, задние порталы</text>
+  <text x="16" y="114" fill="#1b1e23">• n. fibularis communis — шов</text>
+  <text x="28" y="132" fill="#1b1e23">латерального мениска</text>
+  <text x="16" y="158" fill="#1b1e23">• n. saphenus — шов медиального</text>
+  <text x="28" y="176" fill="#1b1e23">мениска, забор сухожилий</text>
+  <text x="16" y="202" fill="#1b1e23">• спица большеберцового канала —</text>
+  <text x="28" y="220" fill="#1b1e23">выходит спереди у ПКС; если уйдёт</text>
+  <text x="28" y="238" fill="#1b1e23">вверх — ЗКС и хрящ бедра</text>
+  </g>
 </svg>

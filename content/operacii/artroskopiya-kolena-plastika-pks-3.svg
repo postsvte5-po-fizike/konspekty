@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <title>Колено в сагиттальном срезе через межмыщелковую ямку: ход ПКС и ЗКС, линия Блюменсаата, каналы при пластике (схема)</title>
+  <defs>
+    <linearGradient id="bone3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f2e8"/><stop offset="1" stop-color="#e4d5bf"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#495057"/></marker>
+  </defs>
+  <rect width="1000" height="720" fill="#ffffff"/>
+
+  <text x="330" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1b1e23">Сагиттальный срез через межмыщелковую ямку</text>
+  <text x="330" y="46" text-anchor="middle" font-size="12" fill="#6c717a">колено разогнуто · ← спереди · сзади →</text>
+
+  <!-- сухожилие четырёхглавой -->
+  <path d="M262 60 L306 60 L300 228 L256 222 Z" fill="#f3efe4" stroke="#a89f88"/>
+  <!-- наднадколенниковая сумка / верхний заворот -->
+  <path d="M308 120 C330 118 342 140 340 190 C338 222 326 236 312 236 L300 228 Z" fill="#dbe9f5" stroke="#7aa6c9" stroke-dasharray="4 3"/>
+  <text x="352" y="150" font-size="10" fill="#3a6f99">bursa suprapatellaris /</text>
+  <text x="352" y="162" font-size="10" fill="#3a6f99">верхний заворот</text>
+
+  <!-- бедренная кость (сагиттальный срез, мыщелок) -->
+  <path d="M352 60 L352 236 C346 262 336 292 336 322 C336 372 362 414 410 432 C452 448 504 440 534 408
+           C560 380 568 340 556 300 C546 268 524 248 494 238 L478 232 L478 60 Z" fill="url(#bone3)" stroke="#8a7a64" stroke-width="2.2"/>
+  <!-- линия Блюменсаата (крыша межмыщелковой ямки) -->
+  <line x1="356" y1="410" x2="532" y2="266" stroke="#5c4f3d" stroke-width="2.5"/>
+  <text x="40" y="372" font-size="11" fill="#5c4f3d" font-weight="bold">линия Блюменсаата</text>
+  <text x="40" y="386" font-size="10" fill="#5c4f3d">(крыша межмыщелковой ямки)</text>
+  <polyline points="190,380 236,380 370,398" fill="none" stroke="#5c4f3d" stroke-width="0.8"/>
+
+  <!-- надколенник -->
+  <path d="M252 226 C276 222 300 232 306 262 C312 300 300 340 278 356 C262 366 246 360 240 340 C232 306 232 262 240 240 C243 232 247 228 252 226 Z"
+        fill="#ebe0cd" stroke="#6f6152" stroke-width="2.2"/>
+  <path d="M298 248 C306 278 304 318 290 344" fill="none" stroke="#b9cfe0" stroke-width="5"/>
+  <text x="252" y="300" text-anchor="middle" font-size="11" font-weight="bold" fill="#3d342a" transform="rotate(-80 252 300)">patella</text>
+
+  <!-- связка надколенника -->
+  <path d="M256 352 C266 400 284 470 302 528 L322 524 C304 466 290 400 280 350 Z" fill="#f3efe4" stroke="#a89f88" stroke-width="1.4"/>
+  <text x="40" y="480" font-size="10.5" fill="#6b624f">lig. patellae</text>
+  <line x1="104" y1="476" x2="280" y2="450" stroke="#6b624f" stroke-width="0.8"/>
+  <!-- жировое тело Гоффа -->
+  <path d="M286 360 C310 372 334 392 352 420 C362 438 368 452 362 466 C340 474 320 474 304 470 C296 440 288 400 286 360 Z"
+        fill="#ffe9a8" stroke="#d9b24c" stroke-dasharray="4 3"/>
+  <text x="40" y="430" font-size="10.5" fill="#9a7a1c">жировое тело Гоффа</text>
+  <line x1="142" y1="426" x2="300" y2="420" stroke="#9a7a1c" stroke-width="0.8"/>
+
+  <!-- большеберцовая кость -->
+  <path d="M312 486 C318 470 340 462 372 460 L540 462 C566 464 576 478 570 498 C560 526 540 546 532 590 L526 700 L372 700 L366 612
+           C362 582 340 566 326 548 C314 530 308 506 312 486 Z" fill="url(#bone3)" stroke="#8a7a64" stroke-width="2.2"/>
+  <ellipse cx="324" cy="536" rx="14" ry="22" fill="#efe4d2" stroke="#8a7a64" stroke-width="1.2"/>
+  <text x="40" y="540" font-size="10.5" fill="#7a6a54">tuberositas tibiae</text>
+  <line x1="132" y1="536" x2="310" y2="536" stroke="#7a6a54" stroke-width="0.8"/>
+  <!-- мениск (передний и задний рог в срезе) -->
+  <path d="M352 452 L392 446 L384 460 L352 462 Z" fill="#a9c8e0" stroke="#3a6f99"/>
+  <path d="M500 442 L548 450 L548 462 L512 460 Z" fill="#a9c8e0" stroke="#3a6f99"/>
+
+  <!-- ЗКС (медиальнее, рисуем позади) -->
+  <path d="M398 384 C430 398 470 424 500 452 C512 466 520 482 526 498" fill="none" stroke="#5f3dc4" stroke-width="18" stroke-linecap="round" opacity="0.55"/>
+  <text x="530" y="520" font-size="12" font-weight="bold" fill="#5f3dc4">ЗКС</text>
+  <!-- ПКС (латеральнее, на переднем плане) -->
+  <path d="M540 330 C500 362 440 412 392 454" fill="none" stroke="#2b8a3e" stroke-width="20" stroke-linecap="round" opacity="0.9"/>
+  <path d="M540 330 C500 362 440 412 392 454" fill="none" stroke="#69db7c" stroke-width="3" stroke-linecap="round" opacity="0.9" stroke-dasharray="10 6"/>
+  <text x="436" y="372" font-size="13" font-weight="bold" fill="#2b8a3e">ПКС</text>
+
+  <!-- каналы при пластике -->
+  <path d="M540 330 L478 250" stroke="#868e96" stroke-width="16" stroke-linecap="round" opacity="0.35"/>
+  <path d="M540 330 L478 250" stroke="#495057" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="362" y="170" font-size="11" fill="#495057">бедренный канал</text>
+  <text x="362" y="184" font-size="10" fill="#6c717a">(выход на латеральную</text>
+  <text x="362" y="197" font-size="10" fill="#6c717a">поверхность бедра)</text>
+  <line x1="440" y1="200" x2="478" y2="248" stroke="#495057" stroke-width="0.8"/>
+  <path d="M392 456 L340 600" stroke="#868e96" stroke-width="16" stroke-linecap="round" opacity="0.35"/>
+  <path d="M392 456 L340 600" stroke="#495057" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="40" y="640" font-size="11" fill="#495057">большеберцовый канал</text>
+  <text x="40" y="654" font-size="10" fill="#6c717a">(вход — переднемедиальная</text>
+  <text x="40" y="667" font-size="10" fill="#6c717a">поверхность голени)</text>
+  <line x1="160" y1="636" x2="338" y2="602" stroke="#495057" stroke-width="0.8"/>
+
+  <!-- задняя капсула -->
+  <path d="M552 300 C578 340 584 400 566 452 C560 470 556 482 560 500" fill="none" stroke="#8a7a64" stroke-width="2" stroke-dasharray="6 4"/>
+  <!-- подколенные сосуды и нерв (НЕВА) -->
+  <path d="M598 60 C596 200 596 360 600 460 C602 540 604 620 606 700" fill="none" stroke="#c92a2a" stroke-width="12"/>
+  <path d="M618 60 C616 200 616 360 620 460 C622 540 624 620 626 700" fill="none" stroke="#1c4fd6" stroke-width="12"/>
+  <path d="M640 60 C640 200 642 360 646 460 C648 540 652 620 656 700" fill="none" stroke="#d4a500" stroke-width="7"/>
+  <text x="590" y="80" text-anchor="end" font-size="11" fill="#c92a2a">a. poplitea</text>
+  <text x="626" y="98" font-size="11" fill="#1c4fd6">v. poplitea</text>
+  <text x="650" y="118" font-size="11" fill="#8a6d00">n. tibialis</text>
+  <!-- икроножная мышца -->
+  <path d="M572 470 C600 500 640 520 660 560 C672 600 664 660 650 700 L560 700 C556 640 548 560 546 520 Z" fill="#de8e80" opacity="0.35" stroke="#a5493e"/>
+  <text x="664" y="640" font-size="10" fill="#a5493e">m. gastrocnemius</text>
+
+  <!-- зона риска сзади -->
+  <ellipse cx="590" cy="440" rx="44" ry="76" fill="none" stroke="#c92a2a" stroke-width="1.6" stroke-dasharray="5 4"/>
+
+  <!-- ===== ЛЕГЕНДА ===== -->
+  <g transform="translate(700 70)">
+  <rect x="0" y="0" width="286" height="300" rx="10" fill="#f8f9fa" stroke="#ced4da"/>
+  <text x="16" y="28" font-size="15" font-weight="bold" fill="#1b1e23">Как читать схему</text>
+  <rect x="16" y="44" width="26" height="10" fill="#2b8a3e"/>
+  <text x="50" y="54" fill="#1b1e23">ПКС: сзади-сверху (бедро)</text>
+  <text x="50" y="69" font-size="11" fill="#6c717a">→ спереди-снизу (tibia)</text>
+  <rect x="16" y="84" width="26" height="10" fill="#5f3dc4" opacity="0.6"/>
+  <text x="50" y="94" fill="#1b1e23">ЗКС: спереди-сверху (бедро)</text>
+  <text x="50" y="109" font-size="11" fill="#6c717a">→ сзади-снизу (задний скат tibia)</text>
+  <rect x="16" y="124" width="26" height="10" fill="#868e96" opacity="0.5"/>
+  <text x="50" y="134" fill="#1b1e23">каналы при пластике</text>
+  <line x1="16" y1="156" x2="42" y2="156" stroke="#5c4f3d" stroke-width="2.5"/>
+  <text x="50" y="160" fill="#1b1e23">линия Блюменсаата</text>
+  <text x="16" y="190" font-size="11" fill="#6c717a">На МРТ в сагиттальной плоскости целая</text>
+  <text x="16" y="204" font-size="11" fill="#6c717a">ПКС — тёмная натянутая лента, идущая</text>
+  <text x="16" y="218" font-size="11" fill="#6c717a">примерно параллельно линии Блюменсаата.</text>
+  <text x="16" y="232" font-size="11" fill="#6c717a">При разрыве она провисает и ложится</text>
+  <text x="16" y="246" font-size="11" fill="#6c717a">положе (угол с линией &gt; 9° —</text>
+  <text x="16" y="260" font-size="11" fill="#6c717a">Al Mohammad &amp; Gharaibeh, 2024).</text>
+  <text x="16" y="284" font-size="11" fill="#6c717a">ПКС и ЗКС лежат в разных плоскостях.</text>
+  </g>
+  <g transform="translate(700 390)">
+  <rect x="0" y="0" width="286" height="126" rx="10" fill="#fff5f5" stroke="#c92a2a"/>
+  <text x="16" y="26" font-size="14" font-weight="bold" fill="#c92a2a">Сзади — подколенный пучок</text>
+  <text x="16" y="50" fill="#1b1e23">Артерия прилежит к задней</text>
+  <text x="16" y="68" fill="#1b1e23">капсуле. Опасны инструменты,</text>
+  <text x="16" y="86" fill="#1b1e23">проходящие сквозь заднюю капсулу</text>
+  <text x="16" y="104" fill="#1b1e23">(шов заднего рога, шейвер).</text>
+  </g>
+</svg>
