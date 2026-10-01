@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <title>Правый коленный сустав спереди: артроскопические порталы и разрез для забора сухожилий (схема)</title>
+  <defs>
+    <g id="portal">
+      <circle r="12" fill="#0b7285" stroke="#ffffff" stroke-width="2"/>
+    </g>
+  </defs>
+  <rect width="1000" height="720" fill="#ffffff"/>
+
+  <text x="300" y="32" text-anchor="middle" font-size="17" font-weight="bold" fill="#1b1e23">Правое колено, вид спереди, сгибание ~90°</text>
+  <text x="70" y="62" text-anchor="middle" font-size="12" fill="#6c717a">латерально</text>
+  <text x="530" y="62" text-anchor="middle" font-size="12" fill="#6c717a">медиально</text>
+
+  <!-- бедро -->
+  <path d="M190 70 C188 120 182 170 170 215 C160 250 150 280 152 312 L448 312 C450 280 440 250 430 215 C418 170 412 120 410 70 Z"
+        fill="#f4ede4" stroke="#8a7f72" stroke-width="2"/>
+  <!-- мыщелки бедра -->
+  <path d="M152 312 C150 340 168 362 205 366 C240 368 268 356 282 340 L318 340 C332 356 360 368 395 366 C432 362 450 340 448 312"
+        fill="#f4ede4" stroke="#8a7f72" stroke-width="2"/>
+  <text x="200" y="300" text-anchor="middle" font-size="11" fill="#6c717a">лат. мыщелок</text>
+  <text x="400" y="300" text-anchor="middle" font-size="11" fill="#6c717a">мед. мыщелок</text>
+
+  <!-- суставная щель -->
+  <line x1="130" y1="378" x2="470" y2="378" stroke="#c92a2a" stroke-width="1.5" stroke-dasharray="7 5"/>
+  <text x="478" y="382" font-size="11" fill="#c92a2a">суставная щель</text>
+
+  <!-- большеберцовая кость -->
+  <path d="M150 390 C150 386 160 384 175 384 L425 384 C440 384 450 386 450 390 C452 420 440 448 418 468 C405 520 400 600 398 700 L222 700 C220 600 214 520 200 468 C176 448 148 420 150 390 Z"
+        fill="#f4ede4" stroke="#8a7f72" stroke-width="2"/>
+  <!-- головка малоберцовой -->
+  <ellipse cx="128" cy="452" rx="26" ry="22" fill="#ece3d8" stroke="#8a7f72" stroke-width="2"/>
+  <path d="M118 472 C116 540 116 620 118 700 L140 700 C140 620 140 540 138 472" fill="#ece3d8" stroke="#8a7f72" stroke-width="2"/>
+  <text x="128" y="425" text-anchor="middle" font-size="11" fill="#6c717a">caput fibulae</text>
+
+  <!-- сухожилие четырёхглавой -->
+  <path d="M262 70 L338 70 L334 200 L266 200 Z" fill="#e9dcc6" stroke="#a08c6c" stroke-width="1.5"/>
+  <!-- надколенник -->
+  <path d="M300 190 C340 190 362 220 360 262 C358 298 330 322 300 326 C270 322 242 298 240 262 C238 220 260 190 300 190 Z"
+        fill="#dcd0bf" stroke="#6f6152" stroke-width="2.5"/>
+  <text x="300" y="262" text-anchor="middle" font-size="13" font-weight="bold" fill="#1b1e23">patella</text>
+  <!-- связка надколенника -->
+  <path d="M282 324 L318 324 L322 488 L278 488 Z" fill="#e9dcc6" stroke="#a08c6c" stroke-width="1.5"/>
+  <text x="300" y="404" text-anchor="middle" font-size="10" fill="#5c4f3d" transform="rotate(-90 300 404)">lig. patellae</text>
+  <!-- бугристость -->
+  <ellipse cx="300" cy="500" rx="30" ry="15" fill="#d6c6ae" stroke="#8a7f72" stroke-width="1.5"/>
+  <text x="300" y="530" text-anchor="middle" font-size="11" fill="#6c717a">tuberositas tibiae</text>
+
+  <!-- подкожная ветвь подкожного нерва: n. saphenus и r. infrapatellaris -->
+  <path d="M520 150 C512 260 500 360 492 470 C488 540 484 620 482 700" fill="none" stroke="#d4a500" stroke-width="4"/>
+  <path d="M506 330 C470 360 420 400 370 420 C340 432 316 440 290 448 C260 456 230 462 200 470" fill="none" stroke="#d4a500" stroke-width="3" stroke-dasharray="2 0"/>
+  <text x="528" y="210" font-size="12" fill="#8a6d00">n. saphenus</text>
+  <text x="372" y="452" font-size="11" fill="#8a6d00">r. infrapatellaris</text>
+
+  <!-- разрез для забора сухожилий (гусиная лапка) -->
+  <path d="M352 520 L398 556" stroke="#c92a2a" stroke-width="5" stroke-linecap="round"/>
+  <!-- проекция гусиной лапки -->
+  <path d="M440 470 C420 500 398 530 370 560" fill="none" stroke="#a08c6c" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="430" y="600" font-size="11" fill="#6c717a">pes anserinus (проекция)</text>
+
+  <!-- порталы -->
+  <use href="#portal" x="266" y="350"/>
+  <text x="266" y="355" text-anchor="middle" fill="#ffffff" font-weight="bold">1</text>
+  <use href="#portal" x="334" y="356"/>
+  <text x="334" y="361" text-anchor="middle" fill="#ffffff" font-weight="bold">2</text>
+  <use href="#portal" x="392" y="368" />
+  <text x="392" y="373" text-anchor="middle" fill="#ffffff" font-weight="bold">3</text>
+  <circle cx="226" cy="186" r="12" fill="#868e96" stroke="#ffffff" stroke-width="2"/>
+  <text x="226" y="191" text-anchor="middle" fill="#ffffff" font-weight="bold">4</text>
+  <circle cx="375" cy="538" r="12" fill="#c92a2a" stroke="#ffffff" stroke-width="2"/>
+  <text x="375" y="543" text-anchor="middle" fill="#ffffff" font-weight="bold">5</text>
+
+  <!-- легенда -->
+  <rect x="600" y="80" width="380" height="380" rx="10" fill="#f8f9fa" stroke="#ced4da"/>
+  <text x="618" y="108" font-size="15" font-weight="bold" fill="#1b1e23">Обозначения</text>
+  <circle cx="630" cy="135" r="10" fill="#0b7285"/><text x="630" y="139" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">1</text>
+  <text x="650" y="132" fill="#1b1e23">Переднелатеральный портал</text>
+  <text x="650" y="148" font-size="11" fill="#6c717a">у латерального края lig. patellae — оптика</text>
+  <circle cx="630" cy="180" r="10" fill="#0b7285"/><text x="630" y="184" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">2</text>
+  <text x="650" y="177" fill="#1b1e23">Переднемедиальный портал</text>
+  <text x="650" y="193" font-size="11" fill="#6c717a">у медиального края lig. patellae — инструменты</text>
+  <circle cx="630" cy="225" r="10" fill="#0b7285"/><text x="630" y="229" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">3</text>
+  <text x="650" y="222" fill="#1b1e23">Добавочный медиальный портал</text>
+  <text x="650" y="238" font-size="11" fill="#6c717a">над медиальным мениском, под контролем иглы —</text>
+  <text x="650" y="252" font-size="11" fill="#6c717a">для бедренного канала (не у всех хирургов)</text>
+  <circle cx="630" cy="282" r="10" fill="#868e96"/><text x="630" y="286" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">4</text>
+  <text x="650" y="279" fill="#1b1e23">Верхнелатеральный (отток) — по выбору</text>
+  <text x="650" y="295" font-size="11" fill="#6c717a">та же зона, что точка пункции сустава</text>
+  <circle cx="630" cy="325" r="10" fill="#c92a2a"/><text x="630" y="329" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">5</text>
+  <text x="650" y="322" fill="#1b1e23">Разрез для забора сухожилий</text>
+  <text x="650" y="338" font-size="11" fill="#6c717a">mm. semitendinosus ± gracilis, медиальнее</text>
+  <text x="650" y="352" font-size="11" fill="#6c717a">бугристости, над гусиной лапкой</text>
+  <line x1="620" y1="382" x2="644" y2="382" stroke="#d4a500" stroke-width="4"/>
+  <text x="650" y="386" fill="#1b1e23">нервы (жёлтый)</text>
+  <line x1="620" y1="408" x2="644" y2="408" stroke="#c92a2a" stroke-width="1.5" stroke-dasharray="7 5"/>
+  <text x="650" y="412" fill="#1b1e23">суставная щель</text>
+  <text x="618" y="440" font-size="11" fill="#6c717a">Точное положение порталов задаёт хирург.</text>
+
+  <rect x="600" y="480" width="380" height="120" rx="10" fill="#fff5f5" stroke="#c92a2a"/>
+  <text x="618" y="506" font-size="14" font-weight="bold" fill="#c92a2a">Опасная зона</text>
+  <text x="618" y="530" fill="#1b1e23">r. infrapatellaris n. sapheni пересекает</text>
+  <text x="618" y="548" fill="#1b1e23">передне-медиальную область под надколенником —</text>
+  <text x="618" y="566" fill="#1b1e23">его задевают разрез 5 и медиальные порталы</text>
+  <text x="618" y="584" font-size="11" fill="#6c717a">→ онемение кожи латеральнее и ниже разреза</text>
+</svg>
