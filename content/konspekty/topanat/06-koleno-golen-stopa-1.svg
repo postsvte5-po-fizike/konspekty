@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <title>Подколенная ямка правой ноги, вид сзади: границы ромба и порядок НЕВА (схема)</title>
+  <rect width="1000" height="720" fill="#ffffff"/>
+
+  <!-- контур бедра и голени -->
+  <path d="M150 20 C140 200 150 320 165 380 C175 470 170 560 205 700" fill="none" stroke="#adb5bd" stroke-width="2"/>
+  <path d="M450 20 C460 200 455 320 450 380 C445 470 430 560 395 700" fill="none" stroke="#adb5bd" stroke-width="2"/>
+
+  <!-- мышцы: полусухожильная/полуперепончатая (медиально, слева) -->
+  <path d="M215 30 C210 150 200 260 178 345 L205 352 C228 268 240 160 248 30 Z" fill="#f6d5cf" stroke="#c9a49c" stroke-width="1.5"/>
+  <!-- двуглавая (латерально, справа) -->
+  <path d="M365 30 C372 150 395 250 425 330 L440 410 L418 412 L400 335 C372 260 345 160 338 30 Z" fill="#f6d5cf" stroke="#c9a49c" stroke-width="1.5"/>
+  <!-- подколенная артерия (глубже всех, медиальнее) -->
+  <path d="M195 40 C215 80 240 110 250 150 L252 520" fill="none" stroke="#d62828" stroke-width="7"/>
+  <path d="M252 520 C280 540 330 548 356 576" fill="none" stroke="#d62828" stroke-width="5"/>
+  <path d="M252 520 L250 690" fill="none" stroke="#d62828" stroke-width="5"/>
+  <!-- подколенная вена -->
+  <path d="M212 40 C235 80 262 110 274 150 L276 610" fill="none" stroke="#1c64c8" stroke-width="7"/>
+  <!-- малая подкожная вена: снизу между головками к подколенной вене -->
+  <path d="M322 700 C322 620 318 520 300 470 C292 452 284 444 278 438" fill="none" stroke="#1c64c8" stroke-width="4"/>
+  <!-- седалищный нерв, большеберцовый, общий малоберцовый -->
+  <path d="M300 20 L300 118" fill="none" stroke="#8a6d00" stroke-width="11"/>
+  <path d="M300 20 L300 118" fill="none" stroke="#f5c400" stroke-width="8"/>
+  <path d="M300 118 L301 700" fill="none" stroke="#8a6d00" stroke-width="8"/>
+  <path d="M300 118 L301 700" fill="none" stroke="#f5c400" stroke-width="5.5"/>
+  <path d="M300 118 C340 190 380 280 404 345 C414 380 420 410 440 452 C452 470 470 478 488 474" fill="none" stroke="#8a6d00" stroke-width="7"/>
+  <path d="M300 118 C340 190 380 280 404 345 C414 380 420 410 440 452 C452 470 470 478 488 474" fill="none" stroke="#f5c400" stroke-width="4.5"/>
+  <!-- икроножная, медиальная головка -->
+  <path d="M182 352 C205 345 240 360 268 400 C285 440 295 500 296 560 C270 560 230 540 205 500 C188 460 178 400 182 352 Z" fill="#f1c1b8" stroke="#c9a49c" stroke-width="1.5"/>
+  <!-- икроножная, латеральная головка -->
+  <path d="M418 345 C395 340 362 360 336 400 C318 440 308 500 306 560 C330 560 368 540 392 500 C410 460 420 400 418 345 Z" fill="#f1c1b8" stroke="#c9a49c" stroke-width="1.5"/>
+
+  <!-- головка малоберцовой кости -->
+  <ellipse cx="438" cy="432" rx="22" ry="17" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2"/>
+
+  <!-- под икроножной мышцей: пунктир -->
+  <path d="M252 400 L252 520 C280 540 330 548 356 576" fill="none" stroke="#d62828" stroke-width="2" stroke-dasharray="6 4"/>
+  <path d="M276 400 L276 560" fill="none" stroke="#1c64c8" stroke-width="2" stroke-dasharray="6 4"/>
+  <path d="M300 400 L300 560" fill="none" stroke="#8a6d00" stroke-width="2" stroke-dasharray="6 4"/>
+  <path d="M322 700 C322 620 318 520 300 470 C292 452 284 444 278 438" fill="none" stroke="#1c64c8" stroke-width="4"/>
+  <!-- границы ромба пунктиром -->
+  <path d="M300 115 L192 345 L300 548 L412 335 Z" fill="none" stroke="#495057" stroke-width="1.5" stroke-dasharray="6 5"/>
+
+  <!-- номера -->
+  <g stroke="#495057" stroke-width="1">
+    <line x1="210" y1="200" x2="250" y2="200"/>
+    <line x1="210" y1="300" x2="276" y2="300"/>
+    <line x1="345" y1="640" x2="322" y2="640"/>
+    <line x1="214" y1="575" x2="252" y2="524"/>
+  </g>
+  <g font-weight="bold" font-size="13">
+    <circle cx="170" cy="120" r="12" fill="#ffffff" stroke="#212529"/><text x="170" y="125" text-anchor="middle">1</text>
+    <circle cx="395" cy="140" r="12" fill="#ffffff" stroke="#212529"/><text x="395" y="145" text-anchor="middle">2</text>
+    <circle cx="205" cy="440" r="12" fill="#ffffff" stroke="#212529"/><text x="205" y="445" text-anchor="middle">3</text>
+    <circle cx="395" cy="470" r="12" fill="#ffffff" stroke="#212529"/><text x="395" y="475" text-anchor="middle">4</text>
+    <circle cx="474" cy="420" r="12" fill="#ffffff" stroke="#212529"/><text x="474" y="425" text-anchor="middle">5</text>
+    <circle cx="322" cy="270" r="12" fill="#ffffff" stroke="#212529"/><text x="322" y="275" text-anchor="middle">6</text>
+    <circle cx="378" cy="232" r="12" fill="#ffffff" stroke="#212529"/><text x="378" y="237" text-anchor="middle">7</text>
+    <circle cx="198" cy="300" r="12" fill="#ffffff" stroke="#212529"/><text x="198" y="305" text-anchor="middle">8</text>
+    <circle cx="198" cy="200" r="12" fill="#ffffff" stroke="#212529"/><text x="198" y="205" text-anchor="middle">9</text>
+    <circle cx="358" cy="640" r="12" fill="#ffffff" stroke="#212529"/><text x="358" y="645" text-anchor="middle">10</text>
+    <circle cx="202" cy="580" r="12" fill="#ffffff" stroke="#212529"/><text x="202" y="580" text-anchor="middle" dy="5">11</text>
+  </g>
+  <text x="300" y="712" text-anchor="middle" font-size="12" fill="#495057">медиально ←   → латерально</text>
+
+  <!-- легенда -->
+  <g font-size="13.5" fill="#212529">
+    <text x="540" y="40" font-weight="bold" font-size="16">Правая подколенная ямка, вид сзади</text>
+    <text x="540" y="70">1 — mm. semitendinosus et semimembranosus</text>
+    <text x="560" y="88" fill="#495057">(верхнемедиальная граница ромба)</text>
+    <text x="540" y="110">2 — m. biceps femoris (верхнелатеральная граница)</text>
+    <text x="540" y="132">3, 4 — медиальная и латеральная головки</text>
+    <text x="560" y="150">m. gastrocnemius (нижние границы)</text>
+    <text x="540" y="172">5 — caput fibulae (шейку огибает n. fibularis communis)</text>
+    <text x="540" y="194">6 — n. tibialis (по средней линии, самый поверхностный)</text>
+    <text x="540" y="216">7 — n. fibularis communis (по медиальному краю</text>
+    <text x="560" y="234">сухожилия двуглавой → к шейке малоберцовой кости)</text>
+    <text x="540" y="256">8 — v. poplitea (медиальнее и глубже нерва)</text>
+    <text x="540" y="278">9 — a. poplitea (глубже и медиальнее всех, у кости)</text>
+    <text x="540" y="300">10 — v. saphena parva (впадает в подколенную вену)</text>
+    <text x="540" y="322">11 — деление a. poplitea на a. tibialis anterior et</text>
+    <text x="560" y="340">posterior (у сухожильной дуги камбаловидной мышцы)</text>
+    <text x="540" y="362" fill="#495057">серый пунктир — ромб; цветной пунктир — под икроножной</text>
+  </g>
+
+  <!-- врезка НЕВА -->
+  <rect x="540" y="390" width="440" height="300" rx="14" fill="#f8f9fa" stroke="#495057" stroke-width="1.5"/>
+  <text x="760" y="420" text-anchor="middle" font-weight="bold" font-size="16">НЕ-В-А: поперечный срез пучка</text>
+  <text x="760" y="442" text-anchor="middle" font-size="13" fill="#495057">(вид сверху; сзади — вверху, медиально — слева)</text>
+  <text x="760" y="472" text-anchor="middle" font-size="13">сзади, под фасцией</text>
+  <circle cx="850" cy="510" r="22" fill="#f5c400" stroke="#8a6d00" stroke-width="2"/>
+  <text x="850" y="516" text-anchor="middle" font-weight="bold">Н</text>
+  <circle cx="770" cy="560" r="22" fill="#1c64c8"/>
+  <text x="770" y="566" text-anchor="middle" font-weight="bold" fill="#ffffff">В</text>
+  <circle cx="690" cy="610" r="22" fill="#d62828"/>
+  <text x="690" y="616" text-anchor="middle" font-weight="bold" fill="#ffffff">А</text>
+  <path d="M600 662 L920 662" stroke="#8d7b5a" stroke-width="10"/>
+  <text x="760" y="684" text-anchor="middle" font-size="13" fill="#5c4a2a">бедренная кость (дно ямки), спереди</text>
+  <text x="900" y="560" text-anchor="middle" font-size="12.5" fill="#495057">латерально,</text>
+  <text x="900" y="576" text-anchor="middle" font-size="12.5" fill="#495057">поверхностно</text>
+  <text x="615" y="560" text-anchor="middle" font-size="12.5" fill="#495057">медиально,</text>
+  <text x="615" y="576" text-anchor="middle" font-size="12.5" fill="#495057">глубоко</text>
+</svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <title>Проекционные линии сосудов и нервов голени и стопы, точки пункции коленного сустава (схема)</title>
+  <rect width="1100" height="760" fill="#ffffff"/>
+
+  <!-- ===== А. ВИД СПЕРЕДИ (правая нога: медиально — справа) ===== -->
+  <text x="190" y="28" text-anchor="middle" font-weight="bold" font-size="15">А. Правая голень спереди</text>
+  <text x="190" y="46" text-anchor="middle" font-size="12" fill="#495057">латерально ←   → медиально</text>
+  <path d="M95 70 C90 160 105 260 120 360 C130 450 130 560 140 620 C130 660 120 690 110 730" fill="none" stroke="#adb5bd" stroke-width="2"/>
+  <path d="M290 70 C298 160 290 260 270 360 C258 450 250 560 245 620 C262 660 285 690 300 730" fill="none" stroke="#adb5bd" stroke-width="2"/>
+  <!-- надколенник, бугристость, головка м/б -->
+  <ellipse cx="195" cy="110" rx="34" ry="40" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2"/>
+  <ellipse cx="200" cy="200" rx="13" ry="10" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2"/>
+  <circle cx="112" cy="196" r="14" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2"/>
+  <text x="222" y="190" font-size="11" fill="#5c4a2a">tub. tibiae</text>
+  <text x="112" y="172" font-size="11" fill="#5c4a2a" text-anchor="middle">caput fibulae</text>
+  <path d="M210 205 C222 330 230 480 240 620" fill="none" stroke="#8d7b5a" stroke-width="2" stroke-dasharray="4 3"/>
+  <!-- лодыжки -->
+  <circle cx="135" cy="640" r="14" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2"/>
+  <circle cx="252" cy="625" r="14" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2"/>
+  <!-- точки середины -->
+  <circle cx="156" cy="198" r="4" fill="#212529"/>
+  <circle cx="193" cy="632" r="4" fill="#212529"/>
+  <!-- проекция a. tibialis anterior -->
+  <path d="M156 198 L193 632" stroke="#d62828" stroke-width="4"/>
+  <!-- тыл стопы: a. dorsalis pedis -->
+  <path d="M193 632 L170 740" stroke="#d62828" stroke-width="4" stroke-dasharray="9 5"/>
+  <text x="140" y="752" font-size="11.5" fill="#495057">к 1-му межпальцевому промежутку</text>
+  <!-- большая подкожная вена кпереди от медиальной лодыжки -->
+  <circle cx="268" cy="603" r="6" fill="#1c64c8"/>
+  <!-- малоберцовый нерв вокруг шейки -->
+  <path d="M95 160 C110 190 120 215 140 228" fill="none" stroke="#f5c400" stroke-width="5"/>
+  <!-- номера -->
+  <g font-weight="bold" font-size="12">
+    <g fill="#ffffff" stroke="#212529"><circle cx="188" cy="400" r="11"/><circle cx="160" cy="700" r="11"/><circle cx="292" cy="590" r="11"/><circle cx="80" cy="240" r="11"/></g>
+    <text x="188" y="405" text-anchor="middle">1</text><text x="160" y="705" text-anchor="middle">2</text>
+    <text x="292" y="595" text-anchor="middle">3</text><text x="80" y="245" text-anchor="middle">4</text>
+  </g>
+
+  <!-- ===== Б. ВИД СЗАДИ (правая нога: медиально — слева) ===== -->
+  <text x="520" y="28" text-anchor="middle" font-weight="bold" font-size="15">Б. Правая голень сзади</text>
+  <text x="520" y="46" text-anchor="middle" font-size="12" fill="#495057">медиально ←   → латерально</text>
+  <path d="M420 70 C412 160 400 260 410 360 C425 450 445 560 450 620 C440 660 430 690 425 730" fill="none" stroke="#adb5bd" stroke-width="2"/>
+  <path d="M620 70 C628 160 640 260 630 360 C615 450 595 560 585 620 C595 660 605 690 610 730" fill="none" stroke="#adb5bd" stroke-width="2"/>
+  <!-- подколенный ромб -->
+  <path d="M520 80 L455 170 L520 280 L585 170 Z" fill="none" stroke="#495057" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <circle cx="612" cy="226" r="13" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2"/>
+  <!-- ахиллово -->
+  <path d="M520 470 L520 690" stroke="#e9c46a" stroke-width="14"/>
+  <circle cx="452" cy="640" r="14" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2"/>
+  <circle cx="590" cy="655" r="14" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2"/>
+  <!-- проекции -->
+  <path d="M520 80 L520 200" stroke="#d62828" stroke-width="4"/>
+  <circle cx="520" cy="200" r="4" fill="#212529"/>
+  <circle cx="486" cy="645" r="4" fill="#212529"/>
+  <path d="M520 200 L486 645" stroke="#d62828" stroke-width="4"/>
+  <path d="M520 80 C545 120 570 160 585 190 C595 210 600 230 608 248" fill="none" stroke="#f5c400" stroke-width="5"/>
+  <!-- малая подкожная -->
+  <path d="M520 200 C524 380 540 560 565 650" fill="none" stroke="#1c64c8" stroke-width="3" stroke-dasharray="5 4"/>
+  <g font-weight="bold" font-size="12">
+    <g fill="#ffffff" stroke="#212529"><circle cx="498" cy="130" r="11"/><circle cx="478" cy="420" r="11"/><circle cx="582" cy="140" r="11"/><circle cx="560" cy="520" r="11"/></g>
+    <text x="498" y="135" text-anchor="middle">5</text><text x="478" y="425" text-anchor="middle">6</text>
+    <text x="582" y="145" text-anchor="middle">7</text><text x="560" y="525" text-anchor="middle">8</text>
+  </g>
+
+  <!-- ===== В. КОЛЕНО СПЕРЕДИ: ПУНКЦИЯ ===== -->
+  <text x="850" y="28" text-anchor="middle" font-weight="bold" font-size="15">В. Пункция коленного сустава</text>
+  <text x="850" y="46" text-anchor="middle" font-size="12" fill="#495057">правое колено спереди; латерально — слева</text>
+  <path d="M760 60 C755 150 760 250 770 330" fill="none" stroke="#adb5bd" stroke-width="2"/>
+  <path d="M940 60 C945 150 940 250 930 330" fill="none" stroke="#adb5bd" stroke-width="2"/>
+  <path d="M820 60 L828 120 M880 60 L872 120" stroke="#c9a49c" stroke-width="3"/>
+  <ellipse cx="850" cy="175" rx="42" ry="52" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2.5"/>
+  <text x="850" y="180" text-anchor="middle" font-size="12" fill="#5c4a2a">patella</text>
+  <path d="M838 227 L840 300 M862 227 L860 300" stroke="#c9a49c" stroke-width="3"/>
+  <ellipse cx="850" cy="306" rx="14" ry="9" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2"/>
+  <!-- 4 точки: 1.5-2 см от углов -->
+  <g fill="#d6336c" stroke="#ffffff" stroke-width="2">
+    <circle cx="796" cy="118" r="9"/><circle cx="904" cy="118" r="9"/>
+    <circle cx="796" cy="232" r="9"/><circle cx="904" cy="232" r="9"/>
+  </g>
+  <text x="782" y="104" text-anchor="end" font-size="12.5" font-weight="bold">ВЛ ★</text>
+  <text x="918" y="104" font-size="12.5">ВМ</text>
+  <text x="782" y="252" text-anchor="end" font-size="12.5">НЛ</text>
+  <text x="918" y="252" font-size="12.5">НМ</text>
+  <text x="850" y="356" text-anchor="middle" font-size="12" fill="#495057">точки — на 1,5–2 см от углов надколенника,</text>
+  <text x="850" y="372" text-anchor="middle" font-size="12" fill="#495057">игла за надколенник, глубина 1,5–2,5 см</text>
+
+  <!-- легенда -->
+  <g font-size="13" fill="#212529">
+    <text x="690" y="420" font-weight="bold" font-size="15">Обозначения</text>
+    <text x="690" y="444">1 — a. tibialis ant. + n. fibularis prof.: от середины</text>
+    <text x="710" y="461">между tuberositas tibiae и caput fibulae</text>
+    <text x="710" y="478">к середине между лодыжками</text>
+    <text x="690" y="500">2 — a. dorsalis pedis: от середины между</text>
+    <text x="710" y="517">лодыжками к 1-му межпальцевому промежутку</text>
+    <text x="690" y="539">3 — v. saphena magna кпереди от медиальной</text>
+    <text x="710" y="556">лодыжки (место венесекции)</text>
+    <text x="690" y="578">4 — n. fibularis communis у шейки fibula</text>
+    <text x="690" y="600">5 — a., v. poplitea, n. tibialis: вертикаль через</text>
+    <text x="710" y="617">середину подколенной ямки</text>
+    <text x="690" y="639">6 — задний большеберцовый пучок: от середины</text>
+    <text x="710" y="656">ямки к середине между медиальной лодыжкой</text>
+    <text x="710" y="673">и ахилловым сухожилием</text>
+    <text x="690" y="695">7 — n. fibularis communis: вдоль медиального</text>
+    <text x="710" y="712">края двуглавой к шейке fibula</text>
+    <text x="690" y="734">8 — v. saphena parva (пунктир)</text>
+  </g>
+  <text x="20" y="752" font-size="11" fill="#868e96"> </text>
+</svg>

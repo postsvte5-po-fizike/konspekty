@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <title>Медиальный лодыжковый канал правой стопы, вид с медиальной стороны (схема)</title>
+  <rect width="1000" height="640" fill="#ffffff"/>
+
+  <!-- контур голени и стопы -->
+  <path d="M250 20 L250 300 C250 360 220 420 120 450 L40 470" fill="none" stroke="#adb5bd" stroke-width="2"/>
+  <path d="M560 20 C565 200 580 330 610 420 C625 470 600 520 540 540 L60 545" fill="none" stroke="#adb5bd" stroke-width="2"/>
+
+  <!-- большеберцовая кость и медиальная лодыжка -->
+  <path d="M265 20 L265 280 C265 330 290 362 330 368 C370 370 392 340 392 300 L395 20" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2.5"/>
+  <!-- пяточная кость -->
+  <path d="M400 430 C460 410 560 420 590 460 C610 495 585 528 540 532 L400 528 C380 500 380 450 400 430 Z" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2.5"/>
+  <text x="510" y="490" text-anchor="middle" font-size="13" fill="#5c4a2a">calcaneus</text>
+  <!-- пяточное сухожилие -->
+  <path d="M520 20 C522 180 530 320 552 430" fill="none" stroke="#e9c46a" stroke-width="22"/>
+  <text x="536" y="200" text-anchor="middle" font-size="12" fill="#5c4a2a" transform="rotate(-87 536 200)">tendo calcaneus (Achillis)</text>
+
+  <!-- структуры канала: дуги вокруг лодыжки (центр 330,330) -->
+  <!-- 1 tibialis posterior -->
+  <path d="M405 40 L405 330 A75 75 0 0 1 300 399 L120 410" fill="none" stroke="#c77d5b" stroke-width="9"/>
+  <!-- 2 FDL -->
+  <path d="M428 40 L428 330 A98 98 0 0 1 290 421 L100 440" fill="none" stroke="#c77d5b" stroke-width="9"/>
+  <!-- 3 артерия и вены -->
+  <path d="M449 40 L449 330 A119 119 0 0 1 283 442 L90 470" fill="none" stroke="#1c64c8" stroke-width="12"/>
+  <path d="M449 40 L449 330 A119 119 0 0 1 283 442 L90 470" fill="none" stroke="#d62828" stroke-width="6"/>
+  <!-- 4 нерв -->
+  <path d="M470 40 L470 330 A140 140 0 0 1 275 461 L80 500" fill="none" stroke="#8a6d00" stroke-width="9"/>
+  <path d="M470 40 L470 330 A140 140 0 0 1 275 461 L80 500" fill="none" stroke="#f5c400" stroke-width="6"/>
+  <!-- 5 FHL -->
+  <path d="M492 40 L492 330 A162 162 0 0 1 268 482 L70 528" fill="none" stroke="#c77d5b" stroke-width="9"/>
+
+  <!-- удерживатель сгибателей -->
+  <path d="M330 368 L560 470" stroke="#495057" stroke-width="26" stroke-opacity="0.28"/>
+  <text x="560" y="405" font-size="12.5" fill="#212529" font-weight="bold">retinaculum mm. flexorum</text>
+  <!-- точка пульса -->
+  <circle cx="460" cy="352" r="10" fill="none" stroke="#d62828" stroke-width="3"/>
+  <circle cx="460" cy="352" r="3" fill="#d62828"/>
+  <!-- деление на подошвенные -->
+  <circle cx="300" cy="438" r="7" fill="#ffffff" stroke="#212529" stroke-width="2"/>
+
+  <!-- номера -->
+  <g font-weight="bold" font-size="12.5">
+    <g fill="#ffffff" stroke="#212529">
+      <circle cx="405" cy="120" r="11"/><circle cx="428" cy="160" r="11"/><circle cx="449" cy="120" r="11"/>
+      <circle cx="470" cy="160" r="11"/><circle cx="492" cy="120" r="11"/>
+    </g>
+    <text x="405" y="125" text-anchor="middle">1</text>
+    <text x="428" y="165" text-anchor="middle">2</text>
+    <text x="449" y="125" text-anchor="middle">3</text>
+    <text x="470" y="165" text-anchor="middle">4</text>
+    <text x="492" y="125" text-anchor="middle">5</text>
+  </g>
+  <text x="328" y="320" text-anchor="middle" font-size="13" font-weight="bold" fill="#5c4a2a">медиальная</text>
+  <text x="328" y="337" text-anchor="middle" font-size="13" font-weight="bold" fill="#5c4a2a">лодыжка</text>
+  <text x="330" y="150" text-anchor="middle" font-size="13" fill="#5c4a2a">tibia</text>
+  <text x="60" y="590" font-size="12.5" fill="#495057">← к пальцам (спереди)</text><text x="600" y="590" font-size="12.5" fill="#495057" text-anchor="end">к пятке (сзади) →</text>
+  <text x="150" y="400" font-size="12" fill="#495057">на подошву через пяточный канал</text>
+
+  <!-- легенда -->
+  <g font-size="13.5" fill="#212529">
+    <text x="640" y="40" font-weight="bold" font-size="16">Правая стопа, медиальная сторона</text>
+    <text x="640" y="62" font-size="12.5" fill="#495057">Порядок в канале — спереди назад</text>
+    <text x="640" y="62" font-size="12.5" fill="#495057" dy="18">(от лодыжки к пяточному сухожилию):</text>
+    <text x="640" y="112">1 — tendo m. tibialis posterior</text>
+    <text x="660" y="130" font-size="12" fill="#495057">(в борозде на лодыжке, ближе всех)</text>
+    <text x="640" y="152">2 — tendo m. flexor digitorum longus</text>
+    <text x="640" y="174">3 — a. tibialis posterior + 2 вены</text>
+    <text x="660" y="192" font-size="12" fill="#495057">(в пучке артерия впереди нерва)</text>
+    <text x="640" y="214">4 — n. tibialis</text>
+    <text x="640" y="236">5 — tendo m. flexor hallucis longus</text>
+    <text x="660" y="254" font-size="12" fill="#495057">(сзади и глубже всех)</text>
+    <circle cx="648" cy="280" r="8" fill="none" stroke="#d62828" stroke-width="3"/>
+    <text x="664" y="285">пульс a. tibialis posterior: посредине</text>
+    <text x="664" y="303">между лодыжкой и ахилловым сухожилием,</text>
+    <text x="664" y="321">стопу слегка подвернуть кнутри</text>
+    <circle cx="648" cy="345" r="6" fill="#ffffff" stroke="#212529" stroke-width="2"/>
+    <text x="664" y="350">у верхушки лодыжки артерия и нерв</text>
+    <text x="664" y="368">делятся на медиальные и латеральные</text>
+    <text x="664" y="386">подошвенные</text>
+  </g>
+  <rect x="640" y="440" width="340" height="120" rx="12" fill="#fff5f5" stroke="#c92a2a" stroke-width="1.5"/>
+  <text x="810" y="466" text-anchor="middle" font-weight="bold">Стенки канала</text>
+  <text x="810" y="490" text-anchor="middle" font-size="13">медиальная — fascia + retinaculum flexorum</text>
+  <text x="810" y="510" text-anchor="middle" font-size="13">латеральная — пяточная кость (и лодыжка)</text>
+  <text x="810" y="534" text-anchor="middle" font-size="13">сдавление n. tibialis здесь —</text>
+  <text x="810" y="552" text-anchor="middle" font-size="13" font-weight="bold">тарзальный туннельный синдром</text>
+</svg>

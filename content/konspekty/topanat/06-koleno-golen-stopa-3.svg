@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <title>Поперечный срез правой голени в средней трети: фасциальные ложа и сосудисто-нервные пучки (схема)</title>
+  <rect width="1000" height="720" fill="#ffffff"/>
+
+  <!-- кожа и собственная фасция -->
+  <path d="M250 150 C330 140 480 165 530 280 C570 375 550 520 455 625 C390 690 270 690 210 625 C140 545 125 400 155 290 C178 215 205 160 250 150 Z" fill="#fdf3e7" stroke="#b08968" stroke-width="2"/>
+  <path d="M252 166 C326 157 466 180 514 285 C552 375 534 512 444 610 C384 670 276 670 222 612 C156 538 142 402 170 295 C190 228 214 176 252 166 Z" fill="#fde8e4" stroke="#495057" stroke-width="2" stroke-dasharray="7 4"/>
+
+  <!-- мышцы переднего ложа -->
+  <ellipse cx="318" cy="225" rx="44" ry="40" fill="#f4b9b0" stroke="#c9a49c"/>
+  <ellipse cx="420" cy="230" rx="42" ry="44" fill="#f4b9b0" stroke="#c9a49c"/>
+  <ellipse cx="372" cy="292" rx="28" ry="20" fill="#f4b9b0" stroke="#c9a49c"/>
+  <!-- латеральное ложе -->
+  <ellipse cx="490" cy="345" rx="30" ry="48" fill="#f4b9b0" stroke="#c9a49c"/>
+  <!-- глубокий слой заднего ложа -->
+  <ellipse cx="265" cy="355" rx="34" ry="28" fill="#f4b9b0" stroke="#c9a49c"/>
+  <ellipse cx="345" cy="380" rx="44" ry="26" fill="#f4b9b0" stroke="#c9a49c"/>
+  <ellipse cx="430" cy="420" rx="40" ry="30" fill="#f4b9b0" stroke="#c9a49c"/>
+  <!-- поверхностный слой: камбаловидная и икроножная -->
+  <path d="M222 488 C262 474 420 476 490 486 C480 532 430 556 350 558 C282 556 236 532 222 488 Z" fill="#eea79c" stroke="#c9a49c"/>
+  <path d="M240 572 C285 564 415 564 462 574 C448 618 400 642 350 644 C298 642 254 618 240 572 Z" fill="#e8958a" stroke="#c9a49c"/>
+
+  <!-- кости -->
+  <path d="M240 172 L196 300 L292 290 Z" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="452" cy="372" rx="17" ry="15" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2.5"/>
+
+  <!-- межкостная перепонка, перегородки, глубокий листок -->
+  <path d="M290 290 L438 368" stroke="#495057" stroke-width="3"/>
+  <path d="M462 360 L505 262" stroke="#495057" stroke-width="2" stroke-dasharray="6 3"/>
+  <path d="M462 384 L536 440" stroke="#495057" stroke-width="2" stroke-dasharray="6 3"/>
+  <path d="M200 300 C212 450 360 478 470 452 C482 425 472 398 462 386" fill="none" stroke="#495057" stroke-width="2" stroke-dasharray="6 3"/>
+  <path d="M446 388 C470 420 500 440 536 445" fill="none" stroke="#495057" stroke-width="0"/>
+
+  <!-- передний пучок на мембране -->
+  <circle cx="360" cy="320" r="8" fill="#d62828"/>
+  <circle cx="345" cy="316" r="5" fill="#1c64c8"/>
+  <circle cx="375" cy="326" r="5" fill="#1c64c8"/>
+  <circle cx="388" cy="314" r="6.5" fill="#f5c400" stroke="#8a6d00" stroke-width="1.5"/>
+  <!-- поверхностный малоберцовый нерв -->
+  <circle cx="478" cy="300" r="6.5" fill="#f5c400" stroke="#8a6d00" stroke-width="1.5"/>
+  <!-- задний большеберцовый пучок -->
+  <circle cx="320" cy="425" r="8.5" fill="#d62828"/>
+  <circle cx="305" cy="420" r="5" fill="#1c64c8"/>
+  <circle cx="320" cy="440" r="5" fill="#1c64c8"/>
+  <circle cx="342" cy="430" r="7.5" fill="#f5c400" stroke="#8a6d00" stroke-width="1.5"/>
+  <!-- малоберцовая артерия -->
+  <circle cx="440" cy="398" r="6.5" fill="#d62828"/>
+  <circle cx="452" cy="404" r="4" fill="#1c64c8"/>
+  <!-- подкожные -->
+  <circle cx="178" cy="250" r="7" fill="#1c64c8"/>
+  <circle cx="170" cy="268" r="5" fill="#f5c400" stroke="#8a6d00" stroke-width="1.5"/>
+  <circle cx="352" cy="668" r="7" fill="#1c64c8"/>
+  <circle cx="370" cy="670" r="5" fill="#f5c400" stroke="#8a6d00" stroke-width="1.5"/>
+
+  <!-- номера -->
+  <g font-weight="bold" font-size="12.5">
+    <g fill="#ffffff" stroke="#212529">
+      <circle cx="232" cy="242" r="11"/><circle cx="318" cy="222" r="11"/><circle cx="420" cy="225" r="11"/>
+      <circle cx="372" cy="290" r="11"/><circle cx="492" cy="350" r="11"/><circle cx="265" cy="352" r="11"/>
+      <circle cx="345" cy="377" r="11"/><circle cx="430" cy="418" r="11"/><circle cx="350" cy="518" r="11"/>
+      <circle cx="350" cy="605" r="11"/>
+    </g>
+    <text x="232" y="247" text-anchor="middle">1</text>
+    <text x="318" y="227" text-anchor="middle">2</text>
+    <text x="420" y="230" text-anchor="middle">3</text>
+    <text x="372" y="295" text-anchor="middle">4</text>
+    <text x="492" y="355" text-anchor="middle">5</text>
+    <text x="265" y="357" text-anchor="middle">6</text>
+    <text x="345" y="382" text-anchor="middle">7</text>
+    <text x="430" y="423" text-anchor="middle">8</text>
+    <text x="350" y="523" text-anchor="middle">9</text>
+    <text x="350" y="610" text-anchor="middle">10</text>
+  </g>
+  <!-- буквы к пучкам -->
+  <g stroke="#495057" stroke-width="1">
+    <line x1="388" y1="320" x2="420" y2="330"/>
+    <line x1="484" y1="298" x2="560" y2="250"/>
+    <line x1="312" y1="432" x2="230" y2="470"/>
+    <line x1="446" y1="400" x2="560" y2="470"/>
+    <line x1="172" y1="250" x2="120" y2="220"/>
+    <line x1="360" y1="672" x2="430" y2="700"/>
+    <line x1="290" y1="292" x2="270" y2="310"/>
+  </g>
+  <g font-weight="bold" font-size="14" fill="#212529">
+    <text x="424" y="342">А</text>
+    <text x="563" y="250">Б</text>
+    <text x="214" y="482">В</text>
+    <text x="563" y="480">Г</text>
+    <text x="102" y="218">Д</text>
+    <text x="434" y="712">Е</text>
+  </g>
+  <text x="250" y="320" font-size="11.5" fill="#495057">мембрана</text>
+  <text x="262" y="158" font-size="11.5" fill="#495057" text-anchor="middle">tibia (передний край под кожей)</text>
+  
+
+  <!-- ориентация -->
+  <text x="350" y="30" text-anchor="middle" font-weight="bold" font-size="16">Правая голень, средняя треть, вид сверху</text>
+  <text x="350" y="52" text-anchor="middle" font-size="12.5" fill="#495057">спереди — вверху, медиально — слева</text>
+  <text x="70" y="400" font-size="12.5" fill="#495057" text-anchor="middle">медиально</text>
+  <text x="620" y="400" font-size="12.5" fill="#495057" text-anchor="middle">латерально</text>
+
+  <!-- легенда -->
+  <g font-size="13" fill="#212529">
+    <text x="660" y="90" font-weight="bold" font-size="14">Переднее ложе</text>
+    <text x="660" y="110">2 — m. tibialis anterior</text>
+    <text x="660" y="128">3 — m. extensor digitorum longus</text>
+    <text x="660" y="146">4 — m. extensor hallucis longus</text>
+    <text x="660" y="164">А — a., vv. tibiales ant. + n. fibularis prof.</text>
+    <text x="680" y="181" fill="#495057" font-size="12">(на мембране, нерв — латерально)</text>
+    <text x="660" y="210" font-weight="bold" font-size="14">Латеральное ложе</text>
+    <text x="660" y="230">5 — mm. fibulares longus et brevis</text>
+    <text x="660" y="248">Б — n. fibularis superficialis</text>
+    <text x="660" y="278" font-weight="bold" font-size="14">Заднее ложе, глубокий слой</text>
+    <text x="660" y="298">6 — m. flexor digitorum longus (медиально)</text>
+    <text x="660" y="316">7 — m. tibialis posterior (посредине)</text>
+    <text x="660" y="334">8 — m. flexor hallucis longus (латерально)</text>
+    <text x="660" y="352">В — a., vv. tibiales post. + n. tibialis</text>
+    <text x="680" y="369" fill="#495057" font-size="12">(нерв — латерально от артерии)</text>
+    <text x="660" y="387">Г — a. fibularis (у малоберцовой кости)</text>
+    <text x="660" y="417" font-weight="bold" font-size="14">Заднее ложе, поверхностный слой</text>
+    <text x="660" y="437">9 — m. soleus</text>
+    <text x="660" y="455">10 — m. gastrocnemius</text>
+    <text x="660" y="485" font-weight="bold" font-size="14">Подкожно</text>
+    <text x="660" y="505">1 — tibia (её медиальная поверхность)</text>
+    <text x="680" y="522" fill="#495057" font-size="12">(под кожей, мышц нет)</text>
+    <text x="660" y="540">Д — v. saphena magna + n. saphenus</text>
+    <text x="660" y="558">Е — v. saphena parva + n. cutaneus surae</text>
+    <text x="660" y="596" fill="#495057" font-size="12">овал у Г — fibula; сплошная линия — мембрана</text>
+    <text x="660" y="614" fill="#495057" font-size="12">пунктир — фасция, перегородки и глубокий</text>
+    <text x="660" y="630" fill="#495057" font-size="12">листок между слоями заднего ложа</text>
+    <text x="660" y="660" font-size="12"><tspan fill="#d62828">●</tspan> артерия  <tspan fill="#1c64c8">●</tspan> вены  <tspan fill="#c9a000">●</tspan> нерв</text>
+  </g>
+</svg>

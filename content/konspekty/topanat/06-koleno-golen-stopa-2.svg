@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <title>Коллатеральная сеть коленного сустава (схема по Николаеву, рис. 3.33)</title>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#495057"/>
+    </marker>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#d62828"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="640" fill="#ffffff"/>
+
+  <!-- магистраль слева -->
+  <rect x="30" y="20" width="200" height="44" rx="10" fill="#d62828"/>
+  <text x="130" y="47" text-anchor="middle" fill="#ffffff" font-weight="bold">a. femoralis</text>
+  <path d="M130 64 L130 290" stroke="#d62828" stroke-width="8"/>
+  <rect x="30" y="290" width="200" height="44" rx="10" fill="#d62828"/>
+  <text x="130" y="317" text-anchor="middle" fill="#ffffff" font-weight="bold">a. poplitea</text>
+  <path d="M130 334 L130 520" stroke="#d62828" stroke-width="8"/>
+  <rect x="30" y="520" width="200" height="44" rx="10" fill="#d62828"/>
+  <text x="130" y="540" text-anchor="middle" fill="#ffffff" font-weight="bold" font-size="13">a. tibialis anterior</text>
+  <text x="130" y="557" text-anchor="middle" fill="#ffffff" font-size="12">(и a. tibialis posterior)</text>
+  <text x="18" y="215" fill="#495057" font-size="12" transform="rotate(-90 18 215)">hiatus adductorius</text>
+
+  <!-- a. profunda femoris -->
+  <rect x="270" y="20" width="230" height="44" rx="10" fill="#ffe3e3" stroke="#d62828" stroke-width="1.5"/>
+  <text x="385" y="40" text-anchor="middle" font-size="13">a. profunda femoris →</text>
+  <text x="385" y="57" text-anchor="middle" font-size="13">a. circumflexa femoris lat.</text>
+  <path d="M230 42 L268 42" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- верхние притоки -->
+  <rect x="270" y="90" width="230" height="44" rx="10" fill="#ffe3e3" stroke="#d62828" stroke-width="1.5"/>
+  <text x="385" y="110" text-anchor="middle" font-size="13">ramus descendens</text>
+  <text x="385" y="127" text-anchor="middle" font-size="13">a. circumflexae femoris lat.</text>
+  <path d="M385 64 L385 88" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+
+  <rect x="270" y="160" width="230" height="40" rx="10" fill="#ffe3e3" stroke="#d62828" stroke-width="1.5"/>
+  <text x="385" y="185" text-anchor="middle" font-size="13">a. descendens genus</text>
+  <path d="M138 180 L268 180" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- 5 коленных -->
+  <rect x="270" y="230" width="230" height="40" rx="10" fill="#ffe3e3" stroke="#d62828" stroke-width="1.5"/>
+  <text x="385" y="248" text-anchor="middle" font-size="13">aa. superiores genus</text>
+  <text x="385" y="264" text-anchor="middle" font-size="12">lateralis et medialis</text>
+  <rect x="270" y="290" width="230" height="44" rx="10" fill="#f1f3f5" stroke="#868e96" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <text x="385" y="309" text-anchor="middle" font-size="13">a. media genus (непарная)</text>
+  <text x="385" y="326" text-anchor="middle" font-size="12" fill="#495057">→ капсула, крестообразные связки</text>
+  <rect x="270" y="360" width="230" height="40" rx="10" fill="#ffe3e3" stroke="#d62828" stroke-width="1.5"/>
+  <text x="385" y="378" text-anchor="middle" font-size="13">aa. inferiores genus</text>
+  <text x="385" y="394" text-anchor="middle" font-size="12">lateralis et medialis</text>
+  <path d="M138 300 C200 300 210 250 268 250" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M234 312 L268 312" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+  <path d="M138 325 C200 325 210 380 268 380" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- нижние притоки -->
+  <rect x="270" y="440" width="230" height="44" rx="10" fill="#ffe3e3" stroke="#d62828" stroke-width="1.5"/>
+  <text x="385" y="459" text-anchor="middle" font-size="13">aa. recurrentes tibiales</text>
+  <text x="385" y="476" text-anchor="middle" font-size="12">anterior et posterior</text>
+  <path d="M138 530 C200 530 210 462 268 462" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- сеть -->
+  <rect x="580" y="150" width="200" height="290" rx="22" fill="#fff4e6" stroke="#e8590c" stroke-width="2.5"/>
+  <text x="680" y="270" text-anchor="middle" font-weight="bold" font-size="16">rete articulare</text>
+  <text x="680" y="292" text-anchor="middle" font-weight="bold" font-size="16">genus</text>
+  <text x="680" y="318" text-anchor="middle" font-size="13">+ rete patellare</text>
+  <text x="680" y="342" text-anchor="middle" font-size="12" fill="#495057">(глубокая и поверхностная</text>
+  <text x="680" y="358" text-anchor="middle" font-size="12" fill="#495057">сети спереди сустава)</text>
+  <path d="M500 112 C540 112 550 170 578 170" fill="none" stroke="#d62828" stroke-width="3" marker-end="url(#arr)"/>
+  <path d="M500 180 L578 200" stroke="#d62828" stroke-width="2" marker-end="url(#arr)"/>
+  <path d="M500 250 L578 250" stroke="#d62828" stroke-width="2" marker-end="url(#arr)"/>
+  <path d="M500 380 L578 360" stroke="#d62828" stroke-width="2" marker-end="url(#arr)"/>
+  <path d="M500 462 C540 462 550 420 578 420" fill="none" stroke="#d62828" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- поясняющие блоки -->
+  <rect x="805" y="40" width="180" height="200" rx="12" fill="#e7f5ff" stroke="#1971c2" stroke-width="1.5"/>
+  <text x="895" y="64" text-anchor="middle" font-weight="bold" font-size="13">Окклюзия бедренной</text>
+  <text x="895" y="82" text-anchor="middle" font-weight="bold" font-size="13">ниже a. profunda,</text>
+  <text x="895" y="100" text-anchor="middle" font-weight="bold" font-size="13">выше a. desc. genus:</text>
+  <text x="895" y="126" text-anchor="middle" font-size="12.5">главный обход —</text>
+  <text x="895" y="144" text-anchor="middle" font-size="12.5">r. descendens</text>
+  <text x="895" y="162" text-anchor="middle" font-size="12.5">a. circumflexae</text>
+  <text x="895" y="180" text-anchor="middle" font-size="12.5">femoris lat. → сеть →</text>
+  <text x="895" y="198" text-anchor="middle" font-size="12.5">коленные → a. poplitea</text>
+  <text x="895" y="222" text-anchor="middle" font-size="11.5" fill="#495057">(толстая стрелка)</text>
+
+  <rect x="805" y="270" width="180" height="170" rx="12" fill="#fff5f5" stroke="#c92a2a" stroke-width="1.5"/>
+  <text x="895" y="294" text-anchor="middle" font-weight="bold" font-size="13">Перевязка/травма</text>
+  <text x="895" y="312" text-anchor="middle" font-weight="bold" font-size="13">a. poplitea:</text>
+  <text x="895" y="336" text-anchor="middle" font-size="12.5">сеть есть, но её</text>
+  <text x="895" y="354" text-anchor="middle" font-size="12.5">ветви тонкие — обход</text>
+  <text x="895" y="372" text-anchor="middle" font-size="12.5">часто недостаточен;</text>
+  <text x="895" y="390" text-anchor="middle" font-size="12.5">нужно восстанавливать</text>
+  <text x="895" y="408" text-anchor="middle" font-size="12.5">кровоток (шов,</text>
+  <text x="895" y="426" text-anchor="middle" font-size="12.5">протез), не перевязывать</text>
+
+  <text x="500" y="610" text-anchor="middle" font-size="12.5" fill="#495057">a. media genus в образовании передних сетей не участвует (Николаев, с. 145). Венозный отток — по одноимённым венам в vv. tibiales anteriores, v. poplitea, v. femoralis.</text>
+</svg>
