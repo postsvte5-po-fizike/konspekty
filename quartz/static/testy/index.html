@@ -201,6 +201,7 @@
         padding: 10px 14px;
         cursor: pointer;
         min-height: 44px;
+        touch-action: manipulation;
         transition:
           border-color 0.15s,
           background-color 0.15s;
@@ -1117,6 +1118,7 @@
           started: Date.now(),
         }
         resetQuestionState()
+        lockPresses()
         renderQuestion()
         scrollToTop()
       }
@@ -1497,6 +1499,19 @@
       const nextButton = () =>
         `<button class="primary" id="next">${session.i + 1 < session.questions.length ? "Дальше" : "Итоги"}</button>`
 
+      // Защита от двойного нажатия: после смены вопроса или проверки на месте
+      // «Дальше» оказывается «Не знаю» (и наоборот), и второй тап засчитывал
+      // ответ сам — с подсветкой правильных. Короткое время нажатия игнорируем.
+      const PRESS_LOCK_MS = 450
+      let lockUntil = 0
+      const lockPresses = () => (lockUntil = performance.now() + PRESS_LOCK_MS)
+      const guard =
+        (fn) =>
+        (...args) => {
+          if (performance.now() < lockUntil) return
+          fn(...args)
+        }
+
       function bindQuestion() {
         const s = session
         const q = s.questions[s.i]
@@ -1510,7 +1525,7 @@
         }
         app.querySelectorAll("[data-opt]").forEach(
           (b) =>
-            (b.onclick = () => {
+            (b.onclick = guard(() => {
               const i = Number(b.dataset.opt)
               const multi = q.options.filter((o) => o.correct).length > 1
               if (multi) s.picked.has(i) ? s.picked.delete(i) : s.picked.add(i)
@@ -1518,7 +1533,7 @@
               renderQuestion()
               const again = app.querySelector(`[data-opt="${i}"]`)
               if (again) again.focus()
-            }),
+            })),
         )
         app
           .querySelectorAll("[data-up]")
@@ -1528,27 +1543,28 @@
           .forEach((b) => (b.onclick = () => move(Number(b.dataset.down), 1)))
         const on = (sel, fn) => {
           const el = app.querySelector(sel)
-          if (el) el.onclick = fn
+          if (el) el.onclick = guard(fn)
         }
-        on("#check", check)
+        on("#check", () => check())
         on("#skip", () => {
           s.picked = new Set()
           check(true)
         })
         on("#reveal", () => {
           s.revealed = true
+          lockPresses()
           renderQuestion()
           focusFirst("[data-self]")
         })
         app.querySelectorAll("[data-self]").forEach(
           (b) =>
-            (b.onclick = () => {
+            (b.onclick = guard(() => {
               s.results[s.i] = { correct: b.dataset.self === "1", picked: null }
               s.checked = true
               next()
-            }),
+            })),
         )
-        on("#next", next)
+        on("#next", () => next())
       }
 
       function focusFirst(sel) {
@@ -1580,6 +1596,7 @@
           skipped: skipped === true,
         }
         s.checked = true
+        lockPresses()
         renderQuestion()
         focusFirst("#next")
       }
@@ -1589,6 +1606,7 @@
         if (s.i + 1 < s.questions.length) {
           s.i++
           resetQuestionState()
+          lockPresses()
           renderQuestion()
           scrollToTop()
           focusFirst(".opt, #reveal, [data-down]")
@@ -1674,19 +1692,21 @@
           html += `</div>`
         }
         app.innerHTML = html
+        lockPresses()
         scrollToTop()
-        app.querySelector("#back").onclick = () => renderList()
-        app.querySelector("#again").onclick = () =>
-          startSession(s.deckIds, { title: s.title.replace(/ — ошибки$/, "") })
+        app.querySelector("#back").onclick = guard(() => renderList())
+        app.querySelector("#again").onclick = guard(() =>
+          startSession(s.deckIds, { title: s.title.replace(/ — ошибки$/, "") }),
+        )
         const rw = app.querySelector("#redo-wrong")
         if (rw)
-          rw.onclick = () => {
+          rw.onclick = guard(() => {
             const keys = new Set(mistakes.map((m) => m.q.key))
             startSession(s.deckIds, {
               onlyKeys: keys,
               title: s.title.replace(/ — ошибки$/, "") + " — ошибки",
             })
-          }
+          })
         focusFirst("#redo-wrong, #again")
       }
 
@@ -1705,7 +1725,10 @@
             return
           }
         }
-        if (e.key === "Enter" && !(e.target instanceof HTMLButtonElement)) {
+        // Enter на выбранном варианте тоже проверяет ответ: после выбора фокус
+        // остаётся на варианте, и иначе Enter просто выбирал бы его снова.
+        const onOption = e.target instanceof Element && e.target.matches(".opt")
+        if (e.key === "Enter" && (onOption || !(e.target instanceof HTMLButtonElement))) {
           const btn = app.querySelector("#next, #check:not([disabled]), #reveal")
           if (btn) {
             e.preventDefault()
