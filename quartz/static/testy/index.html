@@ -185,6 +185,15 @@
         cursor: pointer;
         border-radius: 6px;
       }
+      .toggles select {
+        font: inherit;
+        min-height: 36px;
+        padding: 4px 8px;
+        border-radius: 6px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+        color: var(--text);
+      }
       .toggles input {
         width: 18px;
         height: 18px;
@@ -525,9 +534,16 @@
         } catch {}
       }
 
-      // Ключ карточки — по тексту вопроса: переживает правку порядка в колоде.
+      // Ключ карточки — по тексту вопроса и вариантов: переживает правку порядка в колоде,
+      // а одинаковые формулировки с разными вариантами не сливаются.
       function cardKey(card) {
-        const s = card.type + "|" + card.question
+        const s = [
+          card.type,
+          card.question,
+          card.answer || "",
+          ...(card.options || []).map((o) => (o.correct ? "+" : "-") + o.text),
+          ...(card.steps || []),
+        ].join("|")
         let h = 5381
         for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0
         return (h >>> 0).toString(36)
@@ -867,7 +883,7 @@
       const app = document.getElementById("app")
 
       function prefs() {
-        return { shuffle: store.prefs.shuffle !== false }
+        return { shuffle: store.prefs.shuffle !== false, limit: store.prefs.limit ?? 20 }
       }
 
       function startSession(deckIds, { onlyKeys = null, title } = {}) {
@@ -881,7 +897,7 @@
         if (onlyKeys)
           filtered = entries.filter((e) => onlyKeys.has(e.deckId + ":" + cardKey(e.card)))
         if (!filtered.length) return
-        const questions = buildQuestions(filtered, { shuffleOrder: prefs().shuffle })
+        let questions = buildQuestions(filtered, { shuffleOrder: prefs().shuffle })
         // Неверные варианты берём из всей колоды, даже если проходим только ошибки.
         if (onlyKeys) {
           const full = buildQuestions(entries, { shuffleOrder: false })
@@ -891,10 +907,12 @@
             if (f && q.kind === "self" && f.kind === "choice") questions[i] = { ...f }
           })
         }
+        if (prefs().limit) questions = questions.slice(0, prefs().limit)
         session = {
           title:
             title || (deckIds.length === 1 ? deckById(deckIds[0]).title : "Все тесты вперемешку"),
           deckIds,
+          mistakesMode: !!onlyKeys,
           questions,
           i: 0,
           results: [],
@@ -925,6 +943,11 @@
         if (message) html += `<p class="chip ok" style="display:inline-block">${esc(message)}</p>`
         html += `<div class="toggles">
           <label><input type="checkbox" id="opt-shuffle" ${p.shuffle ? "checked" : ""}> Перемешивать вопросы</label>
+          <label>Вопросов за раз:
+            <select id="opt-limit">
+              ${[10, 20, 50, 0].map((n) => `<option value="${n}" ${p.limit === n ? "selected" : ""}>${n || "все"}</option>`).join("")}
+            </select>
+          </label>
         </div>`
         for (const d of decks) {
           const st = store.stats[d.id]
@@ -965,7 +988,7 @@
               </label>
             </div>
             <label for="paste" class="small muted">Или вставьте текст:</label>
-            <textarea id="paste" placeholder="Какая кость не входит в мозговой череп?\n- Лобная\n+ Скуловая\n- Клиновидная\n\nI пара черепных нервов\nОбонятельный нерв"></textarea>
+            <textarea id="paste" placeholder="Каковы характеристики пассивного транспорта?\n+ Осуществляется по градиенту концентраций\n- Требует затраты энергии АТФ"></textarea>
             <div class="row" style="margin-top:8px">
               <input id="paste-title" placeholder="Название колоды" style="flex:1;min-width:180px;min-height:44px;padding:8px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text);font:inherit">
               <button id="paste-go">Добавить</button>
@@ -994,6 +1017,10 @@
         </section>`
         app.innerHTML = html
 
+        app.querySelector("#opt-limit").onchange = (e) => {
+          store.prefs.limit = Number(e.target.value)
+          saveStore()
+        }
         app.querySelector("#opt-shuffle").onchange = (e) => {
           store.prefs.shuffle = e.target.checked
           saveStore()
@@ -1296,9 +1323,8 @@
           }
           st.attempts++
           st.last = { score: deckScore, total: idx.length, at: Date.now() }
-          // Лучший — только по полным прохождениям колоды, не по «ошибкам».
-          if (idx.length === deckById(id).cards.length)
-            st.best = Math.max(st.best || 0, deckScore / idx.length)
+          // Лучший — по обычным прохождениям, не по «ошибкам».
+          if (!s.mistakesMode) st.best = Math.max(st.best || 0, deckScore / idx.length)
           st.wrong = [...wrong]
           store.stats[id] = st
         }
