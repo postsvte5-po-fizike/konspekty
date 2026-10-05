@@ -4,45 +4,134 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Тренажёр тестов</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap"
-    />
     <style>
-      /* Цвета — из quartz.config.yaml, чтобы тренажёр выглядел частью сайта. */
+      /* Шрифты сайта (quartz/static/fonts, те же файлы, что в quartz/styles/custom.scss). */
+      @font-face {
+        font-family: "Lora";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url("../fonts/lora-cyrillic-a06a17f4.woff2") format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      @font-face {
+        font-family: "Lora";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url("../fonts/lora-latin-a64795df.woff2") format("woff2");
+        unicode-range:
+          U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F,
+          U+2122, U+2191, U+2193, U+2212, U+2215;
+      }
+      @font-face {
+        font-family: "Lora";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url("../fonts/lora-cyrillic-a06a17f4.woff2") format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      @font-face {
+        font-family: "Lora";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url("../fonts/lora-latin-a64795df.woff2") format("woff2");
+        unicode-range:
+          U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F,
+          U+2122, U+2191, U+2193, U+2212, U+2215;
+      }
+      @font-face {
+        font-family: "Lora";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url("../fonts/lora-cyrillic-6a581005.woff2") format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      @font-face {
+        font-family: "Lora";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url("../fonts/lora-latin-b9997362.woff2") format("woff2");
+        unicode-range:
+          U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F,
+          U+2122, U+2191, U+2193, U+2212, U+2215;
+      }
+      @font-face {
+        font-family: "Cormorant Garamond";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url("../fonts/cormorant-garamond-cyrillic-6d314ca4.woff2") format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      @font-face {
+        font-family: "Cormorant Garamond";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url("../fonts/cormorant-garamond-latin-6c00f6ef.woff2") format("woff2");
+        unicode-range:
+          U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F,
+          U+2122, U+2191, U+2193, U+2212, U+2215;
+      }
+
+      /* Токены — те же имена и значения, что в quartz/styles/custom.scss.
+         Внутри страницы сайта они перезаписываются живыми значениями со страницы
+         (syncTokens в скрипте), так что тренажёр следует за темой сайта. */
       :root {
-        --bg: #fbfaf7;
-        --surface: #ffffff;
-        --line: #e2e0da;
-        --muted: #6f6c64;
-        --text: #1b1e23;
-        --text-2: #33363b;
-        --accent: #0b7285;
-        --accent-soft: rgba(11, 114, 133, 0.1);
-        --ok: #2b8a3e;
-        --ok-soft: rgba(43, 138, 62, 0.12);
-        --bad: #c92a2a;
-        --bad-soft: rgba(201, 42, 42, 0.1);
-        --warn: #e8590c;
-        --radius: 10px;
+        --font-heading: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+        --font-body: "Lora", Georgia, "Times New Roman", serif;
+        --radius-sm: 2px;
+        --radius-md: 4px;
+        --radius-lg: 7px;
+        --radius-pill: 999px;
         color-scheme: light;
+        --bg: #f3f2f2;
+        --bg-elevated: #f9f8f7;
+        --surface: #eae9e9;
+        --text: #201f1d;
+        --text-muted: #5b5856;
+        --text-faint: #75716d;
+        --divider: color-mix(in srgb, #201f1d 13%, transparent);
+        --divider-strong: color-mix(in srgb, #201f1d 26%, transparent);
+        --accent: #b68235;
+        --accent-text: #7d5411;
+        --accent-tint: #fbefdd;
+        --nb-bg: #ffe5e2;
+        --nb-border: #cb4644;
+        --nb-title: #a21921;
+        --shadow-sm: 0 1px 2px color-mix(in srgb, #2d2b2b 14%, transparent);
+        /* Свои: верно и кнопка. Неверно — цвета выноски «NB» сайта. */
+        --ok: #2f7a4a;
+        --ok-tint: #e3f1e6;
+        --btn-bg: var(--accent-text);
+        --btn-fg: #fff;
       }
       :root[data-theme="dark"] {
-        --bg: #16181c;
-        --surface: #1e2126;
-        --line: #2d3036;
-        --muted: #8b9099;
-        --text: #f1f2f4;
-        --text-2: #d9dbdf;
-        --accent: #4fc3dc;
-        --accent-soft: rgba(79, 195, 220, 0.12);
-        --ok: #69db7c;
-        --ok-soft: rgba(105, 219, 124, 0.12);
-        --bad: #ff8787;
-        --bad-soft: rgba(255, 135, 135, 0.12);
-        --warn: #ffa94d;
         color-scheme: dark;
+        --bg: #1a1918;
+        --bg-elevated: #211f1e;
+        --surface: #262422;
+        --text: #e7e3de;
+        --text-muted: #aba59f;
+        --text-faint: #8f8983;
+        --divider: color-mix(in srgb, #e7e3de 12%, transparent);
+        --divider-strong: color-mix(in srgb, #e7e3de 24%, transparent);
+        --accent: #e1ad66;
+        --accent-text: #f2c485;
+        --accent-tint: color-mix(in srgb, #e1ad66 13%, transparent);
+        --nb-bg: #4d1c1a;
+        --nb-border: #dc5e59;
+        --nb-title: #ffc1ba;
+        --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35);
+        --ok: #8fcf9f;
+        --ok-tint: color-mix(in srgb, #8fcf9f 14%, transparent);
+        --btn-bg: var(--accent);
+        --btn-fg: #1a1918;
       }
       * {
         box-sizing: border-box;
@@ -52,15 +141,17 @@
         margin: 0;
         background: var(--bg);
         color: var(--text);
-        font:
-          17px/1.5 "Source Sans 3",
-          "Source Sans Pro",
-          system-ui,
-          sans-serif;
+        font-family: var(--font-body);
+        font-size: 16.5px;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
       }
       html:has(body.embedded),
       body.embedded {
         background: transparent;
+      }
+      ::selection {
+        background: color-mix(in srgb, var(--accent) 28%, transparent);
       }
       main {
         max-width: 760px;
@@ -73,61 +164,71 @@
       h1,
       h2,
       h3 {
-        font-family: Inter, system-ui, sans-serif;
-        line-height: 1.25;
+        font-family: var(--font-heading);
+        font-weight: 600;
+        line-height: 1.14;
         margin: 0 0 8px;
       }
       h1 {
-        font-size: 1.6rem;
+        font-size: 2.2rem;
       }
       h2 {
-        font-size: 1.2rem;
+        font-size: 1.7rem;
+        margin-top: 20px;
       }
       h3 {
-        font-size: 1.05rem;
+        font-size: 1.45rem;
       }
       p {
         margin: 0 0 12px;
       }
       .muted {
-        color: var(--muted);
+        color: var(--text-muted);
       }
       .small {
-        font-size: 0.9rem;
+        font-size: 0.875rem;
       }
       button,
       .btn {
-        font:
-          600 0.95rem/1.2 Inter,
-          system-ui,
-          sans-serif;
-        border-radius: 8px;
-        border: 1px solid var(--line);
-        background: var(--surface);
+        font-family: var(--font-body);
+        font-weight: 600;
+        font-size: 0.92rem;
+        line-height: 1.2;
+        border-radius: var(--radius-md);
+        border: 1px solid var(--divider-strong);
+        background: var(--bg-elevated);
         color: var(--text);
         padding: 10px 14px;
         cursor: pointer;
         min-height: 44px;
+        transition:
+          border-color 0.15s,
+          background-color 0.15s;
       }
       button:hover {
         border-color: var(--accent);
       }
       button:focus-visible,
       input:focus-visible,
+      select:focus-visible,
       textarea:focus-visible,
       label:focus-within {
         outline: 2px solid var(--accent);
         outline-offset: 2px;
       }
       button.primary {
+        background: var(--btn-bg);
+        border-color: var(--btn-bg);
+        color: var(--btn-fg);
+      }
+      button.primary:hover {
         background: var(--accent);
         border-color: var(--accent);
-        color: var(--bg);
       }
       button.ghost {
         background: transparent;
         border-color: transparent;
-        color: var(--accent);
+        color: var(--accent-text);
         padding-inline: 6px;
       }
       button:disabled {
@@ -144,9 +245,10 @@
         flex: 1;
       }
       .card {
-        background: var(--surface);
-        border: 1px solid var(--line);
-        border-radius: var(--radius);
+        background: var(--bg-elevated);
+        border: 1px solid var(--divider);
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-sm);
         padding: 16px;
         margin-bottom: 12px;
       }
@@ -157,20 +259,22 @@
         display: flex;
         gap: 6px;
         flex-wrap: wrap;
-        margin: 6px 0 10px;
+        margin: 8px 0 12px;
       }
       .chip {
         font-size: 0.8rem;
-        padding: 2px 8px;
-        border-radius: 999px;
-        background: var(--accent-soft);
-        color: var(--text-2);
+        padding: 2px 9px;
+        border-radius: var(--radius-pill);
+        background: var(--accent-tint);
+        color: var(--accent-text);
       }
       .chip.ok {
-        background: var(--ok-soft);
+        background: var(--ok-tint);
+        color: var(--ok);
       }
       .chip.bad {
-        background: var(--bad-soft);
+        background: var(--nb-bg);
+        color: var(--nb-title);
       }
       .toggles {
         display: flex;
@@ -183,15 +287,15 @@
         gap: 6px;
         align-items: center;
         cursor: pointer;
-        border-radius: 6px;
+        border-radius: var(--radius-md);
       }
       .toggles select {
         font: inherit;
         min-height: 36px;
         padding: 4px 8px;
-        border-radius: 6px;
-        border: 1px solid var(--line);
-        background: var(--surface);
+        border-radius: var(--radius-md);
+        border: 1px solid var(--divider-strong);
+        background: var(--bg-elevated);
         color: var(--text);
       }
       .toggles input {
@@ -208,19 +312,18 @@
         margin-bottom: 8px;
       }
       .counter {
-        font:
-          600 0.9rem Inter,
-          system-ui,
-          sans-serif;
-        color: var(--muted);
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: var(--text-muted);
         white-space: nowrap;
+        font-variant-numeric: tabular-nums;
       }
       .bar {
-        height: 6px;
-        background: var(--line);
-        border-radius: 3px;
+        height: 4px;
+        background: var(--divider);
+        border-radius: 2px;
         overflow: hidden;
-        margin-bottom: 16px;
+        margin-bottom: 18px;
       }
       .bar > i {
         display: block;
@@ -229,15 +332,16 @@
         transition: width 0.2s;
       }
       .question {
-        font:
-          600 1.2rem/1.35 Inter,
-          system-ui,
-          sans-serif;
+        font-family: var(--font-heading);
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 1.2;
         margin-bottom: 6px;
       }
       .hint {
-        font-size: 0.9rem;
-        color: var(--muted);
+        font-size: 0.875rem;
+        font-style: italic;
+        color: var(--text-muted);
         margin-bottom: 12px;
       }
       .options {
@@ -251,42 +355,38 @@
         align-items: flex-start;
         text-align: left;
         width: 100%;
-        font:
-          400 1rem/1.4 "Source Sans 3",
-          "Source Sans Pro",
-          system-ui,
-          sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.45;
         padding: 12px;
       }
       .opt .key {
         flex: none;
         width: 26px;
         height: 26px;
-        border-radius: 6px;
-        border: 1px solid var(--line);
+        border-radius: var(--radius-md);
+        border: 1px solid var(--divider-strong);
         display: grid;
         place-items: center;
-        font:
-          600 0.85rem Inter,
-          system-ui,
-          sans-serif;
-        color: var(--muted);
+        font-weight: 600;
+        font-size: 0.85rem;
+        color: var(--text-muted);
       }
       .opt.multi .key {
         border-radius: 50%;
       }
       .opt[aria-pressed="true"] {
         border-color: var(--accent);
-        background: var(--accent-soft);
+        background: var(--accent-tint);
       }
       .opt[aria-pressed="true"] .key {
         background: var(--accent);
         border-color: var(--accent);
-        color: var(--bg);
+        color: var(--btn-fg);
       }
       .opt.right {
         border-color: var(--ok);
-        background: var(--ok-soft);
+        background: var(--ok-tint);
       }
       .opt.right .key {
         background: var(--ok);
@@ -294,16 +394,15 @@
         color: var(--bg);
       }
       .opt.wrong {
-        border-color: var(--bad);
-        background: var(--bad-soft);
+        border-color: var(--nb-border);
+        background: var(--nb-bg);
       }
       .opt.wrong .key {
-        background: var(--bad);
-        border-color: var(--bad);
-        color: var(--bg);
+        background: var(--nb-border);
+        border-color: var(--nb-border);
+        color: #fff;
       }
       .opt.missed {
-        border-color: var(--ok);
         border-style: dashed;
       }
       .opt:disabled {
@@ -321,17 +420,15 @@
         display: flex;
         align-items: center;
         gap: 8px;
-        background: var(--surface);
-        border: 1px solid var(--line);
-        border-radius: 8px;
+        background: var(--bg-elevated);
+        border: 1px solid var(--divider-strong);
+        border-radius: var(--radius-md);
         padding: 6px 6px 6px 12px;
       }
       .step .n {
-        font:
-          600 0.85rem Inter,
-          system-ui,
-          sans-serif;
-        color: var(--muted);
+        font-weight: 600;
+        font-size: 0.85rem;
+        color: var(--text-muted);
         width: 18px;
       }
       .step .t {
@@ -344,52 +441,49 @@
       }
       .step.right {
         border-color: var(--ok);
-        background: var(--ok-soft);
+        background: var(--ok-tint);
       }
       .step.wrong {
-        border-color: var(--bad);
-        background: var(--bad-soft);
+        border-color: var(--nb-border);
+        background: var(--nb-bg);
       }
       .answer {
         border-left: 3px solid var(--accent);
         padding: 8px 12px;
         margin: 0 0 14px;
-        background: var(--accent-soft);
-        border-radius: 0 8px 8px 0;
+        background: var(--accent-tint);
+        border-radius: 0 var(--radius-md) var(--radius-md) 0;
         white-space: pre-line;
       }
       .verdict {
-        font:
-          600 1rem Inter,
-          system-ui,
-          sans-serif;
+        font-weight: 600;
         margin-bottom: 8px;
       }
       .verdict.ok {
         color: var(--ok);
       }
       .verdict.bad {
-        color: var(--bad);
+        color: var(--nb-title);
       }
       .explain {
-        color: var(--text-2);
+        color: var(--text-muted);
         margin-bottom: 14px;
       }
       .latin {
         font-style: italic;
-        color: var(--muted);
+        color: var(--text-muted);
       }
 
       /* Итоги */
       .score {
-        font:
-          700 2.4rem/1 Inter,
-          system-ui,
-          sans-serif;
+        font-family: var(--font-heading);
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 1;
         margin: 8px 0;
       }
       .mistake {
-        border-top: 1px solid var(--line);
+        border-top: 1px solid var(--divider);
         padding: 12px 0;
       }
       .mistake:first-child {
@@ -400,43 +494,54 @@
         margin-bottom: 4px;
       }
       .mistake .yours {
-        color: var(--bad);
+        color: var(--nb-title);
       }
       .mistake .correct {
         color: var(--ok);
       }
 
-      textarea {
+      textarea,
+      .field {
         width: 100%;
-        min-height: 140px;
-        font:
-          0.95rem/1.4 "IBM Plex Mono",
-          ui-monospace,
-          monospace;
+        font-size: 0.95rem;
         padding: 10px;
-        border-radius: 8px;
-        border: 1px solid var(--line);
+        border-radius: var(--radius-md);
+        border: 1px solid var(--divider-strong);
         background: var(--bg);
         color: var(--text);
       }
+      textarea {
+        min-height: 140px;
+        font-family: "IBM Plex Mono", ui-monospace, monospace;
+        line-height: 1.4;
+      }
+      .field {
+        font-family: var(--font-body);
+        flex: 1;
+        min-width: 180px;
+        min-height: 44px;
+      }
       details summary {
         cursor: pointer;
-        font:
-          600 1rem Inter,
-          system-ui,
-          sans-serif;
+        font-family: var(--font-heading);
+        font-weight: 600;
+        font-size: 1.3rem;
         min-height: 32px;
+      }
+      details details summary {
+        font-family: var(--font-body);
+        font-size: 0.875rem;
       }
       pre.example {
         background: var(--bg);
-        border: 1px solid var(--line);
-        border-radius: 8px;
+        border: 1px solid var(--divider);
+        border-radius: var(--radius-md);
         padding: 10px;
         overflow-x: auto;
         font-size: 0.85rem;
       }
       .problems {
-        color: var(--warn);
+        color: var(--nb-title);
         font-size: 0.9rem;
       }
       .sr-only {
@@ -448,7 +553,7 @@
       }
       @media (max-width: 480px) {
         .question {
-          font-size: 1.1rem;
+          font-size: 1.4rem;
         }
         .row > button {
           flex: 1 1 auto;
@@ -474,6 +579,44 @@
       })()
       if (embedded) document.body.classList.add("embedded")
 
+      // Токены оформления сайта (quartz/styles/custom.scss). Внутри страницы
+      // сайта берём их живые значения — тренажёр не разойдётся с темой, даже
+      // если её поменяют.
+      const TOKENS = [
+        "--font-heading",
+        "--font-body",
+        "--bg",
+        "--bg-elevated",
+        "--surface",
+        "--text",
+        "--text-muted",
+        "--text-faint",
+        "--divider",
+        "--divider-strong",
+        "--accent",
+        "--accent-text",
+        "--accent-tint",
+        "--nb-bg",
+        "--nb-border",
+        "--nb-title",
+        "--shadow-sm",
+        "--radius-sm",
+        "--radius-md",
+        "--radius-lg",
+      ]
+      function syncTokens() {
+        const root = document.documentElement
+        let cs = null
+        try {
+          if (embedded) cs = window.parent.getComputedStyle(window.parent.document.documentElement)
+        } catch {}
+        for (const name of TOKENS) {
+          const v = cs ? cs.getPropertyValue(name).trim() : ""
+          if (v) root.style.setProperty(name, v)
+          else root.style.removeProperty(name)
+        }
+      }
+
       function applyTheme() {
         let theme = null
         try {
@@ -486,6 +629,7 @@
         }
         if (!theme) theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
         document.documentElement.dataset.theme = theme
+        syncTokens()
       }
       applyTheme()
       try {
@@ -990,7 +1134,7 @@
             <label for="paste" class="small muted">Или вставьте текст:</label>
             <textarea id="paste" placeholder="Каковы характеристики пассивного транспорта?\n+ Осуществляется по градиенту концентраций\n- Требует затраты энергии АТФ"></textarea>
             <div class="row" style="margin-top:8px">
-              <input id="paste-title" placeholder="Название колоды" style="flex:1;min-width:180px;min-height:44px;padding:8px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text);font:inherit">
+              <input id="paste-title" class="field" placeholder="Название колоды">
               <button id="paste-go">Добавить</button>
             </div>
             <div id="import-msg" class="problems" style="margin-top:8px"></div>
