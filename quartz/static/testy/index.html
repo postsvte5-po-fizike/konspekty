@@ -1032,7 +1032,10 @@
       // Карточка «вопрос — ответ» становится вопросом с выбором: неверные
       // варианты — ответы других карточек той же колоды (как квиз в StudyStasMed).
       // Если таких карточек меньше четырёх — самопроверка «показать ответ».
-      function buildQuestions(entries, { shuffleOrder }) {
+      // shuffleOptions — варианты вразнобой; выключено — в порядке исходного теста.
+      // У собранных из «вопрос — ответ» порядок всегда случайный: иначе верный
+      // стоял бы первым.
+      function buildQuestions(entries, { shuffleOrder, shuffleOptions = true }) {
         const singles = entries.filter((e) => e.card.type === "single" && e.card.answer.trim())
         const list = shuffleOrder ? shuffle(entries) : entries
         return list.map(({ card, deckId }) => {
@@ -1051,7 +1054,7 @@
             } else q.kind = "self"
           } else if (card.type === "multi") {
             q.kind = "choice"
-            q.options = shuffle(card.options)
+            q.options = shuffleOptions ? shuffle(card.options) : [...card.options]
           } else {
             q.kind = "order"
             let order = shuffle(card.steps.map((_, i) => i))
@@ -1069,7 +1072,11 @@
       const app = document.getElementById("app")
 
       function prefs() {
-        return { shuffle: store.prefs.shuffle !== false, limit: store.prefs.limit ?? 20 }
+        return {
+          shuffle: store.prefs.shuffle !== false,
+          shuffleOptions: store.prefs.shuffleOptions !== false,
+          limit: store.prefs.limit ?? 20,
+        }
       }
 
       function startSession(deckIds, { onlyKeys = null, title } = {}) {
@@ -1083,10 +1090,16 @@
         if (onlyKeys)
           filtered = entries.filter((e) => onlyKeys.has(e.deckId + ":" + cardKey(e.card)))
         if (!filtered.length) return
-        let questions = buildQuestions(filtered, { shuffleOrder: prefs().shuffle })
+        let questions = buildQuestions(filtered, {
+          shuffleOrder: prefs().shuffle,
+          shuffleOptions: prefs().shuffleOptions,
+        })
         // Неверные варианты берём из всей колоды, даже если проходим только ошибки.
         if (onlyKeys) {
-          const full = buildQuestions(entries, { shuffleOrder: false })
+          const full = buildQuestions(entries, {
+            shuffleOrder: false,
+            shuffleOptions: prefs().shuffleOptions,
+          })
           const byKey = new Map(full.map((q) => [q.key, q]))
           questions.forEach((q, i) => {
             const f = byKey.get(q.key)
@@ -1203,6 +1216,7 @@
         if (message) html += `<p class="chip ok" style="display:inline-block">${esc(message)}</p>`
         html += `<div class="toggles">
           <label><input type="checkbox" id="opt-shuffle" ${p.shuffle ? "checked" : ""}> Перемешивать вопросы</label>
+          <label><input type="checkbox" id="opt-shuffle-options" ${p.shuffleOptions ? "checked" : ""}> Перемешивать варианты ответа</label>
           <label>Вопросов за раз:
             <select id="opt-limit">
               ${[10, 20, 50, 0].map((n) => `<option value="${n}" ${p.limit === n ? "selected" : ""}>${n || "все"}</option>`).join("")}
@@ -1284,6 +1298,10 @@
 
         app.querySelector("#opt-limit").onchange = (e) => {
           store.prefs.limit = Number(e.target.value)
+          saveStore()
+        }
+        app.querySelector("#opt-shuffle-options").onchange = (e) => {
+          store.prefs.shuffleOptions = e.target.checked
           saveStore()
         }
         app.querySelector("#opt-shuffle").onchange = (e) => {
