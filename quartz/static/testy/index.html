@@ -1,0 +1,1415 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Тренажёр тестов</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap"
+    />
+    <style>
+      /* Цвета — из quartz.config.yaml, чтобы тренажёр выглядел частью сайта. */
+      :root {
+        --bg: #fbfaf7;
+        --surface: #ffffff;
+        --line: #e2e0da;
+        --muted: #6f6c64;
+        --text: #1b1e23;
+        --text-2: #33363b;
+        --accent: #0b7285;
+        --accent-soft: rgba(11, 114, 133, 0.1);
+        --ok: #2b8a3e;
+        --ok-soft: rgba(43, 138, 62, 0.12);
+        --bad: #c92a2a;
+        --bad-soft: rgba(201, 42, 42, 0.1);
+        --warn: #e8590c;
+        --radius: 10px;
+        color-scheme: light;
+      }
+      :root[data-theme="dark"] {
+        --bg: #16181c;
+        --surface: #1e2126;
+        --line: #2d3036;
+        --muted: #8b9099;
+        --text: #f1f2f4;
+        --text-2: #d9dbdf;
+        --accent: #4fc3dc;
+        --accent-soft: rgba(79, 195, 220, 0.12);
+        --ok: #69db7c;
+        --ok-soft: rgba(105, 219, 124, 0.12);
+        --bad: #ff8787;
+        --bad-soft: rgba(255, 135, 135, 0.12);
+        --warn: #ffa94d;
+        color-scheme: dark;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font:
+          17px/1.5 "Source Sans 3",
+          "Source Sans Pro",
+          system-ui,
+          sans-serif;
+      }
+      html:has(body.embedded),
+      body.embedded {
+        background: transparent;
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 16px;
+      }
+      body.embedded main {
+        padding: 4px 2px 16px;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: Inter, system-ui, sans-serif;
+        line-height: 1.25;
+        margin: 0 0 8px;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+      h2 {
+        font-size: 1.2rem;
+      }
+      h3 {
+        font-size: 1.05rem;
+      }
+      p {
+        margin: 0 0 12px;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      .small {
+        font-size: 0.9rem;
+      }
+      button,
+      .btn {
+        font:
+          600 0.95rem/1.2 Inter,
+          system-ui,
+          sans-serif;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+        color: var(--text);
+        padding: 10px 14px;
+        cursor: pointer;
+        min-height: 44px;
+      }
+      button:hover {
+        border-color: var(--accent);
+      }
+      button:focus-visible,
+      input:focus-visible,
+      textarea:focus-visible,
+      label:focus-within {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }
+      button.primary {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: var(--bg);
+      }
+      button.ghost {
+        background: transparent;
+        border-color: transparent;
+        color: var(--accent);
+        padding-inline: 6px;
+      }
+      button:disabled {
+        opacity: 0.45;
+        cursor: default;
+      }
+      .row {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .spacer {
+        flex: 1;
+      }
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        padding: 16px;
+        margin-bottom: 12px;
+      }
+      .deck h3 {
+        margin-bottom: 2px;
+      }
+      .chips {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        margin: 6px 0 10px;
+      }
+      .chip {
+        font-size: 0.8rem;
+        padding: 2px 8px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--text-2);
+      }
+      .chip.ok {
+        background: var(--ok-soft);
+      }
+      .chip.bad {
+        background: var(--bad-soft);
+      }
+      .toggles {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin: 4px 0 16px;
+      }
+      .toggles label {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 6px;
+      }
+      .toggles input {
+        width: 18px;
+        height: 18px;
+        accent-color: var(--accent);
+      }
+
+      /* Вопрос */
+      .top {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 8px;
+      }
+      .counter {
+        font:
+          600 0.9rem Inter,
+          system-ui,
+          sans-serif;
+        color: var(--muted);
+        white-space: nowrap;
+      }
+      .bar {
+        height: 6px;
+        background: var(--line);
+        border-radius: 3px;
+        overflow: hidden;
+        margin-bottom: 16px;
+      }
+      .bar > i {
+        display: block;
+        height: 100%;
+        background: var(--accent);
+        transition: width 0.2s;
+      }
+      .question {
+        font:
+          600 1.2rem/1.35 Inter,
+          system-ui,
+          sans-serif;
+        margin-bottom: 6px;
+      }
+      .hint {
+        font-size: 0.9rem;
+        color: var(--muted);
+        margin-bottom: 12px;
+      }
+      .options {
+        display: grid;
+        gap: 8px;
+        margin-bottom: 14px;
+      }
+      .opt {
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        text-align: left;
+        width: 100%;
+        font:
+          400 1rem/1.4 "Source Sans 3",
+          "Source Sans Pro",
+          system-ui,
+          sans-serif;
+        padding: 12px;
+      }
+      .opt .key {
+        flex: none;
+        width: 26px;
+        height: 26px;
+        border-radius: 6px;
+        border: 1px solid var(--line);
+        display: grid;
+        place-items: center;
+        font:
+          600 0.85rem Inter,
+          system-ui,
+          sans-serif;
+        color: var(--muted);
+      }
+      .opt.multi .key {
+        border-radius: 50%;
+      }
+      .opt[aria-pressed="true"] {
+        border-color: var(--accent);
+        background: var(--accent-soft);
+      }
+      .opt[aria-pressed="true"] .key {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: var(--bg);
+      }
+      .opt.right {
+        border-color: var(--ok);
+        background: var(--ok-soft);
+      }
+      .opt.right .key {
+        background: var(--ok);
+        border-color: var(--ok);
+        color: var(--bg);
+      }
+      .opt.wrong {
+        border-color: var(--bad);
+        background: var(--bad-soft);
+      }
+      .opt.wrong .key {
+        background: var(--bad);
+        border-color: var(--bad);
+        color: var(--bg);
+      }
+      .opt.missed {
+        border-color: var(--ok);
+        border-style: dashed;
+      }
+      .opt:disabled {
+        opacity: 1;
+        cursor: default;
+      }
+      .steps {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 14px;
+        display: grid;
+        gap: 8px;
+      }
+      .step {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 6px 6px 6px 12px;
+      }
+      .step .n {
+        font:
+          600 0.85rem Inter,
+          system-ui,
+          sans-serif;
+        color: var(--muted);
+        width: 18px;
+      }
+      .step .t {
+        flex: 1;
+      }
+      .step button {
+        min-height: 40px;
+        min-width: 40px;
+        padding: 6px;
+      }
+      .step.right {
+        border-color: var(--ok);
+        background: var(--ok-soft);
+      }
+      .step.wrong {
+        border-color: var(--bad);
+        background: var(--bad-soft);
+      }
+      .answer {
+        border-left: 3px solid var(--accent);
+        padding: 8px 12px;
+        margin: 0 0 14px;
+        background: var(--accent-soft);
+        border-radius: 0 8px 8px 0;
+        white-space: pre-line;
+      }
+      .verdict {
+        font:
+          600 1rem Inter,
+          system-ui,
+          sans-serif;
+        margin-bottom: 8px;
+      }
+      .verdict.ok {
+        color: var(--ok);
+      }
+      .verdict.bad {
+        color: var(--bad);
+      }
+      .explain {
+        color: var(--text-2);
+        margin-bottom: 14px;
+      }
+      .latin {
+        font-style: italic;
+        color: var(--muted);
+      }
+
+      /* Итоги */
+      .score {
+        font:
+          700 2.4rem/1 Inter,
+          system-ui,
+          sans-serif;
+        margin: 8px 0;
+      }
+      .mistake {
+        border-top: 1px solid var(--line);
+        padding: 12px 0;
+      }
+      .mistake:first-child {
+        border-top: 0;
+      }
+      .mistake .q {
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+      .mistake .yours {
+        color: var(--bad);
+      }
+      .mistake .correct {
+        color: var(--ok);
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 140px;
+        font:
+          0.95rem/1.4 "IBM Plex Mono",
+          ui-monospace,
+          monospace;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        background: var(--bg);
+        color: var(--text);
+      }
+      details summary {
+        cursor: pointer;
+        font:
+          600 1rem Inter,
+          system-ui,
+          sans-serif;
+        min-height: 32px;
+      }
+      pre.example {
+        background: var(--bg);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 10px;
+        overflow-x: auto;
+        font-size: 0.85rem;
+      }
+      .problems {
+        color: var(--warn);
+        font-size: 0.9rem;
+      }
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+      }
+      @media (max-width: 480px) {
+        .question {
+          font-size: 1.1rem;
+        }
+        .row > button {
+          flex: 1 1 auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main id="app" aria-live="polite"><p class="muted">Загрузка тестов…</p></main>
+
+    <script>
+      "use strict"
+
+      // ─── Тема: как у сайта ──────────────────────────────────────────────
+      // В iframe читаем атрибут saved-theme у страницы сайта и следим за ним;
+      // отдельно — тот же ключ localStorage «theme», что пишет Quartz.
+      const embedded = (() => {
+        try {
+          return window.self !== window.top && !!window.frameElement
+        } catch {
+          return false
+        }
+      })()
+      if (embedded) document.body.classList.add("embedded")
+
+      function applyTheme() {
+        let theme = null
+        try {
+          if (embedded) theme = window.parent.document.documentElement.getAttribute("saved-theme")
+        } catch {}
+        if (!theme) {
+          try {
+            theme = localStorage.getItem("theme")
+          } catch {}
+        }
+        if (!theme) theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
+        document.documentElement.dataset.theme = theme
+      }
+      applyTheme()
+      try {
+        if (embedded)
+          new MutationObserver(applyTheme).observe(window.parent.document.documentElement, {
+            attributes: true,
+            attributeFilter: ["saved-theme"],
+          })
+      } catch {}
+      matchMedia("(prefers-color-scheme: dark)").addEventListener("change", applyTheme)
+
+      // Высота iframe — по содержимому, чтобы не было второй прокрутки.
+      function fitFrame() {
+        if (!embedded) return
+        try {
+          window.frameElement.style.height =
+            Math.ceil(document.getElementById("app").getBoundingClientRect().height) + "px"
+        } catch {}
+      }
+      if (embedded) new ResizeObserver(fitFrame).observe(document.getElementById("app"))
+
+      function scrollToTop() {
+        if (embedded) {
+          try {
+            const r = window.frameElement.getBoundingClientRect()
+            if (r.top < 0)
+              window.frameElement.scrollIntoView({ block: "start", behavior: "smooth" })
+          } catch {}
+        } else window.scrollTo({ top: 0, behavior: "smooth" })
+      }
+
+      // ─── Хранилище: результаты и свои колоды — только в этом браузере ────
+      const STORE_KEY = "konspekty-testy-v1"
+      function loadStore() {
+        try {
+          const s = JSON.parse(localStorage.getItem(STORE_KEY) || "{}")
+          return { stats: s.stats || {}, imported: s.imported || [], prefs: s.prefs || {} }
+        } catch {
+          return { stats: {}, imported: [], prefs: {} }
+        }
+      }
+      let store = loadStore()
+      function saveStore() {
+        try {
+          localStorage.setItem(STORE_KEY, JSON.stringify(store))
+        } catch {}
+      }
+
+      // Ключ карточки — по тексту вопроса: переживает правку порядка в колоде.
+      function cardKey(card) {
+        const s = card.type + "|" + card.question
+        let h = 5381
+        for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0
+        return (h >>> 0).toString(36)
+      }
+
+      // ─── Разбор текста в карточки: тот же формат, что импорт/экспорт StudyStasMed
+      // (lib/importParser.ts). Вопрос — первая строка блока; «+ верный / - неверный»
+      // или «а) … б) …» и «Ответ: а, в»; «Порядок: …» и шаги «1. …».
+      const MAX_ITEMS = 8
+      const QUESTION_NUMBER = /^\s*(?:вопрос\s*)?\d{1,4}\s*(?:[.)]\s+|\t\s*)(?=\S)/i
+      const ORDER_HEAD =
+        /^\s*(?:порядок|последовательность|расставьте(?:\s+по\s+порядку)?)\s*[:.\-—]?\s*/i
+      const MARK_OPTION = /^\s*([+\-*•])\s*(.+)$/
+      const LETTER_OPTION = /^\s*([а-жa-h])\s*(?:[).]|\t)\s*(.+)$/i
+      const NUMBER_ITEM = /^\s*(\d{1,2})\s*(?:[.)]|\t)\s*(.+)$/
+      const ANSWER_KEY = /^\s*(?:правильн[а-яё]*\s+)?ответ[а-яё]*\s*[:.\-—–]\s*(.+)$/i
+      const Q_PREFIX = /^\s*(?:в|q|вопрос)\s*[:.]\s*/i
+      const A_PREFIX = /^\s*(?:о|a|ответ)\s*[:.]\s+/i
+      const COMMENT = /^\s*#/
+      const LETTERS_RU = "абвгдежз"
+      const LETTERS_EN = "abcdefgh"
+      const clean = (s) => s.replace(/\s+/g, " ").trim()
+
+      function optionIndex(token) {
+        const t = token.toLowerCase()
+        if (/^\d+$/.test(t)) return Number(t) - 1
+        const ru = LETTERS_RU.indexOf(t)
+        if (ru >= 0) return ru
+        const en = LETTERS_EN.indexOf(t)
+        return en >= 0 ? en : null
+      }
+      function parseKey(key) {
+        const tokens = key.match(/\d+|[а-жa-h](?![а-яa-z])/gi) || []
+        const joined = key.replace(/[\s,;и&]+|and/gi, "")
+        const letters = /^[а-жa-h]+$/i.test(joined) ? joined.split("") : tokens
+        return [...new Set(letters.map(optionIndex).filter((i) => i !== null && i >= 0))]
+      }
+      const hasBody = (block) =>
+        block
+          .slice(1)
+          .some(
+            (l) =>
+              MARK_OPTION.test(l.text) ||
+              LETTER_OPTION.test(l.text) ||
+              ANSWER_KEY.test(l.text) ||
+              l.list === "nested",
+          )
+      function splitBlocks(lines) {
+        const blocks = []
+        let current = []
+        let inOrder = false
+        const flush = () => {
+          if (current.length) blocks.push(current)
+          current = []
+          inOrder = false
+        }
+        for (const line of lines) {
+          if (COMMENT.test(line.text)) continue
+          if (!line.text.trim()) {
+            flush()
+            continue
+          }
+          const startsQuestion =
+            (QUESTION_NUMBER.test(line.text) && !inOrder) ||
+            (line.list === "top" && current.length > 0 && !inOrder)
+          if (startsQuestion && current.length > 0 && hasBody(current)) flush()
+          if (current.length === 0 && ORDER_HEAD.test(line.text)) inOrder = true
+          current.push(line)
+        }
+        flush()
+        return blocks
+      }
+      function parseBlock(block) {
+        const [head, ...rest] = block
+        if (ORDER_HEAD.test(head.text)) {
+          const title = clean(head.text.replace(ORDER_HEAD, ""))
+          const steps = rest
+            .map((l) => clean(l.text.replace(NUMBER_ITEM, "$2").replace(MARK_OPTION, "$2")))
+            .filter(Boolean)
+          if (steps.length < 2) return "в «Порядке» нужно хотя бы два шага"
+          if (steps.length > MAX_ITEMS) return `в «Порядке» больше ${MAX_ITEMS} шагов`
+          return { type: "order", question: title || "Расставьте по порядку", steps }
+        }
+        const question = clean(head.text.replace(QUESTION_NUMBER, "").replace(Q_PREFIX, ""))
+        if (!question) return "пустой вопрос"
+        const options = []
+        const answerLines = []
+        let key = null
+        let latin
+        for (const line of rest) {
+          const keyMatch = line.text.match(ANSWER_KEY)
+          const mark = line.text.match(MARK_OPTION)
+          const letter = line.text.match(LETTER_OPTION)
+          if (keyMatch && options.length > 0) {
+            key = parseKey(keyMatch[1])
+          } else if (mark) {
+            const sign = mark[1]
+            let text = clean(mark[2])
+            const starred = text.endsWith("*")
+            if (starred) text = clean(text.slice(0, -1))
+            options.push({
+              text,
+              correct:
+                sign === "+" || sign === "*" || starred || line.bold === true
+                  ? true
+                  : sign === "-"
+                    ? false
+                    : null,
+            })
+          } else if (letter) {
+            let text = clean(letter[2])
+            const starred = text.endsWith("*") || text.startsWith("*")
+            text = clean(text.replace(/^\*|\*$/g, ""))
+            options.push({ text, correct: starred || line.bold === true ? true : null })
+          } else if (line.list === "nested" || (line.list && options.length > 0)) {
+            let text = clean(line.text)
+            const starred = text.endsWith("*")
+            if (starred) text = clean(text.slice(0, -1))
+            options.push({ text, correct: starred || line.bold === true ? true : null })
+          } else if (keyMatch) {
+            answerLines.push(clean(keyMatch[1]))
+          } else {
+            const t = clean(line.text.replace(A_PREFIX, ""))
+            // Экспорт StudyStasMed пишет латынь строкой «Лат.: …».
+            const lat = t.match(/^Лат\.:\s*(.+)$/)
+            if (lat) latin = lat[1]
+            else answerLines.push(t)
+          }
+        }
+        if (options.length > 0) {
+          if (key) key.forEach((i) => options[i] && (options[i].correct = true))
+          const marked = options.map((o) => ({ text: o.text, correct: o.correct === true }))
+          if (marked.length < 2) return "у вопроса с вариантами нужен хотя бы второй вариант"
+          if (marked.length > MAX_ITEMS) return `больше ${MAX_ITEMS} вариантов`
+          if (!marked.some((o) => o.correct))
+            return "не отмечен верный вариант (+, жирный шрифт или строка «Ответ: …»)"
+          return { type: "multi", question, options: marked }
+        }
+        const answer = answerLines.filter(Boolean).join("\n")
+        if (!answer)
+          return latin ? { type: "single", question, answer: latin } : "нет ответа под вопросом"
+        return latin
+          ? { type: "single", question, answer, latin }
+          : { type: "single", question, answer }
+      }
+      function parseLines(lines) {
+        const cards = []
+        const problems = []
+        splitBlocks(lines).forEach((block, i) => {
+          const parsed = parseBlock(block)
+          if (typeof parsed === "string")
+            problems.push({
+              block: i + 1,
+              preview: clean(block[0].text).slice(0, 80),
+              reason: parsed,
+            })
+          else cards.push(parsed)
+        })
+        return { cards, problems }
+      }
+      function parseText(text) {
+        return parseLines(
+          text
+            .replace(/\r\n?/g, "\n")
+            .split("\n")
+            .map((t) => ({ text: t })),
+        )
+      }
+
+      // Word (.docx): достаём word/document.xml из zip и берём абзацы.
+      async function readDocxXml(buffer) {
+        const view = new DataView(buffer)
+        const bytes = new Uint8Array(buffer)
+        let eocd = -1
+        for (let i = bytes.length - 22; i >= Math.max(0, bytes.length - 65557); i--) {
+          if (view.getUint32(i, true) === 0x06054b50) {
+            eocd = i
+            break
+          }
+        }
+        if (eocd < 0) throw new Error("это не файл Word")
+        const count = view.getUint16(eocd + 10, true)
+        let p = view.getUint32(eocd + 16, true)
+        for (let n = 0; n < count; n++) {
+          const method = view.getUint16(p + 10, true)
+          const size = view.getUint32(p + 20, true)
+          const nameLen = view.getUint16(p + 28, true)
+          const extraLen = view.getUint16(p + 30, true)
+          const commentLen = view.getUint16(p + 32, true)
+          const local = view.getUint32(p + 42, true)
+          const name = new TextDecoder().decode(bytes.subarray(p + 46, p + 46 + nameLen))
+          if (name === "word/document.xml") {
+            const start =
+              local + 30 + view.getUint16(local + 26, true) + view.getUint16(local + 28, true)
+            const data = bytes.subarray(start, start + size)
+            if (method === 0) return new TextDecoder().decode(data)
+            const stream = new Blob([data])
+              .stream()
+              .pipeThrough(new DecompressionStream("deflate-raw"))
+            return await new Response(stream).text()
+          }
+          p += 46 + nameLen + extraLen + commentLen
+        }
+        throw new Error("в файле нет текста документа")
+      }
+      const decodeXml = (s) =>
+        s
+          .replace(/&lt;/g, "<")
+          .replace(/&gt;/g, ">")
+          .replace(/&quot;/g, '"')
+          .replace(/&apos;/g, "'")
+          .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+          .replace(/&amp;/g, "&")
+      function docxParagraphs(xml) {
+        const out = []
+        const paragraphs = xml.match(/<w:p[ >][\s\S]*?<\/w:p>|<w:p\/>/g) || []
+        for (const p of paragraphs) {
+          const runs = p.match(/<w:r[ >][\s\S]*?<\/w:r>/g) || []
+          let text = ""
+          let allBold = runs.length > 0
+          let anyText = false
+          for (const r of runs) {
+            const pieces = r.match(/<w:t(?:\s[^>]*)?>[\s\S]*?<\/w:t>|<w:tab\/>|<w:br\/>/g) || []
+            const runText = pieces
+              .map((x) =>
+                x === "<w:tab/>"
+                  ? "\t"
+                  : x === "<w:br/>"
+                    ? "\n"
+                    : decodeXml(x.replace(/<[^>]+>/g, "")),
+              )
+              .join("")
+            if (runText.trim()) {
+              anyText = true
+              if (!/<w:b\/>|<w:b\s+w:val="(?:1|true)"\s*\/>/.test(r)) allBold = false
+            }
+            text += runText
+          }
+          const numbered = /<w:numPr>/.test(p)
+          const level = Number((p.match(/<w:ilvl\s+w:val="(\d+)"/) || [])[1] || "0")
+          text.split("\n").forEach((part, i) =>
+            out.push({
+              text: part,
+              list: numbered && i === 0 ? (level > 0 ? "nested" : "top") : undefined,
+              bold: anyText && allBold,
+            }),
+          )
+        }
+        return out
+      }
+      // Заголовок экспорта: «# Название» и «# Предмет: …».
+      function headerOf(lines) {
+        const comments = lines
+          .filter((l) => COMMENT.test(l.text))
+          .map((l) => l.text.replace(/^\s*#\s*/, ""))
+        const subject = (comments.find((c) => /^Предмет:/.test(c)) || "").match(
+          /^Предмет:\s*([^.]+)/,
+        )
+        return {
+          title: comments.find((c) => c && !/^Предмет:/.test(c)) || "",
+          subject: subject ? subject[1].trim() : "",
+        }
+      }
+
+      // ─── Колоды ────────────────────────────────────────────────────────
+      let builtIn = []
+      const allDecks = () => [...builtIn, ...store.imported]
+      const deckById = (id) => allDecks().find((d) => d.id === id)
+
+      // ─── Утилиты ───────────────────────────────────────────────────────
+      const esc = (s) =>
+        String(s).replace(
+          /[&<>"']/g,
+          (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c],
+        )
+      function shuffle(items) {
+        const out = [...items]
+        for (let i = out.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1))
+          ;[out[i], out[j]] = [out[j], out[i]]
+        }
+        return out
+      }
+      const plural = (n, one, few, many) => {
+        const m10 = n % 10,
+          m100 = n % 100
+        if (m10 === 1 && m100 !== 11) return one
+        if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) return few
+        return many
+      }
+      const LETTERS = "АБВГДЕЖЗ"
+      const fmtTime = (ms) => {
+        const s = Math.round(ms / 1000)
+        return s < 60 ? `${s} с` : `${Math.floor(s / 60)} мин ${String(s % 60).padStart(2, "0")} с`
+      }
+      const fmtDate = (t) =>
+        new Date(t).toLocaleDateString("ru-RU", { day: "numeric", month: "long" })
+
+      // ─── Сборка теста ──────────────────────────────────────────────────
+      // Карточка «вопрос — ответ» становится вопросом с выбором: неверные
+      // варианты — ответы других карточек той же колоды (как квиз в StudyStasMed).
+      // Если таких карточек меньше четырёх — самопроверка «показать ответ».
+      function buildQuestions(entries, { shuffleOrder }) {
+        const singles = entries.filter((e) => e.card.type === "single" && e.card.answer.trim())
+        const list = shuffleOrder ? shuffle(entries) : entries
+        return list.map(({ card, deckId }) => {
+          const q = { card, deckId, key: deckId + ":" + cardKey(card) }
+          if (card.type === "single") {
+            const others = singles.filter((o) => o.card !== card && o.card.answer !== card.answer)
+            if (others.length >= 3) {
+              const same = shuffle(others.filter((o) => o.deckId === deckId))
+              const elsewhere = shuffle(others.filter((o) => o.deckId !== deckId))
+              const wrong = [...same, ...elsewhere].slice(0, 3).map((o) => o.card.answer)
+              q.kind = "choice"
+              q.options = shuffle([
+                { text: card.answer, correct: true },
+                ...wrong.map((text) => ({ text, correct: false })),
+              ])
+            } else q.kind = "self"
+          } else if (card.type === "multi") {
+            q.kind = "choice"
+            q.options = shuffle(card.options)
+          } else {
+            q.kind = "order"
+            let order = shuffle(card.steps.map((_, i) => i))
+            // Перемешанный порядок не должен совпасть с верным.
+            if (order.every((v, i) => v === i) && order.length > 1)
+              order = [...order.slice(1), order[0]]
+            q.order = order
+          }
+          return q
+        })
+      }
+
+      // ─── Состояние экрана ──────────────────────────────────────────────
+      let session = null // { title, deckIds, questions, i, answers, started, picked, checked }
+      const app = document.getElementById("app")
+
+      function prefs() {
+        return { shuffle: store.prefs.shuffle !== false }
+      }
+
+      function startSession(deckIds, { onlyKeys = null, title } = {}) {
+        const entries = []
+        for (const id of deckIds) {
+          const d = deckById(id)
+          if (!d) continue
+          for (const card of d.cards) entries.push({ card, deckId: id })
+        }
+        let filtered = entries
+        if (onlyKeys)
+          filtered = entries.filter((e) => onlyKeys.has(e.deckId + ":" + cardKey(e.card)))
+        if (!filtered.length) return
+        const questions = buildQuestions(filtered, { shuffleOrder: prefs().shuffle })
+        // Неверные варианты берём из всей колоды, даже если проходим только ошибки.
+        if (onlyKeys) {
+          const full = buildQuestions(entries, { shuffleOrder: false })
+          const byKey = new Map(full.map((q) => [q.key, q]))
+          questions.forEach((q, i) => {
+            const f = byKey.get(q.key)
+            if (f && q.kind === "self" && f.kind === "choice") questions[i] = { ...f }
+          })
+        }
+        session = {
+          title:
+            title || (deckIds.length === 1 ? deckById(deckIds[0]).title : "Все тесты вперемешку"),
+          deckIds,
+          questions,
+          i: 0,
+          results: [],
+          started: Date.now(),
+        }
+        resetQuestionState()
+        renderQuestion()
+        scrollToTop()
+      }
+
+      function resetQuestionState() {
+        const q = session.questions[session.i]
+        session.picked = new Set()
+        session.checked = false
+        session.revealed = false
+        session.order = q && q.kind === "order" ? [...q.order] : null
+      }
+
+      // ─── Экран: список тестов ──────────────────────────────────────────
+      function renderList(message) {
+        session = null
+        const decks = allDecks()
+        const total = decks.reduce((n, d) => n + d.cards.length, 0)
+        const p = prefs()
+        let html = ""
+        if (!embedded) html += `<h1>Тренажёр тестов</h1>`
+        html += `<p class="muted">${decks.length} ${plural(decks.length, "тест", "теста", "тестов")}, ${total} ${plural(total, "вопрос", "вопроса", "вопросов")}. Результаты сохраняются только в этом браузере.</p>`
+        if (message) html += `<p class="chip ok" style="display:inline-block">${esc(message)}</p>`
+        html += `<div class="toggles">
+          <label><input type="checkbox" id="opt-shuffle" ${p.shuffle ? "checked" : ""}> Перемешивать вопросы</label>
+        </div>`
+        for (const d of decks) {
+          const st = store.stats[d.id]
+          const wrong = st && st.wrong ? st.wrong.length : 0
+          const counts = { single: 0, multi: 0, order: 0 }
+          d.cards.forEach((c) => counts[c.type]++)
+          html += `<section class="card deck">
+            <h3>${esc(d.title)}</h3>
+            <div class="muted small">${esc(d.subject || "")}${d.author ? " · " + esc(d.author) : ""}</div>
+            ${d.description ? `<p class="small" style="margin:6px 0 0">${esc(d.description)}</p>` : ""}
+            <div class="chips">
+              <span class="chip">${d.cards.length} ${plural(d.cards.length, "вопрос", "вопроса", "вопросов")}</span>
+              ${counts.order ? `<span class="chip">${counts.order} на порядок</span>` : ""}
+              ${st ? `<span class="chip ${st.last.score === st.last.total ? "ok" : ""}">последний: ${st.last.score} из ${st.last.total}, ${fmtDate(st.last.at)}</span>` : ""}
+              ${st && st.best != null ? `<span class="chip">лучший: ${Math.round(st.best * 100)}%</span>` : ""}
+              ${wrong ? `<span class="chip bad">ошибок к повтору: ${wrong}</span>` : ""}
+              ${d.imported ? `<span class="chip">своя колода</span>` : ""}
+            </div>
+            <div class="row">
+              <button class="primary" data-start="${esc(d.id)}">Пройти тест</button>
+              ${wrong ? `<button data-mistakes="${esc(d.id)}">Только ошибки</button>` : ""}
+              <span class="spacer"></span>
+              ${d.imported ? `<button class="ghost" data-remove="${esc(d.id)}">Удалить</button>` : ""}
+            </div>
+          </section>`
+        }
+        if (decks.length > 1)
+          html += `<div class="row" style="margin:4px 0 20px"><button data-mix>Все тесты вперемешку</button></div>`
+
+        html += `<section class="card">
+          <details id="import">
+            <summary>Добавить свою колоду</summary>
+            <p class="small" style="margin-top:8px">Выгрузите колоду из приложения StudyStasMed (колода → «Выгрузить» → текст или Word) и выберите файл — или вставьте текст теста. Колода сохранится в этом браузере.</p>
+            <div class="row" style="margin-bottom:10px">
+              <label class="btn" style="display:inline-flex;align-items:center">
+                Выбрать файл .txt или .docx
+                <input type="file" id="file" accept=".txt,.docx,text/plain" class="sr-only">
+              </label>
+            </div>
+            <label for="paste" class="small muted">Или вставьте текст:</label>
+            <textarea id="paste" placeholder="Какая кость не входит в мозговой череп?\n- Лобная\n+ Скуловая\n- Клиновидная\n\nI пара черепных нервов\nОбонятельный нерв"></textarea>
+            <div class="row" style="margin-top:8px">
+              <input id="paste-title" placeholder="Название колоды" style="flex:1;min-width:180px;min-height:44px;padding:8px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text);font:inherit">
+              <button id="paste-go">Добавить</button>
+            </div>
+            <div id="import-msg" class="problems" style="margin-top:8px"></div>
+            <details style="margin-top:10px">
+              <summary class="small">Формат</summary>
+              <pre class="example">Вопрос с ответом текстом
+Ответ — следующей строкой
+
+Вопрос с вариантами?
++ верный вариант
+- неверный вариант
+
+Или так?
+а) первый
+б) второй
+в) третий
+Ответ: б, в
+
+Порядок: заголовок
+1. первый шаг
+2. второй шаг</pre>
+            </details>
+          </details>
+        </section>`
+        app.innerHTML = html
+
+        app.querySelector("#opt-shuffle").onchange = (e) => {
+          store.prefs.shuffle = e.target.checked
+          saveStore()
+        }
+        app
+          .querySelectorAll("[data-start]")
+          .forEach((b) => (b.onclick = () => startSession([b.dataset.start])))
+        app.querySelectorAll("[data-mistakes]").forEach(
+          (b) =>
+            (b.onclick = () => {
+              const id = b.dataset.mistakes
+              const keys = new Set((store.stats[id].wrong || []).map((k) => id + ":" + k))
+              startSession([id], { onlyKeys: keys, title: deckById(id).title + " — ошибки" })
+            }),
+        )
+        app.querySelectorAll("[data-remove]").forEach(
+          (b) =>
+            (b.onclick = () => {
+              const d = deckById(b.dataset.remove)
+              if (!confirm(`Удалить колоду «${d.title}» из этого браузера?`)) return
+              store.imported = store.imported.filter((x) => x.id !== d.id)
+              delete store.stats[d.id]
+              saveStore()
+              renderList()
+            }),
+        )
+        const mix = app.querySelector("[data-mix]")
+        if (mix) mix.onclick = () => startSession(allDecks().map((d) => d.id))
+
+        app.querySelector("#file").onchange = async (e) => {
+          const file = e.target.files[0]
+          if (!file) return
+          try {
+            const lines = /\.docx$/i.test(file.name)
+              ? docxParagraphs(await readDocxXml(await file.arrayBuffer()))
+              : (await file.text())
+                  .replace(/\r\n?/g, "\n")
+                  .split("\n")
+                  .map((t) => ({ text: t }))
+            const head = headerOf(lines)
+            addImported(
+              parseLines(lines),
+              head.title || file.name.replace(/\.(txt|docx)$/i, ""),
+              head.subject,
+            )
+          } catch (err) {
+            app.querySelector("#import-msg").textContent =
+              "Не удалось прочитать файл: " + err.message
+          }
+        }
+        app.querySelector("#paste-go").onclick = () => {
+          const text = app.querySelector("#paste").value
+          const lines = text
+            .replace(/\r\n?/g, "\n")
+            .split("\n")
+            .map((t) => ({ text: t }))
+          const head = headerOf(lines)
+          const title = app.querySelector("#paste-title").value.trim() || head.title || "Моя колода"
+          addImported(parseLines(lines), title, head.subject)
+        }
+      }
+
+      function addImported(result, title, subject) {
+        const msg = app.querySelector("#import-msg")
+        if (!result.cards.length) {
+          msg.innerHTML =
+            "Не нашлось ни одного вопроса." +
+            (result.problems.length
+              ? "<br>" +
+                result.problems
+                  .slice(0, 5)
+                  .map((p) => `Блок ${p.block} («${esc(p.preview)}»): ${esc(p.reason)}`)
+                  .join("<br>")
+              : "")
+          return
+        }
+        const deck = {
+          id: "own-" + Date.now().toString(36),
+          title,
+          subject: subject || "",
+          author: "",
+          description: "",
+          imported: true,
+          cards: result.cards,
+        }
+        store.imported.push(deck)
+        saveStore()
+        const skipped = result.problems.length
+          ? `, пропущено ${result.problems.length}: ` +
+            result.problems
+              .slice(0, 3)
+              .map((p) => `«${p.preview}» — ${p.reason}`)
+              .join("; ")
+          : ""
+        renderList(
+          `Добавлено: «${title}», ${result.cards.length} ${plural(result.cards.length, "вопрос", "вопроса", "вопросов")}${skipped}`,
+        )
+      }
+
+      // ─── Экран: вопрос ─────────────────────────────────────────────────
+      function renderQuestion() {
+        const s = session
+        const q = s.questions[s.i]
+        const card = q.card
+        const n = s.questions.length
+        let html = `<div class="top">
+          <button class="ghost" id="quit" aria-label="Выйти к списку тестов">← Тесты</button>
+          <span class="spacer"></span>
+          <span class="counter">${s.i + 1} / ${n}</span>
+        </div>
+        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${n}" aria-valuenow="${s.i}"><i style="width:${(s.i / n) * 100}%"></i></div>
+        <div class="muted small" style="margin-bottom:4px">${esc(s.title)}</div>
+        <div class="question">${esc(card.question)}</div>`
+
+        if (q.kind === "choice") {
+          const correctCount = q.options.filter((o) => o.correct).length
+          const multi = correctCount > 1
+          html += `<div class="hint">${multi ? `Выберите все верные ответы (их ${correctCount})` : "Выберите один ответ"}</div><div class="options" role="group">`
+          q.options.forEach((o, i) => {
+            let cls = "opt" + (multi ? " multi" : "")
+            const picked = s.picked.has(i)
+            if (s.checked) {
+              if (o.correct && picked) cls += " right"
+              else if (!o.correct && picked) cls += " wrong"
+              else if (o.correct) cls += " missed right"
+            }
+            html += `<button class="${cls}" data-opt="${i}" aria-pressed="${picked && !s.checked}" ${s.checked ? "disabled" : ""}>
+              <span class="key">${LETTERS[i]}</span><span>${esc(o.text)}</span></button>`
+          })
+          html += `</div>`
+        } else if (q.kind === "order") {
+          html += `<div class="hint">Расставьте по порядку кнопками ↑ ↓</div><ol class="steps">`
+          s.order.forEach((stepIdx, pos) => {
+            const cls = s.checked ? (stepIdx === pos ? " right" : " wrong") : ""
+            html += `<li class="step${cls}"><span class="n">${pos + 1}</span><span class="t">${esc(card.steps[stepIdx])}</span>
+              ${
+                s.checked
+                  ? ""
+                  : `<button data-up="${pos}" ${pos === 0 ? "disabled" : ""} aria-label="Выше">↑</button><button data-down="${pos}" ${pos === s.order.length - 1 ? "disabled" : ""} aria-label="Ниже">↓</button>`
+              }</li>`
+          })
+          html += `</ol>`
+        } else if (q.kind === "self") {
+          html += `<div class="hint">Вспомните ответ, затем проверьте себя</div>`
+        }
+
+        // Итог по вопросу
+        if (s.checked || s.revealed) {
+          if (q.kind !== "self") {
+            const ok = s.results[s.i].correct
+            html += `<div class="verdict ${ok ? "ok" : "bad"}">${ok ? "Верно" : "Неверно"}</div>`
+            if (!ok && q.kind === "order")
+              html += `<div class="answer">${card.steps.map((t, i) => `${i + 1}. ${esc(t)}`).join("\n")}</div>`
+          } else {
+            html += `<div class="answer">${esc(card.answer)}</div>`
+          }
+          if (card.latin) html += `<p class="latin">${esc(card.latin)}</p>`
+          if (card.explanation) html += `<p class="explain">${esc(card.explanation)}</p>`
+        }
+
+        html += `<div class="row">`
+        if (q.kind === "self") {
+          if (!s.revealed) html += `<button class="primary" id="reveal">Показать ответ</button>`
+          else if (!s.checked)
+            html += `<button class="primary" data-self="1">Знал</button><button data-self="0">Не знал</button>`
+          else html += nextButton()
+        } else if (!s.checked) {
+          const can = q.kind === "order" || s.picked.size > 0
+          html += `<button class="primary" id="check" ${can ? "" : "disabled"}>Проверить</button>`
+          html += `<button class="ghost" id="skip">Не знаю</button>`
+        } else html += nextButton()
+        html += `</div>`
+
+        app.innerHTML = html
+        bindQuestion()
+      }
+
+      const nextButton = () =>
+        `<button class="primary" id="next">${session.i + 1 < session.questions.length ? "Дальше" : "Итоги"}</button>`
+
+      function bindQuestion() {
+        const s = session
+        const q = s.questions[s.i]
+        app.querySelector("#quit").onclick = () => {
+          if (
+            s.results.filter(Boolean).length &&
+            !confirm("Выйти? Результат этого прохождения не сохранится.")
+          )
+            return
+          renderList()
+        }
+        app.querySelectorAll("[data-opt]").forEach(
+          (b) =>
+            (b.onclick = () => {
+              const i = Number(b.dataset.opt)
+              const multi = q.options.filter((o) => o.correct).length > 1
+              if (multi) s.picked.has(i) ? s.picked.delete(i) : s.picked.add(i)
+              else s.picked = new Set([i])
+              renderQuestion()
+              const again = app.querySelector(`[data-opt="${i}"]`)
+              if (again) again.focus()
+            }),
+        )
+        app
+          .querySelectorAll("[data-up]")
+          .forEach((b) => (b.onclick = () => move(Number(b.dataset.up), -1)))
+        app
+          .querySelectorAll("[data-down]")
+          .forEach((b) => (b.onclick = () => move(Number(b.dataset.down), 1)))
+        const on = (sel, fn) => {
+          const el = app.querySelector(sel)
+          if (el) el.onclick = fn
+        }
+        on("#check", check)
+        on("#skip", () => {
+          s.picked = new Set()
+          check(true)
+        })
+        on("#reveal", () => {
+          s.revealed = true
+          renderQuestion()
+          focusFirst("[data-self]")
+        })
+        app.querySelectorAll("[data-self]").forEach(
+          (b) =>
+            (b.onclick = () => {
+              s.results[s.i] = { correct: b.dataset.self === "1", picked: null }
+              s.checked = true
+              next()
+            }),
+        )
+        on("#next", next)
+      }
+
+      function focusFirst(sel) {
+        const el = app.querySelector(sel)
+        if (el) el.focus({ preventScroll: true })
+      }
+
+      function move(pos, dir) {
+        const o = session.order
+        const to = pos + dir
+        ;[o[pos], o[to]] = [o[to], o[pos]]
+        renderQuestion()
+        const btn =
+          app.querySelector(dir < 0 ? `[data-up="${to}"]` : `[data-down="${to}"]`) ||
+          app.querySelector(`[data-${dir < 0 ? "down" : "up"}="${to}"]`)
+        if (btn) btn.focus()
+      }
+
+      function check(skipped) {
+        const s = session
+        const q = s.questions[s.i]
+        let correct
+        if (q.kind === "order")
+          correct = skipped === true ? false : s.order.every((v, i) => v === i)
+        else correct = q.options.every((o, i) => o.correct === s.picked.has(i)) && s.picked.size > 0
+        s.results[s.i] = {
+          correct,
+          picked: q.kind === "order" ? [...s.order] : [...s.picked],
+          skipped: skipped === true,
+        }
+        s.checked = true
+        renderQuestion()
+        focusFirst("#next")
+      }
+
+      function next() {
+        const s = session
+        if (s.i + 1 < s.questions.length) {
+          s.i++
+          resetQuestionState()
+          renderQuestion()
+          scrollToTop()
+          focusFirst(".opt, #reveal, [data-down]")
+        } else finish()
+      }
+
+      // ─── Экран: итоги ──────────────────────────────────────────────────
+      function finish() {
+        const s = session
+        const total = s.questions.length
+        const score = s.results.filter((r) => r && r.correct).length
+        const duration = Date.now() - s.started
+
+        // Статистика по колодам: последний результат, лучший процент и
+        // карточки с ошибками — для «Только ошибки».
+        for (const id of s.deckIds) {
+          const idx = s.questions.map((q, i) => i).filter((i) => s.questions[i].deckId === id)
+          if (!idx.length) continue
+          const st = store.stats[id] || { attempts: 0, best: null, wrong: [] }
+          const wrong = new Set(st.wrong)
+          let deckScore = 0
+          for (const i of idx) {
+            const k = cardKey(s.questions[i].card)
+            if (s.results[i] && s.results[i].correct) {
+              deckScore++
+              wrong.delete(k)
+            } else wrong.add(k)
+          }
+          st.attempts++
+          st.last = { score: deckScore, total: idx.length, at: Date.now() }
+          // Лучший — только по полным прохождениям колоды, не по «ошибкам».
+          if (idx.length === deckById(id).cards.length)
+            st.best = Math.max(st.best || 0, deckScore / idx.length)
+          st.wrong = [...wrong]
+          store.stats[id] = st
+        }
+        saveStore()
+
+        const pct = Math.round((score / total) * 100)
+        const mood =
+          pct === 100
+            ? "Без ошибок!"
+            : pct >= 80
+              ? "Хорошо"
+              : pct >= 50
+                ? "Есть что повторить"
+                : "Стоит пройти ещё раз"
+        let html = `<div class="top"><button class="ghost" id="back">← Тесты</button></div>
+          <div class="card">
+            <div class="muted small">${esc(s.title)}</div>
+            <div class="score">${score} из ${total}</div>
+            <p>${pct}% · ${mood} · ${fmtTime(duration)}</p>
+            <div class="row">
+              ${score < total ? `<button class="primary" id="redo-wrong">Пройти ошибки ещё раз</button>` : ""}
+              <button ${score === total ? 'class="primary"' : ""} id="again">Пройти заново</button>
+            </div>
+          </div>`
+        const mistakes = s.questions
+          .map((q, i) => ({ q, r: s.results[i], i }))
+          .filter((x) => !x.r || !x.r.correct)
+        if (mistakes.length) {
+          html += `<h2>Ошибки</h2><div class="card">`
+          for (const { q, r, i } of mistakes) {
+            const c = q.card
+            html += `<div class="mistake"><div class="q">${i + 1}. ${esc(c.question)}</div>`
+            if (q.kind === "choice") {
+              const yours =
+                r && r.picked && r.picked.length
+                  ? r.picked.map((k) => q.options[k].text).join("; ")
+                  : "нет ответа"
+              html += `<div class="yours">Ваш ответ: ${esc(yours)}</div>`
+              html += `<div class="correct">Верно: ${esc(
+                q.options
+                  .filter((o) => o.correct)
+                  .map((o) => o.text)
+                  .join("; "),
+              )}</div>`
+            } else if (q.kind === "order") {
+              html += `<div class="correct">Верный порядок: ${esc(c.steps.join(" → "))}</div>`
+            } else html += `<div class="correct">${esc(c.answer)}</div>`
+            if (c.explanation) html += `<div class="explain small">${esc(c.explanation)}</div>`
+            html += `</div>`
+          }
+          html += `</div>`
+        }
+        app.innerHTML = html
+        scrollToTop()
+        app.querySelector("#back").onclick = () => renderList()
+        app.querySelector("#again").onclick = () =>
+          startSession(s.deckIds, { title: s.title.replace(/ — ошибки$/, "") })
+        const rw = app.querySelector("#redo-wrong")
+        if (rw)
+          rw.onclick = () => {
+            const keys = new Set(mistakes.map((m) => m.q.key))
+            startSession(s.deckIds, {
+              onlyKeys: keys,
+              title: s.title.replace(/ — ошибки$/, "") + " — ошибки",
+            })
+          }
+        focusFirst("#redo-wrong, #again")
+      }
+
+      // ─── Клавиатура: 1–8 / А–З — вариант, Enter — проверить/дальше ──────
+      document.addEventListener("keydown", (e) => {
+        if (!session || e.target.matches("input, textarea") || e.ctrlKey || e.metaKey || e.altKey)
+          return
+        const q = session.questions[session.i]
+        if (!q) return
+        if (q.kind === "choice" && !session.checked) {
+          let i = "12345678".indexOf(e.key)
+          if (i < 0) i = LETTERS.indexOf(e.key.toUpperCase())
+          if (i >= 0 && i < q.options.length) {
+            e.preventDefault()
+            app.querySelector(`[data-opt="${i}"]`).click()
+            return
+          }
+        }
+        if (e.key === "Enter" && !(e.target instanceof HTMLButtonElement)) {
+          const btn = app.querySelector("#next, #check:not([disabled]), #reveal")
+          if (btn) {
+            e.preventDefault()
+            btn.click()
+          }
+        }
+      })
+
+      // ─── Старт ─────────────────────────────────────────────────────────
+      fetch("decks.json")
+        .then((r) => {
+          if (!r.ok) throw new Error("HTTP " + r.status)
+          return r.json()
+        })
+        .then((data) => {
+          builtIn = data.decks
+          renderList()
+        })
+        .catch((err) => {
+          builtIn = []
+          renderList()
+          app.insertAdjacentHTML(
+            "afterbegin",
+            `<p class="problems">Не удалось загрузить встроенные тесты (${esc(err.message)}). Свои колоды по-прежнему можно добавить.</p>`,
+          )
+        })
+    </script>
+  </body>
+</html>
