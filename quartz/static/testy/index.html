@@ -255,6 +255,48 @@
       .deck h3 {
         margin-bottom: 2px;
       }
+      .deck.selected {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 1px var(--accent);
+      }
+      .deck-head {
+        display: flex;
+        gap: 12px;
+        align-items: flex-start;
+      }
+      .deck-head > div {
+        flex: 1;
+        min-width: 0;
+      }
+      .pick {
+        flex: none;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.875rem;
+        color: var(--text-muted);
+        cursor: pointer;
+        padding: 6px 8px;
+        margin: -6px -8px 0 0;
+        border-radius: var(--radius-md);
+        min-height: 40px;
+      }
+      .pick input {
+        width: 20px;
+        height: 20px;
+        accent-color: var(--accent);
+        margin: 0;
+      }
+      .picker {
+        background: var(--accent-tint);
+        border: 1px solid var(--divider);
+        border-radius: var(--radius-lg);
+        padding: 12px 14px;
+        margin-bottom: 14px;
+      }
+      .picker p {
+        margin: 0 0 10px;
+      }
       .chips {
         display: flex;
         gap: 6px;
@@ -1053,8 +1095,7 @@
         }
         if (prefs().limit) questions = questions.slice(0, prefs().limit)
         session = {
-          title:
-            title || (deckIds.length === 1 ? deckById(deckIds[0]).title : "Все тесты вперемешку"),
+          title: title || scopeTitle(deckIds),
           deckIds,
           mistakesMode: !!onlyKeys,
           questions,
@@ -1076,6 +1117,81 @@
       }
 
       // ─── Экран: список тестов ──────────────────────────────────────────
+      // Ошибки колоды — только по вопросам, которые в ней ещё есть.
+      function wrongKeys(id) {
+        const d = deckById(id)
+        const st = store.stats[id]
+        if (!d || !st || !st.wrong || !st.wrong.length) return []
+        const have = new Set(d.cards.map(cardKey))
+        return st.wrong.filter((k) => have.has(k))
+      }
+      function mistakesSession(ids, title) {
+        const keys = new Set(ids.flatMap((id) => wrongKeys(id).map((k) => id + ":" + k)))
+        if (keys.size) startSession(ids, { onlyKeys: keys, title: title + " — ошибки" })
+      }
+      // Выбранные темы — запоминаются в этом браузере.
+      function selectedIds() {
+        const ids = new Set(allDecks().map((d) => d.id))
+        return (store.prefs.selected || []).filter((id) => ids.has(id))
+      }
+      function scopeTitle(ids) {
+        if (ids.length === 1) return deckById(ids[0]).title
+        if (ids.length === allDecks().length) return "Все темы"
+        return `Выбранные темы (${ids.length})`
+      }
+      function pickerHtml() {
+        const decks = allDecks()
+        const sel = selectedIds()
+        const scope = sel.length ? sel : decks.map((d) => d.id)
+        const questions = scope.reduce((n, id) => n + deckById(id).cards.length, 0)
+        const wrong = scope.reduce((n, id) => n + wrongKeys(id).length, 0)
+        const qWord = plural(questions, "вопрос", "вопроса", "вопросов")
+        const text = sel.length
+          ? `Выбрано: <b>${sel.length}</b> ${plural(sel.length, "тема", "темы", "тем")} из ${decks.length}, ${questions} ${qWord}${wrong ? `, ошибок к повтору: ${wrong}` : ""}.`
+          : `Отметьте темы галочками, чтобы пройти несколько сразу. Без выбора — все темы${wrong ? `, ошибок к повтору: ${wrong}` : ""}.`
+        return `<p class="small">${text}</p>
+          <div class="row">
+            <button class="primary" id="run-scope">${sel.length ? "Пройти выбранные" : "Пройти все темы"}</button>
+            <button id="run-mistakes" ${wrong ? "" : "disabled"}>Только ошибки${wrong ? ` (${wrong})` : ""}</button>
+            <span class="spacer"></span>
+            ${
+              sel.length
+                ? `<button class="ghost" id="pick-none">Снять выбор</button>`
+                : `<button class="ghost" id="pick-all">Выбрать все</button>`
+            }
+          </div>`
+      }
+      function bindPicker() {
+        const box = app.querySelector("#picker")
+        if (!box) return
+        box.innerHTML = pickerHtml()
+        const scope = () => {
+          const sel = selectedIds()
+          return sel.length ? sel : allDecks().map((d) => d.id)
+        }
+        box.querySelector("#run-scope").onclick = () => {
+          const ids = scope()
+          startSession(ids, { title: scopeTitle(ids) })
+        }
+        box.querySelector("#run-mistakes").onclick = () => {
+          const ids = scope()
+          mistakesSession(ids, scopeTitle(ids))
+        }
+        const setAll = (on) => {
+          store.prefs.selected = on ? allDecks().map((d) => d.id) : []
+          saveStore()
+          app.querySelectorAll("[data-pick]").forEach((cb) => {
+            cb.checked = on
+            cb.closest(".deck").classList.toggle("selected", on)
+          })
+          bindPicker()
+        }
+        const all = box.querySelector("#pick-all")
+        if (all) all.onclick = () => setAll(true)
+        const none = box.querySelector("#pick-none")
+        if (none) none.onclick = () => setAll(false)
+      }
+
       function renderList(message) {
         session = null
         const decks = allDecks()
@@ -1093,14 +1209,21 @@
             </select>
           </label>
         </div>`
+        if (decks.length > 1) html += `<div class="picker" id="picker"></div>`
         for (const d of decks) {
           const st = store.stats[d.id]
-          const wrong = st && st.wrong ? st.wrong.length : 0
+          const wrong = wrongKeys(d.id).length
+          const picked = selectedIds().includes(d.id)
           const counts = { single: 0, multi: 0, order: 0 }
           d.cards.forEach((c) => counts[c.type]++)
-          html += `<section class="card deck">
-            <h3>${esc(d.title)}</h3>
-            <div class="muted small">${esc(d.subject || "")}${d.author ? " · " + esc(d.author) : ""}</div>
+          html += `<section class="card deck${picked ? " selected" : ""}">
+            <div class="deck-head">
+              <div>
+                <h3>${esc(d.title)}</h3>
+                <div class="muted small">${esc(d.subject || "")}${d.author ? " · " + esc(d.author) : ""}</div>
+              </div>
+              <label class="pick"><input type="checkbox" data-pick="${esc(d.id)}" ${picked ? "checked" : ""} aria-label="Выбрать тему «${esc(d.title)}»"> Выбрать</label>
+            </div>
             ${d.description ? `<p class="small" style="margin:6px 0 0">${esc(d.description)}</p>` : ""}
             <div class="chips">
               <span class="chip">${d.cards.length} ${plural(d.cards.length, "вопрос", "вопроса", "вопросов")}</span>
@@ -1118,8 +1241,6 @@
             </div>
           </section>`
         }
-        if (decks.length > 1)
-          html += `<div class="row" style="margin:4px 0 20px"><button data-mix>Все тесты вперемешку</button></div>`
 
         html += `<section class="card">
           <details id="import">
@@ -1176,8 +1297,7 @@
           (b) =>
             (b.onclick = () => {
               const id = b.dataset.mistakes
-              const keys = new Set((store.stats[id].wrong || []).map((k) => id + ":" + k))
-              startSession([id], { onlyKeys: keys, title: deckById(id).title + " — ошибки" })
+              mistakesSession([id], deckById(id).title)
             }),
         )
         app.querySelectorAll("[data-remove]").forEach(
@@ -1186,13 +1306,27 @@
               const d = deckById(b.dataset.remove)
               if (!confirm(`Удалить колоду «${d.title}» из этого браузера?`)) return
               store.imported = store.imported.filter((x) => x.id !== d.id)
+              store.prefs.selected = (store.prefs.selected || []).filter((x) => x !== d.id)
               delete store.stats[d.id]
               saveStore()
               renderList()
             }),
         )
-        const mix = app.querySelector("[data-mix]")
-        if (mix) mix.onclick = () => startSession(allDecks().map((d) => d.id))
+        app.querySelectorAll("[data-pick]").forEach(
+          (cb) =>
+            (cb.onchange = () => {
+              const id = cb.dataset.pick
+              const sel = new Set(selectedIds())
+              cb.checked ? sel.add(id) : sel.delete(id)
+              store.prefs.selected = allDecks()
+                .map((d) => d.id)
+                .filter((x) => sel.has(x))
+              saveStore()
+              cb.closest(".deck").classList.toggle("selected", cb.checked)
+              bindPicker()
+            }),
+        )
+        bindPicker()
 
         app.querySelector("#file").onchange = async (e) => {
           const file = e.target.files[0]
