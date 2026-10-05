@@ -256,6 +256,30 @@
       .deck h3 {
         margin-bottom: 2px;
       }
+      .deck {
+        cursor: pointer;
+        transition: border-color 0.15s;
+      }
+      .deck:hover {
+        border-color: var(--divider-strong);
+      }
+      .deck-open {
+        all: unset;
+        cursor: pointer;
+        border-radius: var(--radius-sm);
+      }
+      .deck-open:hover {
+        color: var(--accent-text);
+      }
+      .deck-open:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }
+      .deck-open::after {
+        content: " →";
+        color: var(--text-faint);
+        font-size: 0.8em;
+      }
       .deck.selected {
         border-color: var(--accent);
         box-shadow: 0 0 0 1px var(--accent);
@@ -543,6 +567,79 @@
         color: var(--ok);
       }
 
+      /* Просмотр колоды */
+      .browse-tools {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 12px 0 6px;
+      }
+      .browse-tools .field {
+        flex: 1 1 240px;
+      }
+      .qa {
+        border-top: 1px solid var(--divider);
+        padding: 14px 0;
+      }
+      .qa:first-child {
+        border-top: 0;
+        padding-top: 0;
+      }
+      .qa .q {
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+      .qa .num {
+        color: var(--text-faint);
+        font-variant-numeric: tabular-nums;
+        margin-right: 4px;
+      }
+      .qa .chip {
+        font-weight: 400;
+        margin-left: 6px;
+        vertical-align: 1px;
+      }
+      .qa-opts {
+        list-style: none;
+        margin: 0 0 6px;
+        padding: 0;
+        display: grid;
+        gap: 3px;
+      }
+      .qa-opts li {
+        display: flex;
+        gap: 8px;
+        color: var(--text-muted);
+      }
+      .qa-opts li::before {
+        content: "–";
+        flex: none;
+        width: 1em;
+        text-align: center;
+        color: var(--text-faint);
+      }
+      .qa-opts li.ok {
+        color: var(--ok);
+        font-weight: 600;
+      }
+      .qa-opts li.ok::before {
+        content: "✓";
+        color: var(--ok);
+      }
+      .qa ol {
+        margin: 0 0 6px;
+        padding-left: 1.4em;
+      }
+      .qa .answer {
+        margin-bottom: 6px;
+      }
+      .qa mark {
+        background: var(--accent-tint);
+        color: inherit;
+        border-radius: var(--radius-sm);
+        box-shadow: 0 0 0 1px var(--accent);
+      }
       textarea,
       .field {
         width: 100%;
@@ -693,6 +790,22 @@
         } catch {}
       }
       if (embedded) new ResizeObserver(fitFrame).observe(document.getElementById("app"))
+
+      // Вернуться к карточке темы после просмотра её вопросов.
+      function scrollToDeck(id) {
+        const card = [...app.querySelectorAll(".deck")].find((c) => c.dataset.deck === id)
+        if (!card) return
+        requestAnimationFrame(() => {
+          if (embedded) {
+            try {
+              const top = window.frameElement.getBoundingClientRect().top + card.offsetTop
+              window.parent.scrollBy({ top: top - 16 })
+            } catch {}
+          } else card.scrollIntoView({ block: "start" })
+          const btn = card.querySelector(".deck-open")
+          if (btn) btn.focus({ preventScroll: true })
+        })
+      }
 
       function scrollToTop() {
         if (embedded) {
@@ -1207,7 +1320,7 @@
         if (none) none.onclick = () => setAll(false)
       }
 
-      function renderList(message) {
+      function renderList(message, focusDeck) {
         session = null
         const decks = allDecks()
         const total = decks.reduce((n, d) => n + d.cards.length, 0)
@@ -1232,10 +1345,10 @@
           const picked = selectedIds().includes(d.id)
           const counts = { single: 0, multi: 0, order: 0 }
           d.cards.forEach((c) => counts[c.type]++)
-          html += `<section class="card deck${picked ? " selected" : ""}">
+          html += `<section class="card deck${picked ? " selected" : ""}" data-deck="${esc(d.id)}">
             <div class="deck-head">
               <div>
-                <h3>${esc(d.title)}</h3>
+                <h3><button class="deck-open" data-open="${esc(d.id)}" title="Все вопросы и ответы">${esc(d.title)}</button></h3>
                 <div class="muted small">${esc(d.subject || "")}${d.author ? " · " + esc(d.author) : ""}</div>
               </div>
               <label class="pick"><input type="checkbox" data-pick="${esc(d.id)}" ${picked ? "checked" : ""} aria-label="Выбрать тему «${esc(d.title)}»"> Выбрать</label>
@@ -1313,6 +1426,16 @@
         app
           .querySelectorAll("[data-start]")
           .forEach((b) => (b.onclick = () => startSession([b.dataset.start])))
+        // Нажатие на тему (название или свободное место карточки) — все вопросы с ответами.
+        app.querySelectorAll(".deck").forEach(
+          (card) =>
+            (card.onclick = (e) => {
+              const ctl = e.target.closest("button, label, input, select, a")
+              if (ctl && !ctl.matches(".deck-open")) return
+              if (getSelection().toString()) return
+              renderBrowse(card.dataset.deck)
+            }),
+        )
         app.querySelectorAll("[data-mistakes]").forEach(
           (b) =>
             (b.onclick = () => {
@@ -1347,6 +1470,7 @@
             }),
         )
         bindPicker()
+        if (focusDeck) scrollToDeck(focusDeck)
 
         app.querySelector("#file").onchange = async (e) => {
           const file = e.target.files[0]
@@ -1416,6 +1540,107 @@
         renderList(
           `Добавлено: «${title}», ${result.cards.length} ${plural(result.cards.length, "вопрос", "вопроса", "вопросов")}${skipped}`,
         )
+      }
+
+      // ─── Экран: все вопросы колоды с ответами ──────────────────────────
+      const norm = (t) => String(t).toLowerCase().replace(/ё/g, "е")
+      const cardText = (c) =>
+        norm(
+          [
+            c.question,
+            c.answer || "",
+            c.latin || "",
+            c.explanation || "",
+            ...(c.options || []).map((o) => o.text),
+            ...(c.steps || []),
+          ].join("\n"),
+        )
+      // Экранированный текст с подсветкой совпадений (без учёта регистра и ё/е).
+      function marked(text, query) {
+        const t = String(text)
+        if (!query) return esc(t)
+        const hay = norm(t)
+        let out = ""
+        let from = 0
+        for (let at = hay.indexOf(query); at >= 0; at = hay.indexOf(query, at + query.length)) {
+          out += esc(t.slice(from, at)) + "<mark>" + esc(t.slice(at, at + query.length)) + "</mark>"
+          from = at + query.length
+        }
+        return out + esc(t.slice(from))
+      }
+
+      function renderBrowse(id) {
+        const d = deckById(id)
+        if (!d) return renderList()
+        session = null
+        const wrong = new Set(wrongKeys(id))
+        const view = { query: "", onlyWrong: false }
+        app.innerHTML = `<div class="top"><button class="ghost" id="back">← Тесты</button></div>
+          <h2 style="margin-top:0">${esc(d.title)}</h2>
+          <div class="muted small">${d.cards.length} ${plural(d.cards.length, "вопрос", "вопроса", "вопросов")} с ответами${wrong.size ? ` · ошибок к повтору: ${wrong.size}` : ""}</div>
+          <div class="row" style="margin-top:12px">
+            <button class="primary" id="b-start">Пройти тест</button>
+            ${wrong.size ? `<button id="b-mistakes">Только ошибки</button>` : ""}
+          </div>
+          <div class="browse-tools">
+            <input type="search" id="b-search" class="field" placeholder="Поиск по вопросам и ответам" aria-label="Поиск по вопросам и ответам">
+            ${wrong.size ? `<label class="toggles" style="margin:0"><input type="checkbox" id="b-wrong"> Только мои ошибки</label>` : ""}
+          </div>
+          <div class="muted small" id="b-count" aria-live="polite"></div>
+          <div class="card" id="b-list" style="margin-top:8px"></div>`
+        const list = app.querySelector("#b-list")
+        const count = app.querySelector("#b-count")
+        const texts = d.cards.map(cardText)
+
+        function draw() {
+          const q = norm(view.query.trim())
+          let html = ""
+          let shown = 0
+          d.cards.forEach((c, i) => {
+            const isWrong = wrong.has(cardKey(c))
+            if (view.onlyWrong && !isWrong) return
+            if (q && !texts[i].includes(q)) return
+            shown++
+            html += `<div class="qa"><div class="q"><span class="num">${i + 1}.</span>${marked(c.question, q)}${isWrong ? `<span class="chip bad">ошибка</span>` : ""}</div>`
+            if (c.type === "multi") {
+              html += `<ul class="qa-opts">${c.options
+                .map(
+                  (o) =>
+                    `<li class="${o.correct ? "ok" : ""}">${o.correct ? '<span class="sr-only">Верно: </span>' : ""}${marked(o.text, q)}</li>`,
+                )
+                .join("")}</ul>`
+            } else if (c.type === "order") {
+              html += `<ol>${c.steps.map((t) => `<li>${marked(t, q)}</li>`).join("")}</ol>`
+            } else {
+              html += `<div class="answer">${marked(c.answer, q)}</div>`
+            }
+            if (c.latin) html += `<div class="latin">${marked(c.latin, q)}</div>`
+            if (c.explanation)
+              html += `<div class="explain small">${marked(c.explanation, q)}</div>`
+            html += `</div>`
+          })
+          list.innerHTML = html || `<p class="muted" style="margin:0">Ничего не найдено.</p>`
+          count.textContent =
+            shown === d.cards.length ? "" : `Показано ${shown} из ${d.cards.length}`
+        }
+        draw()
+        scrollToTop()
+
+        app.querySelector("#back").onclick = () => renderList(null, id)
+        app.querySelector("#b-start").onclick = () => startSession([id])
+        const bm = app.querySelector("#b-mistakes")
+        if (bm) bm.onclick = () => mistakesSession([id], d.title)
+        app.querySelector("#b-search").oninput = (e) => {
+          view.query = e.target.value
+          draw()
+        }
+        const bw = app.querySelector("#b-wrong")
+        if (bw)
+          bw.onchange = (e) => {
+            view.onlyWrong = e.target.checked
+            draw()
+          }
+        focusFirst("#back")
       }
 
       // ─── Экран: вопрос ─────────────────────────────────────────────────
