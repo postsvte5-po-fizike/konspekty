@@ -56,6 +56,6 @@
   <g font-size="12" fill="#555">
     <rect x="30" y="368" width="16" height="10" rx="2" fill="#888"/><text x="52" y="377">грудина</text>
     <circle cx="140" cy="373" r="7" fill="#bbb" stroke="#666"/><text x="152" y="377">позвонок</text>
-    <text x="250" y="377">По Гребеневу, гл. 5, с. 101–107. Не в масштабе.</text>
+    <text x="250" y="377">Не в масштабе.</text>
   </g>
 </svg>

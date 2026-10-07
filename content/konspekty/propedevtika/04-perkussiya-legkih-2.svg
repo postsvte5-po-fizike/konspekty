@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Helvetica, Arial, sans-serif">
   <rect width="960" height="560" fill="#ffffff"/>
   <text x="480" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Нижняя граница правого лёгкого по топографическим линиям</text>
-  <text x="480" y="50" text-anchor="middle" font-size="13" fill="#555">граница опускается спереди назад; каждая следующая линия — на ребро ниже (норма у нормостеника, по Гребеневу, табл. 1)</text>
+  <text x="480" y="50" text-anchor="middle" font-size="13" fill="#555">граница опускается спереди назад; каждая следующая линия — на ребро ниже (норма у нормостеника)</text>
 
   <!-- шкала рёбер слева -->
   <g font-size="12" fill="#777" text-anchor="end">

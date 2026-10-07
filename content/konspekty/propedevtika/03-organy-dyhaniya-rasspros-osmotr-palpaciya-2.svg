@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Helvetica, Arial, sans-serif">
   <rect width="960" height="560" fill="#ffffff"/>
   <text x="480" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Голосовое дрожание: где класть ладони</text>
-  <text x="480" y="50" text-anchor="middle" font-size="13" fill="#555">всегда парой — справа и симметрично слева; области — по методичке кафедры</text>
+  <text x="480" y="50" text-anchor="middle" font-size="13" fill="#555">всегда парой — справа и симметрично слева</text>
 
   <!-- ВИД СПЕРЕДИ -->
   <g transform="translate(240,0)">

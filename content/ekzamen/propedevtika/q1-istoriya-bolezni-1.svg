@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 512" font-family="Arial, Helvetica, sans-serif">
 <rect width="760" height="512" fill="#ffffff"/>
 <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#343a40"/></marker></defs>
-<text x="380" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Схема истории болезни (методичка кафедры)</text>
+<text x="380" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#212529">Схема истории болезни</text>
 <line x1="211.6" y1="70.0" x2="233.6" y2="70.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
 <line x1="345.6" y1="70.0" x2="367.6" y2="70.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>
 <line x1="549.0" y1="70.0" x2="571.0" y2="70.0" stroke="#343a40" stroke-width="2" marker-end="url(#ar)"/>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <title>Коллатеральная сеть коленного сустава (схема по Николаеву, рис. 3.33)</title>
+  <title>Коллатеральная сеть коленного сустава</title>
   <defs>
     <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
       <path d="M0 0 L10 5 L0 10 Z" fill="#495057"/>
@@ -93,5 +93,5 @@
   <text x="895" y="408" text-anchor="middle" font-size="12.5">кровоток (шов,</text>
   <text x="895" y="426" text-anchor="middle" font-size="12.5">протез), не перевязывать</text>
 
-  <text x="500" y="610" text-anchor="middle" font-size="12.5" fill="#495057">a. media genus в образовании передних сетей не участвует (Николаев, с. 145). Венозный отток — по одноимённым венам в vv. tibiales anteriores, v. poplitea, v. femoralis.</text>
+  <text x="500" y="610" text-anchor="middle" font-size="12.5" fill="#495057">a. media genus в образовании передних сетей не участвует. Венозный отток — по одноимённым венам в vv. tibiales anteriores, v. poplitea, v. femoralis.</text>
 </svg>
