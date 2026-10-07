@@ -556,3 +556,57 @@ html body article p:has(> object) + p a.fig-open, html body article a.fig-open {
 /* плашка «проверить» переносится внутри строки */
 html body .verify { display: inline !important; white-space: normal !important; padding: 0 7px 0 5px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 html body .verify::before { display: inline-block; vertical-align: -.15em; margin-right: 4px; }
+
+/* ===================== схемы-алгоритмы и классификации (HTML, без картинок) =====================
+   .sx — рамка схемы; .sx-cols — колонки (на узком экране складываются); .sx-col + .sx-head — колонка с шапкой;
+   .sx-box — блок; .sx-steps — блоки по порядку со стрелками ↓; .sx-down — стрелка с подписью; .sx-result — итог;
+   цвет блока: style="--hue: N" (оттенок oklch, как у выносок); .sx-neutral — серый. */
+html body article .sx {
+  --hue: var(--hue-source);
+  margin: var(--space-6) 0; padding: var(--space-4); border: 1px solid var(--divider-strong);
+  border-radius: var(--radius-lg); background: var(--bg-elevated);
+  font-size: var(--fs-callout); line-height: var(--lh-table);
+}
+html body article .sx-title { font-family: var(--font-heading); font-size: 1.3em; font-weight: var(--fw-heading); text-align: center; margin: 0 0 4px; color: var(--text); }
+html body article .sx-sub { text-align: center; font-size: var(--fs-sm); color: var(--text-muted); margin: 0 0 var(--space-4); }
+html body article .sx-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; align-items: start; }
+html body article .sx-col { display: flex; flex-direction: column; gap: 8px; }
+html body article .sx-head, html body article .sx-box, html body article .sx-result {
+  --co-fill: oklch(var(--co-bg-l) calc(var(--co-bg-c) * 2.2) var(--hue));
+  --co-line: oklch(var(--co-border-l) calc(var(--co-border-c) * 1.6) var(--hue));
+  --co-ink: oklch(var(--co-title-l) var(--co-title-c) var(--hue));
+}
+html body article .sx-head {
+  padding: 8px 12px; border-radius: var(--radius-md); text-align: center; font-weight: var(--fw-strong);
+  background: var(--co-ink); color: var(--bg); letter-spacing: .01em;
+}
+html body article .sx-box {
+  padding: 8px 12px; border: 1px solid var(--co-line); border-radius: var(--radius-md); background: var(--co-fill); color: var(--text);
+}
+html body article .sx-box > b:first-child, html body article .sx-box .sx-t { display: block; color: var(--co-ink); font-weight: var(--fw-strong); margin-bottom: 2px; }
+html body article .sx-box ul { margin: 2px 0 0; padding-left: 1.1em; }
+html body article .sx-box li { margin: 0; }
+html body article .sx-box .sx-note { display: block; margin-top: 4px; font-size: var(--fs-sm); font-style: italic; color: var(--co-ink); }
+html body article .sx-steps { display: flex; flex-direction: column; gap: 0; }
+html body article .sx-steps > .sx-box + .sx-box { margin-top: 22px; position: relative; }
+html body article .sx-steps > .sx-box + .sx-box::before {
+  content: "↓"; position: absolute; top: -21px; left: 50%; transform: translateX(-50%); color: var(--text-faint); font-size: 16px; line-height: 20px;
+}
+html body article .sx-down { text-align: center; color: var(--text-faint); font-size: var(--fs-sm); margin: 6px 0; }
+html body article .sx-down b { color: var(--text-muted); }
+html body article .sx-result {
+  margin-top: var(--space-4); padding: 10px 14px; border: 2px solid var(--co-line); border-radius: var(--radius-md);
+  background: var(--co-fill); text-align: center; color: var(--text);
+}
+html body article .sx-result > b:first-child { display: block; color: var(--co-ink); font-size: 1.08em; }
+html body article .sx-neutral { --hue: 0; --co-bg-c: 0 !important; --co-border-c: 0 !important; --co-title-c: 0 !important; }
+html body article .sx-node { max-width: 420px; margin: 0 auto; text-align: center; }
+html body article .sx-caption { margin-top: var(--space-3); font-size: var(--fs-xs); color: var(--text-muted); font-style: italic; text-align: center; }
+html body article .sx-cols.sx-tight { grid-template-columns: repeat(auto-fit, minmax(128px, 1fr)); gap: 8px; }
+html body article .sx-tight .sx-box { padding: 7px 9px; font-size: var(--fs-sm); }
+html body article .sx-col { min-width: 0; }
+@media (max-width: 600px) {
+  html body article .sx { padding: 12px 10px; }
+  html body article .sx-cols { grid-template-columns: 1fr; }
+  html body article .sx-cols.sx-tight { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

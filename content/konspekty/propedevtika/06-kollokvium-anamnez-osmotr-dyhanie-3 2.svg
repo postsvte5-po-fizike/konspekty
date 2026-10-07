@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" font-family="Helvetica, Arial, sans-serif">
+  <rect width="960" height="720" fill="#ffffff"/>
+  <text x="480" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Правосторонний выпот в плевральной полости — вид сзади</text>
+  <text x="480" y="52" text-anchor="middle" font-size="13" fill="#555">линия Соколова — Эллиса — Дамуазо и два треугольника (по материалу кафедры «Клинические синдромы»)</text>
+
+  <!-- контур спины -->
+  <path d="M250,110 C210,180 200,300 205,420 C208,520 225,600 255,650 L665,650 C695,600 712,520 715,420 C720,300 710,180 670,110 Z" fill="#fafafa" stroke="#444" stroke-width="2"/>
+  <text x="250" y="96" font-size="13" fill="#555" text-anchor="middle">ЛЕВАЯ сторона</text>
+  <text x="670" y="96" font-size="13" fill="#555" text-anchor="middle">ПРАВАЯ сторона</text>
+
+  <!-- лопатки -->
+  <path d="M300,170 L410,160 L395,330 Z" fill="none" stroke="#999" stroke-width="1.5"/>
+  <path d="M620,170 L510,160 L525,330 Z" fill="none" stroke="#999" stroke-width="1.5"/>
+  <text x="352" y="215" font-size="11" fill="#888" text-anchor="middle">лопатка</text>
+  <text x="568" y="215" font-size="11" fill="#888" text-anchor="middle">лопатка</text>
+
+  <!-- выпот справа: от позвоночника вверх-кнаружи до задней подмышечной линии, затем вниз -->
+  <path d="M466,560 C520,520 600,420 660,355 C680,360 700,385 712,420 C715,520 700,590 665,620 L466,620 Z" fill="#9dc3e6" fill-opacity="0.75" stroke="none"/>
+  <path d="M466,560 C520,520 600,420 660,355 C680,360 700,385 712,420" fill="none" stroke="#1f4e79" stroke-width="3.5"/>
+
+  <!-- треугольник Гарленда -->
+  <path d="M466,560 C520,520 600,420 660,355 L466,355 Z" fill="#ffd966" fill-opacity="0.7" stroke="#b8860b" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- треугольник Раухфуса — Грокко -->
+  <path d="M454,560 L454,620 L370,620 Z" fill="#f4b183" fill-opacity="0.85" stroke="#c55a11" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- нижние границы лёгких -->
+  <line x1="466" y1="620" x2="665" y2="620" stroke="#385723" stroke-width="2"/>
+  <line x1="255" y1="620" x2="454" y2="620" stroke="#385723" stroke-width="2"/>
+  <text x="565" y="640" font-size="11.5" fill="#385723" text-anchor="middle">нижние границы лёгких</text>
+
+  <!-- позвоночник -->
+  <g fill="#d9d9d9" stroke="#666">
+    <rect x="452" y="110" width="16" height="22" rx="3"/>
+    <rect x="452" y="138" width="16" height="22" rx="3"/>
+    <rect x="452" y="166" width="16" height="22" rx="3"/>
+    <rect x="452" y="194" width="16" height="22" rx="3"/>
+    <rect x="452" y="222" width="16" height="22" rx="3"/>
+    <rect x="452" y="250" width="16" height="22" rx="3"/>
+    <rect x="452" y="278" width="16" height="22" rx="3"/>
+    <rect x="452" y="306" width="16" height="22" rx="3"/>
+    <rect x="452" y="334" width="16" height="22" rx="3"/>
+    <rect x="452" y="362" width="16" height="22" rx="3"/>
+    <rect x="452" y="390" width="16" height="22" rx="3"/>
+    <rect x="452" y="418" width="16" height="22" rx="3"/>
+    <rect x="452" y="446" width="16" height="22" rx="3"/>
+    <rect x="452" y="474" width="16" height="22" rx="3"/>
+    <rect x="452" y="502" width="16" height="22" rx="3"/>
+    <rect x="452" y="530" width="16" height="22" rx="3"/>
+    <rect x="452" y="558" width="16" height="22" rx="3"/>
+    <rect x="452" y="586" width="16" height="22" rx="3"/>
+    <rect x="452" y="614" width="16" height="22" rx="3"/>
+  </g>
+
+  <!-- задняя подмышечная линия -->
+  <line x1="660" y1="120" x2="660" y2="640" stroke="#7030a0" stroke-width="1.2" stroke-dasharray="3,4"/>
+  <text x="652" y="140" font-size="11.5" fill="#7030a0" text-anchor="end">задняя подмыш.</text>
+  <text x="652" y="154" font-size="11.5" fill="#7030a0" text-anchor="end">линия</text>
+
+  <!-- номера -->
+  <g font-size="15" font-weight="bold" fill="#ffffff">
+    <circle cx="610" cy="520" r="14" fill="#1f4e79"/><text x="610" y="525" text-anchor="middle">1</text>
+    <circle cx="640" cy="330" r="14" fill="#1f4e79"/><text x="640" y="335" text-anchor="middle">2</text>
+    <circle cx="510" cy="420" r="14" fill="#b8860b"/><text x="510" y="425" text-anchor="middle">3</text>
+    <circle cx="420" cy="660" r="14" fill="#c55a11"/><text x="420" y="665" text-anchor="middle">4</text>
+  </g>
+  <line x1="420" y1="646" x2="425" y2="605" stroke="#c55a11" stroke-width="1.5"/>
+
+  <!-- легенда -->
+  <rect x="730" y="190" width="220" height="470" rx="8" fill="#ffffff" stroke="#999"/>
+  <text x="742" y="214" font-size="14" font-weight="bold" fill="#222">Легенда</text>
+  <circle cx="752" cy="240" r="10" fill="#1f4e79"/><text x="752" y="245" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">1</text>
+  <text x="770" y="236" font-size="12" fill="#222">Зона выпота: тупость,</text>
+  <text x="770" y="252" font-size="12" fill="#222">дрожание, дыхание и</text>
+  <text x="770" y="268" font-size="12" fill="#222">бронхофония резко ↓</text>
+  <circle cx="752" cy="298" r="10" fill="#1f4e79"/><text x="752" y="303" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">2</text>
+  <text x="770" y="294" font-size="12" fill="#222">Линия Дамуазо: дуга</text>
+  <text x="770" y="310" font-size="12" fill="#222">с вершиной по задней</text>
+  <text x="770" y="326" font-size="12" fill="#222">подмышечной линии</text>
+  <circle cx="752" cy="356" r="10" fill="#b8860b"/><text x="752" y="361" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">3</text>
+  <text x="770" y="352" font-size="12" fill="#222">Треугольник Гарленда</text>
+  <text x="770" y="368" font-size="12" fill="#222">(сторона выпота): поджатое</text>
+  <text x="770" y="384" font-size="12" fill="#222">лёгкое → притупл.-тимпанич.</text>
+  <text x="770" y="400" font-size="12" fill="#222">звук, бронхиальное</text>
+  <text x="770" y="416" font-size="12" fill="#222">дыхание, бронхофония ↑</text>
+  <circle cx="752" cy="446" r="10" fill="#c55a11"/><text x="752" y="451" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">4</text>
+  <text x="770" y="442" font-size="12" fill="#222">Треугольник Раухфуса —</text>
+  <text x="770" y="458" font-size="12" fill="#222">Грокко (здоровая сторона):</text>
+  <text x="770" y="474" font-size="12" fill="#222">смещённое средостение →</text>
+  <text x="770" y="490" font-size="12" fill="#222">притупление</text>
+  <line x1="742" y1="516" x2="938" y2="516" stroke="#ddd"/>
+  <text x="742" y="538" font-size="11.5" fill="#555">Треугольник 4 в материале</text>
+  <text x="742" y="554" font-size="11.5" fill="#555">кафедры не описан — внешний</text>
+  <text x="742" y="570" font-size="11.5" fill="#555">источник (см. текст).</text>
+  <text x="742" y="598" font-size="11.5" fill="#555">Форма линии — при свободном</text>
+  <text x="742" y="614" font-size="11.5" fill="#555">выпоте среднего объёма.</text>
+  <text x="742" y="642" font-size="11.5" font-style="italic" fill="#555">Схема, не в масштабе.</text>
+</svg>
