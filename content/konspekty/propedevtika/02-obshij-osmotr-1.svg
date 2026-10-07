@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="Helvetica, Arial, sans-serif">
+  <rect width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Типы телосложения по М. В. Черноруцкому: эпигастральный угол</text>
+  <text x="450" y="52" text-anchor="middle" font-size="13" fill="#555">угол между рёберными дугами у мечевидного отростка; вид спереди, схематично</text>
+
+  <!-- Астеник -->
+  <g transform="translate(150,0)">
+    <path d="M-55,90 C-62,140 -64,220 -60,300 C-58,340 -52,370 -48,400 L48,400 C52,370 58,340 60,300 C64,220 62,140 55,90 Z" fill="#f4f6fb" stroke="#444" stroke-width="2"/>
+    <line x1="0" y1="95" x2="0" y2="235" stroke="#888" stroke-width="6" stroke-linecap="round"/>
+    <path d="M0,240 C-14,275 -34,320 -54,350" fill="none" stroke="#c00000" stroke-width="3"/>
+    <path d="M0,240 C14,275 34,320 54,350" fill="none" stroke="#c00000" stroke-width="3"/>
+    <path d="M-12,262 A30,30 0 0 0 12,262" fill="none" stroke="#1f4e79" stroke-width="2.5"/>
+    <text x="0" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f4e79">&lt; 90°</text>
+    <text x="0" y="430" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Астенический</text>
+    <text x="0" y="452" text-anchor="middle" font-size="12.5" fill="#555">узкая длинная грудная клетка</text>
+  </g>
+
+  <!-- Нормостеник -->
+  <g transform="translate(450,0)">
+    <path d="M-78,100 C-86,150 -86,220 -82,290 C-80,330 -74,365 -68,400 L68,400 C74,365 80,330 82,290 C86,220 86,150 78,100 Z" fill="#f4f6fb" stroke="#444" stroke-width="2"/>
+    <line x1="0" y1="105" x2="0" y2="225" stroke="#888" stroke-width="6" stroke-linecap="round"/>
+    <path d="M0,230 C-25,258 -52,290 -76,318" fill="none" stroke="#c00000" stroke-width="3"/>
+    <path d="M0,230 C25,258 52,290 76,318" fill="none" stroke="#c00000" stroke-width="3"/>
+    <path d="M-18,250 A28,28 0 0 0 18,250" fill="none" stroke="#1f4e79" stroke-width="2.5"/>
+    <text x="0" y="285" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f4e79">≈ 90°</text>
+    <text x="0" y="430" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Нормостенический</text>
+    <text x="0" y="452" text-anchor="middle" font-size="12.5" fill="#555">пропорции гармоничны</text>
+  </g>
+
+  <!-- Гиперстеник -->
+  <g transform="translate(750,0)">
+    <path d="M-100,120 C-108,165 -110,225 -106,285 C-104,325 -98,365 -92,400 L92,400 C98,365 104,325 106,285 C110,225 108,165 100,120 Z" fill="#f4f6fb" stroke="#444" stroke-width="2"/>
+    <line x1="0" y1="125" x2="0" y2="215" stroke="#888" stroke-width="6" stroke-linecap="round"/>
+    <path d="M0,220 C-35,238 -70,258 -102,276" fill="none" stroke="#c00000" stroke-width="3"/>
+    <path d="M0,220 C35,238 70,258 102,276" fill="none" stroke="#c00000" stroke-width="3"/>
+    <path d="M-26,234 A30,30 0 0 0 26,234" fill="none" stroke="#1f4e79" stroke-width="2.5"/>
+    <text x="0" y="272" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f4e79">&gt; 90°</text>
+    <text x="0" y="430" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Гиперстенический</text>
+    <text x="0" y="452" text-anchor="middle" font-size="12.5" fill="#555">широкая короткая грудная клетка</text>
+  </g>
+
+  <g font-size="12" fill="#555">
+    <line x1="30" y1="75" x2="52" y2="75" stroke="#888" stroke-width="6" stroke-linecap="round"/><text x="60" y="79">грудина</text>
+    <line x1="130" y1="75" x2="152" y2="75" stroke="#c00000" stroke-width="3"/><text x="160" y="79">рёберные дуги</text>
+  </g>
+</svg>

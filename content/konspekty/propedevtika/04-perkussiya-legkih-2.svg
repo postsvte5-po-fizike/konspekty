@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Helvetica, Arial, sans-serif">
+  <rect width="960" height="560" fill="#ffffff"/>
+  <text x="480" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Нижняя граница правого лёгкого по топографическим линиям</text>
+  <text x="480" y="50" text-anchor="middle" font-size="13" fill="#555">граница опускается спереди назад; каждая следующая линия — на ребро ниже (норма у нормостеника, по Гребеневу, табл. 1)</text>
+
+  <!-- шкала рёбер слева -->
+  <g font-size="12" fill="#777" text-anchor="end">
+    <text x="70" y="124">IV</text><text x="70" y="164">V</text><text x="70" y="204">VI</text><text x="70" y="244">VII</text><text x="70" y="284">VIII</text><text x="70" y="324">IX</text><text x="70" y="364">X</text><text x="70" y="404">XI</text>
+  </g>
+  <g stroke="#e3e3e3">
+    <line x1="80" y1="120" x2="900" y2="120"/><line x1="80" y1="160" x2="900" y2="160"/><line x1="80" y1="200" x2="900" y2="200"/><line x1="80" y1="240" x2="900" y2="240"/><line x1="80" y1="280" x2="900" y2="280"/><line x1="80" y1="320" x2="900" y2="320"/><line x1="80" y1="360" x2="900" y2="360"/><line x1="80" y1="400" x2="900" y2="400"/>
+  </g>
+  <text x="60" y="100" font-size="11" fill="#777" text-anchor="end">ребро</text>
+
+  <!-- вертикальные линии -->
+  <g stroke="#1f4e79" stroke-width="1.5" stroke-dasharray="5,4">
+    <line x1="140" y1="90" x2="140" y2="430"/>
+    <line x1="250" y1="90" x2="250" y2="430"/>
+    <line x1="370" y1="90" x2="370" y2="430"/>
+    <line x1="490" y1="90" x2="490" y2="430"/>
+    <line x1="610" y1="90" x2="610" y2="430"/>
+    <line x1="730" y1="90" x2="730" y2="430"/>
+    <line x1="850" y1="90" x2="850" y2="430"/>
+  </g>
+  <!-- граница -->
+  <polyline points="140,180 250,200 370,240 490,280 610,320 730,360 850,400" fill="none" stroke="#c00000" stroke-width="3"/>
+  <g fill="#c00000">
+    <circle cx="140" cy="180" r="7"/><circle cx="250" cy="200" r="7"/><circle cx="370" cy="240" r="7"/><circle cx="490" cy="280" r="7"/><circle cx="610" cy="320" r="7"/><circle cx="730" cy="360" r="7"/><circle cx="850" cy="400" r="7"/>
+  </g>
+  <g font-size="12.5" font-weight="bold" fill="#c00000" text-anchor="middle">
+    <text x="140" y="164">V м/р</text><text x="250" y="184">VI</text><text x="370" y="224">VII</text><text x="490" y="264">VIII</text><text x="610" y="304">IX</text><text x="730" y="344">X</text><text x="850" y="384">Th11</text>
+  </g>
+  <!-- подписи линий -->
+  <g font-size="12" fill="#1f4e79" text-anchor="middle">
+    <text x="140" y="452">окологрудинная</text>
+    <text x="250" y="452">среднеключичная</text>
+    <text x="370" y="452">передняя</text><text x="370" y="467">подмышечная</text>
+    <text x="490" y="452">средняя</text><text x="490" y="467">подмышечная</text>
+    <text x="610" y="452">задняя</text><text x="610" y="467">подмышечная</text>
+    <text x="730" y="452">лопаточная</text>
+    <text x="850" y="452">околопозвоночная</text>
+  </g>
+  <g font-size="12" fill="#555" text-anchor="middle">
+    <text x="195" y="80">— спереди —</text>
+    <text x="490" y="80">— сбоку —</text>
+    <text x="790" y="80">— сзади —</text>
+  </g>
+  <text x="480" y="497" text-anchor="middle" font-size="12.5" fill="#222">Слева спереди границу не определяют (сердце). Слева сбоку и сзади — как справа,</text><text x="480" y="514" text-anchor="middle" font-size="12.5" fill="#222">кроме средней подмышечной: Гребенев — VII ребро, учебные таблицы — IX ребро.</text>
+  <text x="480" y="532" text-anchor="middle" font-size="12.5" fill="#222">Астеник — на межреберье ниже; гиперстеник — выше.</text>
+  <text x="480" y="551" text-anchor="middle" font-size="12" fill="#555">Развёртка грудной клетки справа, схема, не в масштабе. Сверить: атлас Неттера — проекции лёгких и плевры.</text>
+</svg>

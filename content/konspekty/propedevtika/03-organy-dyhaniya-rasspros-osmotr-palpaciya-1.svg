@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="Helvetica, Arial, sans-serif">
+  <rect width="960" height="400" fill="#ffffff"/>
+  <text x="480" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Формы грудной клетки: горизонтальный срез на уровне IV ребра (вид сверху)</text>
+  <text x="480" y="50" text-anchor="middle" font-size="13" fill="#555">ПЗ — переднезадний размер, Б — боковой (поперечный); спереди — грудина, сзади — позвонок; схематично</text>
+
+  <g font-size="12.5" fill="#222" text-anchor="middle">
+    <!-- 1 нормостеническая: ПЗ < Б -->
+    <g transform="translate(125,200)">
+      <ellipse cx="0" cy="0" rx="95" ry="62" fill="#e2f0d9" stroke="#385723" stroke-width="2.5"/>
+      <rect x="-9" y="-70" width="18" height="12" rx="3" fill="#888"/>
+      <circle cx="0" cy="62" r="11" fill="#bbb" stroke="#666"/>
+      <line x1="-95" y1="0" x2="95" y2="0" stroke="#1f4e79" stroke-dasharray="4,3"/>
+      <line x1="0" y1="-58" x2="0" y2="51" stroke="#c00000" stroke-dasharray="4,3"/>
+      <text x="60" y="-6" fill="#1f4e79">Б</text><text x="12" y="-30" fill="#c00000">ПЗ</text>
+      <text x="0" y="110" font-weight="bold" font-size="15">Нормостеническая</text>
+      <text x="0" y="130">ПЗ меньше Б</text>
+      <text x="0" y="148">эпигастр. угол ≈ 90°</text>
+    </g>
+    <!-- 2 гиперстеническая: шире, ПЗ ближе к Б -->
+    <g transform="translate(355,200)">
+      <ellipse cx="0" cy="0" rx="105" ry="78" fill="#fbe5d6" stroke="#843c0c" stroke-width="2.5"/>
+      <rect x="-9" y="-86" width="18" height="12" rx="3" fill="#888"/>
+      <circle cx="0" cy="78" r="11" fill="#bbb" stroke="#666"/>
+      <line x1="-105" y1="0" x2="105" y2="0" stroke="#1f4e79" stroke-dasharray="4,3"/>
+      <line x1="0" y1="-74" x2="0" y2="67" stroke="#c00000" stroke-dasharray="4,3"/>
+      <text x="66" y="-6" fill="#1f4e79">Б</text><text x="12" y="-36" fill="#c00000">ПЗ</text>
+      <text x="0" y="110" font-weight="bold" font-size="15">Гиперстеническая</text>
+      <text x="0" y="130">ПЗ приближается к Б</text>
+      <text x="0" y="148">цилиндр, угол &gt; 90°</text>
+    </g>
+    <!-- 3 астеническая: узкая и плоская -->
+    <g transform="translate(590,200)">
+      <ellipse cx="0" cy="0" rx="82" ry="42" fill="#deebf7" stroke="#1f4e79" stroke-width="2.5"/>
+      <rect x="-9" y="-50" width="18" height="12" rx="3" fill="#888"/>
+      <circle cx="0" cy="42" r="11" fill="#bbb" stroke="#666"/>
+      <line x1="-82" y1="0" x2="82" y2="0" stroke="#1f4e79" stroke-dasharray="4,3"/>
+      <line x1="0" y1="-38" x2="0" y2="31" stroke="#c00000" stroke-dasharray="4,3"/>
+      <text x="52" y="-6" fill="#1f4e79">Б</text><text x="12" y="-18" fill="#c00000">ПЗ</text>
+      <text x="0" y="110" font-weight="bold" font-size="15">Астеническая</text>
+      <text x="0" y="130">ПЗ намного меньше Б</text>
+      <text x="0" y="148">плоская, угол &lt; 90°</text>
+    </g>
+    <!-- 4 эмфизематозная: почти круглая -->
+    <g transform="translate(830,200)">
+      <ellipse cx="0" cy="0" rx="92" ry="88" fill="#ededed" stroke="#333" stroke-width="2.5"/>
+      <rect x="-9" y="-96" width="18" height="12" rx="3" fill="#888"/>
+      <circle cx="0" cy="88" r="11" fill="#bbb" stroke="#666"/>
+      <line x1="-92" y1="0" x2="92" y2="0" stroke="#1f4e79" stroke-dasharray="4,3"/>
+      <line x1="0" y1="-84" x2="0" y2="77" stroke="#c00000" stroke-dasharray="4,3"/>
+      <text x="58" y="-6" fill="#1f4e79">Б</text><text x="12" y="-40" fill="#c00000">ПЗ</text>
+      <text x="0" y="118" font-weight="bold" font-size="15">Эмфизематозная</text>
+      <text x="0" y="138">ПЗ ≈ Б — «бочка»</text>
+      <text x="0" y="156">межреберья широкие</text>
+    </g>
+  </g>
+  <g font-size="12" fill="#555">
+    <rect x="30" y="368" width="16" height="10" rx="2" fill="#888"/><text x="52" y="377">грудина</text>
+    <circle cx="140" cy="373" r="7" fill="#bbb" stroke="#666"/><text x="152" y="377">позвонок</text>
+    <text x="250" y="377">По Гребеневу, гл. 5, с. 101–107. Не в масштабе.</text>
+  </g>
+</svg>

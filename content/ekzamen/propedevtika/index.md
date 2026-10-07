@@ -13,7 +13,7 @@ tags: [propedevtika, ekzamen]
 
 | Расписано | Вопросы | Конспекты |
 |---|---|---|
-| **18 из 90** | 1–7 (общие методы обследования), 8–13 (органы дыхания: расспрос, осмотр, пальпация, перкуссия), 14–18 (аускультация лёгких) | [[konspekty/propedevtika/05-auskultaciya-legkih\|05]]; [[konspekty/propedevtika/06-kollokvium-anamnez-osmotr-dyhanie\|06 — коллоквиум 1–18]]; для 1–13 — методичка кафедры и Гребенев |
+| **18 из 90** | 1–7 (общие методы обследования), 8–13 (органы дыхания: расспрос, осмотр, пальпация, перкуссия), 14–18 (аускультация лёгких) | [[konspekty/propedevtika/01-istoriya-bolezni-anamnez\|01]] (1–2), [[konspekty/propedevtika/02-obshij-osmotr\|02]] (3–7), [[konspekty/propedevtika/03-organy-dyhaniya-rasspros-osmotr-palpaciya\|03]] (8–11), [[konspekty/propedevtika/04-perkussiya-legkih\|04]] (12–13), [[konspekty/propedevtika/05-auskultaciya-legkih\|05]] (14–18), [[konspekty/propedevtika/06-kollokvium-anamnez-osmotr-dyhanie\|06 — коллоквиум 1–18]] |
 
 ## Общие методы обследования
 

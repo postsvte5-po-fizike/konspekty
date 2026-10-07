@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" font-family="Helvetica, Arial, sans-serif">
+  <rect width="960" height="600" fill="#ffffff"/>
+  <text x="480" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Сравнительная перкуссия: порядок и положение пальца-плессиметра</text>
+  <text x="480" y="50" text-anchor="middle" font-size="13" fill="#555">прямоугольник — палец-плессиметр (как лежит); номера — порядок; каждая точка справа — сразу симметричная слева</text>
+
+  <!-- СПЕРЕДИ -->
+  <g transform="translate(240,0)">
+    <text x="0" y="84" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Спереди</text>
+    <path d="M-150,120 C-160,200 -158,330 -140,480 L140,480 C158,330 160,200 150,120 C120,100 60,96 0,98 C-60,96 -120,100 -150,120 Z" fill="#fafafa" stroke="#444" stroke-width="2"/>
+    <path d="M-12,122 C-50,116 -95,116 -132,128" fill="none" stroke="#777" stroke-width="5" stroke-linecap="round"/>
+    <path d="M12,122 C50,116 95,116 132,128" fill="none" stroke="#777" stroke-width="5" stroke-linecap="round"/>
+    <rect x="-11" y="124" width="22" height="170" rx="6" fill="#d9d9d9" stroke="#888"/>
+    <!-- линия IV ребра -->
+    <line x1="-140" y1="250" x2="140" y2="250" stroke="#c55a11" stroke-dasharray="6,4"/>
+    <text x="-140" y="266" font-size="11" fill="#c55a11">уровень IV ребра: ниже по среднеключичной</text><text x="-140" y="280" font-size="11" fill="#c55a11">линии не сравнивают (слева сердце)</text>
+    <!-- 1 надключичные: плессиметр параллельно ключице -->
+    <g fill="#1f4e79">
+      <rect x="-98" y="98" width="40" height="9" rx="4" transform="rotate(-4 -78 102)"/>
+      <rect x="58" y="98" width="40" height="9" rx="4" transform="rotate(4 78 102)"/>
+    </g>
+    <!-- 2 по ключице: удар прямо по ключице -->
+    <g fill="#7030a0"><circle cx="-75" cy="118" r="7"/><circle cx="75" cy="118" r="7"/></g>
+    <!-- 3 межреберья ниже ключиц до IV ребра -->
+    <g fill="#385723">
+      <rect x="-95" y="150" width="40" height="9" rx="4" transform="rotate(8 -75 154)"/>
+      <rect x="55" y="150" width="40" height="9" rx="4" transform="rotate(-8 75 154)"/>
+      <rect x="-95" y="190" width="40" height="9" rx="4" transform="rotate(10 -75 194)"/>
+      <rect x="55" y="190" width="40" height="9" rx="4" transform="rotate(-10 75 194)"/>
+      <rect x="-95" y="228" width="40" height="9" rx="4" transform="rotate(12 -75 232)"/>
+      <rect x="55" y="228" width="40" height="9" rx="4" transform="rotate(-12 75 232)"/>
+    </g>
+    <!-- 4 подмышечные -->
+    <g fill="#c00000">
+      <rect x="-150" y="290" width="36" height="9" rx="4" transform="rotate(16 -132 294)"/>
+      <rect x="114" y="290" width="36" height="9" rx="4" transform="rotate(-16 132 294)"/>
+      <rect x="-150" y="335" width="36" height="9" rx="4" transform="rotate(18 -132 339)"/>
+      <rect x="114" y="335" width="36" height="9" rx="4" transform="rotate(-18 132 339)"/>
+    </g>
+    <g font-size="14" font-weight="bold" text-anchor="middle">
+      <text x="-120" y="92" fill="#1f4e79">1</text>
+      <text x="-112" y="132" fill="#7030a0">2</text>
+      <text x="-112" y="200" fill="#385723">3</text>
+      <text x="-110" y="322" fill="#c00000">4</text>
+    </g>
+    <text x="-110" y="508" font-size="12" fill="#555">правая</text>
+    <text x="110" y="508" font-size="12" fill="#555" text-anchor="end">левая</text>
+  </g>
+
+  <!-- СЗАДИ -->
+  <g transform="translate(680,0)">
+    <text x="0" y="84" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Сзади</text>
+    <path d="M-150,120 C-160,200 -158,330 -140,480 L140,480 C158,330 160,200 150,120 C120,100 60,96 0,98 C-60,96 -120,100 -150,120 Z" fill="#fafafa" stroke="#444" stroke-width="2"/>
+    <path d="M-120,140 L-35,132 L-50,300 Z" fill="none" stroke="#999" stroke-width="2"/>
+    <path d="M120,140 L35,132 L50,300 Z" fill="none" stroke="#999" stroke-width="2"/>
+    <line x1="-118" y1="160" x2="-38" y2="150" stroke="#999" stroke-width="2"/>
+    <line x1="118" y1="160" x2="38" y2="150" stroke="#999" stroke-width="2"/>
+    <line x1="0" y1="100" x2="0" y2="480" stroke="#bbb" stroke-width="10" stroke-dasharray="14,4"/>
+    <!-- 5 надлопаточные: горизонтально -->
+    <g fill="#1f4e79">
+      <rect x="-100" y="122" width="40" height="9" rx="4"/>
+      <rect x="60" y="122" width="40" height="9" rx="4"/>
+    </g>
+    <!-- 6 межлопаточные: вертикально -->
+    <g fill="#c55a11">
+      <rect x="-26" y="170" width="9" height="40" rx="4"/>
+      <rect x="17" y="170" width="9" height="40" rx="4"/>
+      <rect x="-26" y="225" width="9" height="40" rx="4"/>
+      <rect x="17" y="225" width="9" height="40" rx="4"/>
+    </g>
+    <!-- 7 подлопаточные: горизонтально, по межрёберьям -->
+    <g fill="#c00000">
+      <rect x="-100" y="330" width="40" height="9" rx="4" transform="rotate(-8 -80 334)"/>
+      <rect x="60" y="330" width="40" height="9" rx="4" transform="rotate(8 80 334)"/>
+      <rect x="-100" y="372" width="40" height="9" rx="4" transform="rotate(-8 -80 376)"/>
+      <rect x="60" y="372" width="40" height="9" rx="4" transform="rotate(8 80 376)"/>
+    </g>
+    <g font-size="14" font-weight="bold" text-anchor="middle">
+      <text x="-120" y="118" fill="#1f4e79">5</text>
+      <text x="-44" y="200" fill="#c55a11">6</text>
+      <text x="-118" y="345" fill="#c00000">7</text>
+    </g>
+    <text x="-110" y="508" font-size="12" fill="#555">левая</text>
+    <text x="110" y="508" font-size="12" fill="#555" text-anchor="end">правая</text>
+  </g>
+
+  <g font-size="12.5" fill="#222" text-anchor="middle">
+    <text x="480" y="540">1 — надключичные ямки (палец параллельно ключице) · 2 — удар по ключице · 3 — межреберья до IV ребра · 4 — подмышечные (руки на голове)</text>
+    <text x="480" y="562">5 — надлопаточные (горизонтально) · 6 — межлопаточные (палец вертикально, руки скрещены) · 7 — подлопаточные (горизонтально, в межреберья)</text>
+    <text x="480" y="584" fill="#555">По Гребеневу, гл. 5, с. 108–109, рис. 15. Схема, не в масштабе.</text>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Helvetica, Arial, sans-serif">
+  <rect width="900" height="420" fill="#ffffff"/>
+  <text x="450" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Активная подвижность нижнего края лёгкого: три отметки</text>
+  <text x="450" y="50" text-anchor="middle" font-size="13" fill="#555">справа по среднеключичной, средней подмышечной и лопаточной линиям; слева — по двум последним</text>
+
+  <!-- полоса топографической линии -->
+  <rect x="120" y="80" width="140" height="300" fill="#e2f0d9" stroke="#385723"/>
+  <rect x="120" y="230" width="140" height="150" fill="#f8cbad" stroke="#843c0c"/>
+  <text x="190" y="110" text-anchor="middle" font-size="13" fill="#385723">ясный лёгочный</text>
+  <text x="190" y="360" text-anchor="middle" font-size="13" fill="#843c0c">тупой (печень)</text>
+
+  <!-- отметки -->
+  <g stroke-width="3">
+    <line x1="100" y1="230" x2="280" y2="230" stroke="#c00000"/>
+    <line x1="100" y1="300" x2="280" y2="300" stroke="#1f4e79"/>
+    <line x1="100" y1="160" x2="280" y2="160" stroke="#7030a0"/>
+  </g>
+  <g font-size="13" font-weight="bold">
+    <text x="290" y="235" fill="#c00000">① спокойное дыхание — нижняя граница</text>
+    <text x="290" y="305" fill="#1f4e79">② максимальный вдох, задержка → перкуссия вниз до тупого звука</text>
+    <text x="290" y="165" fill="#7030a0">③ максимальный выдох, задержка → перкуссия вверх до ясного звука</text>
+  </g>
+  <!-- размер -->
+  <line x1="80" y1="160" x2="80" y2="300" stroke="#222" stroke-width="1.5"/>
+  <line x1="72" y1="160" x2="88" y2="160" stroke="#222" stroke-width="1.5"/>
+  <line x1="72" y1="300" x2="88" y2="300" stroke="#222" stroke-width="1.5"/>
+  <text x="70" y="236" text-anchor="end" font-size="13" font-weight="bold" fill="#222">②–③</text>
+
+  <g font-size="12.5" fill="#222">
+    <text x="290" y="360">Подвижность = расстояние между ② и ③.</text>
+    <text x="290" y="380">Методичка кафедры: среднеключичная 6 см, средняя подмышечная 8 см, лопаточная 6 см.</text>
+    <text x="290" y="400">Гребенев: 4–6 / 6–8 / 4–6 см.</text>
+  </g>
+</svg>
