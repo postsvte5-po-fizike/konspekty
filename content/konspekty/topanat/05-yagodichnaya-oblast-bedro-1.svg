@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <!-- «карандаш»: лёгкое дрожание линии -->
+    <filter id="pencil" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <!-- штриховка кости -->
+    <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#8a8a8a" stroke-width="1"/>
+    </pattern>
+    <pattern id="hatch2" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-50)">
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#b0b0b0" stroke-width="0.8"/>
+    </pattern>
+    <!-- волокна мышцы -->
+    <pattern id="fibers" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(80)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#9c7a6a" stroke-width="0.9"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="600" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="21" fill="#2b2b2b">Мышечная и сосудистая лакуны (правая сторона, вид спереди)</text>
+
+  <g filter="url(#pencil)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- тазовая кость: подвздошная (латерально) и лобковая (медиально) -->
+    <path d="M70 150 C 95 175, 110 215, 140 240 C 190 285, 300 318, 420 338 C 455 344, 470 342, 488 336
+             C 560 318, 650 300, 740 290 C 768 287, 790 282, 808 270
+             L 822 300 C 790 330, 700 345, 600 360 C 520 372, 470 380, 430 384
+             C 300 378, 170 340, 95 280 C 70 255, 55 205, 70 150 Z"
+          fill="url(#hatch)" stroke="#3a3a3a" stroke-width="2"/>
+    <!-- гребенчатая (куперова) связка вдоль гребня лобковой кости -->
+    <path d="M500 333 C 580 316, 680 300, 790 284" fill="none" stroke="#3a3a3a" stroke-width="5" stroke-dasharray="1 7" opacity="0.8"/>
+
+    <!-- паховая связка -->
+    <path d="M70 150 C 230 170, 420 190, 560 212 C 660 228, 750 246, 808 268" fill="none" stroke="#2b2b2b" stroke-width="5"/>
+    <path d="M72 156 C 230 176, 420 196, 560 218 C 660 234, 748 252, 804 272" fill="none" stroke="#6b6b6b" stroke-width="1.2"/>
+
+    <!-- подвздошно-гребенчатая дуга -->
+    <path d="M455 200 C 462 245, 470 290, 482 336" fill="none" stroke="#2b2b2b" stroke-width="3.5"/>
+
+    <!-- лакунарная (джимбернатова) связка: треугольник в медиальном углу -->
+    <path d="M808 268 C 782 270, 752 276, 722 286 C 750 290, 785 289, 808 270 Z" fill="url(#hatch2)" stroke="#2b2b2b" stroke-width="2"/>
+
+    <!-- подвздошно-поясничная мышца -->
+    <ellipse cx="290" cy="258" rx="150" ry="52" fill="#f3e3dc" stroke="#3a3a3a" stroke-width="2"/>
+    <ellipse cx="290" cy="258" rx="150" ry="52" fill="url(#fibers)" stroke="none" opacity="0.55"/>
+    <path d="M300 208 C 310 240, 312 280, 300 310" fill="none" stroke="#7a5a4a" stroke-width="1.3" stroke-dasharray="4 4"/>
+
+    <!-- бедренный нерв (в желобе между m. psoas и m. iliacus, ближе к медиальному краю) -->
+    <ellipse cx="410" cy="262" rx="20" ry="15" fill="#f6dc6a" stroke="#3a3a3a" stroke-width="2"/>
+    <!-- латеральный кожный нерв бедра у передней верхней ости -->
+    <circle cx="108" cy="178" r="8" fill="#f6dc6a" stroke="#3a3a3a" stroke-width="1.8"/>
+
+    <!-- влагалище бедренных сосудов (пунктир) -->
+    <path d="M474 236 C 520 220, 640 236, 708 258 C 722 290, 712 318, 690 326 C 620 334, 540 334, 490 322 C 476 300, 470 262, 474 236 Z"
+          fill="none" stroke="#555" stroke-width="1.5" stroke-dasharray="6 5"/>
+    <!-- перегородки внутри влагалища -->
+    <path d="M550 228 C 548 260, 548 300, 552 330" fill="none" stroke="#777" stroke-width="1.2" stroke-dasharray="3 4"/>
+    <path d="M628 236 C 626 268, 628 300, 632 330" fill="none" stroke="#777" stroke-width="1.2" stroke-dasharray="3 4"/>
+
+    <!-- бедренная артерия -->
+    <circle cx="512" cy="278" r="27" fill="#f2b1ac" stroke="#3a3a3a" stroke-width="2.2"/>
+    <circle cx="512" cy="278" r="15" fill="#fbe1df" stroke="#7a3a35" stroke-width="1"/>
+    <!-- бедренная вена -->
+    <ellipse cx="590" cy="284" rx="33" ry="29" fill="#b8c9ec" stroke="#3a3a3a" stroke-width="2.2"/>
+    <!-- бедренное кольцо с лимфоузлом Пирогова — Розенмюллера -->
+    <ellipse cx="672" cy="290" rx="28" ry="24" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.8" stroke-dasharray="5 4"/>
+    <ellipse cx="672" cy="292" rx="11" ry="8" fill="#cfe8c9" stroke="#3a3a3a" stroke-width="1.4"/>
+    <!-- бедренная ветвь бедренно-полового нерва -->
+    <circle cx="540" cy="244" r="5" fill="#f6dc6a" stroke="#3a3a3a" stroke-width="1.4"/>
+  </g>
+
+  <!-- выноски с номерами -->
+  <g font-size="15" fill="#222" stroke="#444" stroke-width="1">
+    <line x1="230" y1="182" x2="214" y2="110"/><circle cx="214" cy="100" r="11" fill="#fff"/><text x="214" y="105" text-anchor="middle" stroke="none">1</text>
+    <line x1="458" y1="215" x2="430" y2="110"/><circle cx="430" cy="100" r="11" fill="#fff"/><text x="430" y="105" text-anchor="middle" stroke="none">2</text>
+    <line x1="230" y1="262" x2="190" y2="430"/><circle cx="190" cy="440" r="11" fill="#fff"/><text x="190" y="445" text-anchor="middle" stroke="none">3</text>
+    <line x1="410" y1="276" x2="372" y2="430"/><circle cx="372" cy="440" r="11" fill="#fff"/><text x="372" y="445" text-anchor="middle" stroke="none">4</text>
+    <line x1="108" y1="186" x2="70" y2="430"/><circle cx="70" cy="440" r="11" fill="#fff"/><text x="70" y="445" text-anchor="middle" stroke="none">5</text>
+    <line x1="512" y1="252" x2="530" y2="110"/><circle cx="530" cy="100" r="11" fill="#fff"/><text x="530" y="105" text-anchor="middle" stroke="none">6</text>
+    <line x1="595" y1="256" x2="610" y2="110"/><circle cx="610" cy="100" r="11" fill="#fff"/><text x="610" y="105" text-anchor="middle" stroke="none">7</text>
+    <line x1="680" y1="268" x2="700" y2="110"/><circle cx="700" cy="100" r="11" fill="#fff"/><text x="700" y="105" text-anchor="middle" stroke="none">8</text>
+    <line x1="780" y1="278" x2="820" y2="150"/><circle cx="828" cy="140" r="11" fill="#fff"/><text x="828" y="145" text-anchor="middle" stroke="none">9</text>
+    <line x1="700" y1="300" x2="700" y2="430"/><circle cx="700" cy="440" r="11" fill="#fff"/><text x="700" y="445" text-anchor="middle" stroke="none">10</text>
+    <line x1="470" y1="300" x2="520" y2="430"/><circle cx="520" cy="440" r="11" fill="#fff"/><text x="520" y="445" text-anchor="middle" stroke="none">11</text>
+    <line x1="540" y1="240" x2="470" y2="140"/><circle cx="462" cy="132" r="11" fill="#fff"/><text x="462" y="137" text-anchor="middle" stroke="none">12</text>
+  </g>
+
+  <!-- подписи лакун -->
+  <text x="290" y="408" text-anchor="middle" font-size="16" font-style="italic" fill="#555">↑ мышечная лакуна ↑</text>
+  <text x="600" y="400" text-anchor="middle" font-size="16" font-style="italic" fill="#555">↑ сосудистая лакуна ↑</text>
+  <text x="76" y="126" font-size="12" fill="#555">передняя верхняя</text>
+  <text x="76" y="140" font-size="12" fill="#555">подвздошная ость</text>
+  <text x="770" y="320" font-size="12" fill="#555">лобковый бугорок</text>
+
+  <!-- легенда -->
+  <g font-size="13.5" fill="#222">
+    <text x="40" y="490">1 — паховая связка (lig. inguinale)</text>
+    <text x="40" y="510">2 — подвздошно-гребенчатая дуга (arcus iliopectineus)</text>
+    <text x="40" y="530">3 — подвздошно-поясничная мышца (m. iliopsoas)</text>
+    <text x="40" y="550">4 — бедренный нерв (n. femoralis)</text>
+    <text x="40" y="570">5 — латеральный кожный нерв бедра</text>
+    <text x="40" y="590">6 — бедренная артерия (a. femoralis)</text>
+    <text x="470" y="490">7 — бедренная вена (v. femoralis)</text>
+    <text x="470" y="510">8 — бедренное кольцо, в нём узел Розенмюллера</text>
+    <text x="470" y="530">9 — лакунарная связка (lig. lacunare)</text>
+    <text x="470" y="550">10 — гребенчатая связка (lig. pectineale)</text>
+    <text x="470" y="570">11 — подвздошно-лобковое возвышение</text>
+    <text x="470" y="590">12 — бедренная ветвь бедренно-полового нерва</text>
+  </g>
+</svg>
