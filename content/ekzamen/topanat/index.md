@@ -248,6 +248,12 @@ tags: [topanat, ekzamen]
 
 *Подмышечная артерия и её ветви. Gray's Anatomy, 1918, рис. 523, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gray523.png), общественное достояние.*
 
+<img src="/konspekty/topanat/02-nadplechie-1.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/02-nadplechie-1.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
+
 → [[konspekty/topanat/02-nadplechie#Сосудисто-нервный пучок по треугольникам|Конспект 02, раздел 1.2]]; схема 1.
 
 ### 9. Топографическая анатомия подмышечной полости, ее стенки и содержимое.
@@ -286,6 +292,16 @@ tags: [topanat, ekzamen]
 
 *Плечевое сплетение в подмышечной ямке, вид снизу и спереди. Gray's Anatomy, 1918, рис. 809, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gray809.png), общественное достояние.*
 
+<img src="/konspekty/topanat/02-nadplechie-1.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/02-nadplechie-1.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+<img src="/konspekty/topanat/02-nadplechie-2.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/02-nadplechie-2.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
+
 → [[konspekty/topanat/02-nadplechie#1.2. Подмышечная область и подмышечная ямка (regio axillaris, fossa axillaris) (I.8, I.9)|Конспект 02, раздел 1.2]].
 
 ### 10. Топографическая анатомия передней области плеча.
@@ -317,6 +333,12 @@ tags: [topanat, ekzamen]
 **Связи клетчатки:** подмышечная ямка, локтевая ямка, заднее ложе (по лучевому нерву), подкожная клетчатка (канал Пирогова).
 
 **Что спросят:** канал Пирогова; положение срединного нерва в трёх третях; почему жгут на плечо.
+
+<img src="/konspekty/topanat/03-plecho-lokot-predplechie-1.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/03-plecho-lokot-predplechie-1.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/03-plecho-lokot-predplechie#1.1. Передняя область плеча (regio brachii anterior) (I.10)|Конспект 03, раздел 1.1]].
 
@@ -376,6 +398,12 @@ tags: [topanat, ekzamen]
 
 *Ход лучевого нерва сзади. Gray's Anatomy, 1918, рис. 818, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gray818.png), общественное достояние.*
 
+<img src="/konspekty/topanat/03-plecho-lokot-predplechie-1.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/03-plecho-lokot-predplechie-1.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
+
 → [[konspekty/topanat/03-plecho-lokot-predplechie#1.2. Задняя область плеча (regio brachii posterior) (I.12, I.14)|Конспект 03, раздел 1.2]].
 
 ### 13. Топографическая анатомия лучевого нерва.
@@ -407,6 +435,12 @@ tags: [topanat, ekzamen]
 
 **Что спросят:** где нерв лежит на кости; как отличить высокое повреждение от глубокой ветви.
 
+<img src="/konspekty/topanat/03-plecho-lokot-predplechie-1.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/03-plecho-lokot-predplechie-1.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
+
 → [[konspekty/topanat/03-plecho-lokot-predplechie#1.8. Нервы верхней конечности — сквозная топография (I.11, I.13, I.16)|Конспект 03, раздел 1.8]]; схема 2.
 
 ### 14. Топографическая анатомия костно-фасциальных футляров области плеча.
@@ -432,6 +466,12 @@ tags: [topanat, ekzamen]
 **Переходы.** Лучевой нерв: из переднего в заднее в верхней трети, обратно — через латеральную перегородку на границе средней и нижней трети. Локтевой: из переднего в заднее — через медиальную перегородку в средней трети.
 
 **Что спросят:** что проходит через латеральную и медиальную перегородки.
+
+<img src="/konspekty/topanat/03-plecho-lokot-predplechie-1.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/03-plecho-lokot-predplechie-1.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/03-plecho-lokot-predplechie#1.2. Задняя область плеча (regio brachii posterior) (I.12, I.14)|Конспект 03, раздел 1.2]].
 
@@ -462,6 +502,12 @@ tags: [topanat, ekzamen]
 ![[03-plecho-gray-podkozhnye-veny.png]]
 
 *Подкожные вены руки. Gray's Anatomy, 1918, рис. 574, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gray574.png), общественное достояние.*
+
+<img src="/konspekty/topanat/03-plecho-lokot-predplechie-3.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/03-plecho-lokot-predplechie-3.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/03-plecho-lokot-predplechie#1.3. Передняя локтевая область (regio cubiti anterior) (I.15)|Конспект 03, раздел 1.3]].
 
@@ -517,6 +563,12 @@ tags: [topanat, ekzamen]
 
 *Артерии и нервы передней поверхности предплечья. Gray's Anatomy, 1918, рис. 528, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gray528.png), общественное достояние.*
 
+<img src="/konspekty/topanat/03-plecho-lokot-predplechie-2.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/03-plecho-lokot-predplechie-2.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
+
 → [[konspekty/topanat/03-plecho-lokot-predplechie#1.5. Передняя область предплечья (regio antebrachii anterior) (I.17)|Конспект 03, раздел 1.5]].
 
 ### 18. Топографическая анатомия задней области предплечья.
@@ -540,6 +592,12 @@ tags: [topanat, ekzamen]
 **Перелом луча в типичном месте** — 2–3 см выше лучезапястного сустава; Коллис (разгибание, отломок к тылу, «вилка») чаще Смита (сгибание, отломок к ладони).
 
 **Что спросят:** где пучок задней области; что иннервирует глубокая ветвь лучевого нерва.
+
+<img src="/konspekty/topanat/03-plecho-lokot-predplechie-2.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/03-plecho-lokot-predplechie-2.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/03-plecho-lokot-predplechie#1.6. Задняя область предплечья (regio antebrachii posterior) (I.18)|Конспект 03, раздел 1.6]].
 
@@ -596,6 +654,16 @@ tags: [topanat, ekzamen]
 ![[04-kist-gray-sinovialnye-vlagalishha.png]]
 
 *Синовиальные влагалища сгибателей. Gray's Anatomy, 1918, рис. 423, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gray423.png), общественное достояние.*
+
+<img src="/konspekty/topanat/04-kist-panaricii-tendovaginity-1.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/04-kist-panaricii-tendovaginity-1.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+<img src="/konspekty/topanat/04-kist-panaricii-tendovaginity-2.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/04-kist-panaricii-tendovaginity-2.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/04-kist-panaricii-tendovaginity#1.3. Ладонь (palma) (I.20)|Конспект 04, раздел 1.3]]; схемы 1, 2.
 
@@ -673,6 +741,12 @@ tags: [topanat, ekzamen]
 
 **Что спросят:** почему панариций ногтевой фаланги быстро становится костным; что такое брыжейка сухожилия.
 
+<img src="/konspekty/topanat/04-kist-panaricii-tendovaginity-3.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/04-kist-panaricii-tendovaginity-3.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
+
 → [[konspekty/topanat/04-kist-panaricii-tendovaginity#1.5. Пальцы (I.23)|Конспект 04, раздел 1.5]].
 
 ### 24. Топографическая анатомия ягодичной области.
@@ -701,6 +775,12 @@ tags: [topanat, ekzamen]
 ![[05-bedro-gray-sedalishhnyj-nerv.png]]
 
 *Нервы задней поверхности ноги. Gray's Anatomy, 1918, рис. 832, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gray832.png), общественное достояние.*
+
+<img src="/konspekty/topanat/05-yagodichnaya-oblast-bedro-3.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/05-yagodichnaya-oblast-bedro-3.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/05-yagodichnaya-oblast-bedro#1.1. Ягодичная область (regio glutea) (I.24)|Конспект 05, раздел 1.1]]; схема 1.
 
@@ -731,6 +811,16 @@ tags: [topanat, ekzamen]
 ![[05-bedro-gray-bedrennyj-treugolnik.png]]
 
 *Бедренный треугольник. Gray's Anatomy, 1918, рис. 549, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gray549.png), общественное достояние.*
+
+<img src="/konspekty/topanat/05-yagodichnaya-oblast-bedro-2.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/05-yagodichnaya-oblast-bedro-2.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+<img src="/konspekty/topanat/05-yagodichnaya-oblast-bedro-4.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/05-yagodichnaya-oblast-bedro-4.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/05-yagodichnaya-oblast-bedro#1.2. Передняя область бедра (regio femoris anterior) (I.25)|Конспект 05, разделы 1.2, 1.5, 1.6]].
 
@@ -778,6 +868,12 @@ tags: [topanat, ekzamen]
 
 **Что спросят:** что разделяет лакуны; порядок «нерв — артерия — вена».
 
+<img src="/konspekty/topanat/05-yagodichnaya-oblast-bedro-1.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/05-yagodichnaya-oblast-bedro-1.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
+
 → [[konspekty/topanat/05-yagodichnaya-oblast-bedro#1.3. Мышечная и сосудистая лакуны (I.27)|Конспект 05, раздел 1.3]].
 
 ### 28. Топографическая анатомия бедренного нерва.
@@ -821,6 +917,12 @@ tags: [topanat, ekzamen]
 **Связи:** подъягодичное пространство (по нерву), подколенная ямка, переднее ложе (по прободающим артериям).
 
 **Что спросят:** где найти седалищный нерв в верхней четверти бедра; чем кровоснабжается заднее ложе.
+
+<img src="/konspekty/topanat/05-yagodichnaya-oblast-bedro-4.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/05-yagodichnaya-oblast-bedro-4.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/05-yagodichnaya-oblast-bedro#1.7. Задняя область бедра (regio femoris posterior) (I.29)|Конспект 05, раздел 1.7]].
 
@@ -869,6 +971,12 @@ tags: [topanat, ekzamen]
 
 **Что спросят:** точку пункции (верхнелатеральная, 1,5–2 см от угла надколенника); почему при разрыве медиальной коллатеральной связки страдает мениск; сколько заворотов; какая сумка сообщается с суставом.
 
+<img src="/konspekty/topanat/06-koleno-golen-stopa-2.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/06-koleno-golen-stopa-2.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
+
 → [[konspekty/topanat/06-koleno-golen-stopa|Конспект 06]], разделы 1.1, 1.3, 1.4, 1.9 (пункция); схема 2.
 
 ### 31. Топографическая анатомия задней области коленного сустава. Подколенная ямка.
@@ -901,6 +1009,12 @@ tags: [topanat, ekzamen]
 
 **Что спросят:** порядок НЕВА и почему он важен для доступа; где идёт малоберцовый нерв; куда распространится гной из ямки; почему пульс ищут при согнутом колене.
 
+<img src="/konspekty/topanat/06-koleno-golen-stopa-1.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/06-koleno-golen-stopa-1.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
+
 → [[konspekty/topanat/06-koleno-golen-stopa|Конспект 06]], раздел 1.2; схема 1.
 
 > [!pattern] Закономерность: гной и гематома идут вдоль сосудов и нервов
@@ -932,6 +1046,16 @@ tags: [topanat, ekzamen]
 **Повреждение общего малоберцового нерва** (ушиб или перелом шейки малоберцовой кости): паралич мышц переднего и латерального лож, потеря чувствительности переднелатеральной поверхности голени и тыла стопы, **«конская» свисающая стопа**, **«петушиная походка»**, невозможность ходить на пятках.
 
 **Что спросят:** проекцию артерии; между какими мышцами искать пучок вверху и внизу; где делится общий малоберцовый нерв; клинику его повреждения.
+
+<img src="/konspekty/topanat/06-koleno-golen-stopa-3.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/06-koleno-golen-stopa-3.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+<img src="/konspekty/topanat/06-koleno-golen-stopa-5.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/06-koleno-golen-stopa-5.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/06-koleno-golen-stopa|Конспект 06]], раздел 1.5; схемы 3 и 5.
 
@@ -974,6 +1098,12 @@ tags: [topanat, ekzamen]
 
 **Что спросят:** порядок глубоких мышц; где нерв относительно артерии; канал Пирогова; разница повреждений большеберцового и малоберцового нервов (не стоит на носках / не стоит на пятках).
 
+<img src="/konspekty/topanat/06-koleno-golen-stopa-3.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/06-koleno-golen-stopa-3.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
+
 → [[konspekty/topanat/06-koleno-golen-stopa|Конспект 06]], раздел 1.6; схема 3.
 
 > [!pattern] Закономерность: одно ложе — один нерв — одно движение стопы
@@ -1007,6 +1137,12 @@ tags: [topanat, ekzamen]
 
 **Что спросят:** границы входа в голеноподколенный канал; что выходит через переднее отверстие; где делится общий малоберцовый нерв; стенки нижнего мышечно-малоберцового канала.
 
+<img src="/konspekty/topanat/06-koleno-golen-stopa-3.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/06-koleno-golen-stopa-3.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
+
 → [[konspekty/topanat/06-koleno-golen-stopa|Конспект 06]], разделы 1.5–1.6; схема 3.
 
 ### 35. Топографическая анатомия области голеностопного сустава.
@@ -1035,6 +1171,12 @@ tags: [topanat, ekzamen]
 **Переломы лодыжек** (до 60% переломов голени): **пронационный (Дюпюитрена)** — медиальная лодыжка или дельтовидная связка + малоберцовая кость в нижней трети + разрыв синдесмоза + подвывих стопы кнаружи; **супинационный** — отрыв наружной лодыжки или разрыв латеральных связок + косой перелом внутреннего края большеберцовой кости + подвывих стопы кнутри.
 
 **Что спросят:** порядок в медиальном лодыжковом канале; где венесекция; где пульс тыльной артерии и задней большеберцовой; три пучка латеральной связки; перелом Дюпюитрена.
+
+<img src="/konspekty/topanat/06-koleno-golen-stopa-4.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/06-koleno-golen-stopa-4.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/06-koleno-golen-stopa|Конспект 06]], раздел 1.7; схемы 4 и 5.
 
@@ -1121,6 +1263,12 @@ tags: [topanat, ekzamen]
 Таблица уровней — в конспекте (раздел 1.8). Рядом с нервом — тонкая артерия седалищного нерва (из нижней ягодичной). Клетчатка вдоль нерва связывает подъягодичное пространство, заднее ложе бедра и подколенную ямку — путь гноя.
 
 **Что спросят:** где выполнить анестезию нерва; почему укол только в верхненаружный квадрант.
+
+<img src="/konspekty/topanat/05-yagodichnaya-oblast-bedro-3.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/05-yagodichnaya-oblast-bedro-3.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/05-yagodichnaya-oblast-bedro#1.8. Седалищный нерв — сквозная топография (I.38)|Конспект 05, раздел 1.8]].
 
@@ -1268,6 +1416,12 @@ tags: [topanat, ekzamen]
 
 **Что спросят:** внутренний ориентир для поиска артерии; на каком уровне перевязка безопаснее.
 
+<img src="/konspekty/topanat/02-nadplechie-1.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/02-nadplechie-1.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
+
 → [[konspekty/topanat/02-nadplechie#Перевязка подмышечной артерии (II.12)|Конспект 02, раздел 1.7]]; схема 2.
 
 ### 13. Оперативный доступ к плечевой артерии и срединному нерву на плече.
@@ -1340,6 +1494,12 @@ tags: [topanat, ekzamen]
 **Коллатерали** — 4 пары анастомозов локтевой сети (верхняя/нижняя локтевые коллатеральные ↔ задняя/передняя возвратные локтевые; лучевая коллатеральная ↔ возвратная лучевая; средняя коллатеральная ↔ возвратная межкостная).
 
 **Что спросят:** что рассекают, чтобы обнажить артерию; почему перевязка здесь безопаснее.
+
+<img src="/konspekty/topanat/03-plecho-lokot-predplechie-3.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/03-plecho-lokot-predplechie-3.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/03-plecho-lokot-predplechie#1.10. Оперативная хирургия: доступы к артериям и нервам (II.13–II.17)|Конспект 03, раздел 1.10]]; схема 1.
 
@@ -1454,6 +1614,12 @@ tags: [topanat, ekzamen]
 
 **Что спросят:** почему важен уровень отхождения глубокой артерии бедра; где вена и нерв.
 
+<img src="/konspekty/topanat/05-yagodichnaya-oblast-bedro-2.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/05-yagodichnaya-oblast-bedro-2.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
+
 → [[konspekty/topanat/05-yagodichnaya-oblast-bedro#1.10. Оперативная хирургия: доступы к артериям (II.19–II.22)|Конспект 05, раздел 1.10]]; схема 2.
 
 ### 21. Обнажение и перевязка бедренной артерии в средней трети бедра.
@@ -1525,6 +1691,12 @@ tags: [topanat, ekzamen]
 **Коллатерали и опасности.** Обходной кровоток после перевязки идёт через **суставную сеть колена**: сверху в неё впадают нисходящая коленная артерия и нисходящая ветвь латеральной огибающей артерии, снизу — возвратные большеберцовые. Но ветви сети тонкие, и обход часто недостаточен. Поэтому при ранении подколенной артерии стремятся **восстановить** кровоток (шов, протезирование), а при вынужденной перевязке стараются сохранить коленные артерии. <span class="verify">проверить: рекомендуемый уровень перевязки по учебнику кафедры</span>
 
 **Что спросят:** порядок НЕВА и почему нерв — ориентир; где найти общий малоберцовый нерв; почему перевязка подколенной артерии опасна.
+
+<img src="/konspekty/topanat/06-koleno-golen-stopa-1.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/06-koleno-golen-stopa-1.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/06-koleno-golen-stopa|Конспект 06]], разделы 1.2, 1.4, 1.9; схемы 1, 2, 5.
 
@@ -1608,6 +1780,12 @@ tags: [topanat, ekzamen]
 **Субпекторальная флегмона.** Разрез ~5 см параллельно ключице на 2–3 см ниже неё; расслаивают ключичную часть большой грудной, вскрывают глубокий листок фасции; контрапертура по нижнему внутреннему краю большой грудной (корнцанг выпячивает ткани); разрез до 10 см, дренажи.
 
 **Что спросят:** почему боковой разрез; почему дренаж кпереди от сухожилия; разрезы при тендовагините V пальца.
+
+<img src="/konspekty/topanat/04-kist-panaricii-tendovaginity-3.svg" alt="рисунок для зарисовки" style="width:100%">
+
+<a class="fig-open" href="/konspekty/topanat/04-kist-panaricii-tendovaginity-3.svg" target="_blank">Открыть рисунок крупно ↗</a>
+
+*Рисунок для зарисовки — из конспекта; порядок рисования см. там.*
 
 → [[konspekty/topanat/04-kist-panaricii-tendovaginity#1.6. Гнойные заболевания кисти и операции (II.37)|Конспект 04, раздел 1.6]]; схема 2.
 
