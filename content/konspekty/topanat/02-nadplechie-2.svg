@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 793" font-family="Georgia, 'Times New Roman', serif">
+<title>Четырёхстороннее и трёхстороннее отверстия (правая сторона, вид сзади)</title>
+<defs>
+<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<filter id="soft" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="1" seed="9" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="1.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<pattern id="bone" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+ <rect width="6" height="6" fill="#f4f1ea"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8d8d8d" stroke-width="0.9"/></pattern>
+<pattern id="marrow" width="8" height="8" patternUnits="userSpaceOnUse">
+ <rect width="8" height="8" fill="#faf6ec"/><circle cx="2" cy="2" r="0.9" fill="#c9bfa8"/><circle cx="6" cy="6" r="0.7" fill="#d6ccb4"/></pattern>
+<pattern id="fat" width="10" height="10" patternUnits="userSpaceOnUse">
+ <rect width="10" height="10" fill="#fbf4dc"/><circle cx="3" cy="3" r="2.2" fill="none" stroke="#e2d3a4" stroke-width="0.6"/><circle cx="8" cy="8" r="1.8" fill="none" stroke="#e2d3a4" stroke-width="0.6"/></pattern>
+<pattern id="lig" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(-20)">
+ <rect width="5" height="5" fill="#efece2"/><line x1="0" y1="0" x2="0" y2="5" stroke="#b9b29d" stroke-width="0.8"/></pattern>
+<pattern id="xmus" width="9" height="9" patternUnits="userSpaceOnUse">
+ <rect width="9" height="9" fill="#f1dad0"/><circle cx="2" cy="2" r="1.1" fill="#c79c8c"/><circle cx="6.5" cy="4" r="0.9" fill="#cfa696"/><circle cx="3.5" cy="7" r="1" fill="#c79c8c"/></pattern>
+<pattern id="xmus2" width="9" height="9" patternUnits="userSpaceOnUse">
+ <rect width="9" height="9" fill="#e9cdc2"/><circle cx="2.5" cy="3" r="1.1" fill="#bb8f80"/><circle cx="7" cy="6" r="1" fill="#c39888"/><circle cx="5" cy="1" r="0.8" fill="#c39888"/></pattern>
+<pattern id="xmus3" width="9" height="9" patternUnits="userSpaceOnUse">
+ <rect width="9" height="9" fill="#f5e3dc"/><circle cx="3" cy="2" r="1" fill="#d3ad9e"/><circle cx="6" cy="6.5" r="1.1" fill="#cba293"/></pattern><pattern id="fib0" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-10)"><rect width="7" height="7" fill="#f1dcd3"/><line x1="0" y1="0" x2="0" y2="7" stroke="#b48a7a" stroke-width="0.7" opacity="0.8"/></pattern><pattern id="fib1" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-22)"><rect width="7" height="7" fill="#ead0c6"/><line x1="0" y1="0" x2="0" y2="7" stroke="#b48a7a" stroke-width="0.7" opacity="0.8"/></pattern><pattern id="fib2" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-15)"><rect width="7" height="7" fill="#f1dcd3"/><line x1="0" y1="0" x2="0" y2="7" stroke="#b48a7a" stroke-width="0.7" opacity="0.8"/></pattern><pattern id="fib3" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(88)"><rect width="7" height="7" fill="#ead0c6"/><line x1="0" y1="0" x2="0" y2="7" stroke="#b48a7a" stroke-width="0.7" opacity="0.8"/></pattern><pattern id="fib4" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(80)"><rect width="7" height="7" fill="#f1dcd3"/><line x1="0" y1="0" x2="0" y2="7" stroke="#b48a7a" stroke-width="0.7" opacity="0.8"/></pattern></defs>
+<rect width="900" height="793" fill="#ffffff"/>
+<text x="450.0" y="30" font-size="19" text-anchor="middle" fill="#222">Четырёхстороннее и трёхстороннее отверстия (правая сторона, вид сзади)</text>
+<g filter="url(#soft)" stroke-linecap="round" stroke-linejoin="round">
+</g>
+<g filter="url(#pencil)" stroke-linecap="round" stroke-linejoin="round">
+<path d="M160.0 120.0 C181.7 110.8, 394.2 108.3, 420.0 110.0 C445.8 111.7, 468.3 132.5, 470.0 140.0 C471.7 147.5, 445.8 186.7, 440.0 200.0 C434.2 213.3, 406.7 281.7, 400.0 300.0 C393.3 318.3, 368.3 401.7, 360.0 420.0 C351.7 438.3, 309.2 510.0, 300.0 520.0 C290.8 530.0, 258.3 545.0, 250.0 540.0 C241.7 535.0, 206.7 477.5, 200.0 460.0 C193.3 442.5, 173.3 350.0, 170.0 330.0 C166.7 310.0, 160.8 237.5, 160.0 220.0 C159.2 202.5, 138.3 129.2, 160.0 120.0 Z" fill="url(#bone)" stroke="#2f2f2f" stroke-width="2.2" />
+<path d="M170.0 190.0 C191.2 184.7, 397.5 155.8, 430.0 150.0 C462.5 144.2, 545.8 120.8, 560.0 120.0 C574.2 119.2, 600.0 136.7, 600.0 140.0 C600.0 143.3, 574.2 156.2, 560.0 160.0 C545.8 163.8, 462.0 181.5, 430.0 186.0 C398.0 190.5, 197.7 213.7, 176.0 214.0 C154.3 214.3, 148.8 195.3, 170.0 190.0 Z" fill="url(#bone)" stroke="#2f2f2f" stroke-width="2.2" />
+<path d="M600.0 150.0 C605.8 145.8, 651.7 137.5, 660.0 140.0 C668.3 142.5, 697.5 171.7, 700.0 180.0 C702.5 188.3, 692.0 230.0, 690.0 240.0 C688.0 250.0, 677.5 285.0, 676.0 300.0 C674.5 315.0, 672.0 395.0, 672.0 420.0 C672.0 445.0, 679.3 585.0, 676.0 600.0 C672.7 615.0, 636.0 615.0, 632.0 600.0 C628.0 585.0, 628.5 445.0, 628.0 420.0 C627.5 395.0, 627.3 315.0, 626.0 300.0 C624.7 285.0, 615.0 249.2, 612.0 240.0 C609.0 230.8, 591.0 197.5, 590.0 190.0 C589.0 182.5, 594.2 154.2, 600.0 150.0 Z" fill="url(#bone)" stroke="#2f2f2f" stroke-width="2.2" />
+<path d="M190.0 220.0 C208.3 210.8, 389.2 192.5, 420.0 190.0 C450.8 187.5, 543.3 188.3, 560.0 190.0 C576.7 191.7, 616.7 205.8, 620.0 210.0 C623.3 214.2, 615.0 236.7, 600.0 240.0 C585.0 243.3, 465.0 245.0, 440.0 250.0 C415.0 255.0, 320.0 295.8, 300.0 300.0 C280.0 304.2, 209.2 306.7, 200.0 300.0 C190.8 293.3, 171.7 229.2, 190.0 220.0 Z" fill="url(#fib0)" stroke="#2f2f2f" stroke-width="1.6" />
+<path d="M330.0 330.0 C335.8 323.2, 404.2 295.8, 420.0 290.0 C435.8 284.2, 503.8 264.8, 520.0 260.0 C536.2 255.2, 605.5 231.8, 614.0 232.0 C622.5 232.2, 629.8 256.7, 622.0 262.0 C614.2 267.3, 536.0 289.5, 520.0 296.0 C504.0 302.5, 444.2 333.7, 430.0 340.0 C415.8 346.3, 358.3 372.8, 350.0 372.0 C341.7 371.2, 324.2 336.8, 330.0 330.0 Z" fill="url(#fib1)" stroke="#2f2f2f" stroke-width="1.6" />
+<path d="M250.0 470.0 C255.0 462.5, 314.2 435.8, 330.0 430.0 C345.8 424.2, 420.8 404.2, 440.0 400.0 C459.2 395.8, 544.3 382.3, 560.0 380.0 C575.7 377.7, 622.2 368.7, 628.0 372.0 C633.8 375.3, 635.7 415.2, 630.0 420.0 C624.3 424.8, 575.0 427.3, 560.0 430.0 C545.0 432.7, 468.3 446.8, 450.0 452.0 C431.7 457.2, 355.0 486.3, 340.0 492.0 C325.0 497.7, 277.5 521.8, 270.0 520.0 C262.5 518.2, 245.0 477.5, 250.0 470.0 Z" fill="url(#fib2)" stroke="#2f2f2f" stroke-width="1.6" />
+<path d="M440.0 300.0 C442.0 293.0, 475.0 289.3, 480.0 296.0 C485.0 302.7, 497.3 365.5, 500.0 380.0 C502.7 394.5, 510.3 450.8, 512.0 470.0 C513.7 489.2, 523.5 598.3, 520.0 610.0 C516.5 621.7, 474.3 621.7, 470.0 610.0 C465.7 598.3, 469.2 489.2, 468.0 470.0 C466.8 450.8, 458.3 394.2, 456.0 380.0 C453.7 365.8, 438.0 307.0, 440.0 300.0 Z" fill="url(#fib3)" stroke="#2f2f2f" stroke-width="1.6" />
+<path d="M600.0 420.0 C604.8 418.3, 625.2 421.7, 628.0 430.0 C630.8 438.3, 634.2 505.0, 634.0 520.0 C633.8 535.0, 634.7 602.5, 626.0 610.0 C617.3 617.5, 537.2 617.5, 530.0 610.0 C522.8 602.5, 536.7 533.3, 540.0 520.0 C543.3 506.7, 565.0 458.3, 570.0 450.0 C575.0 441.7, 595.2 421.7, 600.0 420.0 Z" fill="url(#fib4)" stroke="#2f2f2f" stroke-width="1.6" />
+<path d="M520.0 350.0 C523.3 349.3, 553.3 343.7, 560.0 342.0 C566.7 340.3, 593.3 333.5, 600.0 330.0 C606.7 326.5, 633.3 304.2, 640.0 300.0 C646.7 295.8, 676.7 281.7, 680.0 280.0" fill="none" stroke="#2f2f2f" stroke-width="7.6" stroke-linecap="round"/>
+<path d="M520.0 350.0 C523.3 349.3, 553.3 343.7, 560.0 342.0 C566.7 340.3, 593.3 333.5, 600.0 330.0 C606.7 326.5, 633.3 304.2, 640.0 300.0 C646.7 295.8, 676.7 281.7, 680.0 280.0" fill="none" stroke="#e8a19b" stroke-width="5" stroke-linecap="round"/>
+<path d="M520.0 338.0 C523.3 337.2, 553.0 330.0, 560.0 328.0 C567.0 326.0, 597.0 317.5, 604.0 314.0 C611.0 310.5, 636.8 290.3, 644.0 286.0 C651.2 281.7, 686.2 264.0, 690.0 262.0" fill="none" stroke="#2f2f2f" stroke-width="8.6" stroke-linecap="round"/>
+<path d="M520.0 338.0 C523.3 337.2, 553.0 330.0, 560.0 328.0 C567.0 326.0, 597.0 317.5, 604.0 314.0 C611.0 310.5, 636.8 290.3, 644.0 286.0 C651.2 281.7, 686.2 264.0, 690.0 262.0" fill="none" stroke="#f2d45a" stroke-width="6" stroke-linecap="round"/>
+<path d="M450.0 380.0 C447.5 380.0, 425.8 380.8, 420.0 380.0 C414.2 379.2, 386.7 372.5, 380.0 370.0 C373.3 367.5, 346.7 354.2, 340.0 350.0 C333.3 345.8, 303.3 322.5, 300.0 320.0" fill="none" stroke="#2f2f2f" stroke-width="7.6" stroke-linecap="round"/>
+<path d="M450.0 380.0 C447.5 380.0, 425.8 380.8, 420.0 380.0 C414.2 379.2, 386.7 372.5, 380.0 370.0 C373.3 367.5, 346.7 354.2, 340.0 350.0 C333.3 345.8, 303.3 322.5, 300.0 320.0" fill="none" stroke="#e8a19b" stroke-width="5" stroke-linecap="round"/>
+<path d="M560.0 470.0 C561.7 472.5, 576.7 494.2, 580.0 500.0 C583.3 505.8, 597.3 531.7, 600.0 540.0 C602.7 548.3, 611.0 595.0, 612.0 600.0" fill="none" stroke="#2f2f2f" stroke-width="9.6" stroke-linecap="round"/>
+<path d="M560.0 470.0 C561.7 472.5, 576.7 494.2, 580.0 500.0 C583.3 505.8, 597.3 531.7, 600.0 540.0 C602.7 548.3, 611.0 595.0, 612.0 600.0" fill="none" stroke="#f2d45a" stroke-width="7" stroke-linecap="round"/>
+<path d="M550.0 474.0 C551.5 476.7, 565.0 499.8, 568.0 506.0 C571.0 512.2, 583.5 540.2, 586.0 548.0 C588.5 555.8, 597.0 595.7, 598.0 600.0" fill="none" stroke="#2f2f2f" stroke-width="6.6" stroke-linecap="round"/>
+<path d="M550.0 474.0 C551.5 476.7, 565.0 499.8, 568.0 506.0 C571.0 512.2, 583.5 540.2, 586.0 548.0 C588.5 555.8, 597.0 595.7, 598.0 600.0" fill="none" stroke="#e8a19b" stroke-width="4" stroke-linecap="round"/>
+<path d="M380.0 100.0 C378.3 104.2, 364.2 139.2, 360.0 150.0 C355.8 160.8, 332.5 223.3, 330.0 230.0" fill="none" stroke="#2f2f2f" stroke-width="7.6" stroke-linecap="round"/>
+<path d="M380.0 100.0 C378.3 104.2, 364.2 139.2, 360.0 150.0 C355.8 160.8, 332.5 223.3, 330.0 230.0" fill="none" stroke="#f2d45a" stroke-width="5" stroke-linecap="round"/>
+<path d="M522.0 300.0 C529.7 290.5, 603.2 264.0, 612.0 270.0 C620.8 276.0, 635.7 362.5, 628.0 372.0 C620.3 381.5, 528.8 390.0, 520.0 384.0 C511.2 378.0, 514.3 309.5, 522.0 300.0 Z" fill="none" stroke="#b03a2e" stroke-width="1.4" stroke-dasharray="5 4" />
+<path d="M440.0 344.0 C430.8 340.7, 330.0 355.3, 330.0 360.0 C330.0 364.7, 430.8 401.3, 440.0 400.0 C449.2 398.7, 449.2 347.3, 440.0 344.0 Z" fill="none" stroke="#2e5ab0" stroke-width="1.4" stroke-dasharray="5 4" />
+</g>
+<line x1="300" y1="400" x2="120" y2="420" stroke="#444" stroke-width="0.9"/><circle cx="300" cy="400" r="1.8" fill="#444"/><circle cx="120" cy="420" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="120" y="424.5" font-size="12.5" text-anchor="middle" fill="#222">1</text>
+<line x1="400" y1="240" x2="160" y2="90" stroke="#444" stroke-width="0.9"/><circle cx="400" cy="240" r="1.8" fill="#444"/><circle cx="160" cy="90" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="160" y="94.5" font-size="12.5" text-anchor="middle" fill="#222">2</text>
+<line x1="470" y1="300" x2="330" y2="80" stroke="#444" stroke-width="0.9"/><circle cx="470" cy="300" r="1.8" fill="#444"/><circle cx="330" cy="80" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="330" y="84.5" font-size="12.5" text-anchor="middle" fill="#222">3</text>
+<line x1="400" y1="430" x2="150" y2="560" stroke="#444" stroke-width="0.9"/><circle cx="400" cy="430" r="1.8" fill="#444"/><circle cx="150" cy="560" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="150" y="564.5" font-size="12.5" text-anchor="middle" fill="#222">4</text>
+<line x1="488" y1="520" x2="420" y2="620" stroke="#444" stroke-width="0.9"/><circle cx="488" cy="520" r="1.8" fill="#444"/><circle cx="420" cy="620" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="420" y="624.5" font-size="12.5" text-anchor="middle" fill="#222">5</text>
+<line x1="650" y1="480" x2="800" y2="470" stroke="#444" stroke-width="0.9"/><circle cx="650" cy="480" r="1.8" fill="#444"/><circle cx="800" cy="470" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="800" y="474.5" font-size="12.5" text-anchor="middle" fill="#222">6</text>
+<line x1="570" y1="300" x2="790" y2="120" stroke="#444" stroke-width="0.9"/><circle cx="570" cy="300" r="1.8" fill="#444"/><circle cx="790" cy="120" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="790" y="124.5" font-size="12.5" text-anchor="middle" fill="#222">7</text>
+<line x1="620" y1="296" x2="820" y2="200" stroke="#444" stroke-width="0.9"/><circle cx="620" cy="296" r="1.8" fill="#444"/><circle cx="820" cy="200" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="820" y="204.5" font-size="12.5" text-anchor="middle" fill="#222">8</text>
+<line x1="610" y1="322" x2="820" y2="260" stroke="#444" stroke-width="0.9"/><circle cx="610" cy="322" r="1.8" fill="#444"/><circle cx="820" cy="260" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="820" y="264.5" font-size="12.5" text-anchor="middle" fill="#222">9</text>
+<line x1="390" y1="372" x2="130" y2="330" stroke="#444" stroke-width="0.9"/><circle cx="390" cy="372" r="1.8" fill="#444"/><circle cx="130" cy="330" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="130" y="334.5" font-size="12.5" text-anchor="middle" fill="#222">10</text>
+<line x1="600" y1="540" x2="800" y2="560" stroke="#444" stroke-width="0.9"/><circle cx="600" cy="540" r="1.8" fill="#444"/><circle cx="800" cy="560" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="800" y="564.5" font-size="12.5" text-anchor="middle" fill="#222">11</text>
+<line x1="360" y1="150" x2="250" y2="50" stroke="#444" stroke-width="0.9"/><circle cx="360" cy="150" r="1.8" fill="#444"/><circle cx="250" cy="50" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="250" y="54.5" font-size="12.5" text-anchor="middle" fill="#222">12</text>
+<line x1="580" y1="560" x2="760" y2="620" stroke="#444" stroke-width="0.9"/><circle cx="580" cy="560" r="1.8" fill="#444"/><circle cx="760" cy="620" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="760" y="624.5" font-size="12.5" text-anchor="middle" fill="#222">13</text>
+<g stroke="#666" stroke-width="1" fill="none"><line x1="768" y1="400" x2="812" y2="400"/><line x1="790" y1="378" x2="790" y2="422"/></g>
+<text x="790" y="372" font-size="11.5" text-anchor="middle" fill="#666" font-style="italic">вверх</text>
+<text x="790" y="436" font-size="11.5" text-anchor="middle" fill="#666" font-style="italic">вниз</text>
+<text x="764" y="404" font-size="11.5" text-anchor="end" fill="#666" font-style="italic">медиально</text>
+<text x="816" y="404" font-size="11.5" text-anchor="start" fill="#666" font-style="italic">латерально</text>
+<text x="30" y="650" font-size="12.5" fill="#222">1 — лопатка (латеральный край)</text>
+<text x="30" y="669" font-size="12.5" fill="#222">2 — подостная мышца</text>
+<text x="30" y="688" font-size="12.5" fill="#222">3 — малая круглая мышца (верхняя граница щели)</text>
+<text x="30" y="707" font-size="12.5" fill="#222">4 — большая круглая мышца (нижняя граница щели)</text>
+<text x="30" y="726" font-size="12.5" fill="#222">5 — длинная головка трёхглавой мышцы (делит щель надвое)</text>
+<text x="30" y="745" font-size="12.5" fill="#222">6 — плечевая кость</text>
+<text x="30" y="764" font-size="12.5" fill="#222">7 — четырёхстороннее отверстие (красный пунктир)</text>
+<text x="470" y="650" font-size="12.5" fill="#222">8 — подмышечный нерв</text>
+<text x="470" y="669" font-size="12.5" fill="#222">9 — задняя артерия, огибающая плечевую кость</text>
+<text x="470" y="688" font-size="12.5" fill="#222">10 — трёхстороннее отверстие (синий) и a. circumflexa scapulae</text>
+<text x="470" y="707" font-size="12.5" fill="#222">11 — лучевой нерв и глубокая артерия плеча (треугольная щель)</text>
+<text x="470" y="726" font-size="12.5" fill="#222">12 — надлопаточный нерв</text>
+<text x="470" y="745" font-size="12.5" fill="#222">13 — латеральная головка трёхглавой мышцы</text>
+</svg>

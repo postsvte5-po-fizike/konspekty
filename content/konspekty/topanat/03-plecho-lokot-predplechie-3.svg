@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 901" font-family="Georgia, 'Times New Roman', serif">
+<title>Левая локтевая ямка, вид спереди (кожа, клетчатка и фасция удалены)</title>
+<defs>
+<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<filter id="soft" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="1" seed="9" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="1.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<pattern id="bone" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+ <rect width="6" height="6" fill="#f4f1ea"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8d8d8d" stroke-width="0.9"/></pattern>
+<pattern id="marrow" width="8" height="8" patternUnits="userSpaceOnUse">
+ <rect width="8" height="8" fill="#faf6ec"/><circle cx="2" cy="2" r="0.9" fill="#c9bfa8"/><circle cx="6" cy="6" r="0.7" fill="#d6ccb4"/></pattern>
+<pattern id="fat" width="10" height="10" patternUnits="userSpaceOnUse">
+ <rect width="10" height="10" fill="#fbf4dc"/><circle cx="3" cy="3" r="2.2" fill="none" stroke="#e2d3a4" stroke-width="0.6"/><circle cx="8" cy="8" r="1.8" fill="none" stroke="#e2d3a4" stroke-width="0.6"/></pattern>
+<pattern id="lig" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(-20)">
+ <rect width="5" height="5" fill="#efece2"/><line x1="0" y1="0" x2="0" y2="5" stroke="#b9b29d" stroke-width="0.8"/></pattern>
+<pattern id="xmus" width="9" height="9" patternUnits="userSpaceOnUse">
+ <rect width="9" height="9" fill="#f1dad0"/><circle cx="2" cy="2" r="1.1" fill="#c79c8c"/><circle cx="6.5" cy="4" r="0.9" fill="#cfa696"/><circle cx="3.5" cy="7" r="1" fill="#c79c8c"/></pattern>
+<pattern id="xmus2" width="9" height="9" patternUnits="userSpaceOnUse">
+ <rect width="9" height="9" fill="#e9cdc2"/><circle cx="2.5" cy="3" r="1.1" fill="#bb8f80"/><circle cx="7" cy="6" r="1" fill="#c39888"/><circle cx="5" cy="1" r="0.8" fill="#c39888"/></pattern>
+<pattern id="xmus3" width="9" height="9" patternUnits="userSpaceOnUse">
+ <rect width="9" height="9" fill="#f5e3dc"/><circle cx="3" cy="2" r="1" fill="#d3ad9e"/><circle cx="6" cy="6.5" r="1.1" fill="#cba293"/></pattern><pattern id="fib0" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(92)"><rect width="7" height="7" fill="#ead0c6"/><line x1="0" y1="0" x2="0" y2="7" stroke="#b48a7a" stroke-width="0.7" opacity="0.8"/></pattern><pattern id="fib1" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(80)"><rect width="7" height="7" fill="#ead0c6"/><line x1="0" y1="0" x2="0" y2="7" stroke="#b48a7a" stroke-width="0.7" opacity="0.8"/></pattern><pattern id="fib2" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(38)"><rect width="7" height="7" fill="#f1dcd3"/><line x1="0" y1="0" x2="0" y2="7" stroke="#b48a7a" stroke-width="0.7" opacity="0.8"/></pattern><pattern id="fib3" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(97)"><rect width="7" height="7" fill="#f1dcd3"/><line x1="0" y1="0" x2="0" y2="7" stroke="#b48a7a" stroke-width="0.7" opacity="0.8"/></pattern><pattern id="fib4" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(92)"><rect width="7" height="7" fill="#f1dcd3"/><line x1="0" y1="0" x2="0" y2="7" stroke="#b48a7a" stroke-width="0.7" opacity="0.8"/></pattern></defs>
+<rect width="900" height="901" fill="#ffffff"/>
+<text x="450.0" y="30" font-size="19" text-anchor="middle" fill="#222">Левая локтевая ямка, вид спереди (кожа, клетчатка и фасция удалены)</text>
+<g filter="url(#soft)" stroke-linecap="round" stroke-linejoin="round">
+</g>
+<g filter="url(#pencil)" stroke-linecap="round" stroke-linejoin="round">
+<path d="M262.0 80.0 C261.3 94.9, 257.8 215.7, 255.0 240.0 C252.2 264.3, 232.5 318.5, 232.0 340.0 C231.5 361.5, 244.4 438.3, 250.0 470.0 C255.6 501.7, 288.1 660.4, 292.0 680.0" fill="none" stroke="#2f2f2f" stroke-width="2" />
+<path d="M648.0 80.0 C648.7 94.9, 653.8 215.7, 656.0 240.0 C658.2 264.3, 672.7 316.7, 672.0 340.0 C671.3 363.3, 654.5 458.3, 648.0 490.0 C641.5 521.7, 606.3 662.3, 602.0 680.0" fill="none" stroke="#2f2f2f" stroke-width="2" />
+<path d="M372.0 190.0 C376.9 181.6, 406.2 180.7, 420.0 180.0 C433.8 179.3, 505.5 180.1, 520.0 182.0 C534.5 183.9, 568.5 191.8, 575.0 200.0 C581.5 208.2, 589.1 255.1, 590.0 270.0 C590.9 284.9, 587.8 343.2, 585.0 360.0 C582.2 376.8, 566.1 437.7, 560.0 450.0 C553.9 462.3, 528.4 488.1, 520.0 492.0 C511.6 495.9, 479.3 496.9, 470.0 492.0 C460.7 487.1, 427.9 452.3, 420.0 440.0 C412.1 427.7, 389.9 375.9, 385.0 360.0 C380.1 344.1, 369.2 285.9, 368.0 270.0 C366.8 254.1, 367.1 198.4, 372.0 190.0 Z" fill="url(#fib0)" stroke="#2f2f2f" stroke-width="1.6" />
+<path d="M236.0 358.0 C238.2 353.5, 256.0 348.1, 262.0 352.0 C268.0 355.9, 293.7 387.1, 300.0 400.0 C306.3 412.9, 325.7 471.3, 330.0 490.0 C334.3 508.7, 345.1 582.3, 346.0 600.0 C346.9 617.7, 344.3 672.5, 340.0 680.0 C335.7 687.5, 306.0 689.3, 300.0 680.0 C294.0 670.7, 280.5 599.6, 276.0 580.0 C271.5 560.4, 255.5 486.8, 252.0 470.0 C248.5 453.2, 239.5 410.5, 238.0 400.0 C236.5 389.5, 233.8 362.5, 236.0 358.0 Z" fill="url(#fib1)" stroke="#2f2f2f" stroke-width="1.6" />
+<path d="M244.0 340.0 C247.2 335.7, 275.1 326.9, 282.0 328.0 C288.9 329.1, 309.6 345.1, 318.0 352.0 C326.4 358.9, 361.4 391.9, 372.0 402.0 C382.6 412.1, 420.8 448.4, 432.0 460.0 C443.2 471.6, 481.9 513.7, 492.0 526.0 C502.1 538.3, 534.4 580.4, 540.0 592.0 C545.6 603.6, 553.5 642.9, 552.0 650.0 C550.5 657.1, 530.0 668.9, 524.0 668.0 C518.0 667.1, 496.2 648.2, 488.0 640.0 C479.8 631.8, 446.3 591.4, 436.0 580.0 C425.7 568.6, 389.0 529.2, 378.0 518.0 C367.0 506.8, 328.1 470.3, 318.0 460.0 C307.9 449.7, 276.5 416.0, 270.0 408.0 C263.5 400.0, 250.4 380.3, 248.0 374.0 C245.6 367.7, 240.8 344.3, 244.0 340.0 Z" fill="url(#fib2)" stroke="#2f2f2f" stroke-width="1.6" />
+<path d="M600.0 160.0 C603.2 153.5, 624.8 136.3, 630.0 140.0 C635.2 143.7, 652.8 186.9, 656.0 200.0 C659.2 213.1, 663.6 265.1, 664.0 280.0 C664.4 294.9, 662.2 343.2, 660.0 360.0 C657.8 376.8, 644.3 441.3, 640.0 460.0 C635.7 478.7, 618.7 539.5, 614.0 560.0 C609.3 580.5, 595.8 668.8, 590.0 680.0 C584.2 691.2, 554.2 689.3, 552.0 680.0 C549.8 670.7, 563.6 598.7, 566.0 580.0 C568.4 561.3, 575.8 498.7, 578.0 480.0 C580.2 461.3, 588.3 398.7, 590.0 380.0 C591.7 361.3, 595.4 295.9, 596.0 280.0 C596.6 264.1, 595.6 221.2, 596.0 210.0 C596.4 198.8, 596.8 166.5, 600.0 160.0 Z" fill="url(#fib3)" stroke="#2f2f2f" stroke-width="1.6" />
+<path d="M424.0 80.0 C436.7 73.5, 542.7 73.5, 556.0 80.0 C569.3 86.5, 566.4 136.9, 566.0 150.0 C565.6 163.1, 556.3 208.2, 552.0 220.0 C547.7 231.8, 525.8 269.3, 520.0 276.0 C514.2 282.7, 495.4 291.8, 490.0 292.0 C484.6 292.2, 467.0 284.2, 462.0 278.0 C457.0 271.8, 439.9 237.9, 436.0 226.0 C432.1 214.1, 421.1 163.6, 420.0 150.0 C418.9 136.4, 411.3 86.5, 424.0 80.0 Z" fill="url(#fib4)" stroke="#2f2f2f" stroke-width="1.6" />
+<path d="M488.0 288.0 C488.7 294.7, 494.5 345.8, 496.0 360.0 C497.5 374.2, 502.9 427.9, 504.0 440.0 C505.1 452.1, 507.6 485.3, 508.0 490.0" fill="none" stroke="#2f2f2f" stroke-width="13" />
+<path d="M488.0 288.0 C488.7 294.7, 494.5 345.8, 496.0 360.0 C497.5 374.2, 502.9 427.9, 504.0 440.0 C505.1 452.1, 507.6 485.3, 508.0 490.0" fill="none" stroke="#f2f0e6" stroke-width="9.5" />
+<path d="M212.0 336.0 C212.6 332.5, 228.1 324.0, 232.0 324.0 C235.9 324.0, 252.3 332.8, 254.0 336.0 C255.7 339.2, 252.6 355.6, 250.0 358.0 C247.4 360.4, 229.5 364.1, 226.0 362.0 C222.5 359.9, 211.4 339.5, 212.0 336.0 Z" fill="url(#bone)" stroke="#2f2f2f" stroke-width="2.2" />
+<path d="M660.0 330.0 C660.2 327.2, 673.4 323.1, 676.0 324.0 C678.6 324.9, 688.2 337.2, 688.0 340.0 C687.8 342.8, 676.6 354.9, 674.0 354.0 C671.4 353.1, 659.8 332.8, 660.0 330.0 Z" fill="url(#bone)" stroke="#2f2f2f" stroke-width="2.2" />
+<path d="M458.0 464.0 C461.5 468.3, 489.3 500.1, 496.0 510.0 C502.7 519.9, 524.8 557.9, 530.0 570.0 C535.2 582.1, 549.0 629.7, 552.0 640.0 C555.0 650.3, 561.1 676.3, 562.0 680.0" fill="none" stroke="#2f2f2f" stroke-width="9.6" stroke-linecap="round"/>
+<path d="M458.0 464.0 C461.5 468.3, 489.3 500.1, 496.0 510.0 C502.7 519.9, 524.8 557.9, 530.0 570.0 C535.2 582.1, 549.0 629.7, 552.0 640.0 C555.0 650.3, 561.1 676.3, 562.0 680.0" fill="none" stroke="#e8a19b" stroke-width="7" stroke-linecap="round"/>
+<path d="M486.0 492.0 C490.1 489.0, 522.0 466.7, 530.0 460.0 C538.0 453.3, 568.1 423.7, 572.0 420.0" fill="none" stroke="#2f2f2f" stroke-width="6.1" stroke-linecap="round"/>
+<path d="M486.0 492.0 C490.1 489.0, 522.0 466.7, 530.0 460.0 C538.0 453.3, 568.1 423.7, 572.0 420.0" fill="none" stroke="#e8a19b" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M598.0 100.0 C597.4 111.2, 593.1 197.6, 592.0 220.0 C590.9 242.4, 586.6 328.8, 586.0 340.0" fill="none" stroke="#2f2f2f" stroke-width="9.6" stroke-linecap="round"/>
+<path d="M598.0 100.0 C597.4 111.2, 593.1 197.6, 592.0 220.0 C590.9 242.4, 586.6 328.8, 586.0 340.0" fill="none" stroke="#f2d45a" stroke-width="7" stroke-linecap="round"/>
+<path d="M586.0 340.0 C585.4 351.2, 581.5 437.6, 580.0 460.0 C578.5 482.4, 571.3 559.5, 570.0 580.0 C568.7 600.5, 566.4 670.7, 566.0 680.0" fill="none" stroke="#2f2f2f" stroke-width="7.1" stroke-linecap="round"/>
+<path d="M586.0 340.0 C585.4 351.2, 581.5 437.6, 580.0 460.0 C578.5 482.4, 571.3 559.5, 570.0 580.0 C568.7 600.5, 566.4 670.7, 566.0 680.0" fill="none" stroke="#f2d45a" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M586.0 340.0 C588.2 344.7, 606.1 378.8, 610.0 390.0 C613.9 401.2, 626.3 453.5, 628.0 460.0" fill="none" stroke="#9a7a20" stroke-width="5" stroke-dasharray="4 4" />
+<path d="M410.0 80.0 C410.2 94.9, 409.6 212.9, 412.0 240.0 C414.4 267.1, 431.7 349.1, 436.0 370.0 C440.3 390.9, 455.9 455.2, 458.0 464.0" fill="none" stroke="#2f2f2f" stroke-width="11.6" stroke-linecap="round"/>
+<path d="M410.0 80.0 C410.2 94.9, 409.6 212.9, 412.0 240.0 C414.4 267.1, 431.7 349.1, 436.0 370.0 C440.3 390.9, 455.9 455.2, 458.0 464.0" fill="none" stroke="#e8a19b" stroke-width="9" stroke-linecap="round"/>
+<path d="M458.0 464.0 L446.0 496.0" fill="none" stroke="#2f2f2f" stroke-width="9.6" stroke-linecap="round"/>
+<path d="M458.0 464.0 L446.0 496.0" fill="none" stroke="#e8a19b" stroke-width="7" stroke-linecap="round"/>
+<path d="M446.0 496.0 C444.3 502.9, 431.4 554.7, 428.0 570.0 C424.6 585.3, 411.7 651.6, 410.0 660.0" fill="none" stroke="#b65a52" stroke-width="6" stroke-dasharray="5 4" />
+<path d="M382.0 80.0 C382.0 94.9, 380.9 212.9, 382.0 240.0 C383.1 267.1, 390.8 348.3, 394.0 370.0 C397.2 391.7, 413.9 462.5, 416.0 472.0" fill="none" stroke="#2f2f2f" stroke-width="10.6" stroke-linecap="round"/>
+<path d="M382.0 80.0 C382.0 94.9, 380.9 212.9, 382.0 240.0 C383.1 267.1, 390.8 348.3, 394.0 370.0 C397.2 391.7, 413.9 462.5, 416.0 472.0" fill="none" stroke="#f2d45a" stroke-width="8" stroke-linecap="round"/>
+<path d="M416.0 472.0 C417.5 479.5, 429.2 535.4, 432.0 552.0 C434.8 568.6, 444.7 640.9, 446.0 650.0" fill="none" stroke="#9a7a20" stroke-width="6" stroke-dasharray="5 4" />
+<path d="M494.0 322.0 C499.6 321.1, 504.5 344.7, 500.0 352.0 C495.5 359.3, 457.2 391.8, 446.0 400.0 C434.8 408.2, 390.5 434.6, 380.0 440.0 C369.5 445.4, 339.0 458.0, 334.0 458.0 C329.0 458.0, 322.6 444.3, 326.0 440.0 C329.4 435.7, 359.4 419.3, 370.0 412.0 C380.6 404.7, 428.4 370.4, 440.0 362.0 C451.6 353.6, 488.4 322.9, 494.0 322.0 Z" fill="url(#lig)" stroke="#2f2f2f" stroke-width="1.3" opacity="0.92" />
+</g>
+<line x1="490" y1="160" x2="330" y2="70" stroke="#444" stroke-width="0.9"/><circle cx="490" cy="160" r="1.8" fill="#444"/><circle cx="330" cy="70" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="330" y="74.5" font-size="12.5" text-anchor="middle" fill="#222">1</text>
+<line x1="504" y1="420" x2="760" y2="420" stroke="#444" stroke-width="0.9"/><circle cx="504" cy="420" r="1.8" fill="#444"/><circle cx="760" cy="420" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="760" y="424.5" font-size="12.5" text-anchor="middle" fill="#222">2</text>
+<line x1="390" y1="425" x2="120" y2="430" stroke="#444" stroke-width="0.9"/><circle cx="390" cy="425" r="1.8" fill="#444"/><circle cx="120" cy="430" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="120" y="434.5" font-size="12.5" text-anchor="middle" fill="#222">3</text>
+<line x1="552" y1="290" x2="770" y2="180" stroke="#444" stroke-width="0.9"/><circle cx="552" cy="290" r="1.8" fill="#444"/><circle cx="770" cy="180" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="770" y="184.5" font-size="12.5" text-anchor="middle" fill="#222">4</text>
+<line x1="640" y1="370" x2="800" y2="300" stroke="#444" stroke-width="0.9"/><circle cx="640" cy="370" r="1.8" fill="#444"/><circle cx="800" cy="300" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="800" y="304.5" font-size="12.5" text-anchor="middle" fill="#222">5</text>
+<line x1="430" y1="540" x2="170" y2="600" stroke="#444" stroke-width="0.9"/><circle cx="430" cy="540" r="1.8" fill="#444"/><circle cx="170" cy="600" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="170" y="604.5" font-size="12.5" text-anchor="middle" fill="#222">6</text>
+<line x1="414" y1="240" x2="220" y2="150" stroke="#444" stroke-width="0.9"/><circle cx="414" cy="240" r="1.8" fill="#444"/><circle cx="220" cy="150" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="220" y="154.5" font-size="12.5" text-anchor="middle" fill="#222">7</text>
+<line x1="383" y1="290" x2="140" y2="240" stroke="#444" stroke-width="0.9"/><circle cx="383" cy="290" r="1.8" fill="#444"/><circle cx="140" cy="240" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="140" y="244.5" font-size="12.5" text-anchor="middle" fill="#222">8</text>
+<line x1="532" y1="580" x2="770" y2="600" stroke="#444" stroke-width="0.9"/><circle cx="532" cy="580" r="1.8" fill="#444"/><circle cx="770" cy="600" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="770" y="604.5" font-size="12.5" text-anchor="middle" fill="#222">9</text>
+<line x1="426" y1="585" x2="150" y2="670" stroke="#444" stroke-width="0.9"/><circle cx="426" cy="585" r="1.8" fill="#444"/><circle cx="150" cy="670" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="150" y="674.5" font-size="12.5" text-anchor="middle" fill="#222">10</text>
+<line x1="544" y1="450" x2="800" y2="490" stroke="#444" stroke-width="0.9"/><circle cx="544" cy="450" r="1.8" fill="#444"/><circle cx="800" cy="490" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="800" y="494.5" font-size="12.5" text-anchor="middle" fill="#222">11</text>
+<line x1="591" y1="240" x2="800" y2="240" stroke="#444" stroke-width="0.9"/><circle cx="591" cy="240" r="1.8" fill="#444"/><circle cx="800" cy="240" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="800" y="244.5" font-size="12.5" text-anchor="middle" fill="#222">12</text>
+<line x1="620" y1="435" x2="800" y2="550" stroke="#444" stroke-width="0.9"/><circle cx="620" cy="435" r="1.8" fill="#444"/><circle cx="800" cy="550" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="800" y="554.5" font-size="12.5" text-anchor="middle" fill="#222">13</text>
+<line x1="568" y1="640" x2="770" y2="665" stroke="#444" stroke-width="0.9"/><circle cx="568" cy="640" r="1.8" fill="#444"/><circle cx="770" cy="665" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="770" y="669.5" font-size="12.5" text-anchor="middle" fill="#222">14</text>
+<line x1="232" y1="344" x2="80" y2="340" stroke="#444" stroke-width="0.9"/><circle cx="232" cy="344" r="1.8" fill="#444"/><circle cx="80" cy="340" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="80" y="344.5" font-size="12.5" text-anchor="middle" fill="#222">15</text>
+<line x1="674" y1="340" x2="830" y2="370" stroke="#444" stroke-width="0.9"/><circle cx="674" cy="340" r="1.8" fill="#444"/><circle cx="830" cy="370" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="830" y="374.5" font-size="12.5" text-anchor="middle" fill="#222">16</text>
+<line x1="312" y1="600" x2="100" y2="520" stroke="#444" stroke-width="0.9"/><circle cx="312" cy="600" r="1.8" fill="#444"/><circle cx="100" cy="520" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="100" y="524.5" font-size="12.5" text-anchor="middle" fill="#222">17</text>
+<g stroke="#666" stroke-width="1" fill="none"><line x1="78" y1="140" x2="122" y2="140"/><line x1="100" y1="118" x2="100" y2="162"/></g>
+<text x="100" y="112" font-size="11.5" text-anchor="middle" fill="#666" font-style="italic">проксимально</text>
+<text x="100" y="176" font-size="11.5" text-anchor="middle" fill="#666" font-style="italic">дистально</text>
+<text x="74" y="144" font-size="11.5" text-anchor="end" fill="#666" font-style="italic">медиально</text>
+<text x="126" y="144" font-size="11.5" text-anchor="start" fill="#666" font-style="italic">латерально</text>
+<text x="30" y="720" font-size="13" fill="#222">1 — двуглавая мышца плеча</text>
+<text x="30" y="739" font-size="13" fill="#222">2 — сухожилие двуглавой мышцы (к бугристости лучевой кости)</text>
+<text x="30" y="758" font-size="13" fill="#222">3 — апоневроз двуглавой мышцы (lacertus fibrosus, Пирогова)</text>
+<text x="30" y="777" font-size="13" fill="#222">4 — плечевая мышца — дно ямки</text>
+<text x="30" y="796" font-size="13" fill="#222">5 — плечелучевая мышца — латеральная граница</text>
+<text x="30" y="815" font-size="13" fill="#222">6 — круглый пронатор — медиальная граница</text>
+<text x="30" y="834" font-size="13" fill="#222">7 — плечевая артерия — у медиального края сухожилия</text>
+<text x="30" y="853" font-size="13" fill="#222">8 — срединный нерв — медиальнее артерии</text>
+<text x="30" y="872" font-size="13" fill="#222">9 — лучевая артерия</text>
+<text x="460" y="720" font-size="13" fill="#222">10 — локтевая артерия — уходит под круглый пронатор</text>
+<text x="460" y="739" font-size="13" fill="#222">11 — возвратная лучевая артерия</text>
+<text x="460" y="758" font-size="13" fill="#222">12 — лучевой нерв (между плечевой и плечелучевой)</text>
+<text x="460" y="777" font-size="13" fill="#222">13 — глубокая ветвь лучевого нерва → канал супинатора</text>
+<text x="460" y="796" font-size="13" fill="#222">14 — поверхностная ветвь лучевого нерва</text>
+<text x="460" y="815" font-size="13" fill="#222">15 — медиальный надмыщелок плеча</text>
+<text x="460" y="834" font-size="13" fill="#222">16 — латеральный надмыщелок плеча</text>
+<text x="460" y="853" font-size="13" fill="#222">17 — сгибатели от медиального надмыщелка</text>
+</svg>

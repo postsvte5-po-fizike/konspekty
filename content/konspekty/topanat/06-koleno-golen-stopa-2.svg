@@ -1,97 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <title>Коллатеральная сеть коленного сустава</title>
-  <defs>
-    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
-      <path d="M0 0 L10 5 L0 10 Z" fill="#495057"/>
-    </marker>
-    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
-      <path d="M0 0 L10 5 L0 10 Z" fill="#d62828"/>
-    </marker>
-  </defs>
-  <rect width="1000" height="640" fill="#ffffff"/>
-
-  <!-- магистраль слева -->
-  <rect x="30" y="20" width="200" height="44" rx="10" fill="#d62828"/>
-  <text x="130" y="47" text-anchor="middle" fill="#ffffff" font-weight="bold">a. femoralis</text>
-  <path d="M130 64 L130 290" stroke="#d62828" stroke-width="8"/>
-  <rect x="30" y="290" width="200" height="44" rx="10" fill="#d62828"/>
-  <text x="130" y="317" text-anchor="middle" fill="#ffffff" font-weight="bold">a. poplitea</text>
-  <path d="M130 334 L130 520" stroke="#d62828" stroke-width="8"/>
-  <rect x="30" y="520" width="200" height="44" rx="10" fill="#d62828"/>
-  <text x="130" y="540" text-anchor="middle" fill="#ffffff" font-weight="bold" font-size="13">a. tibialis anterior</text>
-  <text x="130" y="557" text-anchor="middle" fill="#ffffff" font-size="12">(и a. tibialis posterior)</text>
-  <text x="18" y="215" fill="#495057" font-size="12" transform="rotate(-90 18 215)">hiatus adductorius</text>
-
-  <!-- a. profunda femoris -->
-  <rect x="270" y="20" width="230" height="44" rx="10" fill="#ffe3e3" stroke="#d62828" stroke-width="1.5"/>
-  <text x="385" y="40" text-anchor="middle" font-size="13">a. profunda femoris →</text>
-  <text x="385" y="57" text-anchor="middle" font-size="13">a. circumflexa femoris lat.</text>
-  <path d="M230 42 L268 42" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
-
-  <!-- верхние притоки -->
-  <rect x="270" y="90" width="230" height="44" rx="10" fill="#ffe3e3" stroke="#d62828" stroke-width="1.5"/>
-  <text x="385" y="110" text-anchor="middle" font-size="13">ramus descendens</text>
-  <text x="385" y="127" text-anchor="middle" font-size="13">a. circumflexae femoris lat.</text>
-  <path d="M385 64 L385 88" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
-
-  <rect x="270" y="160" width="230" height="40" rx="10" fill="#ffe3e3" stroke="#d62828" stroke-width="1.5"/>
-  <text x="385" y="185" text-anchor="middle" font-size="13">a. descendens genus</text>
-  <path d="M138 180 L268 180" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
-
-  <!-- 5 коленных -->
-  <rect x="270" y="230" width="230" height="40" rx="10" fill="#ffe3e3" stroke="#d62828" stroke-width="1.5"/>
-  <text x="385" y="248" text-anchor="middle" font-size="13">aa. superiores genus</text>
-  <text x="385" y="264" text-anchor="middle" font-size="12">lateralis et medialis</text>
-  <rect x="270" y="290" width="230" height="44" rx="10" fill="#f1f3f5" stroke="#868e96" stroke-width="1.5" stroke-dasharray="5 3"/>
-  <text x="385" y="309" text-anchor="middle" font-size="13">a. media genus (непарная)</text>
-  <text x="385" y="326" text-anchor="middle" font-size="12" fill="#495057">→ капсула, крестообразные связки</text>
-  <rect x="270" y="360" width="230" height="40" rx="10" fill="#ffe3e3" stroke="#d62828" stroke-width="1.5"/>
-  <text x="385" y="378" text-anchor="middle" font-size="13">aa. inferiores genus</text>
-  <text x="385" y="394" text-anchor="middle" font-size="12">lateralis et medialis</text>
-  <path d="M138 300 C200 300 210 250 268 250" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
-  <path d="M234 312 L268 312" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
-  <path d="M138 325 C200 325 210 380 268 380" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
-
-  <!-- нижние притоки -->
-  <rect x="270" y="440" width="230" height="44" rx="10" fill="#ffe3e3" stroke="#d62828" stroke-width="1.5"/>
-  <text x="385" y="459" text-anchor="middle" font-size="13">aa. recurrentes tibiales</text>
-  <text x="385" y="476" text-anchor="middle" font-size="12">anterior et posterior</text>
-  <path d="M138 530 C200 530 210 462 268 462" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#ar)"/>
-
-  <!-- сеть -->
-  <rect x="580" y="150" width="200" height="290" rx="22" fill="#fff4e6" stroke="#e8590c" stroke-width="2.5"/>
-  <text x="680" y="270" text-anchor="middle" font-weight="bold" font-size="16">rete articulare</text>
-  <text x="680" y="292" text-anchor="middle" font-weight="bold" font-size="16">genus</text>
-  <text x="680" y="318" text-anchor="middle" font-size="13">+ rete patellare</text>
-  <text x="680" y="342" text-anchor="middle" font-size="12" fill="#495057">(глубокая и поверхностная</text>
-  <text x="680" y="358" text-anchor="middle" font-size="12" fill="#495057">сети спереди сустава)</text>
-  <path d="M500 112 C540 112 550 170 578 170" fill="none" stroke="#d62828" stroke-width="3" marker-end="url(#arr)"/>
-  <path d="M500 180 L578 200" stroke="#d62828" stroke-width="2" marker-end="url(#arr)"/>
-  <path d="M500 250 L578 250" stroke="#d62828" stroke-width="2" marker-end="url(#arr)"/>
-  <path d="M500 380 L578 360" stroke="#d62828" stroke-width="2" marker-end="url(#arr)"/>
-  <path d="M500 462 C540 462 550 420 578 420" fill="none" stroke="#d62828" stroke-width="2" marker-end="url(#arr)"/>
-
-  <!-- поясняющие блоки -->
-  <rect x="805" y="40" width="180" height="200" rx="12" fill="#e7f5ff" stroke="#1971c2" stroke-width="1.5"/>
-  <text x="895" y="64" text-anchor="middle" font-weight="bold" font-size="13">Окклюзия бедренной</text>
-  <text x="895" y="82" text-anchor="middle" font-weight="bold" font-size="13">ниже a. profunda,</text>
-  <text x="895" y="100" text-anchor="middle" font-weight="bold" font-size="13">выше a. desc. genus:</text>
-  <text x="895" y="126" text-anchor="middle" font-size="12.5">главный обход —</text>
-  <text x="895" y="144" text-anchor="middle" font-size="12.5">r. descendens</text>
-  <text x="895" y="162" text-anchor="middle" font-size="12.5">a. circumflexae</text>
-  <text x="895" y="180" text-anchor="middle" font-size="12.5">femoris lat. → сеть →</text>
-  <text x="895" y="198" text-anchor="middle" font-size="12.5">коленные → a. poplitea</text>
-  <text x="895" y="222" text-anchor="middle" font-size="11.5" fill="#495057">(толстая стрелка)</text>
-
-  <rect x="805" y="270" width="180" height="170" rx="12" fill="#fff5f5" stroke="#c92a2a" stroke-width="1.5"/>
-  <text x="895" y="294" text-anchor="middle" font-weight="bold" font-size="13">Перевязка/травма</text>
-  <text x="895" y="312" text-anchor="middle" font-weight="bold" font-size="13">a. poplitea:</text>
-  <text x="895" y="336" text-anchor="middle" font-size="12.5">сеть есть, но её</text>
-  <text x="895" y="354" text-anchor="middle" font-size="12.5">ветви тонкие — обход</text>
-  <text x="895" y="372" text-anchor="middle" font-size="12.5">часто недостаточен;</text>
-  <text x="895" y="390" text-anchor="middle" font-size="12.5">нужно восстанавливать</text>
-  <text x="895" y="408" text-anchor="middle" font-size="12.5">кровоток (шов,</text>
-  <text x="895" y="426" text-anchor="middle" font-size="12.5">протез), не перевязывать</text>
-
-  <text x="500" y="610" text-anchor="middle" font-size="12.5" fill="#495057">a. media genus в образовании передних сетей не участвует. Венозный отток — по одноимённым венам в vv. tibiales anteriores, v. poplitea, v. femoralis.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 824" font-family="Georgia, 'Times New Roman', serif">
+<title>Коллатеральная сеть левого коленного сустава, вид спереди (медиально — слева)</title>
+<defs>
+<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<filter id="soft" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="1" seed="9" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="1.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<pattern id="bone" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+ <rect width="6" height="6" fill="#f4f1ea"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8d8d8d" stroke-width="0.9"/></pattern>
+<pattern id="marrow" width="8" height="8" patternUnits="userSpaceOnUse">
+ <rect width="8" height="8" fill="#faf6ec"/><circle cx="2" cy="2" r="0.9" fill="#c9bfa8"/><circle cx="6" cy="6" r="0.7" fill="#d6ccb4"/></pattern>
+<pattern id="fat" width="10" height="10" patternUnits="userSpaceOnUse">
+ <rect width="10" height="10" fill="#fbf4dc"/><circle cx="3" cy="3" r="2.2" fill="none" stroke="#e2d3a4" stroke-width="0.6"/><circle cx="8" cy="8" r="1.8" fill="none" stroke="#e2d3a4" stroke-width="0.6"/></pattern>
+<pattern id="lig" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(-20)">
+ <rect width="5" height="5" fill="#efece2"/><line x1="0" y1="0" x2="0" y2="5" stroke="#b9b29d" stroke-width="0.8"/></pattern>
+<pattern id="xmus" width="9" height="9" patternUnits="userSpaceOnUse">
+ <rect width="9" height="9" fill="#f1dad0"/><circle cx="2" cy="2" r="1.1" fill="#c79c8c"/><circle cx="6.5" cy="4" r="0.9" fill="#cfa696"/><circle cx="3.5" cy="7" r="1" fill="#c79c8c"/></pattern>
+<pattern id="xmus2" width="9" height="9" patternUnits="userSpaceOnUse">
+ <rect width="9" height="9" fill="#e9cdc2"/><circle cx="2.5" cy="3" r="1.1" fill="#bb8f80"/><circle cx="7" cy="6" r="1" fill="#c39888"/><circle cx="5" cy="1" r="0.8" fill="#c39888"/></pattern>
+<pattern id="xmus3" width="9" height="9" patternUnits="userSpaceOnUse">
+ <rect width="9" height="9" fill="#f5e3dc"/><circle cx="3" cy="2" r="1" fill="#d3ad9e"/><circle cx="6" cy="6.5" r="1.1" fill="#cba293"/></pattern></defs>
+<rect width="900" height="824" fill="#ffffff"/>
+<text x="450.0" y="30" font-size="19" text-anchor="middle" fill="#222">Коллатеральная сеть левого коленного сустава, вид спереди (медиально — слева)</text>
+<g filter="url(#soft)" stroke-linecap="round" stroke-linejoin="round">
+</g>
+<g filter="url(#pencil)" stroke-linecap="round" stroke-linejoin="round">
+<path d="M360.0 60.0 C379.6 42.0, 520.4 42.0, 540.0 60.0 C559.6 78.0, 548.0 216.0, 556.0 240.0 C564.0 264.0, 614.6 288.0, 620.0 300.0 C625.4 312.0, 643.0 354.0, 610.0 360.0 C577.0 366.0, 323.0 366.0, 290.0 360.0 C257.0 354.0, 274.6 312.0, 280.0 300.0 C285.4 288.0, 336.0 264.0, 344.0 240.0 C352.0 216.0, 340.4 78.0, 360.0 60.0 Z" fill="url(#bone)" stroke="#2f2f2f" stroke-width="2.2" />
+<path d="M300.0 380.0 C330.8 376.0, 568.8 376.0, 600.0 380.0 C631.2 384.0, 616.0 412.0, 612.0 420.0 C608.0 428.0, 568.2 433.0, 560.0 460.0 C551.8 487.0, 548.0 667.0, 530.0 690.0 C512.0 713.0, 398.0 713.0, 380.0 690.0 C362.0 667.0, 358.8 487.0, 350.0 460.0 C341.2 433.0, 297.0 428.0, 292.0 420.0 C287.0 412.0, 269.2 384.0, 300.0 380.0 Z" fill="url(#bone)" stroke="#2f2f2f" stroke-width="2.2" />
+<path d="M620.0 440.0 C624.8 431.2, 655.6 429.0, 660.0 432.0 C664.4 435.0, 666.0 461.2, 664.0 470.0 C662.0 478.8, 643.4 498.0, 640.0 520.0 C636.6 542.0, 633.6 673.0, 630.0 690.0 C626.4 707.0, 605.8 707.0, 604.0 690.0 C602.2 673.0, 610.4 545.0, 612.0 520.0 C613.6 495.0, 615.2 448.8, 620.0 440.0 Z" fill="url(#bone)" stroke="#2f2f2f" stroke-width="2.2" />
+<path d="M410.0 230.0 C420.0 223.0, 479.8 223.0, 490.0 230.0 C500.2 237.0, 513.0 288.0, 512.0 300.0 C511.0 312.0, 489.2 345.0, 480.0 350.0 C470.8 355.0, 429.0 355.0, 420.0 350.0 C411.0 345.0, 391.0 312.0, 390.0 300.0 C389.0 288.0, 400.0 237.0, 410.0 230.0 Z" fill="url(#lig)" stroke="#2f2f2f" stroke-width="1.6" />
+<path d="M436.0 350.0 C440.0 341.0, 460.0 341.0, 464.0 350.0 C468.0 359.0, 480.0 431.0, 476.0 440.0 C472.0 449.0, 428.0 449.0, 424.0 440.0 C420.0 431.0, 432.0 359.0, 436.0 350.0 Z" fill="url(#lig)" stroke="#2f2f2f" stroke-width="1.2" />
+<path d="M392 250 C 430 220, 470 220, 508 250" fill="none" stroke="#2f2f2f" stroke-width="4.800000000000001" stroke-linecap="round"/>
+<path d="M392 250 C 430 220, 470 220, 508 250" fill="none" stroke="#e8a19b" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M386 320 C 430 360, 470 360, 516 320" fill="none" stroke="#2f2f2f" stroke-width="4.800000000000001" stroke-linecap="round"/>
+<path d="M386 320 C 430 360, 470 360, 516 320" fill="none" stroke="#e8a19b" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M400 280 C 440 270, 460 270, 500 282" fill="none" stroke="#2f2f2f" stroke-width="4.800000000000001" stroke-linecap="round"/>
+<path d="M400 280 C 440 270, 460 270, 500 282" fill="none" stroke="#e8a19b" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M330.0 60.0 C330.4 70.0, 332.0 142.0, 334.0 160.0 C336.0 178.0, 344.2 229.0, 350.0 240.0 C355.8 251.0, 387.8 267.0, 392.0 270.0" fill="none" stroke="#2f2f2f" stroke-width="7.6" stroke-linecap="round"/>
+<path d="M330.0 60.0 C330.4 70.0, 332.0 142.0, 334.0 160.0 C336.0 178.0, 344.2 229.0, 350.0 240.0 C355.8 251.0, 387.8 267.0, 392.0 270.0" fill="none" stroke="#e8a19b" stroke-width="5" stroke-linecap="round"/>
+<path d="M580.0 60.0 C579.4 70.0, 576.0 143.0, 574.0 160.0 C572.0 177.0, 566.2 219.8, 560.0 230.0 C553.8 240.2, 516.8 258.8, 512.0 262.0" fill="none" stroke="#2f2f2f" stroke-width="7.6" stroke-linecap="round"/>
+<path d="M580.0 60.0 C579.4 70.0, 576.0 143.0, 574.0 160.0 C572.0 177.0, 566.2 219.8, 560.0 230.0 C553.8 240.2, 516.8 258.8, 512.0 262.0" fill="none" stroke="#e8a19b" stroke-width="5" stroke-linecap="round"/>
+<path d="M300.0 230.0 C303.0 232.0, 322.0 246.8, 330.0 250.0 C338.0 253.2, 375.0 260.8, 380.0 262.0" fill="none" stroke="#2f2f2f" stroke-width="6.6" stroke-linecap="round"/>
+<path d="M300.0 230.0 C303.0 232.0, 322.0 246.8, 330.0 250.0 C338.0 253.2, 375.0 260.8, 380.0 262.0" fill="none" stroke="#e8a19b" stroke-width="4" stroke-linecap="round"/>
+<path d="M600.0 230.0 C597.0 232.0, 578.0 246.8, 570.0 250.0 C562.0 253.2, 525.0 260.8, 520.0 262.0" fill="none" stroke="#2f2f2f" stroke-width="6.6" stroke-linecap="round"/>
+<path d="M600.0 230.0 C597.0 232.0, 578.0 246.8, 570.0 250.0 C562.0 253.2, 525.0 260.8, 520.0 262.0" fill="none" stroke="#e8a19b" stroke-width="4" stroke-linecap="round"/>
+<path d="M292.0 390.0 C296.8 389.4, 330.2 390.0, 340.0 384.0 C349.8 378.0, 385.0 335.4, 390.0 330.0" fill="none" stroke="#2f2f2f" stroke-width="6.6" stroke-linecap="round"/>
+<path d="M292.0 390.0 C296.8 389.4, 330.2 390.0, 340.0 384.0 C349.8 378.0, 385.0 335.4, 390.0 330.0" fill="none" stroke="#e8a19b" stroke-width="4" stroke-linecap="round"/>
+<path d="M620.0 392.0 C615.0 391.8, 580.4 395.8, 570.0 390.0 C559.6 384.2, 521.4 339.6, 516.0 334.0" fill="none" stroke="#2f2f2f" stroke-width="6.6" stroke-linecap="round"/>
+<path d="M620.0 392.0 C615.0 391.8, 580.4 395.8, 570.0 390.0 C559.6 384.2, 521.4 339.6, 516.0 334.0" fill="none" stroke="#e8a19b" stroke-width="4" stroke-linecap="round"/>
+<path d="M590.0 500.0 C587.0 494.0, 567.0 452.0, 560.0 440.0 C553.0 428.0, 526.0 389.0, 520.0 380.0 C514.0 371.0, 502.0 353.0, 500.0 350.0" fill="none" stroke="#2f2f2f" stroke-width="6.6" stroke-linecap="round"/>
+<path d="M590.0 500.0 C587.0 494.0, 567.0 452.0, 560.0 440.0 C553.0 428.0, 526.0 389.0, 520.0 380.0 C514.0 371.0, 502.0 353.0, 500.0 350.0" fill="none" stroke="#e8a19b" stroke-width="4" stroke-linecap="round"/>
+<path d="M450.0 40.0 C450.2 56.0, 451.4 168.0, 452.0 200.0 C452.6 232.0, 454.2 328.0, 456.0 360.0 C457.8 392.0, 468.6 504.0, 470.0 520.0" fill="none" stroke="#b65a52" stroke-width="3" stroke-dasharray="6 8" opacity="0.6" />
+</g>
+<line x1="340" y1="180" x2="120" y2="140" stroke="#444" stroke-width="0.9"/><circle cx="340" cy="180" r="1.8" fill="#444"/><circle cx="120" cy="140" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="120" y="144.5" font-size="12.5" text-anchor="middle" fill="#222">1</text>
+<line x1="570" y1="170" x2="770" y2="120" stroke="#444" stroke-width="0.9"/><circle cx="570" cy="170" r="1.8" fill="#444"/><circle cx="770" cy="120" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="770" y="124.5" font-size="12.5" text-anchor="middle" fill="#222">2</text>
+<line x1="330" y1="252" x2="110" y2="250" stroke="#444" stroke-width="0.9"/><circle cx="330" cy="252" r="1.8" fill="#444"/><circle cx="110" cy="250" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="110" y="254.5" font-size="12.5" text-anchor="middle" fill="#222">3</text>
+<line x1="570" y1="250" x2="790" y2="230" stroke="#444" stroke-width="0.9"/><circle cx="570" cy="250" r="1.8" fill="#444"/><circle cx="790" cy="230" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="790" y="234.5" font-size="12.5" text-anchor="middle" fill="#222">4</text>
+<line x1="340" y1="384" x2="110" y2="400" stroke="#444" stroke-width="0.9"/><circle cx="340" cy="384" r="1.8" fill="#444"/><circle cx="110" cy="400" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="110" y="404.5" font-size="12.5" text-anchor="middle" fill="#222">5</text>
+<line x1="570" y1="390" x2="790" y2="380" stroke="#444" stroke-width="0.9"/><circle cx="570" cy="390" r="1.8" fill="#444"/><circle cx="790" cy="380" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="790" y="384.5" font-size="12.5" text-anchor="middle" fill="#222">6</text>
+<line x1="560" y1="440" x2="790" y2="470" stroke="#444" stroke-width="0.9"/><circle cx="560" cy="440" r="1.8" fill="#444"/><circle cx="790" cy="470" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="790" y="474.5" font-size="12.5" text-anchor="middle" fill="#222">7</text>
+<line x1="450" y1="270" x2="450" y2="520" stroke="#444" stroke-width="0.9"/><circle cx="450" cy="270" r="1.8" fill="#444"/><circle cx="450" cy="520" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="450" y="524.5" font-size="12.5" text-anchor="middle" fill="#222">8</text>
+<line x1="454" y1="300" x2="300" y2="560" stroke="#444" stroke-width="0.9"/><circle cx="454" cy="300" r="1.8" fill="#444"/><circle cx="300" cy="560" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="300" y="564.5" font-size="12.5" text-anchor="middle" fill="#222">9</text>
+<line x1="640" y1="470" x2="790" y2="540" stroke="#444" stroke-width="0.9"/><circle cx="640" cy="470" r="1.8" fill="#444"/><circle cx="790" cy="540" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="790" y="544.5" font-size="12.5" text-anchor="middle" fill="#222">10</text>
+<line x1="450" y1="400" x2="600" y2="620" stroke="#444" stroke-width="0.9"/><circle cx="450" cy="400" r="1.8" fill="#444"/><circle cx="600" cy="620" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="600" y="624.5" font-size="12.5" text-anchor="middle" fill="#222">11</text>
+<g stroke="#666" stroke-width="1" fill="none"><line x1="90" y1="640" x2="130" y2="640"/><line x1="110" y1="620" x2="110" y2="660"/></g>
+<text x="110" y="614" font-size="11.5" text-anchor="middle" fill="#666" font-style="italic">вверх</text>
+<text x="110" y="674" font-size="11.5" text-anchor="middle" fill="#666" font-style="italic">вниз</text>
+<text x="86" y="644" font-size="11.5" text-anchor="end" fill="#666" font-style="italic">медиально</text>
+<text x="134" y="644" font-size="11.5" text-anchor="start" fill="#666" font-style="italic">латерально</text>
+<text x="30" y="700" font-size="12.5" fill="#222">1 — нисходящая коленная артерия (из бедренной)</text>
+<text x="30" y="719" font-size="12.5" fill="#222">2 — нисходящая ветвь латеральной артерии, огибающей бедро</text>
+<text x="30" y="738" font-size="12.5" fill="#222">3 — верхняя медиальная коленная артерия</text>
+<text x="30" y="757" font-size="12.5" fill="#222">4 — верхняя латеральная коленная артерия</text>
+<text x="30" y="776" font-size="12.5" fill="#222">5 — нижняя медиальная коленная артерия</text>
+<text x="30" y="795" font-size="12.5" fill="#222">6 — нижняя латеральная коленная артерия</text>
+<text x="470" y="700" font-size="12.5" fill="#222">7 — передняя большеберцовая возвратная артерия</text>
+<text x="470" y="719" font-size="12.5" fill="#222">8 — сеть надколенника и суставная сеть колена</text>
+<text x="470" y="738" font-size="12.5" fill="#222">9 — подколенная артерия (сзади, источник коленных артерий)</text>
+<text x="470" y="757" font-size="12.5" fill="#222">10 — головка малоберцовой кости</text>
+<text x="470" y="776" font-size="12.5" fill="#222">11 — связка надколенника</text>
 </svg>

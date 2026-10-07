@@ -1,87 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <title>Медиальный лодыжковый канал правой стопы, вид с медиальной стороны (схема)</title>
-  <rect width="1000" height="640" fill="#ffffff"/>
-
-  <!-- контур голени и стопы -->
-  <path d="M250 20 L250 300 C250 360 220 420 120 450 L40 470" fill="none" stroke="#adb5bd" stroke-width="2"/>
-  <path d="M560 20 C565 200 580 330 610 420 C625 470 600 520 540 540 L60 545" fill="none" stroke="#adb5bd" stroke-width="2"/>
-
-  <!-- большеберцовая кость и медиальная лодыжка -->
-  <path d="M265 20 L265 280 C265 330 290 362 330 368 C370 370 392 340 392 300 L395 20" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2.5"/>
-  <!-- пяточная кость -->
-  <path d="M400 430 C460 410 560 420 590 460 C610 495 585 528 540 532 L400 528 C380 500 380 450 400 430 Z" fill="#efe6d2" stroke="#8d7b5a" stroke-width="2.5"/>
-  <text x="510" y="490" text-anchor="middle" font-size="13" fill="#5c4a2a">calcaneus</text>
-  <!-- пяточное сухожилие -->
-  <path d="M520 20 C522 180 530 320 552 430" fill="none" stroke="#e9c46a" stroke-width="22"/>
-  <text x="536" y="200" text-anchor="middle" font-size="12" fill="#5c4a2a" transform="rotate(-87 536 200)">tendo calcaneus (Achillis)</text>
-
-  <!-- структуры канала: дуги вокруг лодыжки (центр 330,330) -->
-  <!-- 1 tibialis posterior -->
-  <path d="M405 40 L405 330 A75 75 0 0 1 300 399 L120 410" fill="none" stroke="#c77d5b" stroke-width="9"/>
-  <!-- 2 FDL -->
-  <path d="M428 40 L428 330 A98 98 0 0 1 290 421 L100 440" fill="none" stroke="#c77d5b" stroke-width="9"/>
-  <!-- 3 артерия и вены -->
-  <path d="M449 40 L449 330 A119 119 0 0 1 283 442 L90 470" fill="none" stroke="#1c64c8" stroke-width="12"/>
-  <path d="M449 40 L449 330 A119 119 0 0 1 283 442 L90 470" fill="none" stroke="#d62828" stroke-width="6"/>
-  <!-- 4 нерв -->
-  <path d="M470 40 L470 330 A140 140 0 0 1 275 461 L80 500" fill="none" stroke="#8a6d00" stroke-width="9"/>
-  <path d="M470 40 L470 330 A140 140 0 0 1 275 461 L80 500" fill="none" stroke="#f5c400" stroke-width="6"/>
-  <!-- 5 FHL -->
-  <path d="M492 40 L492 330 A162 162 0 0 1 268 482 L70 528" fill="none" stroke="#c77d5b" stroke-width="9"/>
-
-  <!-- удерживатель сгибателей -->
-  <path d="M330 368 L560 470" stroke="#495057" stroke-width="26" stroke-opacity="0.28"/>
-  <text x="560" y="405" font-size="12.5" fill="#212529" font-weight="bold">retinaculum mm. flexorum</text>
-  <!-- точка пульса -->
-  <circle cx="460" cy="352" r="10" fill="none" stroke="#d62828" stroke-width="3"/>
-  <circle cx="460" cy="352" r="3" fill="#d62828"/>
-  <!-- деление на подошвенные -->
-  <circle cx="300" cy="438" r="7" fill="#ffffff" stroke="#212529" stroke-width="2"/>
-
-  <!-- номера -->
-  <g font-weight="bold" font-size="12.5">
-    <g fill="#ffffff" stroke="#212529">
-      <circle cx="405" cy="120" r="11"/><circle cx="428" cy="160" r="11"/><circle cx="449" cy="120" r="11"/>
-      <circle cx="470" cy="160" r="11"/><circle cx="492" cy="120" r="11"/>
-    </g>
-    <text x="405" y="125" text-anchor="middle">1</text>
-    <text x="428" y="165" text-anchor="middle">2</text>
-    <text x="449" y="125" text-anchor="middle">3</text>
-    <text x="470" y="165" text-anchor="middle">4</text>
-    <text x="492" y="125" text-anchor="middle">5</text>
-  </g>
-  <text x="328" y="320" text-anchor="middle" font-size="13" font-weight="bold" fill="#5c4a2a">медиальная</text>
-  <text x="328" y="337" text-anchor="middle" font-size="13" font-weight="bold" fill="#5c4a2a">лодыжка</text>
-  <text x="330" y="150" text-anchor="middle" font-size="13" fill="#5c4a2a">tibia</text>
-  <text x="60" y="590" font-size="12.5" fill="#495057">← к пальцам (спереди)</text><text x="600" y="590" font-size="12.5" fill="#495057" text-anchor="end">к пятке (сзади) →</text>
-  <text x="150" y="400" font-size="12" fill="#495057">на подошву через пяточный канал</text>
-
-  <!-- легенда -->
-  <g font-size="13.5" fill="#212529">
-    <text x="640" y="40" font-weight="bold" font-size="16">Правая стопа, медиальная сторона</text>
-    <text x="640" y="62" font-size="12.5" fill="#495057">Порядок в канале — спереди назад</text>
-    <text x="640" y="62" font-size="12.5" fill="#495057" dy="18">(от лодыжки к пяточному сухожилию):</text>
-    <text x="640" y="112">1 — tendo m. tibialis posterior</text>
-    <text x="660" y="130" font-size="12" fill="#495057">(в борозде на лодыжке, ближе всех)</text>
-    <text x="640" y="152">2 — tendo m. flexor digitorum longus</text>
-    <text x="640" y="174">3 — a. tibialis posterior + 2 вены</text>
-    <text x="660" y="192" font-size="12" fill="#495057">(в пучке артерия впереди нерва)</text>
-    <text x="640" y="214">4 — n. tibialis</text>
-    <text x="640" y="236">5 — tendo m. flexor hallucis longus</text>
-    <text x="660" y="254" font-size="12" fill="#495057">(сзади и глубже всех)</text>
-    <circle cx="648" cy="280" r="8" fill="none" stroke="#d62828" stroke-width="3"/>
-    <text x="664" y="285">пульс a. tibialis posterior: посредине</text>
-    <text x="664" y="303">между лодыжкой и ахилловым сухожилием,</text>
-    <text x="664" y="321">стопу слегка подвернуть кнутри</text>
-    <circle cx="648" cy="345" r="6" fill="#ffffff" stroke="#212529" stroke-width="2"/>
-    <text x="664" y="350">у верхушки лодыжки артерия и нерв</text>
-    <text x="664" y="368">делятся на медиальные и латеральные</text>
-    <text x="664" y="386">подошвенные</text>
-  </g>
-  <rect x="640" y="440" width="340" height="120" rx="12" fill="#fff5f5" stroke="#c92a2a" stroke-width="1.5"/>
-  <text x="810" y="466" text-anchor="middle" font-weight="bold">Стенки канала</text>
-  <text x="810" y="490" text-anchor="middle" font-size="13">медиальная — fascia + retinaculum flexorum</text>
-  <text x="810" y="510" text-anchor="middle" font-size="13">латеральная — пяточная кость (и лодыжка)</text>
-  <text x="810" y="534" text-anchor="middle" font-size="13">сдавление n. tibialis здесь —</text>
-  <text x="810" y="552" text-anchor="middle" font-size="13" font-weight="bold">тарзальный туннельный синдром</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 764" font-family="Georgia, 'Times New Roman', serif">
+<title>Медиальный лодыжковый канал (правая стопа, вид с медиальной стороны)</title>
+<defs>
+<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<filter id="soft" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="1" seed="9" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="1.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<pattern id="bone" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+ <rect width="6" height="6" fill="#f4f1ea"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8d8d8d" stroke-width="0.9"/></pattern>
+<pattern id="marrow" width="8" height="8" patternUnits="userSpaceOnUse">
+ <rect width="8" height="8" fill="#faf6ec"/><circle cx="2" cy="2" r="0.9" fill="#c9bfa8"/><circle cx="6" cy="6" r="0.7" fill="#d6ccb4"/></pattern>
+<pattern id="fat" width="10" height="10" patternUnits="userSpaceOnUse">
+ <rect width="10" height="10" fill="#fbf4dc"/><circle cx="3" cy="3" r="2.2" fill="none" stroke="#e2d3a4" stroke-width="0.6"/><circle cx="8" cy="8" r="1.8" fill="none" stroke="#e2d3a4" stroke-width="0.6"/></pattern>
+<pattern id="lig" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(-20)">
+ <rect width="5" height="5" fill="#efece2"/><line x1="0" y1="0" x2="0" y2="5" stroke="#b9b29d" stroke-width="0.8"/></pattern>
+<pattern id="xmus" width="9" height="9" patternUnits="userSpaceOnUse">
+ <rect width="9" height="9" fill="#f1dad0"/><circle cx="2" cy="2" r="1.1" fill="#c79c8c"/><circle cx="6.5" cy="4" r="0.9" fill="#cfa696"/><circle cx="3.5" cy="7" r="1" fill="#c79c8c"/></pattern>
+<pattern id="xmus2" width="9" height="9" patternUnits="userSpaceOnUse">
+ <rect width="9" height="9" fill="#e9cdc2"/><circle cx="2.5" cy="3" r="1.1" fill="#bb8f80"/><circle cx="7" cy="6" r="1" fill="#c39888"/><circle cx="5" cy="1" r="0.8" fill="#c39888"/></pattern>
+<pattern id="xmus3" width="9" height="9" patternUnits="userSpaceOnUse">
+ <rect width="9" height="9" fill="#f5e3dc"/><circle cx="3" cy="2" r="1" fill="#d3ad9e"/><circle cx="6" cy="6.5" r="1.1" fill="#cba293"/></pattern></defs>
+<rect width="900" height="764" fill="#ffffff"/>
+<text x="450.0" y="30" font-size="19" text-anchor="middle" fill="#222">Медиальный лодыжковый канал (правая стопа, вид с медиальной стороны)</text>
+<g filter="url(#soft)" stroke-linecap="round" stroke-linejoin="round">
+</g>
+<g filter="url(#pencil)" stroke-linecap="round" stroke-linejoin="round">
+<path d="M380.0 90.0 C389.6 74.0, 469.2 76.0, 480.0 90.0 C490.8 104.0, 486.4 210.0, 488.0 230.0 C489.6 250.0, 497.2 279.0, 496.0 290.0 C494.8 301.0, 481.6 335.6, 476.0 340.0 C470.4 344.4, 446.6 338.0, 440.0 334.0 C433.4 330.0, 415.6 308.4, 410.0 300.0 C404.4 291.6, 387.0 271.0, 384.0 250.0 C381.0 229.0, 370.4 106.0, 380.0 90.0 Z" fill="url(#bone)" stroke="#2f2f2f" stroke-width="2.2" />
+<path d="M300.0 336.0 C314.0 330.0, 417.0 339.2, 440.0 340.0 C463.0 340.8, 519.4 339.0, 530.0 344.0 C540.6 349.0, 557.0 384.0, 546.0 390.0 C535.0 396.0, 444.6 403.0, 420.0 404.0 C395.4 405.0, 312.0 406.8, 300.0 400.0 C288.0 393.2, 286.0 342.0, 300.0 336.0 Z" fill="url(#bone)" stroke="#2f2f2f" stroke-width="2.2" />
+<path d="M214.0 352.0 C221.4 345.4, 287.0 339.0, 296.0 344.0 C305.0 349.0, 311.4 395.4, 304.0 402.0 C296.6 408.6, 231.0 415.0, 222.0 410.0 C213.0 405.0, 206.6 358.6, 214.0 352.0 Z" fill="url(#bone)" stroke="#2f2f2f" stroke-width="2.2" />
+<path d="M470.0 410.0 C486.0 400.6, 613.0 396.0, 640.0 396.0 C667.0 396.0, 727.0 401.6, 740.0 410.0 C753.0 418.4, 771.0 468.0, 770.0 480.0 C769.0 492.0, 753.0 524.8, 730.0 530.0 C707.0 535.2, 565.0 536.0, 540.0 532.0 C515.0 528.0, 487.0 502.2, 480.0 490.0 C473.0 477.8, 454.0 419.4, 470.0 410.0 Z" fill="url(#bone)" stroke="#2f2f2f" stroke-width="2.2" />
+<path d="M730.0 90.0 C729.2 106.0, 722.4 223.0, 722.0 250.0 C721.6 277.0, 723.4 342.0, 726.0 360.0 C728.6 378.0, 745.8 423.0, 748.0 430.0" fill="none" stroke="#2f2f2f" stroke-width="28" />
+<path d="M730.0 90.0 C729.2 106.0, 722.4 223.0, 722.0 250.0 C721.6 277.0, 723.4 342.0, 726.0 360.0 C728.6 378.0, 745.8 423.0, 748.0 430.0" fill="none" stroke="#f2f0e6" stroke-width="24" />
+<path d="M510.0 90.0 C510.0 101.0, 510.0 179.0, 510.0 200.0 C510.0 221.0, 510.9 287.4, 510.0 300.0 C509.1 312.6, 503.9 321.8, 500.6 325.7 C497.3 329.7, 481.7 338.3, 476.9 339.4 C472.2 340.4, 474.8 333.2, 453.1 336.3 C431.4 339.3, 279.3 366.6, 260.0 370.0" fill="none" stroke="#2f2f2f" stroke-width="15" />
+<path d="M510.0 90.0 C510.0 101.0, 510.0 179.0, 510.0 200.0 C510.0 221.0, 510.9 287.4, 510.0 300.0 C509.1 312.6, 503.9 321.8, 500.6 325.7 C497.3 329.7, 481.7 338.3, 476.9 339.4 C472.2 340.4, 474.8 333.2, 453.1 336.3 C431.4 339.3, 279.3 366.6, 260.0 370.0" fill="none" stroke="#f2f0e6" stroke-width="12" />
+<path d="M538.0 90.0 C538.0 101.0, 538.0 179.0, 538.0 200.0 C538.0 221.0, 539.6 285.6, 538.0 300.0 C536.4 314.4, 527.7 337.0, 522.1 343.7 C516.5 350.4, 489.9 365.2, 481.8 367.0 C473.7 368.8, 463.4 358.3, 441.3 361.6 C419.1 364.9, 278.1 396.2, 260.0 400.0" fill="none" stroke="#2f2f2f" stroke-width="13" />
+<path d="M538.0 90.0 C538.0 101.0, 538.0 179.0, 538.0 200.0 C538.0 221.0, 539.6 285.6, 538.0 300.0 C536.4 314.4, 527.7 337.0, 522.1 343.7 C516.5 350.4, 489.9 365.2, 481.8 367.0 C473.7 368.8, 463.4 358.3, 441.3 361.6 C419.1 364.9, 278.1 396.2, 260.0 400.0" fill="none" stroke="#f2f0e6" stroke-width="10" />
+<path d="M570.0 90.0 C570.0 101.0, 570.0 179.0, 570.0 200.0 C570.0 221.0, 572.3 283.6, 570.0 300.0 C567.7 316.4, 554.9 354.4, 546.6 364.3 C538.3 374.1, 499.3 395.8, 487.4 398.5 C475.5 401.1, 450.5 387.5, 427.7 390.6 C405.0 393.8, 276.8 426.1, 260.0 430.0" fill="none" stroke="#2f2f2f" stroke-width="9.6" stroke-linecap="round"/>
+<path d="M570.0 90.0 C570.0 101.0, 570.0 179.0, 570.0 200.0 C570.0 221.0, 572.3 283.6, 570.0 300.0 C567.7 316.4, 554.9 354.4, 546.6 364.3 C538.3 374.1, 499.3 395.8, 487.4 398.5 C475.5 401.1, 450.5 387.5, 427.7 390.6 C405.0 393.8, 276.8 426.1, 260.0 430.0" fill="none" stroke="#e8a19b" stroke-width="7" stroke-linecap="round"/>
+<path d="M582.0 90.0 C582.0 101.0, 582.0 179.0, 582.0 200.0 C582.0 221.0, 584.6 282.8, 582.0 300.0 C579.4 317.2, 565.1 361.0, 555.8 372.0 C546.5 383.0, 502.8 407.3, 489.4 410.3 C476.1 413.2, 445.6 398.1, 422.7 401.5 C399.7 404.9, 276.3 439.8, 260.0 444.0" fill="none" stroke="#2f2f2f" stroke-width="8.6" stroke-linecap="round"/>
+<path d="M582.0 90.0 C582.0 101.0, 582.0 179.0, 582.0 200.0 C582.0 221.0, 584.6 282.8, 582.0 300.0 C579.4 317.2, 565.1 361.0, 555.8 372.0 C546.5 383.0, 502.8 407.3, 489.4 410.3 C476.1 413.2, 445.6 398.1, 422.7 401.5 C399.7 404.9, 276.3 439.8, 260.0 444.0" fill="none" stroke="#a8bde6" stroke-width="6" stroke-linecap="round"/>
+<path d="M598.0 90.0 C598.0 101.0, 598.0 179.0, 598.0 200.0 C598.0 221.0, 601.0 281.8, 598.0 300.0 C595.0 318.2, 578.6 369.7, 568.1 382.3 C557.5 394.9, 507.4 422.7, 492.2 426.1 C477.0 429.4, 439.1 412.4, 415.9 416.0 C392.7 419.6, 275.6 457.4, 260.0 462.0" fill="none" stroke="#2f2f2f" stroke-width="11.6" stroke-linecap="round"/>
+<path d="M598.0 90.0 C598.0 101.0, 598.0 179.0, 598.0 200.0 C598.0 221.0, 601.0 281.8, 598.0 300.0 C595.0 318.2, 578.6 369.7, 568.1 382.3 C557.5 394.9, 507.4 422.7, 492.2 426.1 C477.0 429.4, 439.1 412.4, 415.9 416.0 C392.7 419.6, 275.6 457.4, 260.0 462.0" fill="none" stroke="#f2d45a" stroke-width="9" stroke-linecap="round"/>
+<path d="M630.0 90.0 C630.0 101.0, 630.0 179.0, 630.0 200.0 C630.0 221.0, 633.7 279.7, 630.0 300.0 C626.3 320.3, 605.8 387.1, 592.6 402.8 C579.3 418.6, 516.8 453.4, 497.8 457.6 C478.8 461.8, 426.2 440.8, 402.4 445.0 C378.6 449.3, 274.2 494.5, 260.0 500.0" fill="none" stroke="#2f2f2f" stroke-width="14" />
+<path d="M630.0 90.0 C630.0 101.0, 630.0 179.0, 630.0 200.0 C630.0 221.0, 633.7 279.7, 630.0 300.0 C626.3 320.3, 605.8 387.1, 592.6 402.8 C579.3 418.6, 516.8 453.4, 497.8 457.6 C478.8 461.8, 426.2 440.8, 402.4 445.0 C378.6 449.3, 274.2 494.5, 260.0 500.0" fill="none" stroke="#f2f0e6" stroke-width="11" />
+<path d="M488.0 250.0 C497.0 242.0, 560.8 242.0, 580.0 250.0 C599.2 258.0, 666.4 312.0, 680.0 330.0 C693.6 348.0, 718.0 418.0, 716.0 430.0 C714.0 442.0, 673.6 455.0, 660.0 450.0 C646.4 445.0, 597.0 392.0, 580.0 380.0 C563.0 368.0, 499.2 343.0, 490.0 330.0 C480.8 317.0, 479.0 258.0, 488.0 250.0 Z" fill="url(#lig)" stroke="#2f2f2f" stroke-width="1.5" opacity="0.5" />
+<path d="M366.0 90.0 C365.8 103.0, 365.6 199.0, 364.0 220.0 C362.4 241.0, 356.4 284.0, 350.0 300.0 C343.6 316.0, 313.0 365.0, 300.0 380.0 C287.0 395.0, 228.0 443.0, 220.0 450.0" fill="none" stroke="#2f2f2f" stroke-width="10.6" stroke-linecap="round"/>
+<path d="M366.0 90.0 C365.8 103.0, 365.6 199.0, 364.0 220.0 C362.4 241.0, 356.4 284.0, 350.0 300.0 C343.6 316.0, 313.0 365.0, 300.0 380.0 C287.0 395.0, 228.0 443.0, 220.0 450.0" fill="none" stroke="#a8bde6" stroke-width="8" stroke-linecap="round"/>
+<path d="M352.0 90.0 C351.8 103.0, 351.6 199.4, 350.0 220.0 C348.4 240.6, 342.0 281.0, 336.0 296.0 C330.0 311.0, 294.6 362.6, 290.0 370.0" fill="none" stroke="#2f2f2f" stroke-width="6.1" stroke-linecap="round"/>
+<path d="M352.0 90.0 C351.8 103.0, 351.6 199.4, 350.0 220.0 C348.4 240.6, 342.0 281.0, 336.0 296.0 C330.0 311.0, 294.6 362.6, 290.0 370.0" fill="none" stroke="#f2d45a" stroke-width="3.5" stroke-linecap="round"/>
+</g>
+<line x1="450" y1="320" x2="120" y2="400" stroke="#444" stroke-width="0.9"/><circle cx="450" cy="320" r="1.8" fill="#444"/><circle cx="120" cy="400" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="120" y="404.5" font-size="12.5" text-anchor="middle" fill="#222">1</text>
+<line x1="640" y1="330" x2="840" y2="300" stroke="#444" stroke-width="0.9"/><circle cx="640" cy="330" r="1.8" fill="#444"/><circle cx="840" cy="300" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="840" y="304.5" font-size="12.5" text-anchor="middle" fill="#222">2</text>
+<line x1="510" y1="150" x2="420" y2="50" stroke="#444" stroke-width="0.9"/><circle cx="510" cy="150" r="1.8" fill="#444"/><circle cx="420" cy="50" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="420" y="54.5" font-size="12.5" text-anchor="middle" fill="#222">3</text>
+<line x1="538" y1="170" x2="520" y2="50" stroke="#444" stroke-width="0.9"/><circle cx="538" cy="170" r="1.8" fill="#444"/><circle cx="520" cy="50" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="520" y="54.5" font-size="12.5" text-anchor="middle" fill="#222">4</text>
+<line x1="570" y1="140" x2="620" y2="50" stroke="#444" stroke-width="0.9"/><circle cx="570" cy="140" r="1.8" fill="#444"/><circle cx="620" cy="50" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="620" y="54.5" font-size="12.5" text-anchor="middle" fill="#222">5</text>
+<line x1="598" y1="180" x2="720" y2="50" stroke="#444" stroke-width="0.9"/><circle cx="598" cy="180" r="1.8" fill="#444"/><circle cx="720" cy="50" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="720" y="54.5" font-size="12.5" text-anchor="middle" fill="#222">6</text>
+<line x1="630" y1="200" x2="840" y2="180" stroke="#444" stroke-width="0.9"/><circle cx="630" cy="200" r="1.8" fill="#444"/><circle cx="840" cy="180" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="840" y="184.5" font-size="12.5" text-anchor="middle" fill="#222">7</text>
+<line x1="724" y1="260" x2="840" y2="250" stroke="#444" stroke-width="0.9"/><circle cx="724" cy="260" r="1.8" fill="#444"/><circle cx="840" cy="250" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="840" y="254.5" font-size="12.5" text-anchor="middle" fill="#222">8</text>
+<line x1="700" y1="500" x2="840" y2="540" stroke="#444" stroke-width="0.9"/><circle cx="700" cy="500" r="1.8" fill="#444"/><circle cx="840" cy="540" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="840" y="544.5" font-size="12.5" text-anchor="middle" fill="#222">9</text>
+<line x1="364" y1="200" x2="120" y2="200" stroke="#444" stroke-width="0.9"/><circle cx="364" cy="200" r="1.8" fill="#444"/><circle cx="120" cy="200" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="120" y="204.5" font-size="12.5" text-anchor="middle" fill="#222">10</text>
+<line x1="380" y1="380" x2="120" y2="470" stroke="#444" stroke-width="0.9"/><circle cx="380" cy="380" r="1.8" fill="#444"/><circle cx="120" cy="470" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="120" y="474.5" font-size="12.5" text-anchor="middle" fill="#222">11</text>
+<line x1="250" y1="380" x2="120" y2="540" stroke="#444" stroke-width="0.9"/><circle cx="250" cy="380" r="1.8" fill="#444"/><circle cx="120" cy="540" r="10.5" fill="#fff" stroke="#444" stroke-width="1"/><text x="120" y="544.5" font-size="12.5" text-anchor="middle" fill="#222">12</text>
+<text x="630" y="600" font-size="12" text-anchor="middle" fill="#7a3a35" font-weight="normal" font-style="italic">пульс задней большеберцовой артерии — между лодыжкой и ахилловым</text>
+<g stroke="#666" stroke-width="1" fill="none"><line x1="100" y1="110" x2="140" y2="110"/><line x1="120" y1="90" x2="120" y2="130"/></g>
+<text x="120" y="84" font-size="11.5" text-anchor="middle" fill="#666" font-style="italic">вверх</text>
+<text x="120" y="144" font-size="11.5" text-anchor="middle" fill="#666" font-style="italic">подошва</text>
+<text x="96" y="114" font-size="11.5" text-anchor="end" fill="#666" font-style="italic">кпереди</text>
+<text x="144" y="114" font-size="11.5" text-anchor="start" fill="#666" font-style="italic">кзади</text>
+<text x="30" y="640" font-size="12.5" fill="#222">1 — медиальная лодыжка</text>
+<text x="30" y="659" font-size="12.5" fill="#222">2 — удерживатель сгибателей — крыша канала</text>
+<text x="30" y="678" font-size="12.5" fill="#222">3 — сухожилие задней большеберцовой мышцы (1-е, у лодыжки)</text>
+<text x="30" y="697" font-size="12.5" fill="#222">4 — сухожилие длинного сгибателя пальцев (2-е)</text>
+<text x="30" y="716" font-size="12.5" fill="#222">5 — задние большеберцовые артерия и вены (3-и)</text>
+<text x="30" y="735" font-size="12.5" fill="#222">6 — большеберцовый нерв (4-й)</text>
+<text x="470" y="640" font-size="12.5" fill="#222">7 — сухожилие длинного сгибателя большого пальца (5-е, кзади)</text>
+<text x="470" y="659" font-size="12.5" fill="#222">8 — пяточное (ахиллово) сухожилие</text>
+<text x="470" y="678" font-size="12.5" fill="#222">9 — пяточная кость</text>
+<text x="470" y="697" font-size="12.5" fill="#222">10 — большая подкожная вена и подкожный нерв — впереди лодыжки</text>
+<text x="470" y="716" font-size="12.5" fill="#222">11 — таранная кость</text>
+<text x="470" y="735" font-size="12.5" fill="#222">12 — ладьевидная кость</text>
 </svg>
