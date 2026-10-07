@@ -159,6 +159,14 @@ tags: [propedevtika, organy-dyhaniya, zhaloby, odyshka, kashel, grudnaya-kletka,
 | **Ладьевидная** | продолговатое вдавление **верхней и средней** части грудины | сирингомиелия |
 | **Кифосколиотическая** | деформация из-за искривления позвоночника | сколиоз, кифоз, туберкулёз позвоночника |
 
+![[03-organy-dyhaniya-voronkoobraznaya-kletka.jpg]]
+
+*Воронкообразная грудная клетка у подростка: вдавление нижней части грудины и прилежащих рёберных хрящей. Gzzz, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pectus_excavatum.jpg), CC BY-SA 4.0.*
+
+![[03-organy-dyhaniya-emfizema-rentgen.jpg]]
+
+*Эмфизема на боковой рентгенограмме — то, что снаружи видно как бочкообразная клетка: переднезадний размер резко увеличен, ретростернальное пространство расширено, диафрагма уплощена и стоит низко. James Heilman, MD, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Barrowchest.JPG), CC BY-SA 3.0.*
+
 #### Схема 2. Формы грудной клетки на срезе
 
 ![[03-organy-dyhaniya-rasspros-osmotr-palpaciya-1.svg]]
