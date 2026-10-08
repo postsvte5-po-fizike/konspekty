@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="Helvetica, Arial, sans-serif">
+  <rect width="960" height="640" fill="#ffffff"/>
+  <text x="20" y="32" font-size="20" font-weight="bold" fill="#222">Холинергический синапс и точки приложения холинотропных средств</text>
+
+  <!-- пресинаптическое окончание -->
+  <path d="M60 60 C60 60 560 60 560 60 L560 250 C560 300 520 320 470 320 L150 320 C100 320 60 300 60 250 Z" fill="#fff4e0" stroke="#a0671e" stroke-width="2.5"/>
+  <text x="80" y="88" font-size="15" fill="#a0671e" font-weight="bold">Пресинаптическое окончание (терминаль аксона)</text>
+
+  <!-- транспортёр холина -->
+  <rect x="52" y="200" width="18" height="40" rx="5" fill="#2e8b57"/>
+  <text x="20" y="272" font-size="13" fill="#2e8b57">захват</text>
+  <text x="20" y="288" font-size="13" fill="#2e8b57">холина</text>
+  <path d="M20 220 L50 220" stroke="#2e8b57" stroke-width="2" marker-end="url(#ag)"/>
+
+  <!-- синтез -->
+  <text x="90" y="135" font-size="14" fill="#222">холин + ацетил-КоА</text>
+  <path d="M160 142 L160 168" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+  <text x="168" y="160" font-size="12" fill="#555">холинацетилтрансфераза</text>
+  <text x="120" y="188" font-size="15" font-weight="bold" fill="#c0392b">ацетилхолин (АХ)</text>
+  <path d="M230 190 L300 215" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+
+  <!-- везикулы -->
+  <g fill="#ffffff" stroke="#c0392b" stroke-width="2">
+    <circle cx="330" cy="225" r="24"/>
+    <circle cx="400" cy="195" r="24"/>
+    <circle cx="450" cy="255" r="24"/>
+  </g>
+  <g fill="#c0392b">
+    <circle cx="323" cy="220" r="4"/><circle cx="336" cy="231" r="4"/><circle cx="332" cy="214" r="4"/>
+    <circle cx="393" cy="190" r="4"/><circle cx="406" cy="200" r="4"/><circle cx="401" cy="186" r="4"/>
+    <circle cx="444" cy="250" r="4"/><circle cx="456" cy="261" r="4"/><circle cx="452" cy="246" r="4"/>
+  </g>
+  <text x="380" y="150" font-size="13" fill="#c0392b">везикулы с АХ</text>
+  <!-- Ca -->
+  <text x="462" y="112" font-size="13" fill="#555">Ca²⁺ входит</text>
+  <text x="462" y="128" font-size="13" fill="#555">→ экзоцитоз</text>
+
+  <!-- экзоцитоз -->
+  <path d="M370 320 C370 300 410 300 410 320" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+
+  <!-- щель -->
+  <text x="600" y="352" font-size="14" fill="#555" font-style="italic">синаптическая щель</text>
+  <g fill="#c0392b">
+    <circle cx="380" cy="345" r="5"/><circle cx="400" cy="360" r="5"/><circle cx="360" cy="372" r="5"/>
+    <circle cx="300" cy="380" r="5"/><circle cx="440" cy="375" r="5"/><circle cx="250" cy="372" r="5"/>
+  </g>
+
+  <!-- АХЭ -->
+  <path d="M170 392 C170 372 230 372 230 392 Z" fill="#8e44ad"/>
+  <text x="168" y="368" font-size="14" font-weight="bold" fill="#8e44ad">АХЭ</text>
+  <text x="70" y="352" font-size="12" fill="#8e44ad">АХ → холин + ацетат</text>
+  <path d="M140 340 C110 320 90 300 70 250" stroke="#2e8b57" stroke-width="1.8" fill="none" stroke-dasharray="5,4" marker-end="url(#ag)"/>
+
+  <!-- постсинаптическая мембрана -->
+  <path d="M60 392 L560 392 L560 520 L60 520 Z" fill="#eaf2fb" stroke="#2a62b8" stroke-width="2.5"/>
+  <text x="80" y="508" font-size="15" fill="#2a62b8" font-weight="bold">Клетка-мишень (мышца, железа, сердце)</text>
+
+  <!-- М-рецептор: 7 ТМ -->
+  <g stroke="#2a62b8" stroke-width="3" fill="none">
+    <path d="M280 392 l0 34 M292 392 l0 34 M304 392 l0 34 M316 392 l0 34 M328 392 l0 34 M340 392 l0 34 M352 392 l0 34"/>
+  </g>
+  <text x="240" y="448" font-size="14" font-weight="bold" fill="#2a62b8">М-холинорецептор</text>
+  <text x="240" y="465" font-size="12" fill="#2a62b8">7 ТМ-сегментов, G-белок</text>
+  <text x="240" y="481" font-size="12" fill="#2a62b8">M1, M3, M5 → Gq · M2, M4 → Gi</text>
+
+  <!-- N-рецептор: канал -->
+  <rect x="500" y="388" width="16" height="44" rx="4" fill="#e67e22"/>
+  <rect x="470" y="388" width="16" height="44" rx="4" fill="#e67e22"/>
+  <path d="M493 380 L493 440" stroke="#e67e22" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#ao)"/>
+  <text x="420" y="456" font-size="14" font-weight="bold" fill="#e67e22">N-холинорецептор</text>
+  <text x="420" y="472" font-size="12" fill="#e67e22">ионный канал (Na⁺)</text>
+
+  <!-- маркеры чисел -->
+  <g font-size="15" font-weight="bold" fill="#ffffff">
+    <circle cx="200" cy="415" r="14" fill="#111"/><text x="195" y="420">1</text>
+    <circle cx="316" cy="372" r="14" fill="#111"/><text x="311" y="377">2</text>
+    <circle cx="530" cy="372" r="14" fill="#111"/><text x="525" y="377">3</text>
+    <circle cx="36" cy="200" r="14" fill="#111"/><text x="31" y="205">4</text>
+    <circle cx="430" cy="300" r="14" fill="#111"/><text x="425" y="305">5</text>
+  </g>
+
+  <!-- легенда -->
+  <rect x="590" y="60" width="350" height="270" rx="10" fill="#fafafa" stroke="#999"/>
+  <text x="606" y="86" font-size="15" font-weight="bold" fill="#222">Где действуют препараты</text>
+  <g font-size="13" fill="#222">
+    <text x="606" y="112"><tspan font-weight="bold">1 — АХЭ:</tspan> ингибиторы (антихолинэстеразные)</text>
+    <text x="622" y="129">обратимые: неостигмин, пиридостигмин,</text>
+    <text x="622" y="146">галантамин, донепезил, ривастигмин;</text>
+    <text x="622" y="163">необратимые: ФОС → АХ накапливается</text>
+    <text x="606" y="189"><tspan font-weight="bold">2 — М-рецептор:</tspan> агонисты пилокарпин,</text>
+    <text x="622" y="206">ацеклидин; блокаторы атропин, скополамин,</text>
+    <text x="622" y="223">платифиллин, ипратропий, тропикамид</text>
+    <text x="606" y="249"><tspan font-weight="bold">3 — N-рецептор:</tspan> занятие 7</text>
+    <text x="606" y="275"><tspan font-weight="bold">4 — захват холина,</tspan></text>
+    <text x="606" y="292"><tspan font-weight="bold">5 — экзоцитоз</tspan> (блок: ботулотоксин) —</text>
+    <text x="622" y="309">сверх программы</text>
+  </g>
+
+  <!-- реактиватор -->
+  <rect x="590" y="400" width="350" height="120" rx="10" fill="#f6effa" stroke="#8e44ad"/>
+  <text x="606" y="426" font-size="14" font-weight="bold" fill="#8e44ad">Отравление ФОС: два антидота</text>
+  <text x="606" y="450" font-size="13" fill="#222">• атропин — блокирует М-рецепторы (2),</text>
+  <text x="620" y="467" font-size="13" fill="#222">защищает от избытка АХ</text>
+  <text x="606" y="491" font-size="13" fill="#222">• реактиватор (дипироксим) — освобождает</text>
+  <text x="620" y="508" font-size="13" fill="#222">АХЭ (1) от остатка фосфора</text>
+
+  <text x="20" y="560" font-size="13" fill="#555">Схема, не в масштабе. Холинергические синапсы: все преганглионарные волокна, постганглионарные парасимпатические,</text>
+  <text x="20" y="578" font-size="13" fill="#555">симпатические к потовым железам, нервно-мышечный синапс, ЦНС. Сверить: Харкевич Д.А. «Фармакология», раздел</text>
+  <text x="20" y="596" font-size="13" fill="#555">«Средства, влияющие на холинергические синапсы».</text>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#555"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2e8b57"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#e67e22"/></marker>
+  </defs>
+</svg>
