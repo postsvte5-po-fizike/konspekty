@@ -92,8 +92,8 @@
     <text x="622" y="223">платифиллин, ипратропий, тропикамид</text>
     <text x="606" y="249"><tspan font-weight="bold">3 — N-рецептор:</tspan> занятие 7</text>
     <text x="606" y="275"><tspan font-weight="bold">4 — захват холина,</tspan></text>
-    <text x="606" y="292"><tspan font-weight="bold">5 — экзоцитоз</tspan> (блок: ботулотоксин) —</text>
-    <text x="622" y="309">сверх программы</text>
+    <text x="606" y="292"><tspan font-weight="bold">5 — экзоцитоз</tspan> (блок: ботулинотоксин,</text>
+    <text x="622" y="309">раздел 1.10); 4 — сверх программы</text>
   </g>
 
   <!-- реактиватор -->
