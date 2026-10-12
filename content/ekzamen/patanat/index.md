@@ -134,7 +134,7 @@ tags: [patanat, ekzamen]
 
 - Рабочая тетрадь кафедры, занятие 7 (с. 16–18): определения.
 - [[konspekty/patanat/07-tromboz-emboliya-dvs-shok|Конспект 07]], раздел 1.8.
-- Внешний: Струков А.И., Серов В.В. «Патологическая анатомия» (шок); Пауков В.С. «Патологическая анатомия», т. 1 — в библиотеке отсутствуют <span class="verify">проверить</span>; Robbins & Cotran «Pathologic Basis of Disease», глава «Hemodynamic Disorders, Thromboembolic Disease, and Shock».
+- Учебник кафедры: Струков А.И., Серов В.В. «Патологическая анатомия» (шок). Внешний: Robbins & Cotran «Pathologic Basis of Disease», глава «Hemodynamic Disorders, Thromboembolic Disease, and Shock».
 
 → [[konspekty/patanat/07-tromboz-emboliya-dvs-shok#1.8. Шок|Конспект 07, раздел 1.8]]
 
@@ -270,7 +270,7 @@ tags: [patanat, ekzamen]
 
 - Рабочая тетрадь кафедры, занятие 7 (с. 16–18): определения.
 - [[konspekty/patanat/07-tromboz-emboliya-dvs-shok|Конспект 07]], разделы 1.1–1.5.
-- Внешний: Струков А.И., Серов В.В. «Патологическая анатомия» (тромбоз); Пауков В.С. «Патологическая анатомия», т. 1 <span class="verify">проверить</span>; Robbins & Cotran «Pathologic Basis of Disease».
+- Учебник кафедры: Струков А.И., Серов В.В. «Патологическая анатомия» (тромбоз). Внешний: Robbins & Cotran «Pathologic Basis of Disease».
 
 → [[konspekty/patanat/07-tromboz-emboliya-dvs-shok#1.4. Виды тромбов|Конспект 07, разделы 1.1–1.5]]
 
@@ -391,7 +391,7 @@ tags: [patanat, ekzamen]
 
 - Рабочая тетрадь кафедры, занятие 7 (с. 16–18): определения.
 - [[konspekty/patanat/07-tromboz-emboliya-dvs-shok|Конспект 07]], раздел 1.6.
-- Внешний: Струков А.И., Серов В.В. «Патологическая анатомия» (эмболия); Пауков В.С. «Патологическая анатомия», т. 1 <span class="verify">проверить</span>; Robbins & Cotran «Pathologic Basis of Disease».
+- Учебник кафедры: Струков А.И., Серов В.В. «Патологическая анатомия» (эмболия). Внешний: Robbins & Cotran «Pathologic Basis of Disease».
 
 → [[konspekty/patanat/07-tromboz-emboliya-dvs-shok#1.6. Эмболия|Конспект 07, раздел 1.6]]
 
@@ -502,7 +502,7 @@ tags: [patanat, ekzamen]
 
 - Рабочая тетрадь кафедры, занятие 7 (с. 16–18): определения.
 - [[konspekty/patanat/07-tromboz-emboliya-dvs-shok|Конспект 07]], раздел 1.7.
-- Внешний: Струков А.И., Серов В.В. «Патологическая анатомия» (ДВС-синдром); Пауков В.С. «Патологическая анатомия», т. 1 <span class="verify">проверить</span>; Robbins & Cotran «Pathologic Basis of Disease»; Taylor F.B. et al., *Thromb Haemost* 2001; 86(5): 1327–1330 (ISTH).
+- Учебник кафедры: Струков А.И., Серов В.В. «Патологическая анатомия» (ДВС-синдром). Внешний: Robbins & Cotran «Pathologic Basis of Disease»; Taylor F.B. et al., *Thromb Haemost* 2001; 86(5): 1327–1330 (ISTH).
 
 → [[konspekty/patanat/07-tromboz-emboliya-dvs-shok#1.7. ДВС-синдром|Конспект 07, раздел 1.7]]
 
