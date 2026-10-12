@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="Helvetica, Arial, sans-serif">
+  <rect width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Смешанный тромб в вене: головка — тело — хвост</text>
+  <text x="450" y="52" text-anchor="middle" font-size="13" fill="#555">продольный разрез вены нижней конечности; кровь течёт слева направо (к сердцу)</text>
+
+  <!-- стенки вены -->
+  <path d="M40 120 C 200 112, 320 110, 420 116 C 520 122, 700 118, 860 120" fill="none" stroke="#3b5ba5" stroke-width="7"/>
+  <path d="M40 330 C 200 338, 320 340, 420 334 C 520 328, 700 332, 860 330" fill="none" stroke="#3b5ba5" stroke-width="7"/>
+  <text x="48" y="104" font-size="13" fill="#3b5ba5">стенка вены (v. femoralis)</text>
+
+  <!-- клапан: створка снизу -->
+  <path d="M150 334 C 175 300, 200 275, 232 262" fill="none" stroke="#3b5ba5" stroke-width="4"/>
+  <text x="96" y="362" font-size="12.5" fill="#3b5ba5">створка клапана; кармашек — зона завихрения</text>
+
+  <!-- поток -->
+  <g stroke="#9aa6c6" stroke-width="2" fill="#9aa6c6">
+    <line x1="60" y1="170" x2="120" y2="170"/><polygon points="120,164 132,170 120,176"/>
+    <line x1="60" y1="215" x2="120" y2="215"/><polygon points="120,209 132,215 120,221"/>
+  </g>
+  <text x="58" y="198" font-size="12" fill="#6b7695">ток крови</text>
+
+  <!-- головка: белая, прикреплена в кармане клапана -->
+  <path d="M196 330 C 190 300, 205 278, 240 272 C 272 268, 292 286, 292 308 C 292 322, 282 330, 270 332 Z" fill="#f1ece0" stroke="#8a7a55" stroke-width="2"/>
+
+  <!-- тело: слоистое, чередование светлых (тромбоциты+фибрин) и красных (эритроциты) полос -->
+  <path d="M270 332 C 300 300, 340 262, 420 250 C 500 240, 560 246, 600 256 L 600 326 C 520 330, 380 334, 270 332 Z" fill="#c9343b" stroke="#7d1f24" stroke-width="2"/>
+  <g fill="none" stroke="#f1ece0" stroke-width="5" stroke-linecap="round">
+    <path d="M312 318 C 330 290, 352 272, 370 262"/>
+    <path d="M352 326 C 372 296, 396 270, 418 256"/>
+    <path d="M396 328 C 418 298, 444 268, 468 250"/>
+    <path d="M442 328 C 466 296, 492 266, 516 248"/>
+    <path d="M490 328 C 512 298, 538 270, 560 252"/>
+    <path d="M536 327 C 556 302, 576 280, 594 262"/>
+  </g>
+
+  <!-- хвост: красный, свободно в просвете -->
+  <path d="M600 256 C 650 262, 700 270, 760 268 C 800 266, 812 280, 790 292 C 760 306, 680 314, 600 326 Z" fill="#a8121b" stroke="#6a0c12" stroke-width="2"/>
+
+  <!-- выноски -->
+  <g font-size="13.5" fill="#222">
+    <line x1="245" y1="272" x2="230" y2="205" stroke="#555" stroke-width="1.2"/>
+    <text x="150" y="160" font-weight="bold">1. Головка</text>
+    <text x="150" y="177">белая, плотная, прикреплена</text>
+    <text x="150" y="194">к стенке; тромбоциты + фибрин</text>
+
+    <line x1="440" y1="262" x2="440" y2="190" stroke="#555" stroke-width="1.2"/>
+    <text x="360" y="150" font-weight="bold">2. Тело — смешанное</text>
+    <text x="360" y="167">слоистое: светлые полосы</text>
+    <text x="360" y="184">чередуются с красными (линии Цана)</text>
+
+    <line x1="740" y1="268" x2="752" y2="200" stroke="#555" stroke-width="1.2"/>
+    <text x="680" y="160" font-weight="bold">3. Хвост — красный</text>
+    <text x="680" y="177">рыхлый, свободно лежит</text>
+    <text x="680" y="194">в просвете → отрывается</text>
+  </g>
+
+  <!-- легенда -->
+  <g font-size="13" fill="#222">
+    <rect x="60" y="395" width="22" height="14" fill="#f1ece0" stroke="#8a7a55"/>
+    <text x="90" y="407">тромбоциты + фибрин (белый тромб)</text>
+    <rect x="330" y="395" width="22" height="14" fill="#c9343b" stroke="#7d1f24"/>
+    <text x="360" y="407">эритроциты в сети фибрина</text>
+    <rect x="570" y="395" width="22" height="14" fill="#a8121b" stroke="#6a0c12"/>
+    <text x="600" y="407">красный тромб (свернувшаяся кровь)</text>
+  </g>
+  <text x="450" y="445" text-anchor="middle" font-size="12.5" fill="#666">Тромб растёт ПО ТОКУ крови: головка — у места начала, хвост — в сторону сердца. Отрыв хвоста → тромбоэмболия лёгочной артерии.</text>
+  <text x="450" y="463" text-anchor="middle" font-size="11.5" fill="#888">Схема, не в масштабе.</text>
+</svg>
