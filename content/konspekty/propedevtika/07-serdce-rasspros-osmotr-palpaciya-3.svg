@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700" font-family="Helvetica, Arial, sans-serif">
+  <rect width="960" height="700" fill="#ffffff"/>
+  <text x="480" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Венный пульс: отрицательный и положительный</text>
+  <text x="480" y="50" text-anchor="middle" font-size="13" fill="#555">один сердечный цикл; сверху — пульс сонной артерии, снизу — яремной вены (флебограмма); по Гребеневу, рис. 48</text>
+
+  <!-- ===== 1. Норма ===== -->
+  <text x="20" y="82" font-size="15" font-weight="bold" fill="#222">1. Норма — отрицательный (предсердный) венный пульс</text>
+  <rect x="230" y="92" width="250" height="190" fill="#fbe7df"/>
+  <text x="420" y="276" text-anchor="middle" font-size="12" fill="#a0452a">систола желудочков</text>
+  <text x="20" y="140" font-size="13" fill="#c0392b">сонная</text>
+  <text x="20" y="155" font-size="13" fill="#c0392b">артерия</text>
+  <text x="20" y="245" font-size="13" fill="#2c4f9e">яремная</text>
+  <text x="20" y="260" font-size="13" fill="#2c4f9e">вена</text>
+  <line x1="140" y1="150" x2="860" y2="150" stroke="#ddd" stroke-width="1"/>
+  <line x1="140" y1="250" x2="860" y2="250" stroke="#ddd" stroke-width="1"/>
+  <path d="M140 150 L230 150 C245 150, 260 95, 300 95 C330 95, 380 110, 440 125 C455 130, 462 132, 470 124 C478 118, 490 120, 505 128 C600 145, 760 150, 860 150"
+        fill="none" stroke="#c0392b" stroke-width="3"/>
+  <path d="M140 245 C160 245, 175 200, 190 200 C205 200, 212 232, 225 232 C235 232, 243 214, 255 214 C268 214, 290 268, 315 270 C360 272, 430 250, 480 222 C495 214, 510 216, 530 232 C550 250, 570 264, 590 264 C650 264, 780 250, 860 245"
+        fill="none" stroke="#2c4f9e" stroke-width="3"/>
+  <line x1="300" y1="92" x2="300" y2="282" stroke="#555" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <g font-size="15" font-weight="bold" fill="#2c4f9e" text-anchor="middle">
+    <text x="190" y="192">a</text><text x="255" y="206">c</text><text x="318" y="292">x</text><text x="482" y="210">v</text><text x="590" y="284">y</text>
+  </g>
+  <g font-size="13" fill="#333">
+    <text x="20" y="312"><tspan font-weight="bold" fill="#2c4f9e">a</tspan> — сокращение правого предсердия: отток из полых вен задерживается, вены набухают;  <tspan font-weight="bold" fill="#2c4f9e">c</tspan> — передаточный толчок сонной артерии;</text>
+    <text x="20" y="330"><tspan font-weight="bold" fill="#2c4f9e">x</tspan> — систолический коллапс: в систолу желудочков предсердие наполняется, вены спадаются;  <tspan font-weight="bold" fill="#2c4f9e">v</tspan> — кровь копится</text>
+    <text x="20" y="348">в предсердии при закрытом клапане;  <tspan font-weight="bold" fill="#2c4f9e">y</tspan> — трёхстворчатый клапан открылся, кровь уходит в желудочек, вены спадаются.</text>
+    <text x="20" y="370" font-weight="bold">Пик пульса на сонной (пунктир) совпадает со СПАДЕНИЕМ вены (x) → пульс «отрицательный».</text>
+  </g>
+
+  <!-- ===== 2. Положительный ===== -->
+  <text x="20" y="412" font-size="15" font-weight="bold" fill="#222">2. Недостаточность трёхстворчатого клапана — положительный (желудочковый) венный пульс</text>
+  <rect x="230" y="422" width="250" height="190" fill="#fbe7df"/>
+  <text x="420" y="606" text-anchor="middle" font-size="12" fill="#a0452a">систола желудочков</text>
+  <text x="20" y="470" font-size="13" fill="#c0392b">сонная</text>
+  <text x="20" y="485" font-size="13" fill="#c0392b">артерия</text>
+  <text x="20" y="575" font-size="13" fill="#2c4f9e">яремная</text>
+  <text x="20" y="590" font-size="13" fill="#2c4f9e">вена</text>
+  <line x1="140" y1="480" x2="860" y2="480" stroke="#ddd" stroke-width="1"/>
+  <line x1="140" y1="580" x2="860" y2="580" stroke="#ddd" stroke-width="1"/>
+  <path d="M140 480 L230 480 C245 480, 260 425, 300 425 C330 425, 380 440, 440 455 C455 460, 462 462, 470 454 C478 448, 490 450, 505 458 C600 475, 760 480, 860 480"
+        fill="none" stroke="#c0392b" stroke-width="3"/>
+  <path d="M140 575 C160 575, 175 550, 190 550 C205 550, 215 566, 228 566 C250 566, 270 466, 310 463 C360 459, 440 468, 490 490 C530 510, 560 592, 590 594 C650 596, 780 580, 860 575"
+        fill="none" stroke="#2c4f9e" stroke-width="3"/>
+  <line x1="300" y1="422" x2="300" y2="612" stroke="#555" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <g font-size="15" font-weight="bold" fill="#2c4f9e" text-anchor="middle">
+    <text x="190" y="542">a</text><text x="380" y="492">c + v</text><text x="590" y="614">y</text>
+  </g>
+  <path d="M600 500 L520 520" stroke="#a0452a" stroke-width="1.5" fill="none"/>
+  <text x="605" y="498" font-size="13" fill="#a0452a">в систолу кровь из правого желудочка</text>
+  <text x="605" y="514" font-size="13" fill="#a0452a">забрасывается в предсердие и вены</text>
+  <g font-size="13" fill="#333">
+    <text x="20" y="642">Волна x исчезает, c и v сливаются в одну большую волну; кривая отражает работу правого желудочка.</text>
+    <text x="20" y="662" font-weight="bold">Пик пульса на сонной совпадает с НАБУХАНИЕМ вены → пульс «положительный».</text>
+    <text x="20" y="682">Бывает также при выраженном застое в большом круге, мерцательной аритмии, полной поперечной блокаде сердца.</text>
+  </g>
+</svg>
