@@ -572,7 +572,6 @@ tags: [patanat, ekzamen]
 - Рабочая тетрадь кафедры, занятие 7 (с. 16–18): определения.
 - [[konspekty/patanat/07-tromboz-emboliya-dvs-shok|Конспект 07]], раздел 1.7.
 - Учебник кафедры: Струков А.И., Серов В.В. «Патологическая анатомия» / под ред. В.С. Паукова, 6-е изд., 2015, гл. 4, с. 160–174 (ДВС-синдром). Внешний: Robbins & Cotran «Pathologic Basis of Disease»; Taylor F.B. et al., *Thromb Haemost* 2001; 86(5): 1327–1330 (ISTH).
-- Фото препаратов: «Атлас по патологической анатомии» ЯГМУ, https://hist.yma.ac.ru/path/frame/frames_gp.html — a_03, macr_30, a_26, a_32; © ЯГМУ, все права защищены.
 
 → [[konspekty/patanat/07-tromboz-emboliya-dvs-shok#1.7. ДВС-синдром|Конспект 07, раздел 1.7]]
 
