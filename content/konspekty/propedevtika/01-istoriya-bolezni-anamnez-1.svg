@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Helvetica, Arial, sans-serif">
+  <rect width="960" height="560" fill="#ffffff"/>
+  <text x="480" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Как читать и рисовать родословную</text>
+  <text x="480" y="50" text-anchor="middle" font-size="13" fill="#555">основные обозначения и два типа наследования; к рис. 1–2 Гребенева</text>
+
+  <!-- ===== легенда ===== -->
+  <g stroke="#222" stroke-width="2.5" fill="none">
+    <rect x="40" y="80" width="30" height="30"/>
+    <circle cx="55" cy="145" r="15"/>
+    <rect x="40" y="180" width="30" height="30" fill="#222"/>
+    <circle cx="55" cy="245" r="15" fill="#222"/>
+    <circle cx="55" cy="305" r="15"/>
+    <rect x="40" y="350" width="30" height="30"/>
+    <line x1="34" y1="398" x2="18" y2="414"/>
+    <line x1="30" y1="445" x2="100" y2="445"/>
+    <line x1="65" y1="480" x2="65" y2="495"/><line x1="35" y1="495" x2="95" y2="495"/>
+    <line x1="35" y1="495" x2="35" y2="510"/><line x1="95" y1="495" x2="95" y2="510"/>
+  </g>
+  <circle cx="55" cy="305" r="5" fill="#222"/>
+  <path d="M38 394 L26 397 L34 405 Z" fill="#222"/>
+  <g font-size="14" fill="#222">
+    <text x="120" y="101">мужчина</text>
+    <text x="120" y="150">женщина</text>
+    <text x="120" y="201">больной (фигура закрашена)</text>
+    <text x="120" y="250">больная</text>
+    <text x="120" y="301">здоровый носитель</text>
+    <text x="120" y="318">рецессивного гена (точка)</text>
+    <text x="120" y="371">пробанд — больной, с которого</text>
+    <text x="120" y="389">начинают; отмечают стрелкой</text>
+    <text x="120" y="450">горизонталь — брак (супруги)</text>
+    <text x="120" y="500">«коромысло» — их дети (сибсы),</text>
+    <text x="120" y="518">слева направо по старшинству</text>
+  </g>
+  <text x="30" y="548" font-size="13" fill="#555">Поколения — римскими цифрами (I, II, III), люди в поколении — арабскими.</text>
+
+  <line x1="455" y1="70" x2="455" y2="540" stroke="#ddd" stroke-width="1"/>
+
+  <!-- ===== доминантный тип ===== -->
+  <text x="700" y="82" text-anchor="middle" font-size="15" font-weight="bold" fill="#a0452a">Доминантный тип</text>
+  <g stroke="#222" stroke-width="2.5" fill="none">
+    <!-- I -->
+    <rect x="577" y="96" width="26" height="26" fill="#222"/>
+    <circle cx="680" cy="109" r="13"/>
+    <line x1="603" y1="109" x2="667" y2="109"/>
+    <line x1="635" y1="109" x2="635" y2="140"/>
+    <line x1="560" y1="140" x2="770" y2="140"/>
+    <line x1="560" y1="140" x2="560" y2="153"/><line x1="630" y1="140" x2="630" y2="153"/>
+    <line x1="700" y1="140" x2="700" y2="153"/><line x1="770" y1="140" x2="770" y2="153"/>
+    <!-- II -->
+    <circle cx="560" cy="166" r="13" fill="#222"/>
+    <rect x="617" y="153" width="26" height="26"/>
+    <rect x="687" y="153" width="26" height="26" fill="#222"/>
+    <circle cx="770" cy="166" r="13"/>
+    <rect x="477" y="153" width="26" height="26"/>
+    <line x1="503" y1="166" x2="547" y2="166"/>
+    <line x1="525" y1="166" x2="525" y2="198"/>
+    <line x1="490" y1="198" x2="600" y2="198"/>
+    <line x1="490" y1="198" x2="490" y2="211"/><line x1="545" y1="198" x2="545" y2="211"/><line x1="600" y1="198" x2="600" y2="211"/>
+    <!-- III -->
+    <rect x="477" y="211" width="26" height="26" fill="#222"/>
+    <circle cx="545" cy="224" r="13"/>
+    <circle cx="600" cy="224" r="13" fill="#222"/>
+  </g>
+  <g font-size="13" fill="#888"><text x="930" y="114">I</text><text x="925" y="171">II</text><text x="920" y="229">III</text></g>
+  <g font-size="13" fill="#333">
+    <text x="470" y="266">• больные — в каждом поколении, «по вертикали»;</text>
+    <text x="470" y="284">• у больного ребёнка болен один из родителей;</text>
+    <text x="470" y="302">• болеют и сыновья, и дочери, примерно половина детей.</text>
+  </g>
+
+  <line x1="470" y1="322" x2="940" y2="322" stroke="#ddd" stroke-width="1"/>
+
+  <!-- ===== рецессивный тип ===== -->
+  <text x="700" y="350" text-anchor="middle" font-size="15" font-weight="bold" fill="#2c4f9e">Рецессивный тип</text>
+  <g stroke="#222" stroke-width="2.5" fill="none">
+    <rect x="577" y="364" width="26" height="26"/>
+    <circle cx="680" cy="377" r="13"/>
+    <line x1="603" y1="377" x2="667" y2="377"/>
+    <line x1="635" y1="377" x2="635" y2="408"/>
+    <line x1="530" y1="408" x2="770" y2="408"/>
+    <line x1="530" y1="408" x2="530" y2="421"/><line x1="610" y1="408" x2="610" y2="421"/>
+    <line x1="690" y1="408" x2="690" y2="421"/><line x1="770" y1="408" x2="770" y2="421"/>
+    <circle cx="530" cy="434" r="13"/>
+    <rect x="597" y="421" width="26" height="26" fill="#222"/>
+    <circle cx="690" cy="434" r="13"/>
+    <rect x="757" y="421" width="26" height="26"/>
+  </g>
+  <circle cx="590" cy="377" r="5" fill="#222"/>
+  <circle cx="680" cy="377" r="5" fill="#222"/>
+  <circle cx="690" cy="434" r="5" fill="#222"/>
+  <path d="M597 455 L585 467 M597 455 L585 458 L594 466 Z" stroke="#222" stroke-width="2" fill="#222"/>
+  <g font-size="13" fill="#888"><text x="930" y="382">I</text><text x="925" y="439">II</text></g>
+  <g font-size="13" fill="#333">
+    <text x="470" y="490">• родители здоровы, но оба носители (точки);</text>
+    <text x="470" y="508">• болеет часть детей (около четверти), болезнь «проскакивает» поколения;</text>
+    <text x="470" y="526">• чаще при кровнородственных браках.</text>
+  </g>
+</svg>
