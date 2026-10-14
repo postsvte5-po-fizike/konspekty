@@ -78,6 +78,7 @@
       ::selection { background: var(--k-nav-bg); }
       main { max-width: 760px; margin: 0 auto; padding: 24px 18px 48px; }
       body.embedded main { padding: 4px 0 16px; }
+      body.embedded .intro { display: none; }
       h1, h2, h3 { font-family: var(--k-font); line-height: 1.15; margin: 0 0 8px; letter-spacing: -.015em; text-wrap: balance; }
       h1 { font-size: 34px; font-weight: 700; letter-spacing: -.028em; }
       h2 { font-size: 24px; font-weight: 700; margin-top: 28px; padding-top: 14px; border-top: 2px solid var(--k-ink); }
@@ -868,7 +869,7 @@
         const p = prefs()
         let html = ""
         if (!embedded) html += `<h1>Тренажёр тестов</h1>`
-        html += `<p class="muted">${decks.length} ${plural(decks.length, "тест", "теста", "тестов")}, ${total} ${plural(total, "вопрос", "вопроса", "вопросов")}. Результаты сохраняются только в этом браузере.</p>`
+        html += `<p class="muted intro">${decks.length} ${plural(decks.length, "тест", "теста", "тестов")}, ${total} ${plural(total, "вопрос", "вопроса", "вопросов")}. Результаты сохраняются только в этом браузере.</p>`
         if (message) html += `<p class="chip ok" style="display:inline-block">${esc(message)}</p>`
         html += `<div class="toggles">
           <label><input type="checkbox" id="opt-shuffle" ${p.shuffle ? "checked" : ""}> Перемешивать вопросы</label>
