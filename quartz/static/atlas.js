@@ -108,11 +108,12 @@
       const rec = map.get(a.textContent)
       if (!rec) return
       let short = rec.title
-        .split(/[.:;(]/)[0]
+        .split(/[.:;(,]/)[0]
         .trim()
         .replace(/^Топографическая анатомия\s+/, "Топография ")
         .replace(/^Оперативный доступ/, "Доступ")
         .replace(/^Оперативные доступы/, "Доступы")
+        .replace(/^Синдром диссеминированного внутрисосудистого свертывания( крови)?/i, "ДВС-синдром")
       if (short.length > 44) short = short.slice(0, 42).replace(/\s+\S*$/, "") + "…"
       a.href = examUrl.href + "#" + rec.id
       a.title = rec.title
@@ -253,12 +254,39 @@
     article.insertAdjacentElement("afterend", nav)
   }
 
+  // --- 6. Схемы: колонки по числу, провода от колонок к итогу ---
+  function schemes(article) {
+    article.querySelectorAll(".sx-cols").forEach((cols) => {
+      const n = cols.querySelectorAll(":scope > .sx-col").length
+      if (!cols.classList.contains("sx-tight") && n > 0 && n <= 4) cols.style.setProperty("--n", n)
+      const res = cols.nextElementSibling
+      if (!res || !res.classList.contains("sx-result") || cols.classList.contains("sx-tight")) return
+      const w = el("div", "sx-wire")
+      w.setAttribute("aria-hidden", "true")
+      if (n >= 2 && n <= 4) {
+        const c = (i) => `calc((100% - ${(n - 1) * 12}px) / ${n} * ${i + 0.5} + ${i * 12}px)`
+        for (let i = 0; i < n; i++) {
+          const st = el("span", "st")
+          st.style.left = c(i)
+          w.appendChild(st)
+        }
+        const hz = el("span", "hz")
+        hz.style.left = `calc(${c(0)} - .75px)`
+        hz.style.right = `calc(100% - ${c(n - 1)} - .75px)`
+        w.appendChild(hz)
+      }
+      w.append(el("span", "dr"), el("span", "ar"))
+      cols.insertAdjacentElement("afterend", w)
+    })
+  }
+
   function init() {
     const article = document.querySelector(".center article")
     if (!article || article.dataset.atlas) return
     article.dataset.atlas = "1"
     closeZoom()
     summaryPanel(article)
+    schemes(article)
     photos(article)
     mobileToc(article)
     examChips(article)
