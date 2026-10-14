@@ -163,6 +163,15 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      # порядок разделов и предметов — как в макете «Atlas 2»; остальное — папки вперёд, по номеру
+      sortFn: >-
+        (a, b) => { const R = ["konspekty", "lekcii", "ekzamen", "testy", "english", "digest", "operacii",
+        "patfiz", "patanat", "topanat", "propedevtika", "farma", "obshaya-hirurgiya"];
+        const ra = R.indexOf(a.slugSegment), rb = R.indexOf(b.slugSegment);
+        if (ra >= 0 && rb >= 0) return ra - rb; if (ra >= 0) return -1; if (rb >= 0) return 1;
+        if (a.isFolder !== b.isFolder) return a.isFolder ? -1 : 1;
+        return (a.displayName || "").localeCompare(b.displayName || "", undefined, { numeric: true, sensitivity: "base" }) }
     layout:
       position: left
       priority: 50
