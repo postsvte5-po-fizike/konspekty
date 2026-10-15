@@ -1211,3 +1211,7 @@ html body[data-slug="index"] {
   html body[data-slug="index"] article h2#разделы + ul > li { grid-template-columns: minmax(0, 1fr); }
 }
 html body[data-slug="index"] article h2 + ul { padding-left: 0 !important; margin-left: 0 !important; }
+
+/* нумерованные списки: место под номер (в выносках содержимое обрезается по краю — цифры пропадали) */
+html body article ol { padding-left: 1.75em !important; }
+html body article .callout-content ol { padding-left: 1.9em !important; }
