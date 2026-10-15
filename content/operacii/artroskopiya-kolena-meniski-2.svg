@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="Georgia, 'Times New Roman', serif">
+<title>Виды разрывов мениска</title><defs><filter id="pencil" x="-3%" y="-3%" width="106%" height="106%"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2" xChannelSelector="R" yChannelSelector="G"/></filter>
+<pattern id="men" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(-20)"><rect width="5" height="5" fill="#eef0f2"/><line x1="0" y1="0" x2="0" y2="5" stroke="#9aa1aa" stroke-width="0.6"/></pattern></defs>
+<rect width="1000" height="700" fill="#ffffff"/>
+<text x="20" y="34" font-size="20" font-weight="bold" fill="#333">Виды разрывов мениска (вид сверху; 4 — в поперечном срезе)</text>
+<text x="20" y="56" font-size="13.5" fill="#666">периферия (капсула) — снаружи дуги, свободный край — внутри; красным — линия разрыва</text>
+<g transform="translate(0,0)">
+<rect x="20" y="76" width="225" height="290" rx="10" fill="none" stroke="#ddd"/>
+<text x="32" y="102" font-size="14.5" font-weight="bold" fill="#333">1. Продольный</text>
+<text x="32" y="121" font-size="12" fill="#666">вертикальный, по ходу волокон;</text>
+<text x="32" y="137" font-size="12" fill="#666">чаще в периферии</text>
+<g filter="url(#pencil)">
+<path d="M224.7 256.2 A96 96 0 0 0 39.3 256.2 L76.0 266.0 A58 58 0 0 1 188.0 266.0 Z" fill="url(#men)" stroke="#555" stroke-width="1.8"/>
+<path d="M187.3 215.1 A86 86 0 0 0 76.7 215.1" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(0,0)">
+<rect x="265" y="76" width="225" height="290" rx="10" fill="none" stroke="#ddd"/>
+<text x="277" y="102" font-size="14.5" font-weight="bold" fill="#333">2. «Ручка лейки»</text>
+<text x="277" y="121" font-size="12" fill="#666">длинный продольный; внутренняя</text>
+<text x="277" y="137" font-size="12" fill="#666">часть ушла в вырезку бедра</text>
+<g filter="url(#pencil)">
+<path d="M469.7 256.2 A96 96 0 0 0 284.3 256.2 L321.0 266.0 A58 58 0 0 1 433.0 266.0 Z" fill="url(#men)" stroke="#555" stroke-width="1.8"/>
+<path d="M469.7 256.2 A96 96 0 0 0 284.3 256.2 L299.7 260.3 A80 80 0 0 1 454.3 260.3 Z" fill="url(#men)" stroke="#555" stroke-width="1.8"/>
+<path d="M417.2 193.7 A70 70 0 0 0 336.8 193.7 L347.2 208.4 A52 52 0 0 1 406.8 208.4 Z" fill="#f6d5d1" stroke="#555" stroke-width="1.8"/>
+<path d="M422.9 215.5 A80 80 0 0 0 331.1 215.5" fill="none" stroke="#c0392b" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 3"/>
+<path d="M422.9 215.5 L412.0 201.0 M331.1 215.5 L342.0 201.0" stroke="#c0392b" stroke-width="2.5" fill="none"/>
+</g>
+</g>
+<g transform="translate(0,0)">
+<rect x="510" y="76" width="225" height="290" rx="10" fill="none" stroke="#ddd"/>
+<text x="522" y="102" font-size="14.5" font-weight="bold" fill="#333">3. Радиальный</text>
+<text x="522" y="121" font-size="12" fill="#666">поперечный: от свободного</text>
+<text x="522" y="137" font-size="12" fill="#666">края к периферии</text>
+<g filter="url(#pencil)">
+<path d="M714.7 256.2 A96 96 0 0 0 529.3 256.2 L566.0 266.0 A58 58 0 0 1 678.0 266.0 Z" fill="url(#men)" stroke="#555" stroke-width="1.8"/>
+<line x1="620.0" y1="223.0" x2="622.0" y2="193.0" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(0,0)">
+<rect x="755" y="76" width="225" height="290" rx="10" fill="none" stroke="#ddd"/>
+<text x="767" y="102" font-size="14.5" font-weight="bold" fill="#333">4. Горизонтальный</text>
+<text x="767" y="121" font-size="12" fill="#666">расслаивает мениск на</text>
+<text x="767" y="137" font-size="12" fill="#666">два листка (показан срез)</text>
+<g filter="url(#pencil)">
+<path d="M795 196 L945 256 L795 296 Z" fill="url(#men)" stroke="#555" stroke-width="1.8"/>
+<path d="M933 258 L835 248" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<rect x="781" y="190" width="14" height="112" fill="#f3e3e3" stroke="#777"/>
+</g>
+<text x="788" y="324" font-size="11.5" fill="#666" text-anchor="middle">капсула</text>
+<text x="945" y="286" font-size="11.5" fill="#666" text-anchor="middle">своб. край</text>
+</g>
+<g transform="translate(0,0)">
+<rect x="20" y="380" width="225" height="290" rx="10" fill="none" stroke="#ddd"/>
+<text x="32" y="406" font-size="14.5" font-weight="bold" fill="#333">5. Лоскутный (косой)</text>
+<text x="32" y="425" font-size="12" fill="#666">радиальный + продольный:</text>
+<text x="32" y="441" font-size="12" fill="#666">отходит лоскут</text>
+<g filter="url(#pencil)">
+<path d="M224.7 560.2 A96 96 0 0 0 39.3 560.2 L76.0 570.0 A58 58 0 0 1 188.0 570.0 Z" fill="url(#men)" stroke="#555" stroke-width="1.8"/>
+<line x1="126.9" y1="527.2" x2="121.1" y2="507.8" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<path d="M121.1 507.8 A78 78 0 0 0 84.0 523.5" fill="none" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<path d="M126.9 527.2 L110.3 507.2 L84.0 523.5" fill="#f6d5d1" stroke="#c0392b" stroke-width="1.5" opacity=".9"/>
+</g>
+</g>
+<g transform="translate(0,0)">
+<rect x="265" y="380" width="225" height="290" rx="10" fill="none" stroke="#ddd"/>
+<text x="277" y="406" font-size="14.5" font-weight="bold" fill="#333">6. Сложный</text>
+<text x="277" y="425" font-size="12" fill="#666">дегенеративный: разрывы</text>
+<text x="277" y="441" font-size="12" fill="#666">в нескольких плоскостях</text>
+<g filter="url(#pencil)">
+<path d="M469.7 560.2 A96 96 0 0 0 284.3 560.2 L321.0 570.0 A58 58 0 0 1 433.0 570.0 Z" fill="url(#men)" stroke="#555" stroke-width="1.8"/>
+<path d="M441.3 531.0 A84 84 0 0 0 312.7 531.0" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="396.8" y1="530.5" x2="403.0" y2="505.1" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="357.2" y1="530.5" x2="358.4" y2="515.5" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M388.8 518.0 A68 68 0 0 0 365.2 518.0" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(0,0)">
+<rect x="510" y="380" width="225" height="290" rx="10" fill="none" stroke="#ddd"/>
+<text x="522" y="406" font-size="14.5" font-weight="bold" fill="#333">7. Отрыв корня</text>
+<text x="522" y="425" font-size="12" fill="#666">разрыв у места прикрепления</text>
+<text x="522" y="441" font-size="12" fill="#666">рога к кости (≤1 см от корня)</text>
+<g filter="url(#pencil)">
+<path d="M714.7 560.2 A96 96 0 0 0 529.3 560.2 L566.0 570.0 A58 58 0 0 1 678.0 570.0 Z" fill="url(#men)" stroke="#555" stroke-width="1.8"/>
+<rect x="517.6" y="559.1" width="26" height="26" fill="#ece6d8" stroke="#8d8d8d"/>
+<line x1="569.4" y1="565.8" x2="529.9" y2="551.5" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+</g>
+<text x="522" y="658" font-size="11.5" fill="#666">■ — место прикрепления к кости</text>
+</g>
+<g transform="translate(0,0)">
+<rect x="755" y="380" width="225" height="290" rx="10" fill="none" stroke="#ddd"/>
+<text x="767" y="406" font-size="14.5" font-weight="bold" fill="#333">8. Рампа (ramp)</text>
+<text x="767" y="425" font-size="12" fill="#666">задний рог медиального</text>
+<text x="767" y="441" font-size="12" fill="#666">у стыка с капсулой</text>
+<g filter="url(#pencil)">
+<path d="M959.7 560.2 A96 96 0 0 0 774.3 560.2 L811.0 570.0 A58 58 0 0 1 923.0 570.0 Z" fill="url(#men)" stroke="#555" stroke-width="1.8"/>
+<path d="M959.7 558.2 A96 96 0 0 0 774.3 558.2" fill="none" stroke="#c9a" stroke-width="7" opacity=".5"/>
+<path d="M950.1 537.0 A96 96 0 0 0 883.7 490.5" fill="none" stroke="#c0392b" stroke-width="3.5" stroke-linecap="round"/>
+</g>
+<text x="767" y="658" font-size="11.5" fill="#666">сиреневым — капсула; разрыв по стыку</text>
+</g>
+<text x="20" y="690" font-size="12" fill="#666">Схема, не в масштабе. Классификация по плоскости разрыва (Metcalf, КР МЗ РФ 2021) + отрыв корня и рампа (консенсус ESSKA 2019, международная практика).</text>
+</svg>

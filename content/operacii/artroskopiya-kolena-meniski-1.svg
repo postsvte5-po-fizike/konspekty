@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 830" font-family="Georgia, 'Times New Roman', serif">
+<title>Мениски правого коленного сустава, вид сверху на плато большеберцовой кости</title>
+<defs>
+<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<pattern id="cart" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+ <rect width="7" height="7" fill="#f3f6fa"/><line x1="0" y1="0" x2="0" y2="7" stroke="#c5ccd6" stroke-width="0.7"/></pattern>
+<pattern id="men" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(-20)">
+ <rect width="5" height="5" fill="#eef0f2"/><line x1="0" y1="0" x2="0" y2="5" stroke="#9aa1aa" stroke-width="0.6"/></pattern>
+</defs>
+<rect width="1000" height="830" fill="#ffffff"/>
+<text x="24" y="34" font-size="20" font-weight="bold" fill="#333">Мениски правого колена: вид сверху на плато большеберцовой кости</text>
+<text x="24" y="58" font-size="14" fill="#666">спереди — вверху, медиально — слева, латерально — справа</text>
+
+<g filter="url(#pencil)">
+ <!-- контур плато -->
+ <path d="M140 300 C 130 170, 300 95, 480 120 C 520 126, 540 126, 580 118 C 760 92, 900 190, 880 320 C 868 430, 770 520, 600 515 C 560 514, 530 540, 500 540 C 470 540, 440 514, 400 516 C 240 525, 150 440, 140 300 Z" fill="url(#cart)" stroke="#6d6d6d" stroke-width="2"/>
+ <!-- межмыщелковое возвышение -->
+ <path d="M478 260 C 490 300, 492 360, 480 410 M 522 260 C 510 300, 508 360, 520 410" fill="none" stroke="#9a9a9a" stroke-width="1.4" stroke-dasharray="4 3"/>
+ <!-- медиальный мениск (С) -->
+ <path d="M445 168 C 300 140, 170 205, 168 315 C 166 430, 280 498, 455 480 L 462 425 C 330 440, 232 395, 230 318 C 228 245, 310 205, 448 210 Z" fill="url(#men)" stroke="#555" stroke-width="2"/>
+ <!-- латеральный мениск (почти кольцо) -->
+ <path d="M560 232 C 600 160, 795 150, 845 300 C 880 420, 735 505, 585 428 L 607 384 C 700 432, 792 390, 790 312 C 786 228, 695 202, 612 268 Z" fill="url(#men)" stroke="#555" stroke-width="2"/>
+ <!-- поперечная связка колена -->
+ <path d="M440 188 C 480 176, 525 200, 566 222" fill="none" stroke="#7a6a4f" stroke-width="5" stroke-linecap="round"/>
+ <!-- ПКС и ЗКС: места прикрепления -->
+ <ellipse cx="510" cy="248" rx="26" ry="16" fill="#e9dcf3" stroke="#7b4fa0" stroke-width="1.6"/>
+ <ellipse cx="500" cy="508" rx="34" ry="16" fill="#e9dcf3" stroke="#7b4fa0" stroke-width="1.6"/>
+ <!-- корни (точки прикрепления рогов) -->
+ <circle cx="447" cy="190" r="6" fill="#444"/><circle cx="458" cy="452" r="6" fill="#444"/>
+ <circle cx="584" cy="246" r="6" fill="#444"/><circle cx="597" cy="406" r="6" fill="#444"/>
+ <!-- щель для сухожилия подколенной мышцы -->
+ <path d="M800 395 C 815 410, 822 420, 830 432" fill="none" stroke="#ffffff" stroke-width="9"/>
+ <path d="M792 384 C 800 396, 812 416, 824 440" fill="none" stroke="#555" stroke-width="1.2"/>
+ <path d="M808 382 C 818 396, 828 414, 840 436" fill="none" stroke="#555" stroke-width="1.2"/>
+ <!-- сращение медиального мениска с капсулой и МКС -->
+ <path d="M158 250 C 150 290, 150 340, 160 380" fill="none" stroke="#b03a2e" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+</g>
+
+<!-- номера с выносками -->
+<g font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">
+ <line x1="200" y1="410" x2="150" y2="470" stroke="#555"/><circle cx="142" cy="480" r="13" fill="#333"/><text x="142" y="485">1</text>
+ <line x1="830" y1="250" x2="900" y2="210" stroke="#555"/><circle cx="910" cy="203" r="13" fill="#333"/><text x="910" y="208">2</text>
+ <line x1="400" y1="175" x2="380" y2="96" stroke="#555"/><circle cx="378" cy="84" r="13" fill="#333"/><text x="378" y="89">3</text>
+ <line x1="195" y1="318" x2="92" y2="318" stroke="#555"/><circle cx="80" cy="318" r="13" fill="#333"/><text x="80" y="323">4</text>
+ <line x1="360" y1="470" x2="340" y2="560" stroke="#555"/><circle cx="338" cy="572" r="13" fill="#333"/><text x="338" y="577">5</text>
+ <line x1="505" y1="195" x2="520" y2="96" stroke="#555"/><circle cx="522" cy="84" r="13" fill="#333"/><text x="522" y="89">6</text>
+ <line x1="530" y1="252" x2="640" y2="150" stroke="#555"/><circle cx="650" cy="140" r="13" fill="#333"/><text x="650" y="145">7</text>
+ <line x1="500" y1="522" x2="500" y2="562" stroke="#555"/><circle cx="500" cy="574" r="13" fill="#333"/><text x="500" y="579">8</text>
+ <line x1="157" y1="270" x2="96" y2="230" stroke="#555"/><circle cx="84" cy="222" r="13" fill="#333"/><text x="84" y="227">9</text>
+ <line x1="830" y1="430" x2="900" y2="470" stroke="#555"/><circle cx="912" cy="478" r="13" fill="#333"/><text x="912" y="483">10</text>
+ <line x1="597" y1="406" x2="660" y2="560" stroke="#555"/><circle cx="664" cy="572" r="13" fill="#333"/><text x="664" y="577">11</text>
+</g>
+
+<!-- врезка: срез мениска и зоны -->
+<g transform="translate(40,610)">
+ <text x="0" y="0" font-size="15" font-weight="bold" fill="#333">Срез мениска (трёхгранный) и зоны кровоснабжения</text>
+ <g filter="url(#pencil)">
+  <rect x="0" y="16" width="26" height="120" fill="#f3e3e3" stroke="#777" stroke-width="1.2"/>
+  <path d="M26 30 L 330 118 L 26 126 Z" fill="#ffffff" stroke="#555" stroke-width="1.8"/>
+  <path d="M26 30 L 110 54 L 110 124 L 26 126 Z" fill="#f2b8b0" stroke="none" opacity=".85"/>
+  <path d="M110 54 L 190 77 L 190 122 L 110 124 Z" fill="#f8dcd6" stroke="none" opacity=".85"/>
+  <path d="M26 30 L 330 118 L 26 126 Z" fill="none" stroke="#555" stroke-width="1.8"/>
+  <path d="M8 60 C 30 66, 60 74, 92 86" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <path d="M8 96 C 30 98, 60 104, 86 110" fill="none" stroke="#c0392b" stroke-width="2"/>
+ </g>
+ <text x="13" y="152" font-size="12" fill="#555" text-anchor="middle">капсула</text>
+ <text x="68" y="152" font-size="12" fill="#a33">красно-</text><text x="68" y="166" font-size="12" fill="#a33" >красная</text>
+ <text x="150" y="152" font-size="12" fill="#b55">красно-</text><text x="150" y="166" font-size="12" fill="#b55">белая</text>
+ <text x="262" y="152" font-size="12" fill="#666">бело-белая</text>
+ <text x="262" y="166" font-size="12" fill="#666">(свободный край)</text>
+ <text x="350" y="60" font-size="13" fill="#333">сосуды (из капсулы и синовии)</text>
+ <text x="350" y="78" font-size="13" fill="#333">входят только в периферию:</text>
+ <text x="350" y="96" font-size="13" fill="#333">10–30% ширины медиального,</text>
+ <text x="350" y="114" font-size="13" fill="#333">10–25% латерального мениска</text>
+</g>
+
+<!-- легенда -->
+<g font-size="13.5" fill="#222" transform="translate(620,618)">
+ <text x="0" y="0">1 — медиальный мениск (meniscus medialis), «С»</text>
+ <text x="0" y="19">2 — латеральный мениск (m. lateralis), почти кольцо</text>
+ <text x="0" y="38">3 — передний рог; 4 — тело; 5 — задний рог</text>
+ <text x="0" y="57">6 — поперечная связка (lig. transversum genus)</text>
+ <text x="0" y="76">7 — прикрепление ПКС; 8 — прикрепление ЗКС</text>
+ <text x="0" y="95">9 — сращение с капсулой и lig. collaterale tibiale</text>
+ <text x="0" y="114">10 — щель для сухожилия подколенной мышцы</text>
+ <text x="0" y="133">11 — корни менисков (● — к eminentia intercondylaris)</text>
+</g>
+<text x="24" y="806" font-size="12" fill="#666">Схема, не в масштабе. Порядок рисования: плато → «С» медиального → кольцо латерального → корни и связки → срез.</text><text x="24" y="822" font-size="12" fill="#666">Сверить: Николаев, рис. 3.24; атлас Неттера — коленный сустав, вид сверху.</text>
+</svg>
