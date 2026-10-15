@@ -91,6 +91,10 @@ export default (() => {
 
         <link rel="icon" href={iconPath} />
         <script src={joinSegments(baseDir, "static/atlas.js")} defer data-persist></script>
+        <script src={joinSegments(baseDir, "static/zoom.js")} defer data-persist></script>
+        <script src={joinSegments(baseDir, "static/toc-sheet.js")} defer data-persist></script>
+        <script src={joinSegments(baseDir, "static/lesson-nav.js")} defer data-persist></script>
+        <script src={joinSegments(baseDir, "static/exam-map.js")} defer data-persist></script>
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 

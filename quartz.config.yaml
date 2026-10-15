@@ -15,8 +15,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Inter
-      body: Source Sans Pro
+      header: Onest
+      body: Onest
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -110,9 +110,9 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: true
     options:
-      title: Inter
-      header: Inter
-      body: Source Sans Pro
+      title: Onest
+      header: Onest
+      body: Onest
       code: IBM Plex Mono
   - source: "@quartz-themes/core"
     enabled: true
@@ -227,6 +227,8 @@ plugins:
       group: toolbar
   - source: "@quartz-community/breadcrumbs"
     enabled: true
+    options:
+      rootName: Главная
     layout:
       position: beforeBody
       priority: 5
