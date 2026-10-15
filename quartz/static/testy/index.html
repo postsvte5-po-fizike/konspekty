@@ -1513,6 +1513,9 @@
         .then((data) => {
           builtIn = data.decks
           renderList()
+          // Прямая ссылка из конспекта: ?deck=<id> — сразу открыть тест по теме.
+          const want = new URLSearchParams(location.search).get("deck")
+          if (want && deckById(want)) startSession([want])
         })
         .catch((err) => {
           builtIn = []

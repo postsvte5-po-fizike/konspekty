@@ -836,3 +836,22 @@ html body footer a { color: var(--k-faint); }
   html body article a.fig-open { display: none; }
   html body * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
+
+// ── Плашка «Решить тест» в конце конспекта (вставляет _система/карточки-в-тесты.py) ──
+html body article .test-cta {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  margin: 32px 0 24px; padding: 16px 18px;
+  background: var(--k-panel); border: 1px solid var(--k-div2); border-left: 4px solid var(--k-blue); border-radius: 10px;
+}
+html body article .test-cta-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+html body article .test-cta-text b { font-size: var(--k-h4); color: var(--k-text); }
+html body article .test-cta-text span { font-size: var(--k-sm); color: var(--k-muted); }
+html body article .test-cta a.test-cta-btn {
+  flex: none; display: inline-block; padding: 10px 18px !important; border-radius: 8px !important;
+  background: var(--k-blue) !important; color: var(--k-elev) !important; font-weight: 600;
+  text-decoration: none !important; white-space: nowrap;
+}
+html body article .test-cta a.test-cta-btn:hover { filter: brightness(1.08); }
+html body article .test-cta a.test-cta-btn .external-icon { display: none; }
+@media (max-width: 600px) { html body article .test-cta a.test-cta-btn { width: 100%; text-align: center; } }
+@media print { html body article .test-cta { display: none; } }

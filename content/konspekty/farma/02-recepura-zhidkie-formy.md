@@ -373,6 +373,9 @@ tags: [farma, recepura, zhidkie-formy, inekcii]
 > [!question]- Когда пишут Sterilisetur! и Adde aseptice?
 > Sterilisetur! — раствор для инъекций изготавливается в аптеке; Adde aseptice — термолабильный компонент (адреналин) добавляют асептически после стерилизации основного раствора.
 
+<!-- test-cta -->
+<div class="test-cta"><div class="test-cta-text"><b>Проверь себя</b><span>Тест по теме — 30 вопросов: выбор ответа, порядок, «вопрос — ответ».</span></div><a class="test-cta-btn" href="https://postsvte5-po-fizike.github.io/konspekty/static/testy/?deck=farma-02">Решить тест →</a></div>
+
 ## Источники
 
 - **Методическая разработка кафедры фармакологии, клинической фармакологии и биохимии ЧГУ к занятию 2** «Жидкие лекарственные формы для местного и резорбтивного действия. Галеновые препараты. Настои и отвары» (pharm-chuvsu.ru) — `_библиотека/farma/методички/farma-metodichka-zanyatie-02-recepura-zhidkie.pdf`.

@@ -584,6 +584,9 @@ tags: [propedevtika, obshij-osmotr, soznanie, polozhenie, teloslozhenie, lihorad
 > [!question]- Чем отличаются сердечные и почечные отёки?
 > Сердечные начинаются снизу (стопы, голени, у лежачих — крестец), нарастают к вечеру, кожа над ними синюшная и холодная. Почечные появляются на лице и веках, больше выражены утром, кожа бледная и тёплая, отёки мягкие.
 
+<!-- test-cta -->
+<div class="test-cta"><div class="test-cta-text"><b>Проверь себя</b><span>Тест по теме — 35 вопросов: выбор ответа, порядок, «вопрос — ответ».</span></div><a class="test-cta-btn" href="https://postsvte5-po-fizike.github.io/konspekty/static/testy/?deck=propedevtika-02">Решить тест →</a></div>
+
 ## Источники
 
 - `_библиотека/propedevtika/методички/propedevtika-metodika-obsledovaniya-bolnogo-2005.doc` — «Методика обследования больного» (ЧувГУ, 2005), раздел «Общий осмотр».

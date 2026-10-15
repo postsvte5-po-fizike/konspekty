@@ -465,6 +465,9 @@ tags: [propedevtika, auskultaciya, legkie, dyhatelnye-shumy]
 > [!question]- Какое дыхание при открытом пневмотораксе и при гладкостенной полости 5–6 см с крупным бронхом?
 > Открытый пневмоторакс — бронхиальное с металлическим оттенком (громкое, очень высокий тембр). Полость — амфорическое (высокие обертоны, «дуть над горлом сосуда»).
 
+<!-- test-cta -->
+<div class="test-cta"><div class="test-cta-text"><b>Проверь себя</b><span>Тест по теме — 35 вопросов: выбор ответа, порядок, «вопрос — ответ».</span></div><a class="test-cta-btn" href="https://postsvte5-po-fizike.github.io/konspekty/static/testy/?deck=propedevtika-05">Решить тест →</a></div>
+
 ## Источники
 
 - Пособия кафедры пропедевтики внутренних болезней с курсом лучевой диагностики ЧГУ (propedevtika-med.ru, «Дополнительные учебные материалы»): «Дополнительные материалы в таблицах» (таблица побочных дыхательных шумов) — `_библиотека/propedevtika/прочее/propedevtika-dop-materialy-v-tablicah.docx`; «Клинические синдромы» (синдромы при патологии органов дыхания) — `_библиотека/propedevtika/прочее/propedevtika-klinicheskie-sindromy.doc`.

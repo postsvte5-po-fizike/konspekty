@@ -635,6 +635,9 @@ tags: [farma, farmakodinamika, obshaya-farmakologiya, receptory]
 > [!question]- Приведите пример фармакокинетического и фармакодинамического взаимодействия.
 > ФК: кларитромицин (ингибитор CYP3A4) повышает концентрацию статина → риск рабдомиолиза. ФД: налоксон — прямой антагонист морфина; бензодиазепин + опиоид — потенцирование угнетения дыхания.
 
+<!-- test-cta -->
+<div class="test-cta"><div class="test-cta-text"><b>Проверь себя</b><span>Тест по теме — 31 вопросов: выбор ответа, порядок, «вопрос — ответ».</span></div><a class="test-cta-btn" href="https://postsvte5-po-fizike.github.io/konspekty/static/testy/?deck=farma-04">Решить тест →</a></div>
+
 ## Источники
 
 - **Методические разработки кафедры к занятиям 3 и 4** «Фармакодинамика и фармакокинетика» и «Факторы, влияющие на фармакокинетику и фармакодинамику» (pharm-chuvsu.ru) — `_библиотека/farma/методички/farma-metodichka-zanyatie-03-obshaya-farmakologiya-1.pdf`, `…-04-obshaya-farmakologiya-2.pdf` (перечень вопросов, термины, 10 ситуационных задач).

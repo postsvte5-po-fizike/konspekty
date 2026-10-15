@@ -447,6 +447,9 @@ tags: [propedevtika, istoriya-bolezni, anamnez, rasspros, metody-obsledovaniya]
 > [!question]- О чём легче всего забыть в анамнезе жизни и почему это опасно?
 > Об аллергологическом и гемотрансфузионном анамнезе и о перенесённых гепатите, туберкулёзе, венерических болезнях. Без аллергоанамнеза можно назначить препарат, вызывающий анафилаксию; перенесённые инфекции влияют на диагноз и меры безопасности.
 
+<!-- test-cta -->
+<div class="test-cta"><div class="test-cta-text"><b>Проверь себя</b><span>Тест по теме — 32 вопросов: выбор ответа, порядок, «вопрос — ответ».</span></div><a class="test-cta-btn" href="https://postsvte5-po-fizike.github.io/konspekty/static/testy/?deck=propedevtika-01">Решить тест →</a></div>
+
 ## Источники
 
 - `_библиотека/propedevtika/методички/propedevtika-metodika-obsledovaniya-bolnogo-2005.doc` — «Методика обследования больного», учебное пособие кафедры (ЧувГУ, 2005): предисловие, «Анамнез», «Жалобы», «Анамнез заболевания», «Анамнез жизни».

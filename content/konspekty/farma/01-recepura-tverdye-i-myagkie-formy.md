@@ -478,6 +478,9 @@ tags: [farma, recepura, lekarstvennye-formy]
 > [!question]- Какой массы изготовят суппозитории, если врач её не указал?
 > Ректальные — 3,0 г, вагинальные — 4,0 г.
 
+<!-- test-cta -->
+<div class="test-cta"><div class="test-cta-text"><b>Проверь себя</b><span>Тест по теме — 31 вопросов: выбор ответа, порядок, «вопрос — ответ».</span></div><a class="test-cta-btn" href="https://postsvte5-po-fizike.github.io/konspekty/static/testy/?deck=farma-01">Решить тест →</a></div>
+
 ## Источники
 
 - **Методическая разработка кафедры фармакологии, клинической фармакологии и биохимии ЧГУ к занятию 1** «Общая рецептура: врачебный рецепт, классификация лекарственных форм, твёрдые и мягкие лекарственные формы» (pharm-chuvsu.ru) — `_библиотека/farma/методички/farma-metodichka-zanyatie-01-recepura-tverdye-myagkie.pdf`.

@@ -407,6 +407,9 @@ tags: [farma, farmakokinetika, obshaya-farmakologiya]
 > [!question]- Как изменить дозирование аминогликозида у пациента с клиренсом креатинина 30 мл/мин?
 > Клиренс снижен → t½ ↑ → кумуляция и нефро/ототоксичность. Уменьшить поддерживающую дозу или увеличить интервал по клиренсу креатинина, контролировать концентрацию и функцию почек.
 
+<!-- test-cta -->
+<div class="test-cta"><div class="test-cta-text"><b>Проверь себя</b><span>Тест по теме — 32 вопросов: выбор ответа, порядок, «вопрос — ответ».</span></div><a class="test-cta-btn" href="https://postsvte5-po-fizike.github.io/konspekty/static/testy/?deck=farma-03">Решить тест →</a></div>
+
 ## Источники
 
 - **Методическая разработка кафедры к занятию 3** «Общая фармакология. Фармакодинамика и фармакокинетика» (pharm-chuvsu.ru) — `_библиотека/farma/методички/farma-metodichka-zanyatie-03-obshaya-farmakologiya-1.pdf` (перечень вопросов и терминов).

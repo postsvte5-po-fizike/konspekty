@@ -373,6 +373,9 @@ tags: [propedevtika, perkussiya, sravnitelnaya-perkussiya, topograficheskaya-per
 > [!question]- Какие данные топографической перкуссии характерны для эмфиземы?
 > Верхушки стоят выше нормы, поля Кренига расширены, нижние границы опущены с обеих сторон, подвижность нижнего края уменьшена; при сравнительной перкуссии — коробочный звук.
 
+<!-- test-cta -->
+<div class="test-cta"><div class="test-cta-text"><b>Проверь себя</b><span>Тест по теме — 33 вопросов: выбор ответа, порядок, «вопрос — ответ».</span></div><a class="test-cta-btn" href="https://postsvte5-po-fizike.github.io/konspekty/static/testy/?deck=propedevtika-04">Решить тест →</a></div>
+
 ## Источники
 
 - `_библиотека/propedevtika/методички/propedevtika-metodika-obsledovaniya-bolnogo-2005.doc` — «Методика обследования больного» (ЧувГУ, 2005): «Перкуссия лёгких», таблицы нижних границ и подвижности.
