@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 450" font-family="Helvetica, Arial, sans-serif">
+  <rect width="960" height="450" fill="#ffffff"/>
+  <text x="20" y="30" font-size="19" font-weight="bold" fill="#222">N-холинорецептор — ионный канал из пяти субъединиц</text>
+
+  <!-- ЛЕВАЯ ПАНЕЛЬ: вид сбоку -->
+  <text x="230" y="62" font-size="14" font-weight="bold" fill="#444" text-anchor="middle">Вид сбоку</text>
+  <text x="40" y="92" font-size="13" fill="#666">внеклеточно</text>
+  <text x="40" y="368" font-size="13" fill="#666">цитоплазма</text>
+  <rect x="30" y="185" width="400" height="80" fill="#f1e4c8"/>
+  <text x="420" y="230" font-size="13" fill="#8a6d2f" text-anchor="end">мембрана</text>
+
+  <rect x="140" y="100" width="62" height="230" rx="24" fill="#f6c9c4" stroke="#b03a2e" stroke-width="2"/>
+  <rect x="258" y="100" width="62" height="230" rx="24" fill="#cfe0f5" stroke="#2f5f98" stroke-width="2"/>
+  <text x="171" y="160" font-size="18" font-weight="bold" fill="#b03a2e" text-anchor="middle">α</text>
+  <text x="289" y="160" font-size="15" font-weight="bold" fill="#2f5f98" text-anchor="middle">ε/δ</text>
+
+  <!-- места связывания АХ -->
+  <path d="M140 118 l9 9 l-9 9 l-9 -9 z" fill="#f39c12" stroke="#a35d00" stroke-width="1.5"/>
+  <path d="M320 118 l9 9 l-9 9 l-9 -9 z" fill="#f39c12" stroke="#a35d00" stroke-width="1.5"/>
+  <text x="124" y="132" font-size="14" font-weight="bold" fill="#a35d00" text-anchor="end">АХ</text>
+  <text x="336" y="132" font-size="14" font-weight="bold" fill="#a35d00">АХ</text>
+
+  <!-- токи ионов через пору -->
+  <defs>
+    <marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2e7d32"/></marker>
+    <marker id="ap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#7b3fa0"/></marker>
+  </defs>
+  <line x1="221" y1="78" x2="221" y2="345" stroke="#2e7d32" stroke-width="4" marker-end="url(#ag)"/>
+  <line x1="240" y1="320" x2="240" y2="105" stroke="#7b3fa0" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#ap)"/>
+  <text x="213" y="92" font-size="14" font-weight="bold" fill="#2e7d32" text-anchor="end">Na⁺ (Ca²⁺)</text>
+  <text x="250" y="96" font-size="13" font-weight="bold" fill="#7b3fa0">K⁺</text>
+
+  <text x="30" y="398" font-size="13" fill="#222">2 молекулы АХ (по одной на каждой α) → канал открыт ~1 мс</text>
+  <text x="30" y="417" font-size="13" fill="#222">→ вход Na⁺ → деполяризация → потенциал действия</text>
+
+  <line x1="460" y1="55" x2="460" y2="425" stroke="#ddd" stroke-width="1.5"/>
+
+  <!-- ПРАВАЯ ПАНЕЛЬ: вид сверху -->
+  <text x="715" y="62" font-size="14" font-weight="bold" fill="#444" text-anchor="middle">Вид сверху (со стороны синаптической щели)</text>
+
+  <!-- Nm -->
+  <g font-size="14" font-weight="bold" text-anchor="middle">
+    <circle cx="600" cy="200" r="11" fill="#fff" stroke="#999" stroke-width="1.5"/>
+    <circle cx="600" cy="144" r="26" fill="#f6c9c4" stroke="#b03a2e" stroke-width="2"/><text x="600" y="149" fill="#b03a2e">α1</text>
+    <circle cx="653.3" cy="182.7" r="26" fill="#cfe0f5" stroke="#2f5f98" stroke-width="2"/><text x="653.3" y="187.7" fill="#2f5f98">ε</text>
+    <circle cx="632.9" cy="245.3" r="26" fill="#f6c9c4" stroke="#b03a2e" stroke-width="2"/><text x="632.9" y="250.3" fill="#b03a2e">α1</text>
+    <circle cx="567.1" cy="245.3" r="26" fill="#cfe0f5" stroke="#2f5f98" stroke-width="2"/><text x="567.1" y="250.3" fill="#2f5f98">δ</text>
+    <circle cx="546.7" cy="182.7" r="26" fill="#dde8d5" stroke="#4f7a3a" stroke-width="2"/><text x="546.7" y="187.7" fill="#4f7a3a">β1</text>
+  </g>
+  <path d="M638.8 137.6 l7 7 l-7 7 l-7 -7 z" fill="#f39c12" stroke="#a35d00" stroke-width="1.2"/>
+  <path d="M600 260 l7 7 l-7 7 l-7 -7 z" fill="#f39c12" stroke="#a35d00" stroke-width="1.2"/>
+
+  <!-- Nn -->
+  <g font-size="14" font-weight="bold" text-anchor="middle">
+    <circle cx="830" cy="200" r="11" fill="#fff" stroke="#999" stroke-width="1.5"/>
+    <circle cx="830" cy="144" r="26" fill="#f6c9c4" stroke="#b03a2e" stroke-width="2"/><text x="830" y="149" fill="#b03a2e">α3</text>
+    <circle cx="883.3" cy="182.7" r="26" fill="#dde8d5" stroke="#4f7a3a" stroke-width="2"/><text x="883.3" y="187.7" fill="#4f7a3a">β4</text>
+    <circle cx="862.9" cy="245.3" r="26" fill="#f6c9c4" stroke="#b03a2e" stroke-width="2"/><text x="862.9" y="250.3" fill="#b03a2e">α3</text>
+    <circle cx="797.1" cy="245.3" r="26" fill="#dde8d5" stroke="#4f7a3a" stroke-width="2"/><text x="797.1" y="250.3" fill="#4f7a3a">β4</text>
+    <circle cx="776.7" cy="182.7" r="26" fill="#dde8d5" stroke="#4f7a3a" stroke-width="2"/><text x="776.7" y="187.7" fill="#4f7a3a">β4</text>
+  </g>
+  <path d="M868.8 137.6 l7 7 l-7 7 l-7 -7 z" fill="#f39c12" stroke="#a35d00" stroke-width="1.2"/>
+  <path d="M830 260 l7 7 l-7 7 l-7 -7 z" fill="#f39c12" stroke="#a35d00" stroke-width="1.2"/>
+
+  <text x="600" y="308" font-size="14" font-weight="bold" fill="#222" text-anchor="middle">Nm — мышечный</text>
+  <text x="600" y="327" font-size="12.5" fill="#333" text-anchor="middle">(α1)₂ β1 δ ε</text>
+  <text x="600" y="344" font-size="12" fill="#666" text-anchor="middle">у плода и при денервации — γ вместо ε</text>
+
+  <text x="830" y="308" font-size="14" font-weight="bold" fill="#222" text-anchor="middle">Nn — нейрональный</text>
+  <text x="830" y="327" font-size="12.5" fill="#333" text-anchor="middle">ганглии: (α3)₂ (β4)₃</text>
+  <text x="830" y="344" font-size="12" fill="#666" text-anchor="middle">ЦНС: α4β2, α7 (пропускает Ca²⁺)</text>
+
+  <path d="M495 384 l7 7 l-7 7 l-7 -7 z" fill="#f39c12" stroke="#a35d00" stroke-width="1.2"/>
+  <text x="510" y="396" font-size="13" fill="#222">место связывания АХ — на границе α и соседней субъединицы</text>
+  <circle cx="495" cy="414" r="7" fill="#fff" stroke="#999" stroke-width="1.5"/>
+  <text x="510" y="419" font-size="13" fill="#222">ионная пора в центре</text>
+</svg>

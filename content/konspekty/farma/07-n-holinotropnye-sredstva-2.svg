@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <defs>
+    <marker id="ay" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b8860b"/></marker>
+    <marker id="ag2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2e7d32"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#c46a2b"/></marker>
+  </defs>
+  <text x="20" y="26" font-size="19" font-weight="bold" fill="#222">Где стоят N-холинорецепторы и какие средства на них действуют</text>
+
+  <!-- ЦНС -->
+  <rect x="20" y="45" width="150" height="470" rx="14" fill="#eef1f6" stroke="#8a96a8" stroke-width="2"/>
+  <text x="95" y="75" font-size="17" font-weight="bold" fill="#3c4a5e" text-anchor="middle">ЦНС</text>
+  <text x="95" y="98" font-size="12" fill="#3c4a5e" text-anchor="middle">Nn (α4β2, α7)</text>
+  <text x="95" y="460" font-size="12" fill="#3c4a5e" text-anchor="middle">никотин →</text>
+  <text x="95" y="476" font-size="12" fill="#3c4a5e" text-anchor="middle">дофамин →</text>
+  <text x="95" y="492" font-size="12" fill="#3c4a5e" text-anchor="middle">зависимость</text>
+
+  <!-- 0. каротидный клубочек -->
+  <circle cx="480" cy="120" r="20" fill="#d6efd9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="480" y="125" font-size="12" font-weight="bold" fill="#2e7d32" text-anchor="middle">Nn</text>
+  <line x1="458" y1="120" x2="176" y2="120" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#ag2)"/>
+  <text x="190" y="108" font-size="12.5" fill="#2e7d32">афферентно (IX пара) → дыхательный центр</text>
+  <text x="508" y="116" font-size="13" font-weight="bold" fill="#222">Каротидный</text>
+  <text x="508" y="132" font-size="13" font-weight="bold" fill="#222">клубочек</text>
+
+  <!-- A. парасимпатический путь -->
+  <text x="190" y="180" font-size="13" font-weight="bold" fill="#555">Парасимпатический путь</text>
+  <line x1="170" y1="195" x2="483" y2="195" stroke="#b8860b" stroke-width="3"/>
+  <circle cx="505" cy="195" r="22" fill="#fff3c4" stroke="#b8860b" stroke-width="2"/>
+  <text x="505" y="200" font-size="13" font-weight="bold" fill="#7a5a00" text-anchor="middle">Nn</text>
+  <line x1="527" y1="195" x2="596" y2="195" stroke="#b8860b" stroke-width="3" marker-end="url(#ay)"/>
+  <rect x="600" y="168" width="145" height="54" rx="8" fill="#f7f7f7" stroke="#999"/>
+  <text x="672" y="190" font-size="12.5" fill="#222" text-anchor="middle">сердце, ЖКТ, пузырь,</text>
+  <text x="672" y="207" font-size="12.5" fill="#222" text-anchor="middle">глаз, железы (М)</text>
+
+  <!-- B. симпатический путь -->
+  <text x="190" y="270" font-size="13" font-weight="bold" fill="#555">Симпатический путь</text>
+  <line x1="170" y1="285" x2="338" y2="285" stroke="#b8860b" stroke-width="3"/>
+  <circle cx="360" cy="285" r="22" fill="#fff3c4" stroke="#b8860b" stroke-width="2"/>
+  <text x="360" y="290" font-size="13" font-weight="bold" fill="#7a5a00" text-anchor="middle">Nn</text>
+  <line x1="382" y1="285" x2="596" y2="285" stroke="#b8860b" stroke-width="3" stroke-dasharray="8 5" marker-end="url(#ay)"/>
+  <rect x="600" y="258" width="145" height="54" rx="8" fill="#f7f7f7" stroke="#999"/>
+  <text x="672" y="280" font-size="12.5" fill="#222" text-anchor="middle">сосуды, сердце</text>
+  <text x="672" y="297" font-size="12.5" fill="#222" text-anchor="middle">(α, β; норадреналин)</text>
+
+  <!-- C. надпочечник -->
+  <text x="190" y="360" font-size="13" font-weight="bold" fill="#555">Мозговое вещество надпочечника</text>
+  <line x1="170" y1="375" x2="478" y2="375" stroke="#b8860b" stroke-width="3"/>
+  <ellipse cx="520" cy="375" rx="40" ry="24" fill="#fde2cf" stroke="#c46a2b" stroke-width="2"/>
+  <text x="520" y="380" font-size="13" font-weight="bold" fill="#8a4210" text-anchor="middle">Nn</text>
+  <line x1="561" y1="375" x2="596" y2="375" stroke="#c46a2b" stroke-width="3" marker-end="url(#ao)"/>
+  <rect x="600" y="348" width="145" height="54" rx="8" fill="#f7f7f7" stroke="#999"/>
+  <text x="672" y="370" font-size="12.5" fill="#222" text-anchor="middle">адреналин</text>
+  <text x="672" y="387" font-size="12.5" fill="#222" text-anchor="middle">в кровь</text>
+
+  <!-- D. соматический нерв -->
+  <text x="190" y="450" font-size="13" font-weight="bold" fill="#555">Двигательный (соматический) нерв</text>
+  <line x1="170" y1="465" x2="525" y2="465" stroke="#b8860b" stroke-width="3"/>
+  <rect x="528" y="440" width="217" height="50" rx="10" fill="#f6c9c4" stroke="#b03a2e" stroke-width="2"/>
+  <text x="636" y="470" font-size="13" font-weight="bold" fill="#8b241b" text-anchor="middle">скелетная мышца — Nm</text>
+
+  <!-- теги препаратов -->
+  <rect x="760" y="95" width="228" height="52" rx="8" fill="#e8f5e9" stroke="#2e7d32"/>
+  <text x="772" y="116" font-size="12" fill="#1b5e20">лобелин, цитизин, никотин ↑</text>
+  <text x="772" y="134" font-size="12" fill="#1b5e20">→ рефлекторно дыхание и АД ↑</text>
+
+  <rect x="760" y="165" width="228" height="150" rx="8" fill="#e7eefa" stroke="#2f5f98"/>
+  <text x="772" y="187" font-size="12" font-weight="bold" fill="#1d3f6e">Ганглиоблокаторы ✕ — оба пути:</text>
+  <text x="772" y="205" font-size="12" fill="#1d3f6e">гексаметоний, азаметоний,</text>
+  <text x="772" y="221" font-size="12" fill="#1d3f6e">триметафан, гигроний</text>
+  <text x="772" y="239" font-size="12" fill="#1d3f6e">эффект = снят преобладающий</text>
+  <text x="772" y="255" font-size="12" fill="#1d3f6e">тонус органа</text>
+  <text x="772" y="279" font-size="12" font-weight="bold" fill="#1d3f6e">Никотин:</text>
+  <text x="772" y="297" font-size="12" fill="#1d3f6e">малые дозы ↑, большие — блок</text>
+
+  <rect x="760" y="345" width="228" height="58" rx="8" fill="#fdf0e6" stroke="#c46a2b"/>
+  <text x="772" y="368" font-size="12" fill="#8a4210">ганглиоблокаторы — выброс ↓</text>
+  <text x="772" y="386" font-size="12" fill="#8a4210">никотин — выброс ↑</text>
+
+  <rect x="760" y="425" width="228" height="80" rx="8" fill="#fbe9e7" stroke="#b03a2e"/>
+  <text x="772" y="446" font-size="12" font-weight="bold" fill="#8b241b">Миорелаксанты ✕ Nm:</text>
+  <text x="772" y="463" font-size="12" fill="#8b241b">тубокурарин, пипекуроний,</text>
+  <text x="772" y="479" font-size="12" fill="#8b241b">векуроний, атракурий;</text>
+  <text x="772" y="495" font-size="12" fill="#8b241b">суксаметоний (деполяризует)</text>
+
+  <text x="20" y="540" font-size="12" fill="#555">Схема, не в масштабе. Nn — нейрональный тип, Nm — мышечный. Сплошная жёлтая линия — холинергическое волокно, пунктир — адренергическое.</text>
+</svg>

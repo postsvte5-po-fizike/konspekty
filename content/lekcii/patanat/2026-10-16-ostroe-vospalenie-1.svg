@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" font-family="Helvetica, Arial, sans-serif">
+  <rect width="960" height="430" fill="#ffffff"/>
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2f5f98"/></marker>
+    <marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#555"/></marker>
+    <g id="neu">
+      <circle r="17" fill="#f3e6f5" stroke="#7b3fa0" stroke-width="2"/>
+      <ellipse cx="-6" cy="-3" rx="4.5" ry="3.5" fill="#7b3fa0"/>
+      <ellipse cx="2" cy="-6" rx="4.5" ry="3.5" fill="#7b3fa0"/>
+      <ellipse cx="6" cy="3" rx="4.5" ry="3.5" fill="#7b3fa0"/>
+    </g>
+    <ellipse id="er" rx="13" ry="7" fill="#e57373" stroke="#b03a2e" stroke-width="1.2"/>
+  </defs>
+  <text x="20" y="28" font-size="19" font-weight="bold" fill="#222">Экссудация: выход нейтрофила из венулы в очаг воспаления</text>
+
+  <!-- стенки венулы: эндотелий -->
+  <g fill="#fde2cf" stroke="#c46a2b" stroke-width="1.5">
+    <rect x="40" y="62" width="110" height="14" rx="6"/><rect x="154" y="62" width="110" height="14" rx="6"/>
+    <rect x="268" y="62" width="110" height="14" rx="6"/><rect x="382" y="62" width="110" height="14" rx="6"/>
+    <rect x="496" y="62" width="110" height="14" rx="6"/><rect x="610" y="62" width="110" height="14" rx="6"/>
+    <rect x="724" y="62" width="110" height="14" rx="6"/><rect x="838" y="62" width="82" height="14" rx="6"/>
+    <rect x="40" y="200" width="110" height="14" rx="6"/><rect x="154" y="200" width="110" height="14" rx="6"/>
+    <rect x="268" y="200" width="110" height="14" rx="6"/><rect x="382" y="200" width="110" height="14" rx="6"/>
+    <rect x="496" y="200" width="54" height="14" rx="6"/><rect x="572" y="200" width="148" height="14" rx="6"/>
+    <rect x="724" y="200" width="110" height="14" rx="6"/><rect x="838" y="200" width="82" height="14" rx="6"/>
+  </g>
+  <line x1="40" y1="217" x2="920" y2="217" stroke="#8a96a8" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="925" y="221" font-size="11" fill="#666">БМ</text>
+  <text x="44" y="56" font-size="12.5" fill="#8a4210">эндотелий венулы (посткапилляра)</text>
+
+  <!-- ток крови -->
+  <line x1="60" y1="138" x2="210" y2="138" stroke="#555" stroke-width="2" marker-end="url(#ak)"/>
+  <text x="60" y="128" font-size="12" fill="#555">ток крови замедлен</text>
+  <use href="#er" x="250" y="120"/><use href="#er" x="300" y="140"/><use href="#er" x="360" y="118"/>
+  <use href="#er" x="470" y="130"/><use href="#er" x="640" y="118"/><use href="#er" x="700" y="145"/><use href="#er" x="820" y="125"/>
+
+  <!-- 1 осевой ток -->
+  <use href="#neu" x="150" y="165"/>
+  <!-- 2 краевое стояние -->
+  <use href="#neu" x="300" y="182"/>
+  <!-- 3 прилипание (уплощён) -->
+  <ellipse cx="440" cy="189" rx="24" ry="11" fill="#f3e6f5" stroke="#7b3fa0" stroke-width="2"/>
+  <ellipse cx="432" cy="188" rx="4.5" ry="3.5" fill="#7b3fa0"/><ellipse cx="441" cy="186" rx="4.5" ry="3.5" fill="#7b3fa0"/><ellipse cx="450" cy="190" rx="4.5" ry="3.5" fill="#7b3fa0"/>
+  <!-- 4 межэндотелиальная эмиграция -->
+  <path d="M561 180 C575 180 578 192 572 200 L568 216 C576 222 580 236 570 244 C560 252 546 246 546 234 C546 224 552 220 552 214 L550 200 C544 192 548 180 561 180 Z" fill="#f3e6f5" stroke="#7b3fa0" stroke-width="2"/>
+  <ellipse cx="560" cy="190" rx="4.5" ry="3.5" fill="#7b3fa0"/><ellipse cx="561" cy="232" rx="4.5" ry="3.5" fill="#7b3fa0"/><ellipse cx="566" cy="240" rx="4" ry="3" fill="#7b3fa0"/>
+  <!-- 5 хемотаксис -->
+  <path d="M690 300 C690 288 702 282 712 286 L742 292 L712 300 C706 314 690 312 690 300 Z" fill="#f3e6f5" stroke="#7b3fa0" stroke-width="2"/>
+  <ellipse cx="696" cy="296" rx="4" ry="3" fill="#7b3fa0"/><ellipse cx="703" cy="302" rx="4" ry="3" fill="#7b3fa0"/>
+  <line x1="752" y1="300" x2="800" y2="312" stroke="#2e7d32" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ak)"/>
+  <!-- бактерии -->
+  <g fill="#81c784" stroke="#2e7d32" stroke-width="1.2">
+    <rect x="818" y="305" width="16" height="7" rx="3.5"/><rect x="838" y="318" width="16" height="7" rx="3.5"/><rect x="822" y="328" width="16" height="7" rx="3.5"/>
+  </g>
+  <!-- 6 фагоцитоз -->
+  <use href="#neu" x="880" y="290"/>
+  <rect x="872" y="296" width="12" height="6" rx="3" fill="#81c784" stroke="#2e7d32" stroke-width="1"/>
+
+  <!-- плазма -->
+  <path d="M360 216 C356 236 350 252 340 268" fill="none" stroke="#2f5f98" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ab)"/>
+  <path d="M390 216 C392 238 396 252 404 268" fill="none" stroke="#2f5f98" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ab)"/>
+  <text x="300" y="290" font-size="12.5" fill="#2f5f98">вода, белки, фибриноген</text>
+  <text x="300" y="306" font-size="12.5" fill="#2f5f98">(проницаемость ↑)</text>
+  <use href="#er" x="480" y="250"/>
+  <text x="440" y="276" font-size="12" fill="#b03a2e">эритродиапедез</text>
+  <text x="44" y="250" font-size="13" fill="#666">периваскулярная ткань —</text>
+  <text x="44" y="267" font-size="13" fill="#666">очаг воспаления</text>
+
+  <!-- номера -->
+  <g font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">
+    <circle cx="150" cy="134" r="10" fill="#7b3fa0"/><text x="150" y="139">1</text>
+    <circle cx="300" cy="150" r="10" fill="#7b3fa0"/><text x="300" y="155">2</text>
+    <circle cx="440" cy="160" r="10" fill="#7b3fa0"/><text x="440" y="165">3</text>
+    <circle cx="590" cy="170" r="10" fill="#7b3fa0"/><text x="590" y="175">4</text>
+    <circle cx="700" cy="266" r="10" fill="#7b3fa0"/><text x="700" y="271">5</text>
+    <circle cx="880" cy="258" r="10" fill="#7b3fa0"/><text x="880" y="263">6</text>
+  </g>
+
+  <text x="20" y="362" font-size="12.5" fill="#222">1 — нейтрофил выходит из осевого тока; 2 — краевое расположение у стенки; 3 — краевое стояние, прилипание к эндотелию;</text>
+  <text x="20" y="381" font-size="12.5" fill="#222">4 — межэндотелиальная эмиграция через базальную мембрану (БМ); 5 — движение к очагу (хемотаксис); 6 — фагоцитоз.</text>
+  <text x="20" y="410" font-size="12" fill="#555">Схема, не в масштабе. Сверить: Струков А.И., Серов В.В. «Патологическая анатомия», 2015, гл. 5, рис. 5-4.</text>
+</svg>
