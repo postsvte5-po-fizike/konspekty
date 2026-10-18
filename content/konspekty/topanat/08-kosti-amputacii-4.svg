@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" font-family="Georgia, 'Times New Roman', serif">
+<title>Костно-пластическая ампутация бедра по Гритти — Шимановскому — Альбрехту</title>
+<defs>
+<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<pattern id="bone" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+ <rect width="6" height="6" fill="#f4f1ea"/><line x1="0" y1="0" x2="0" y2="6" stroke="#9d9d9d" stroke-width="0.8"/></pattern>
+<pattern id="del" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+ <rect width="7" height="7" fill="#fbe9e6"/><line x1="0" y1="0" x2="0" y2="7" stroke="#d98c80" stroke-width="1.1"/></pattern>
+<pattern id="fat" width="10" height="10" patternUnits="userSpaceOnUse">
+ <rect width="10" height="10" fill="#fdf7e3"/><circle cx="3" cy="3" r="2" fill="none" stroke="#e2d3a4" stroke-width="0.6"/><circle cx="8" cy="8" r="1.6" fill="none" stroke="#e2d3a4" stroke-width="0.6"/></pattern>
+<pattern id="ten" width="6" height="6" patternUnits="userSpaceOnUse">
+ <rect width="6" height="6" fill="#eef0f2"/><line x1="3" y1="0" x2="3" y2="6" stroke="#b8bec6" stroke-width="0.8"/></pattern>
+</defs>
+<rect width="1000" height="680" fill="#ffffff"/>
+<text x="500" y="30" font-size="19" text-anchor="middle" fill="#222">Костно-пластическая ампутация бедра по Гритти — Шимановскому — Альбрехту</text>
+<text x="500" y="52" font-size="13.5" text-anchor="middle" fill="#555">сагиттальный разрез коленной области, вид сбоку; кпереди — справа</text>
+<text x="40" y="88" font-size="17" font-weight="bold" fill="#222">А</text>
+<text x="70" y="88" font-size="14" fill="#444">линии распилов и разрезов (красное — удаляется)</text>
+<text x="540" y="88" font-size="17" font-weight="bold" fill="#222">Б</text>
+<text x="570" y="88" font-size="14" fill="#444">культя: надколенник на опиле бедра</text>
+
+<g transform="translate(90,0)">
+<!-- ===== А ===== -->
+<g filter="url(#pencil)" stroke-linecap="round" stroke-linejoin="round" stroke="#3a3a3a" stroke-width="1.7">
+<path d="M140 110 L140 330 C132 370, 140 420, 160 440 L160 580 M330 110 L330 300 C338 330, 340 380, 322 420 L310 580" fill="none" stroke-width="2.2"/>
+<path d="M140 110 L330 110 L330 300 C338 330, 340 380, 322 420 L310 580 L160 580 L160 440 C140 420, 132 370, 140 330 Z" fill="url(#fat)" stroke="none"/>
+<!-- бедренная: диафиз + мыщелок -->
+<path d="M200 110 L256 110 L256 300 C268 310, 280 330, 282 352 C284 374, 270 392, 248 396 L196 396 C176 392, 166 372, 170 346 C174 326, 186 310, 200 300 Z" fill="url(#bone)"/>
+<!-- удаляемые мыщелки ниже распила -->
+<path d="M180 322 L274 322 C280 334, 283 344, 282 352 C284 374, 270 392, 248 396 L196 396 C176 392, 166 372, 170 346 C172 336, 175 328, 180 322 Z" fill="url(#del)"/>
+<!-- сухожилие четырёхглавой -->
+<path d="M262 110 L286 110 L292 298 L274 298 Z" fill="url(#ten)"/>
+<!-- надколенник: задняя (суставная) часть удаляется -->
+<path d="M284 300 C296 296, 306 304, 308 322 C310 342, 304 360, 292 366 C282 368, 278 356, 278 336 C278 318, 278 304, 284 300 Z" fill="url(#bone)"/>
+<path d="M284 300 C281 304, 278 318, 278 336 C278 356, 282 368, 290 366 L290 302 Z" fill="url(#del)"/>
+<!-- связка надколенника -->
+<path d="M286 366 L298 366 L302 438 L288 438 Z" fill="url(#ten)"/>
+<!-- большеберцовая (удаляется) -->
+<path d="M190 404 L276 404 C284 410, 292 424, 294 440 L280 450 L274 580 L206 580 L200 450 C190 440, 186 420, 190 404 Z" fill="url(#del)"/>
+</g>
+<g stroke-linecap="round" fill="none">
+<line x1="160" y1="322" x2="300" y2="322" stroke="#1f6fb2" stroke-width="2.6" stroke-dasharray="8 4"/>
+<line x1="290" y1="290" x2="290" y2="376" stroke="#1f6fb2" stroke-width="2.4" stroke-dasharray="6 4"/>
+<path d="M322 436 L340 436" stroke="#c0392b" stroke-width="3" stroke-dasharray="3 4"/>
+<path d="M148 384 L120 384" stroke="#c0392b" stroke-width="3" stroke-dasharray="3 4"/>
+</g>
+<g font-size="12.5" fill="#444">
+<line x1="160" y1="322" x2="96" y2="300" stroke="#888" stroke-width="0.9"/><text x="92" y="290" text-anchor="end">распил бедра</text><text x="92" y="305" text-anchor="end">над мыщелками</text>
+<line x1="290" y1="300" x2="370" y2="236" stroke="#888" stroke-width="0.9"/><text x="374" y="230">спил суставной</text><text x="374" y="245">поверхности</text><text x="374" y="260">надколенника</text>
+<line x1="340" y1="436" x2="370" y2="460" stroke="#888" stroke-width="0.9"/><text x="374" y="466">передний длинный</text><text x="374" y="481">лоскут — разрез ниже</text><text x="374" y="496">бугристости</text>
+<line x1="120" y1="384" x2="96" y2="410" stroke="#888" stroke-width="0.9"/><text x="92" y="420" text-anchor="end">задний</text><text x="92" y="435" text-anchor="end">короткий лоскут</text>
+<line x1="276" y1="200" x2="370" y2="180" stroke="#888" stroke-width="0.9"/><text x="374" y="184">сухожилие</text><text x="374" y="199">четырёхглавой</text>
+<line x1="228" y1="200" x2="96" y2="200" stroke="#888" stroke-width="0.9"/><text x="92" y="204" text-anchor="end">бедренная кость</text>
+<line x1="296" y1="400" x2="370" y2="380" stroke="#888" stroke-width="0.9"/><text x="374" y="384">связка надколенника</text>
+<line x1="240" y1="520" x2="96" y2="540" stroke="#888" stroke-width="0.9"/><text x="92" y="544" text-anchor="end">большеберцовая</text>
+</g>
+
+</g>
+<g transform="translate(40,0)">
+<!-- ===== Б ===== -->
+<g filter="url(#pencil)" stroke-linecap="round" stroke-linejoin="round" stroke="#3a3a3a" stroke-width="1.7">
+<path d="M600 110 L600 330 C598 380, 620 410, 660 416 C700 420, 760 400, 780 360 L790 110" fill="url(#fat)" stroke-width="2.2"/>
+<path d="M660 110 L716 110 L716 322 L660 322 Z" fill="url(#bone)"/>
+<path d="M722 110 L746 110 L744 300 C740 316, 734 324, 726 328 L718 322 Z" fill="url(#ten)"/>
+<!-- надколенник распилом к опилу -->
+<path d="M656 322 L722 322 C728 334, 724 348, 712 354 C694 362, 672 360, 662 352 C652 344, 650 332, 656 322 Z" fill="url(#bone)"/>
+<!-- связка надколенника подшита к сгибателям сзади -->
+<path d="M664 354 C650 360, 636 360, 624 350 L620 300 L632 300 L636 342 C644 348, 654 350, 664 348 Z" fill="url(#ten)"/>
+</g>
+<line x1="650" y1="322" x2="728" y2="322" stroke="#1f6fb2" stroke-width="2.4" stroke-dasharray="8 4"/>
+<g stroke="#c0392b" stroke-width="1.6"><line x1="636" y1="404" x2="652" y2="422"/><line x1="652" y1="404" x2="636" y2="422"/></g>
+<g font-size="12.5" fill="#444">
+<line x1="726" y1="322" x2="800" y2="300" stroke="#888" stroke-width="0.9"/><text x="804" y="296">надколенник</text><text x="804" y="311">распилом</text><text x="804" y="326">к опилу бедра</text>
+<line x1="626" y1="330" x2="560" y2="300" stroke="#888" stroke-width="0.9"/><text x="556" y="290" text-anchor="end">связка надколенника</text><text x="556" y="305" text-anchor="end">подшита к сухожилиям</text><text x="556" y="320" text-anchor="end">сгибателей</text>
+<line x1="644" y1="420" x2="600" y2="470" stroke="#888" stroke-width="0.9"/><text x="560" y="486">рубец — сзади, вне опорной поверхности</text>
+<line x1="740" y1="398" x2="800" y2="420" stroke="#888" stroke-width="0.9"/><text x="804" y="424">опора — на кожу</text><text x="804" y="439">передней поверхности</text><text x="804" y="454">колена</text>
+</g>
+</g>
+<text x="500" y="640" font-size="12" text-anchor="middle" fill="#666">Схема, не в масштабе. Рисовать: бедренная кость и надколенник → линии распилов (синие) → лоскуты (красные).</text>
+<text x="500" y="658" font-size="12" text-anchor="middle" fill="#666">Сверить: атлас Неттера — коленный сустав, сагиттальный срез.</text>
+</svg>
