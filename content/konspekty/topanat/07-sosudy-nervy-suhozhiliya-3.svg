@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" font-family="Georgia, 'Times New Roman', serif">
+<title>Операции при варикозном расширении вен нижней конечности</title>
+<defs>
+<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<pattern id="bone" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+ <rect width="6" height="6" fill="#f4f1ea"/><line x1="0" y1="0" x2="0" y2="6" stroke="#9d9d9d" stroke-width="0.8"/></pattern>
+<pattern id="fat" width="10" height="10" patternUnits="userSpaceOnUse">
+ <rect width="10" height="10" fill="#fdf7e3"/><circle cx="3" cy="3" r="2" fill="none" stroke="#e2d3a4" stroke-width="0.6"/><circle cx="8" cy="8" r="1.6" fill="none" stroke="#e2d3a4" stroke-width="0.6"/></pattern>
+<pattern id="mus" width="6" height="12" patternUnits="userSpaceOnUse">
+ <rect width="6" height="12" fill="#f6e1d8"/><line x1="3" y1="0" x2="3" y2="12" stroke="#d9a998" stroke-width="0.8"/></pattern>
+<pattern id="nerve" width="6" height="6" patternUnits="userSpaceOnUse">
+ <rect width="6" height="6" fill="#fbf0b8"/><circle cx="3" cy="3" r="0.8" fill="#e0c75a"/></pattern>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#555"/></marker>
+</defs>
+<rect width="900" height="720" fill="#ffffff"/>
+<text x="450.0" y="30" font-size="19" text-anchor="middle" fill="#222">Операции при варикозном расширении вен нижней конечности</text>
+<text x="450.0" y="52" font-size="13.5" text-anchor="middle" fill="#555">А — большая подкожная вена и уровни вмешательств (правая нога, вид спереди-изнутри); Б — перевязка перфорантов на срезе голени</text>
+<text x="40" y="96" font-size="17" font-weight="bold" fill="#222">А</text>
+<g filter="url(#pencil)" stroke="#3a3a3a" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M150 110 C140 200, 150 300, 170 380 C178 420, 168 460, 166 500 C162 560, 176 610, 184 640 L200 668 L290 672 C300 660, 280 650, 262 640 C258 600, 262 560, 268 500 C272 450, 262 420, 268 380 C286 300, 300 200, 300 110"/>
+<path d="M140 108 C190 125, 260 125, 310 108" stroke="#888" stroke-dasharray="6 4"/>
+</g>
+<g filter="url(#pencil)" fill="none" stroke-linecap="round">
+<path d="M196 150 C200 210, 186 280, 184 340 C182 380, 176 420, 176 460 C176 520, 186 580, 200 630" stroke="#2c5aa0" stroke-width="5"/>
+<path d="M196 150 C206 140, 218 136, 232 136" stroke="#2c5aa0" stroke-width="6"/>
+<path d="M232 128 L232 380" stroke="#2c5aa0" stroke-width="3" stroke-dasharray="4 4" opacity="0.6"/>
+</g>
+<g stroke="#c0392b" stroke-width="3"><line x1="200" y1="132" x2="216" y2="150"/><line x1="216" y1="132" x2="200" y2="150"/></g>
+<g stroke="#1e8449" stroke-width="2.4" fill="none"><path d="M170 158 L210 158"/><path d="M168 390 L200 390"/></g>
+<circle cx="203" cy="520" r="6" fill="#fff" stroke="#8e44ad" stroke-width="2"/><circle cx="210" cy="560" r="6" fill="#fff" stroke="#8e44ad" stroke-width="2"/><circle cx="217" cy="600" r="6" fill="#fff" stroke="#8e44ad" stroke-width="2"/>
+<g font-size="12.5" fill="#444">
+<text x="226" y="116" fill="#666">паховая связка</text>
+<line x1="216" y1="140" x2="330" y2="150" stroke="#888" stroke-width="0.9"/><text x="334" y="146"><tspan fill="#c0392b" font-weight="bold">×</tspan> Троянов — Тренделенбург:</text><text x="334" y="161">перевязка у бедренной вены</text>
+<line x1="236" y1="250" x2="330" y2="230" stroke="#888" stroke-width="0.9"/><text x="334" y="226">бедренная вена (глубокая)</text>
+<line x1="208" y1="158" x2="330" y2="190" stroke="#888" stroke-width="0.9"/><text x="334" y="186"><tspan fill="#1e8449" font-weight="bold">—</tspan> Бэбкок: верхний разрез</text><text x="334" y="201">под паховой связкой</text>
+<line x1="200" y1="390" x2="330" y2="390" stroke="#888" stroke-width="0.9"/><text x="334" y="394">нижний разрез Бэбкока</text><text x="334" y="409">(у колена)</text>
+<line x1="186" y1="300" x2="330" y2="300" stroke="#888" stroke-width="0.9"/><text x="334" y="304" fill="#2c5aa0">большая подкожная вена</text><text x="334" y="319" fill="#2c5aa0">(v. saphena magna)</text>
+<line x1="206" y1="560" x2="330" y2="560" stroke="#888" stroke-width="0.9"/><text x="334" y="556" fill="#8e44ad">○ перфорантные вены</text><text x="334" y="571">нижней трети голени</text>
+<line x1="200" y1="630" x2="330" y2="640" stroke="#888" stroke-width="0.9"/><text x="334" y="644">впереди медиальной лодыжки</text>
+</g>
+<text x="550" y="96" font-size="17" font-weight="bold" fill="#222">Б</text>
+<g filter="url(#pencil)" stroke="#3a3a3a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+<rect x="570" y="130" width="240" height="14" fill="#f3d7c9"/>
+<rect x="570" y="144" width="240" height="90" fill="url(#fat)"/>
+<line x1="570" y1="234" x2="810" y2="234" stroke-width="2.4" stroke-dasharray="10 3"/>
+<rect x="570" y="236" width="240" height="160" fill="url(#mus)"/>
+</g>
+<g fill="none" stroke="#2c5aa0" stroke-linecap="round">
+<ellipse cx="640" cy="180" rx="18" ry="12" fill="#c8d8f0" stroke-width="2"/>
+<ellipse cx="720" cy="340" rx="20" ry="14" fill="#c8d8f0" stroke-width="2"/>
+<path d="M652 190 C680 220, 700 280, 712 328" stroke-width="7"/>
+</g>
+<g stroke="#c0392b" stroke-width="3"><line x1="662" y1="206" x2="682" y2="200"/><line x1="690" y1="262" x2="710" y2="256"/></g>
+<g font-size="12.5" fill="#444">
+<text x="820" y="141">кожа</text><text x="820" y="190">клетчатка</text><text x="820" y="238">фасция</text><text x="820" y="320">мышцы</text>
+<line x1="640" y1="168" x2="610" y2="120" stroke="#888" stroke-width="0.9"/><text x="540" y="114">подкожная вена</text>
+<line x1="720" y1="354" x2="690" y2="420" stroke="#888" stroke-width="0.9"/><text x="630" y="436">глубокая вена</text>
+<line x1="682" y1="200" x2="560" y2="250" stroke="#888" stroke-width="0.9"/><text x="550" y="262" text-anchor="end">Коккетт —</text><text x="550" y="277" text-anchor="end">над фасцией</text><text x="550" y="292" text-anchor="end">(эпифасциально)</text>
+<line x1="700" y1="262" x2="560" y2="330" stroke="#888" stroke-width="0.9"/><text x="550" y="334" text-anchor="end">Линтон —</text><text x="550" y="349" text-anchor="end">под фасцией</text><text x="550" y="364" text-anchor="end">(субфасциально)</text>
+<text x="660" y="470">перфорант: кровь при</text><text x="660" y="485">несостоятельных клапанах</text><text x="660" y="500">идёт из глубокой вены</text><text x="660" y="515">в поверхностную</text>
+</g>
+<text x="450" y="690" font-size="12" text-anchor="middle" fill="#666">Схема, не в масштабе, по тексту и рис. 3.66–3.67 учебника Николаева. Рисовать: контур ноги → большая подкожная вена → точки операций;</text>
+<text x="450" y="708" font-size="12" text-anchor="middle" fill="#666">справа — слои среза и перфорант. Сверить: атлас Неттера — поверхностные вены нижней конечности.</text>
+</svg>

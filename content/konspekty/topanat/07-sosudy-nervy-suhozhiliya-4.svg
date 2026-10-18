@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" font-family="Georgia, 'Times New Roman', serif">
+<title>Коленный сустав: пункция, артротомия, дренирование заворотов</title>
+<defs>
+<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<pattern id="bone" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+ <rect width="6" height="6" fill="#f4f1ea"/><line x1="0" y1="0" x2="0" y2="6" stroke="#9d9d9d" stroke-width="0.8"/></pattern>
+<pattern id="fat" width="10" height="10" patternUnits="userSpaceOnUse">
+ <rect width="10" height="10" fill="#fdf7e3"/><circle cx="3" cy="3" r="2" fill="none" stroke="#e2d3a4" stroke-width="0.6"/><circle cx="8" cy="8" r="1.6" fill="none" stroke="#e2d3a4" stroke-width="0.6"/></pattern>
+<pattern id="mus" width="6" height="12" patternUnits="userSpaceOnUse">
+ <rect width="6" height="12" fill="#f6e1d8"/><line x1="3" y1="0" x2="3" y2="12" stroke="#d9a998" stroke-width="0.8"/></pattern>
+<pattern id="nerve" width="6" height="6" patternUnits="userSpaceOnUse">
+ <rect width="6" height="6" fill="#fbf0b8"/><circle cx="3" cy="3" r="0.8" fill="#e0c75a"/></pattern>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#555"/></marker>
+</defs>
+<rect width="900" height="700" fill="#ffffff"/>
+<text x="450.0" y="30" font-size="19" text-anchor="middle" fill="#222">Коленный сустав: пункция, артротомия, дренирование заворотов</text>
+<text x="450.0" y="52" font-size="13.5" text-anchor="middle" fill="#555">правое колено, вид спереди; медиально — слева</text>
+<g filter="url(#pencil)" stroke="#3a3a3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M300 90 C296 200, 290 300, 300 380 C306 440, 316 500, 320 530 M560 90 C566 200, 572 300, 560 380 C552 440, 542 500, 538 530" fill="none"/>
+<path d="M362 150 C380 130, 480 130, 498 150 L506 300 C470 316, 390 316, 354 300 Z" fill="#e3edf8" stroke="#2c5aa0" stroke-width="1.6" stroke-dasharray="6 4"/>
+<path d="M340 300 C330 340, 330 400, 350 430 C380 446, 480 446, 510 430 C530 400, 530 340, 520 300 C480 316, 380 316, 340 300 Z" fill="#e3edf8" stroke="#2c5aa0" stroke-width="1.6" stroke-dasharray="6 4"/>
+<ellipse cx="430" cy="350" rx="48" ry="58" fill="url(#bone)"/>
+<path d="M412 406 L448 406 L452 490 L408 490 Z" fill="#eef0f2"/>
+<ellipse cx="430" cy="500" rx="30" ry="14" fill="url(#bone)"/>
+<path d="M410 150 L450 150 L452 294 L408 294 Z" fill="#eef0f2" stroke-width="1.2"/>
+</g>
+<g stroke="#c0392b" stroke-width="3" fill="none" stroke-dasharray="2 5" stroke-linecap="round">
+<path d="M368 270 C352 320, 352 390, 372 450"/><path d="M492 270 C508 320, 508 390, 488 450"/>
+</g>
+<circle cx="368" cy="292" r="8" fill="#fff" stroke="#1e8449" stroke-width="2.4"/><text x="368" y="296" font-size="11" text-anchor="middle" fill="#1e8449" font-weight="bold">1</text><circle cx="492" cy="292" r="8" fill="#fff" stroke="#1e8449" stroke-width="2.4"/><text x="492" y="296" font-size="11" text-anchor="middle" fill="#1e8449" font-weight="bold">2</text><circle cx="372" cy="418" r="8" fill="#fff" stroke="#1e8449" stroke-width="2.4"/><text x="372" y="422" font-size="11" text-anchor="middle" fill="#1e8449" font-weight="bold">3</text><circle cx="488" cy="418" r="8" fill="#fff" stroke="#1e8449" stroke-width="2.4"/><text x="488" y="422" font-size="11" text-anchor="middle" fill="#1e8449" font-weight="bold">4</text>
+<g font-size="12.5" fill="#444">
+<line x1="460" y1="200" x2="610" y2="160" stroke="#888" stroke-width="0.9"/><text x="614" y="156">верхний заворот и наднадколенниковая</text><text x="614" y="171">сумка (сообщаются в 85 %)</text>
+<line x1="430" y1="230" x2="610" y2="210" stroke="#888" stroke-width="0.9"/><text x="614" y="214">сухожилие четырёхглавой мышцы</text>
+<line x1="470" y1="350" x2="610" y2="300" stroke="#888" stroke-width="0.9"/><text x="614" y="304">надколенник</text>
+<line x1="450" y1="460" x2="610" y2="470" stroke="#888" stroke-width="0.9"/><text x="614" y="474">связка надколенника</text>
+<line x1="456" y1="500" x2="610" y2="520" stroke="#888" stroke-width="0.9"/><text x="614" y="524">бугристость большеберцовой</text>
+<line x1="505" y1="380" x2="610" y2="390" stroke="#888" stroke-width="0.9"/><text x="614" y="386" fill="#c0392b">парапателлярные разрезы</text><text x="614" y="401" fill="#c0392b">(артротомия, дренирование</text><text x="614" y="416" fill="#c0392b">передних заворотов)</text>
+</g>
+<g font-size="13" fill="#222">
+<text x="40" y="560" font-weight="bold">Точки пункции (Николаев):</text>
+<text x="40" y="580"><tspan fill="#1e8449" font-weight="bold">1, 2</tspan> — верхнемедиальная и <tspan font-weight="bold">верхнелатеральная (основная)</tspan>: 1,5–2 см от угла основания надколенника;</text>
+<text x="40" y="598"><tspan fill="#1e8449" font-weight="bold">3, 4</tspan> — нижнемедиальная и нижнелатеральная: 1,5–2 см от верхушки надколенника;</text>
+<text x="40" y="616">игла — за надколенник, глубина 1,5–2,5 см.</text>
+</g>
+<text x="450.0" y="670" font-size="12" text-anchor="middle" fill="#666">Схема, не в масштабе. Голубой пунктир — полость сустава с заворотами (передние; задние на рисунке не видны).</text>
+<text x="450.0" y="688" font-size="12" text-anchor="middle" fill="#666">Рисовать: контур колена → надколенник и связка → полость с верхним заворотом → точки и разрезы. Сверить: атлас Неттера — коленный сустав.</text>
+</svg>
