@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" font-family="Georgia, 'Times New Roman', serif">
+<title>Экссудация: реакция венулы и эмиграция лейкоцитов</title>
+<defs>
+<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<filter id="soft" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="1" seed="9" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="1.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+
+</defs>
+<rect width="960" height="580" fill="#ffffff"/>
+<text x="480.0" y="30.0" font-size="19" fill="#222" text-anchor="middle" font-weight="normal" font-style="normal">Экссудация: реакция венулы и эмиграция лейкоцитов</text>
+<text x="480.0" y="52.0" font-size="13" fill="#555" text-anchor="middle" font-weight="normal" font-style="normal">продольный срез посткапиллярной венулы в очаге воспаления; ток крови — слева направо, замедлен</text>
+<g filter="url(#soft)" fill="none" stroke="#e3c9cf" stroke-width="1.3">
+<path d="M30 292 C 200 284, 360 301, 520 289 S 800 298, 930 292"/>
+<path d="M30 309 C 200 301, 360 318, 520 306 S 800 315, 930 309"/>
+<path d="M30 326 C 200 318, 360 335, 520 323 S 800 332, 930 326"/>
+<path d="M30 343 C 200 335, 360 352, 520 340 S 800 349, 930 343"/>
+<path d="M30 360 C 200 352, 360 369, 520 357 S 800 366, 930 360"/>
+<path d="M30 377 C 200 369, 360 386, 520 374 S 800 383, 930 377"/>
+<path d="M30 394 C 200 386, 360 403, 520 391 S 800 400, 930 394"/>
+</g>
+<g filter="url(#pencil)">
+<rect x="30" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="80" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="130" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="180" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="230" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="280" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="330" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="380" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="430" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="480" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="530" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="580" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="630" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="680" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="730" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="780" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="830" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="880" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="30" y="250" width="92" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="78" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="125" y="250" width="92" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="173" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="221" y="250" width="92" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="268" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="316" y="250" width="92" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="364" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="412" y="250" width="92" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="459" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="533" y="250" width="96" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="583" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="632" y="250" width="96" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="682" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="732" y="250" width="96" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="781" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
+<rect x="831" y="250" width="96" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
+<ellipse cx="880" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
+</g>
+<line x1="30" y1="74" x2="930" y2="74" stroke="#8a96a8" stroke-width="1.6" stroke-dasharray="4 3"/>
+<path d="M30 270 L 592 270 M 632 270 L 930 270" stroke="#8a96a8" stroke-width="1.6" stroke-dasharray="4 3" fill="none"/>
+<text x="934.0" y="274.0" font-size="11" fill="#666" text-anchor="start" font-weight="normal" font-style="normal">БМ</text>
+<text x="36.0" y="70.0" font-size="12" fill="#8a4a20" text-anchor="start" font-weight="normal" font-style="italic">эндотелий венулы</text>
+<g transform="translate(59.2,210.3) rotate(14)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(99.2,202.3) rotate(15)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(139.6,209.5) rotate(-20)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(176.9,118.5) rotate(20)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(222.2,211.8) rotate(23)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(262.5,207.8) rotate(6)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(305.3,112.7) rotate(-15)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(335.9,121.3) rotate(-9)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(381.5,140.2) rotate(7)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(420.0,117.5) rotate(-11)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(468.0,120.5) rotate(-9)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(495.7,156.4) rotate(3)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(533.7,122.2) rotate(-6)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(587.3,114.6) rotate(21)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(612.8,189.8) rotate(-5)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(653.2,143.3) rotate(-12)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(693.4,156.2) rotate(-4)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(746.8,137.0) rotate(-20)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(773.0,180.1) rotate(3)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(819.2,145.8) rotate(13)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(858.7,179.4) rotate(-4)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<g transform="translate(895.4,166.4) rotate(24)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<line x1="48" y1="232" x2="150" y2="232" stroke="#666" stroke-width="1.6"/><polygon points="150,227 160,232 150,237" fill="#666"/>
+<text x="48.0" y="224.0" font-size="11.5" fill="#666" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">медленный ток</text>
+<g transform="translate(230.0,170.0) rotate(0)"><circle r="13.0" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.67"/><ellipse cx="-4.8" cy="-1.9" rx="3.5" ry="2.7" fill="#5d4a8c"/><ellipse cx="0.7" cy="-5.2" rx="3.5" ry="2.7" fill="#5d4a8c"/><ellipse cx="5.2" cy="1.7" rx="3.5" ry="2.7" fill="#5d4a8c"/></g>
+<g transform="translate(330.0,232.0) rotate(0)"><circle r="13.0" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.67"/><ellipse cx="-4.8" cy="-1.9" rx="3.5" ry="2.7" fill="#5d4a8c"/><ellipse cx="0.7" cy="-5.2" rx="3.5" ry="2.7" fill="#5d4a8c"/><ellipse cx="5.2" cy="1.7" rx="3.5" ry="2.7" fill="#5d4a8c"/></g>
+<g filter="url(#soft)"><ellipse cx="420" cy="241" rx="24" ry="9" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.3"/></g>
+<ellipse cx="411" cy="242" rx="3.6" ry="2.6" fill="#5d4a8c"/>
+<ellipse cx="420" cy="239" rx="3.6" ry="2.6" fill="#5d4a8c"/>
+<ellipse cx="429" cy="242" rx="3.6" ry="2.6" fill="#5d4a8c"/>
+<path d="M520 228 C 532 228, 536 238, 530 246 L 527 262 C 534 268, 536 276, 528 280 C 518 284, 510 278, 512 270 L 512 262 L 510 246 C 504 238, 508 228, 520 228 Z" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.3"/>
+<ellipse cx="517" cy="236" rx="3.4" ry="2.5" fill="#5d4a8c"/>
+<ellipse cx="524" cy="241" rx="3.4" ry="2.5" fill="#5d4a8c"/>
+<ellipse cx="521" cy="274" rx="3.4" ry="2.5" fill="#5d4a8c"/>
+<path d="M592 266 C 600 262, 624 262, 632 268 C 640 276, 630 286, 612 287 C 596 288, 586 280, 592 266 Z" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.3"/>
+<ellipse cx="604" cy="272" rx="3.2" ry="2.4" fill="#5d4a8c"/>
+<ellipse cx="613" cy="276" rx="3.2" ry="2.4" fill="#5d4a8c"/>
+<ellipse cx="621" cy="271" rx="3.2" ry="2.4" fill="#5d4a8c"/>
+<path d="M700 352 C 700 340, 712 334, 722 338 L 754 344 L 722 352 C 716 366, 700 364, 700 352 Z" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.3"/>
+<ellipse cx="707" cy="348" rx="3" ry="2.2" fill="#5d4a8c"/>
+<ellipse cx="714" cy="355" rx="3" ry="2.2" fill="#5d4a8c"/>
+<ellipse cx="716" cy="343" rx="3" ry="2.2" fill="#5d4a8c"/>
+<path d="M760 350 L 800 360" stroke="#2e7d32" stroke-width="1.8" stroke-dasharray="5 4" fill="none"/><polygon points="798,355 808,362 797,365" fill="#2e7d32"/>
+<rect x="804" y="349" width="16" height="6" rx="3" fill="#9ccc8a" stroke="#2e7d32" stroke-width="1" transform="rotate(10 812 352)"/>
+<rect x="822" y="363" width="16" height="6" rx="3" fill="#9ccc8a" stroke="#2e7d32" stroke-width="1" transform="rotate(-20 830 366)"/>
+<rect x="808" y="375" width="16" height="6" rx="3" fill="#9ccc8a" stroke="#2e7d32" stroke-width="1" transform="rotate(35 816 378)"/>
+<rect x="834" y="345" width="16" height="6" rx="3" fill="#9ccc8a" stroke="#2e7d32" stroke-width="1" transform="rotate(60 842 348)"/>
+<rect x="840" y="379" width="16" height="6" rx="3" fill="#9ccc8a" stroke="#2e7d32" stroke-width="1" transform="rotate(0 848 382)"/>
+<g transform="translate(890.0,368.0) rotate(0)"><circle r="15.0" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.93"/><ellipse cx="-5.6" cy="-2.1" rx="4.1" ry="3.1" fill="#5d4a8c"/><ellipse cx="0.9" cy="-6.0" rx="4.1" ry="3.1" fill="#5d4a8c"/><ellipse cx="6.0" cy="1.9" rx="4.1" ry="3.1" fill="#5d4a8c"/></g>
+<circle cx="886" cy="373" r="6" fill="#fff" stroke="#2e7d32" stroke-width="0.8" stroke-dasharray="2 1.5"/>
+<rect x="881" y="371" width="10" height="4.5" rx="2.2" fill="#9ccc8a" stroke="#2e7d32" stroke-width="0.7"/>
+<path d="M250 262 C 246 290, 240 312, 232 336" fill="none" stroke="#2f5f98" stroke-width="1.8" stroke-dasharray="5 4"/>
+<polygon points="227,332 232,344 238,333" fill="#2f5f98"/>
+<path d="M280 262 C 276 290, 270 312, 262 336" fill="none" stroke="#2f5f98" stroke-width="1.8" stroke-dasharray="5 4"/>
+<polygon points="257,332 262,344 268,333" fill="#2f5f98"/>
+<text x="150.0" y="362.0" font-size="12.5" fill="#2f5f98" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">выход плазмы: вода, электролиты, белки</text>
+<text x="150.0" y="378.0" font-size="12.5" fill="#2f5f98" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">(при высокой проницаемости — и фибриноген)</text>
+<path d="M470 262 C 472 280, 474 292, 478 306" fill="none" stroke="#b03a2e" stroke-width="1.6" stroke-dasharray="4 3"/>
+<g transform="translate(482.0,316.0) rotate(60)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
+<text x="440.0" y="345.0" font-size="12.5" fill="#b03a2e" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">эритродиапедез</text>
+<text x="36.0" y="428.0" font-size="12.5" fill="#666" text-anchor="start" font-weight="normal" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">периваскулярная ткань — очаг воспаления: здесь накапливаются экссудат и воспалительный клеточный инфильтрат</text>
+<circle cx="230" cy="146" r="10" fill="#5d4a8c"/>
+<text x="230.0" y="150.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
+<circle cx="330" cy="208" r="10" fill="#5d4a8c"/>
+<text x="330.0" y="212.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">2</text>
+<circle cx="420" cy="218" r="10" fill="#5d4a8c"/>
+<text x="420.0" y="222.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">3</text>
+<circle cx="548" cy="230" r="10" fill="#5d4a8c"/>
+<text x="548.0" y="234.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">4</text>
+<circle cx="652" cy="290" r="10" fill="#5d4a8c"/>
+<text x="652.0" y="294.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">5</text>
+<circle cx="700" cy="320" r="10" fill="#5d4a8c"/>
+<text x="700.0" y="324.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">6</text>
+<circle cx="890" cy="338" r="10" fill="#5d4a8c"/>
+<text x="890.0" y="342.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">7</text>
+<text x="30.0" y="460.0" font-size="13" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">1 — нейтрофил выходит из осевого тока; 2 — краевое расположение у стенки; 3 — краевое стояние: прилипание к эндотелию;</text>
+<text x="30.0" y="481.0" font-size="13" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">4 — межэндотелиальная эмиграция: псевдоподии проникают между эндотелиоцитами; 5 — прохождение базальной мембраны</text>
+<text x="30.0" y="502.0" font-size="13" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">(тиксотропия: гель мембраны переходит в золь); 6 — движение к очагу по хемотаксическим медиаторам; 7 — фагоцитоз.</text>
+<text x="30.0" y="523.0" font-size="13" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">Лейкодиапедез — выход лейкоцитов, эритродиапедез — выход эритроцитов. Эмиграция идёт главным образом в посткапиллярах и венулах.</text>
+<text x="30.0" y="560.0" font-size="12" fill="#666" text-anchor="start" font-weight="normal" font-style="normal">Схема, не в масштабе, для перерисовки. Сверить: Струков А.И., Серов В.В., 2015, гл. 5, рис. 5-4.</text>
+</svg>

@@ -1,0 +1,326 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 676" font-family="Georgia, 'Times New Roman', serif">
+<title>Крупозное и дифтеритическое воспаление</title>
+<defs>
+<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<filter id="soft" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="1" seed="9" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="1.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+
+</defs>
+<rect width="960" height="676" fill="#ffffff"/>
+<text x="480.0" y="30.0" font-size="19" fill="#222" text-anchor="middle" font-weight="normal" font-style="normal">Фибринозное воспаление: крупозное и дифтеритическое</text>
+<text x="480.0" y="52.0" font-size="13" fill="#555" text-anchor="middle" font-weight="normal" font-style="normal">срез слизистой оболочки; вариант зависит от глубины некроза и от вида эпителия</text>
+<text x="245.0" y="92.0" font-size="15.5" fill="#222" text-anchor="middle" font-weight="bold" font-style="normal">Крупозное — трахея, бронхи</text>
+<text x="245.0" y="110.0" font-size="12.5" fill="#555" text-anchor="middle" font-weight="normal" font-style="normal">однослойный призматический эпителий</text>
+<g transform="translate(0,36)">
+<text x="40.0" y="140.0" font-size="12" fill="#888" text-anchor="start" font-weight="normal" font-style="italic">просвет</text>
+<g filter="url(#soft)">
+<rect x="40" y="150" width="320" height="26" fill="#f0b3c3" opacity="0.55"/>
+<path d="M40 153.2 Q 56.1 153.7, 72.3 152.7 Q 91.7 154.5, 111.2 151.5 Q 125.3 156.6, 139.4 152.3 Q 155.5 158.2, 171.6 153.1 Q 193.1 153.0, 214.7 153.8 Q 230.0 154.6, 245.4 154.7 Q 264.1 155.7, 282.8 153.9 Q 297.4 155.8, 311.9 153.6 Q 328.7 148.6, 345.4 154.7 Q 352.7 155.4, 360.0 154.8" fill="none" stroke="#cc5f7f" stroke-width="1.3"/>
+<path d="M40 159.8 Q 60.4 164.0, 80.9 159.3 Q 102.1 159.2, 123.3 161.5 Q 145.2 155.7, 167.1 158.3 Q 183.0 164.4, 199.0 159.5 Q 218.6 157.8, 238.3 159.8 Q 255.7 158.3, 273.2 160.1 Q 292.5 163.8, 311.7 160.5 Q 334.1 163.3, 356.5 161.7 Q 358.2 156.4, 360.0 161.2" fill="none" stroke="#cc5f7f" stroke-width="1.3"/>
+<path d="M40 166.2 Q 62.7 170.3, 85.4 166.5 Q 105.8 163.4, 126.2 167.6 Q 145.4 164.1, 164.5 164.5 Q 186.2 171.1, 207.9 164.6 Q 229.1 165.4, 250.3 164.9 Q 267.0 168.9, 283.6 167.7 Q 298.0 167.4, 312.4 164.4 Q 332.9 164.6, 353.3 167.8 Q 356.7 166.3, 360.0 168.2" fill="none" stroke="#cc5f7f" stroke-width="1.3"/>
+<path d="M40 172.8 Q 56.8 168.5, 73.6 173.1 Q 87.9 169.7, 102.1 172.4 Q 121.6 169.3, 141.1 170.9 Q 162.9 170.9, 184.7 174.6 Q 206.8 171.5, 228.9 172.6 Q 247.6 174.2, 266.2 173.1 Q 285.3 174.0, 304.3 174.5 Q 322.9 172.1, 341.4 173.6 Q 350.7 170.8, 360.0 174.7" fill="none" stroke="#cc5f7f" stroke-width="1.3"/>
+<path d="M360 150 C 380 146, 400 132, 418 118 L 424 128 C 406 142, 386 160, 360 176 Z" fill="#f0b3c3" stroke="#cc5f7f" stroke-width="1.2" opacity="0.9"/>
+</g>
+<circle cx="147.1" cy="157.6" r="2.4" fill="#5d4a8c"/>
+<circle cx="245.3" cy="156.2" r="2.4" fill="#5d4a8c"/>
+<circle cx="210.8" cy="161.2" r="2.4" fill="#5d4a8c"/>
+<circle cx="67.4" cy="163.6" r="2.4" fill="#5d4a8c"/>
+<circle cx="61.2" cy="162.4" r="2.4" fill="#5d4a8c"/>
+<circle cx="71.0" cy="156.5" r="2.4" fill="#5d4a8c"/>
+<circle cx="177.4" cy="169.1" r="2.4" fill="#5d4a8c"/>
+<circle cx="87.1" cy="158.8" r="2.4" fill="#5d4a8c"/>
+<circle cx="238.2" cy="171.1" r="2.4" fill="#5d4a8c"/>
+<circle cx="223.1" cy="161.7" r="2.4" fill="#5d4a8c"/>
+<g filter="url(#pencil)">
+<rect x="40" y="182" width="15" height="44" fill="#f4d2db" stroke="#b9798b" stroke-width="1"/>
+<ellipse cx="47.5" cy="216" rx="4" ry="5.5" fill="#5d4a8c"/>
+<line x1="43.0" y1="182" x2="43.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="47.5" y1="182" x2="47.5" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="52.0" y1="182" x2="52.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<rect x="56" y="182" width="15" height="44" fill="#f4d2db" stroke="#b9798b" stroke-width="1"/>
+<ellipse cx="63.5" cy="216" rx="4" ry="5.5" fill="#5d4a8c"/>
+<line x1="59.0" y1="182" x2="59.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="63.5" y1="182" x2="63.5" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="68.0" y1="182" x2="68.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<rect x="72" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="88" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="104" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="120" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="136" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="152" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="168" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="184" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="200" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="216" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="232" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="248" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="264" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="280" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="296" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="312" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="328" y="182" width="15" height="44" fill="#f7ecee" stroke="#b9798b" stroke-width="1" stroke-dasharray="3 2"/>
+<rect x="344" y="182" width="15" height="44" fill="#f4d2db" stroke="#b9798b" stroke-width="1"/>
+<ellipse cx="351.5" cy="216" rx="4" ry="5.5" fill="#5d4a8c"/>
+<line x1="347.0" y1="182" x2="347.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="351.5" y1="182" x2="351.5" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="356.0" y1="182" x2="356.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<rect x="360" y="182" width="15" height="44" fill="#f4d2db" stroke="#b9798b" stroke-width="1"/>
+<ellipse cx="367.5" cy="216" rx="4" ry="5.5" fill="#5d4a8c"/>
+<line x1="363.0" y1="182" x2="363.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="367.5" y1="182" x2="367.5" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="372.0" y1="182" x2="372.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<rect x="376" y="182" width="15" height="44" fill="#f4d2db" stroke="#b9798b" stroke-width="1"/>
+<ellipse cx="383.5" cy="216" rx="4" ry="5.5" fill="#5d4a8c"/>
+<line x1="379.0" y1="182" x2="379.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="383.5" y1="182" x2="383.5" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="388.0" y1="182" x2="388.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<rect x="392" y="182" width="15" height="44" fill="#f4d2db" stroke="#b9798b" stroke-width="1"/>
+<ellipse cx="399.5" cy="216" rx="4" ry="5.5" fill="#5d4a8c"/>
+<line x1="395.0" y1="182" x2="395.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="399.5" y1="182" x2="399.5" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="404.0" y1="182" x2="404.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<rect x="408" y="182" width="15" height="44" fill="#f4d2db" stroke="#b9798b" stroke-width="1"/>
+<ellipse cx="415.5" cy="216" rx="4" ry="5.5" fill="#5d4a8c"/>
+<line x1="411.0" y1="182" x2="411.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="415.5" y1="182" x2="415.5" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="420.0" y1="182" x2="420.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<rect x="424" y="182" width="15" height="44" fill="#f4d2db" stroke="#b9798b" stroke-width="1"/>
+<ellipse cx="431.5" cy="216" rx="4" ry="5.5" fill="#5d4a8c"/>
+<line x1="427.0" y1="182" x2="427.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="431.5" y1="182" x2="431.5" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="436.0" y1="182" x2="436.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<rect x="440" y="182" width="15" height="44" fill="#f4d2db" stroke="#b9798b" stroke-width="1"/>
+<ellipse cx="447.5" cy="216" rx="4" ry="5.5" fill="#5d4a8c"/>
+<line x1="443.0" y1="182" x2="443.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="447.5" y1="182" x2="447.5" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+<line x1="452.0" y1="182" x2="452.0" y2="176" stroke="#b9798b" stroke-width="0.8"/>
+</g>
+<line x1="40" y1="229" x2="450" y2="229" stroke="#8a96a8" stroke-width="1.6" stroke-dasharray="4 3"/>
+<g filter="url(#soft)" fill="none" stroke="#e1c3cb" stroke-width="1.2">
+<path d="M40 245 C 160 238, 300 253, 450 243"/>
+<path d="M40 261 C 160 254, 300 269, 450 259"/>
+<path d="M40 277 C 160 270, 300 285, 450 275"/>
+<path d="M40 293 C 160 286, 300 301, 450 291"/>
+<path d="M40 309 C 160 302, 300 317, 450 307"/>
+<path d="M40 325 C 160 318, 300 333, 450 323"/>
+</g>
+<ellipse cx="210" cy="292" rx="46" ry="15" fill="#fff" stroke="#b45a5a" stroke-width="1.3"/>
+<g transform="translate(182.0,289.0) rotate(-20)"><ellipse rx="6.5" ry="3.2" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="2.7" ry="1.2" fill="#f8cccc"/></g>
+<g transform="translate(196.0,295.0) rotate(0)"><ellipse rx="6.5" ry="3.2" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="2.7" ry="1.2" fill="#f8cccc"/></g>
+<g transform="translate(210.0,289.0) rotate(20)"><ellipse rx="6.5" ry="3.2" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="2.7" ry="1.2" fill="#f8cccc"/></g>
+<g transform="translate(224.0,295.0) rotate(-20)"><ellipse rx="6.5" ry="3.2" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="2.7" ry="1.2" fill="#f8cccc"/></g>
+<g transform="translate(238.0,289.0) rotate(0)"><ellipse rx="6.5" ry="3.2" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="2.7" ry="1.2" fill="#f8cccc"/></g>
+<circle cx="430.7" cy="244.7" r="2.4" fill="#5d4a8c"/>
+<circle cx="384.8" cy="269.0" r="2.4" fill="#5d4a8c"/>
+<circle cx="106.3" cy="251.8" r="2.4" fill="#5d4a8c"/>
+<circle cx="170.3" cy="321.6" r="2.4" fill="#5d4a8c"/>
+<circle cx="120.5" cy="298.2" r="2.4" fill="#5d4a8c"/>
+<circle cx="299.2" cy="277.2" r="2.4" fill="#5d4a8c"/>
+<circle cx="263.6" cy="246.3" r="2.4" fill="#5d4a8c"/>
+<circle cx="73.2" cy="260.6" r="2.4" fill="#5d4a8c"/>
+<circle cx="315.4" cy="282.8" r="2.4" fill="#5d4a8c"/>
+<circle cx="172.5" cy="298.6" r="2.4" fill="#5d4a8c"/>
+<circle cx="226.7" cy="270.0" r="2.4" fill="#5d4a8c"/>
+<circle cx="359.8" cy="309.9" r="2.4" fill="#5d4a8c"/>
+<circle cx="145.2" cy="297.4" r="2.4" fill="#5d4a8c"/>
+<circle cx="254.8" cy="327.5" r="2.4" fill="#5d4a8c"/>
+<line x1="150.0" y1="160.0" x2="150.0" y2="131.0" stroke="#333" stroke-width="1.2"/><circle cx="150.0" cy="160.0" r="2.2" fill="#333"/><text x="0.0" y="0.0" font-size="15" fill="#222" text-anchor="start" font-weight="bold" font-style="normal"></text>
+<text x="110.0" y="126.0" font-size="12.5" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">плёнка фибрина: тонкая, рыхло связана</text>
+<text x="448.0" y="98.0" font-size="12" fill="#2e7d32" text-anchor="end" font-weight="normal" font-style="normal">снимается легко</text>
+<path d="M428 122 L 440 108" stroke="#2e7d32" stroke-width="1.6"/><polygon points="434,107 446,102 442,114" fill="#2e7d32"/>
+<line x1="110.0" y1="204.0" x2="60.0" y2="360.0" stroke="#333" stroke-width="1.2"/><circle cx="110.0" cy="204.0" r="2.2" fill="#333"/><text x="0.0" y="0.0" font-size="15" fill="#222" text-anchor="start" font-weight="bold" font-style="normal"></text>
+<text x="40.0" y="376.0" font-size="12.5" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">некроз неглубокий: погиб только эпителий</text>
+<text x="40.0" y="393.0" font-size="12" fill="#888" text-anchor="start" font-weight="normal" font-style="normal">(клетки без ядер, пунктир)</text>
+<text x="446.0" y="260.0" font-size="12" fill="#888" text-anchor="end" font-weight="normal" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">собственная</text>
+<text x="446.0" y="275.0" font-size="12" fill="#888" text-anchor="end" font-weight="normal" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">пластинка: полнокровие,</text>
+<text x="446.0" y="290.0" font-size="12" fill="#888" text-anchor="end" font-weight="normal" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">отёк, лейкоциты</text>
+<text x="40.0" y="426.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold" font-style="normal">Итог: при снятии плёнки остаётся поверхностный</text>
+<text x="40.0" y="444.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold" font-style="normal">дефект; исход — полное восстановление.</text>
+<text x="40.0" y="466.0" font-size="12.5" fill="#444" text-anchor="start" font-weight="normal" font-style="normal">Примеры: крупозный трахеит («истинный круп») при</text>
+<text x="40.0" y="482.0" font-size="12.5" fill="#444" text-anchor="start" font-weight="normal" font-style="normal">дифтерии, крупозная пневмония, фибринозный перикардит.</text>
+</g>
+<text x="715.0" y="92.0" font-size="15.5" fill="#222" text-anchor="middle" font-weight="bold" font-style="normal">Дифтеритическое — зев, миндалины</text>
+<text x="715.0" y="110.0" font-size="12.5" fill="#555" text-anchor="middle" font-weight="normal" font-style="normal">многослойный плоский эпителий</text>
+<g transform="translate(0,36)">
+<text x="510.0" y="140.0" font-size="12" fill="#888" text-anchor="start" font-weight="normal" font-style="italic">просвет</text>
+<g filter="url(#pencil)">
+<rect x="510" y="150" width="22" height="12" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="521.0" cy="156.0" rx="3.1" ry="1.5" fill="#5d4a8c"/>
+<rect x="533" y="150" width="22" height="12" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="544.0" cy="156.0" rx="3.1" ry="1.5" fill="#5d4a8c"/>
+<rect x="556" y="150" width="22" height="12" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="567.0" cy="156.0" rx="3.1" ry="1.5" fill="#5d4a8c"/>
+<rect x="510" y="162" width="20" height="13" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="520.0" cy="168.5" rx="2.9" ry="1.6" fill="#5d4a8c"/>
+<rect x="531" y="162" width="20" height="13" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="541.0" cy="168.5" rx="2.9" ry="1.6" fill="#5d4a8c"/>
+<rect x="552" y="162" width="20" height="13" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="562.0" cy="168.5" rx="2.9" ry="1.6" fill="#5d4a8c"/>
+<rect x="510" y="175" width="18" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="519.0" cy="182.0" rx="2.6" ry="1.8" fill="#5d4a8c"/>
+<rect x="529" y="175" width="18" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="538.0" cy="182.0" rx="2.6" ry="1.8" fill="#5d4a8c"/>
+<rect x="548" y="175" width="18" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="557.0" cy="182.0" rx="2.6" ry="1.8" fill="#5d4a8c"/>
+<rect x="510" y="189" width="16" height="15" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="518.0" cy="196.5" rx="2.3" ry="1.9" fill="#5d4a8c"/>
+<rect x="527" y="189" width="16" height="15" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="535.0" cy="196.5" rx="2.3" ry="1.9" fill="#5d4a8c"/>
+<rect x="544" y="189" width="16" height="15" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="552.0" cy="196.5" rx="2.3" ry="1.9" fill="#5d4a8c"/>
+<rect x="561" y="189" width="16" height="15" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="569.0" cy="196.5" rx="2.3" ry="1.9" fill="#5d4a8c"/>
+<rect x="510" y="204" width="14" height="16" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="517.0" cy="212.0" rx="2.0" ry="2.0" fill="#5d4a8c"/>
+<rect x="525" y="204" width="14" height="16" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="532.0" cy="212.0" rx="2.0" ry="2.0" fill="#5d4a8c"/>
+<rect x="540" y="204" width="14" height="16" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="547.0" cy="212.0" rx="2.0" ry="2.0" fill="#5d4a8c"/>
+<rect x="555" y="204" width="14" height="16" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="562.0" cy="212.0" rx="2.0" ry="2.0" fill="#5d4a8c"/>
+<rect x="510" y="220" width="12" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="516.0" cy="227.0" rx="1.7" ry="1.8" fill="#5d4a8c"/>
+<rect x="523" y="220" width="12" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="529.0" cy="227.0" rx="1.7" ry="1.8" fill="#5d4a8c"/>
+<rect x="536" y="220" width="12" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="542.0" cy="227.0" rx="1.7" ry="1.8" fill="#5d4a8c"/>
+<rect x="549" y="220" width="12" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="555.0" cy="227.0" rx="1.7" ry="1.8" fill="#5d4a8c"/>
+<rect x="562" y="220" width="12" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="568.0" cy="227.0" rx="1.7" ry="1.8" fill="#5d4a8c"/>
+<rect x="860" y="150" width="22" height="12" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="871.0" cy="156.0" rx="3.1" ry="1.5" fill="#5d4a8c"/>
+<rect x="883" y="150" width="22" height="12" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="894.0" cy="156.0" rx="3.1" ry="1.5" fill="#5d4a8c"/>
+<rect x="860" y="162" width="20" height="13" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="870.0" cy="168.5" rx="2.9" ry="1.6" fill="#5d4a8c"/>
+<rect x="881" y="162" width="20" height="13" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="891.0" cy="168.5" rx="2.9" ry="1.6" fill="#5d4a8c"/>
+<rect x="860" y="175" width="18" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="869.0" cy="182.0" rx="2.6" ry="1.8" fill="#5d4a8c"/>
+<rect x="879" y="175" width="18" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="888.0" cy="182.0" rx="2.6" ry="1.8" fill="#5d4a8c"/>
+<rect x="898" y="175" width="18" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="907.0" cy="182.0" rx="2.6" ry="1.8" fill="#5d4a8c"/>
+<rect x="860" y="189" width="16" height="15" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="868.0" cy="196.5" rx="2.3" ry="1.9" fill="#5d4a8c"/>
+<rect x="877" y="189" width="16" height="15" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="885.0" cy="196.5" rx="2.3" ry="1.9" fill="#5d4a8c"/>
+<rect x="894" y="189" width="16" height="15" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="902.0" cy="196.5" rx="2.3" ry="1.9" fill="#5d4a8c"/>
+<rect x="860" y="204" width="14" height="16" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="867.0" cy="212.0" rx="2.0" ry="2.0" fill="#5d4a8c"/>
+<rect x="875" y="204" width="14" height="16" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="882.0" cy="212.0" rx="2.0" ry="2.0" fill="#5d4a8c"/>
+<rect x="890" y="204" width="14" height="16" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="897.0" cy="212.0" rx="2.0" ry="2.0" fill="#5d4a8c"/>
+<rect x="905" y="204" width="14" height="16" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="912.0" cy="212.0" rx="2.0" ry="2.0" fill="#5d4a8c"/>
+<rect x="860" y="220" width="12" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="866.0" cy="227.0" rx="1.7" ry="1.8" fill="#5d4a8c"/>
+<rect x="873" y="220" width="12" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="879.0" cy="227.0" rx="1.7" ry="1.8" fill="#5d4a8c"/>
+<rect x="886" y="220" width="12" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="892.0" cy="227.0" rx="1.7" ry="1.8" fill="#5d4a8c"/>
+<rect x="899" y="220" width="12" height="14" fill="#f4d2db" stroke="#b9798b" stroke-width="0.9" rx="2"/>
+<ellipse cx="905.0" cy="227.0" rx="1.7" ry="1.8" fill="#5d4a8c"/>
+</g>
+<g filter="url(#soft)">
+<path d="M580 150 L 580 136 C 650 126, 790 126, 860 136 L 860 150 L 860 236 C 820 262, 760 288, 720 290 C 680 288, 620 262, 580 236 Z" fill="#f7e3e8" stroke="#cc5f7f" stroke-width="1.3"/>
+<path d="M580 132 Q 596.0 134.4, 612.0 133.2 Q 630.5 134.4, 649.0 133.7 Q 660.3 131.7, 671.5 133.8 Q 687.7 136.0, 703.9 130.5 Q 718.6 129.5, 733.4 132.2 Q 749.0 127.1, 764.6 130.9 Q 777.8 136.2, 791.1 133.1 Q 803.3 135.0, 815.6 130.6 Q 831.5 128.3, 847.5 130.0 Q 853.7 129.1, 860.0 130.9" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M580 142 Q 598.9 145.7, 617.7 141.2 Q 636.4 142.4, 655.1 142.7 Q 667.7 146.4, 680.4 142.8 Q 699.1 145.9, 717.8 141.2 Q 731.7 138.7, 745.6 140.6 Q 757.1 140.0, 768.7 142.4 Q 779.7 143.8, 790.7 141.4 Q 804.2 145.2, 817.7 141.9 Q 831.2 141.8, 844.7 142.8 Q 852.4 146.8, 860.0 140.1" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M580 152 Q 597.0 155.4, 614.0 150.1 Q 631.3 150.7, 648.6 152.3 Q 659.7 147.5, 670.7 150.7 Q 689.4 149.0, 708.0 153.0 Q 726.5 156.4, 744.9 151.4 Q 758.7 152.2, 772.6 153.1 Q 784.4 154.5, 796.3 153.2 Q 814.2 147.4, 832.1 153.8 Q 843.8 150.4, 855.5 152.4 Q 857.8 150.4, 860.0 153.7" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M580 162 Q 595.4 160.1, 610.7 161.3 Q 623.1 157.8, 635.6 160.6 Q 652.1 167.0, 668.6 160.6 Q 680.0 166.9, 691.4 162.1 Q 705.6 159.4, 719.9 162.4 Q 737.5 161.6, 755.1 161.7 Q 766.5 166.2, 778.0 160.1 Q 792.9 165.4, 807.9 160.5 Q 824.7 166.5, 841.6 162.5 Q 850.8 158.1, 860.0 161.7" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M580 172 Q 592.2 175.4, 604.4 171.2 Q 619.0 177.0, 633.6 173.4 Q 652.4 171.5, 671.3 172.0 Q 688.1 171.8, 704.9 171.2 Q 719.2 168.5, 733.4 171.5 Q 752.3 176.6, 771.2 172.5 Q 786.2 170.4, 801.2 170.4 Q 814.4 174.8, 827.5 173.5 Q 841.4 174.9, 855.3 173.1 Q 857.7 173.6, 860.0 173.0" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M580 182 Q 593.9 184.0, 607.8 181.1 Q 622.7 184.7, 637.6 182.8 Q 650.9 186.5, 664.3 182.6 Q 679.9 177.1, 695.6 182.2 Q 708.6 183.7, 721.6 181.9 Q 739.1 183.5, 756.7 183.2 Q 770.4 183.4, 784.2 183.0 Q 801.8 180.5, 819.5 183.4 Q 837.4 183.9, 855.4 183.9 Q 857.7 182.2, 860.0 182.1" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M580 192 Q 592.3 195.4, 604.7 193.7 Q 619.5 193.9, 634.3 192.9 Q 651.1 188.7, 668.0 193.1 Q 683.6 193.7, 699.3 191.7 Q 715.3 194.7, 731.3 192.5 Q 748.0 187.3, 764.8 190.6 Q 779.3 193.5, 793.8 190.9 Q 810.3 193.3, 826.8 190.2 Q 841.6 189.3, 856.4 190.2 Q 858.2 190.2, 860.0 190.7" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M580 202 Q 592.5 197.4, 605.1 201.9 Q 619.1 203.1, 633.2 202.4 Q 646.1 206.0, 659.0 200.0 Q 673.2 199.8, 687.5 201.6 Q 699.4 205.3, 711.3 201.5 Q 722.6 203.1, 733.9 200.4 Q 749.3 200.4, 764.6 202.3 Q 783.3 205.2, 801.9 201.7 Q 819.4 203.4, 837.0 201.5 Q 848.5 203.0, 860.0 202.3" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M580 212 Q 598.7 216.7, 617.3 212.4 Q 631.1 215.9, 644.9 210.0 Q 656.8 212.7, 668.7 212.5 Q 680.8 213.3, 692.9 213.6 Q 706.9 211.3, 720.9 210.9 Q 734.3 216.7, 747.6 211.5 Q 766.3 216.1, 785.0 212.4 Q 798.0 216.8, 811.1 212.0 Q 825.4 210.2, 839.8 213.9 Q 849.9 209.9, 860.0 211.9" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M580 222 Q 592.0 223.2, 604.0 221.8 Q 617.3 224.8, 630.6 223.3 Q 641.7 222.3, 652.9 221.1 Q 671.3 224.8, 689.8 221.0 Q 703.0 218.5, 716.1 224.0 Q 729.4 223.1, 742.8 221.9 Q 758.9 223.0, 775.1 223.0 Q 787.1 224.6, 799.0 221.2 Q 814.3 220.4, 829.5 221.2 Q 844.8 221.6, 860.0 221.4" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M580 232 Q 597.0 232.9, 613.9 230.1 Q 626.9 231.6, 640.0 233.7 Q 658.1 232.5, 676.2 230.1 Q 693.4 231.3, 710.6 232.3 Q 727.3 233.3, 744.0 231.9 Q 762.2 230.9, 780.5 231.6 Q 798.4 229.0, 816.2 231.2 Q 833.8 227.7, 851.4 233.3 Q 855.7 231.3, 860.0 231.1" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M596 242 Q 612.8 246.1, 630.1 240.6 Q 644.9 242.5, 659.7 242.0 Q 673.4 238.5, 687.0 242.3 Q 704.5 237.7, 722.0 240.9 Q 739.6 244.9, 757.1 242.7 Q 768.3 244.2, 779.5 243.9 Q 798.5 244.0, 817.5 240.2 Q 831.0 239.2, 844.4 242.6" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M622 252 Q 640.2 254.1, 658.8 250.5 Q 672.2 256.2, 685.5 250.6 Q 701.4 251.1, 717.3 250.6 Q 733.3 247.4, 749.2 250.4 Q 763.3 247.7, 777.3 250.2 Q 792.9 254.4, 808.5 253.5 Q 813.5 251.3, 818.4 251.3" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M648 262 Q 663.4 261.9, 679.2 263.8 Q 693.2 257.6, 707.2 262.8 Q 719.4 263.3, 731.6 262.0 Q 749.9 262.5, 768.2 262.5 Q 780.3 262.5, 792.4 261.0" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M674 272 Q 690.6 272.2, 707.6 270.5 Q 720.5 270.7, 733.4 272.9 Q 745.8 274.1, 758.2 272.6 Q 762.3 273.7, 766.4 270.4" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+<path d="M700 282 Q 711.6 282.9, 723.6 281.0 Q 732.0 281.8, 740.4 281.3" fill="none" stroke="#cc5f7f" stroke-width="1.2"/>
+</g>
+<circle cx="664.9" cy="234.8" r="2.4" fill="#5d4a8c"/>
+<circle cx="683.1" cy="267.4" r="2.4" fill="#5d4a8c"/>
+<circle cx="786.9" cy="194.4" r="2.4" fill="#5d4a8c"/>
+<circle cx="717.1" cy="159.8" r="2.4" fill="#5d4a8c"/>
+<circle cx="763.7" cy="145.1" r="2.4" fill="#5d4a8c"/>
+<circle cx="737.7" cy="239.4" r="2.4" fill="#5d4a8c"/>
+<circle cx="688.8" cy="253.8" r="2.4" fill="#5d4a8c"/>
+<circle cx="744.5" cy="230.4" r="2.4" fill="#5d4a8c"/>
+<circle cx="708.6" cy="215.4" r="2.4" fill="#5d4a8c"/>
+<circle cx="805.1" cy="249.2" r="2.4" fill="#5d4a8c"/>
+<circle cx="762.7" cy="201.6" r="2.4" fill="#5d4a8c"/>
+<circle cx="772.4" cy="147.9" r="2.4" fill="#5d4a8c"/>
+<circle cx="848.2" cy="224.1" r="2.4" fill="#5d4a8c"/>
+<circle cx="676.1" cy="246.9" r="2.4" fill="#5d4a8c"/>
+<circle cx="763.8" cy="190.2" r="2.4" fill="#5d4a8c"/>
+<circle cx="710.0" cy="142.9" r="2.4" fill="#5d4a8c"/>
+<circle cx="620.4" cy="161.8" r="2.4" fill="#5d4a8c"/>
+<circle cx="789.7" cy="147.7" r="2.4" fill="#5d4a8c"/>
+<circle cx="654.4" cy="156.8" r="2.4" fill="#5d4a8c"/>
+<circle cx="816.6" cy="190.8" r="2.4" fill="#5d4a8c"/>
+<circle cx="706.8" cy="150.5" r="2.4" fill="#5d4a8c"/>
+<circle cx="819.7" cy="211.4" r="2.4" fill="#5d4a8c"/>
+<circle cx="794.8" cy="246.5" r="2.4" fill="#5d4a8c"/>
+<circle cx="698.0" cy="176.2" r="2.4" fill="#5d4a8c"/>
+<circle cx="819.9" cy="186.6" r="2.4" fill="#5d4a8c"/>
+<circle cx="681.0" cy="264.5" r="2.4" fill="#5d4a8c"/>
+<path d="M510 236 L 580 236 M 860 236 L 920 236" stroke="#8a96a8" stroke-width="1.6" stroke-dasharray="4 3"/>
+<g filter="url(#soft)" fill="none" stroke="#e1c3cb" stroke-width="1.2">
+<path d="M510 300 C 630 293, 770 308, 920 298"/>
+<path d="M510 315 C 630 308, 770 323, 920 313"/>
+<path d="M510 330 C 630 323, 770 338, 920 328"/>
+<path d="M510 345 C 630 338, 770 353, 920 343"/>
+<path d="M510 360 C 630 353, 770 368, 920 358"/>
+</g>
+<circle cx="588.7" cy="273.2" r="2.4" fill="#5d4a8c"/>
+<circle cx="611.0" cy="298.5" r="2.4" fill="#5d4a8c"/>
+<circle cx="749.8" cy="276.3" r="2.4" fill="#5d4a8c"/>
+<circle cx="521.6" cy="291.9" r="2.4" fill="#5d4a8c"/>
+<circle cx="664.0" cy="306.6" r="2.4" fill="#5d4a8c"/>
+<circle cx="891.7" cy="319.0" r="2.4" fill="#5d4a8c"/>
+<circle cx="721.0" cy="311.8" r="2.4" fill="#5d4a8c"/>
+<circle cx="783.7" cy="255.4" r="2.4" fill="#5d4a8c"/>
+<circle cx="870.8" cy="328.0" r="2.4" fill="#5d4a8c"/>
+<circle cx="861.1" cy="329.8" r="2.4" fill="#5d4a8c"/>
+<circle cx="673.0" cy="289.9" r="2.4" fill="#5d4a8c"/>
+<circle cx="560.4" cy="313.4" r="2.4" fill="#5d4a8c"/>
+<circle cx="544.3" cy="256.7" r="2.4" fill="#5d4a8c"/>
+<circle cx="601.4" cy="266.2" r="2.4" fill="#5d4a8c"/>
+<circle cx="652.6" cy="255.3" r="2.4" fill="#5d4a8c"/>
+<circle cx="520.1" cy="265.1" r="2.4" fill="#5d4a8c"/>
+<circle cx="559.6" cy="286.4" r="2.4" fill="#5d4a8c"/>
+<circle cx="529.9" cy="337.4" r="2.4" fill="#5d4a8c"/>
+<circle cx="759.5" cy="264.9" r="2.4" fill="#5d4a8c"/>
+<circle cx="618.4" cy="284.7" r="2.4" fill="#5d4a8c"/>
+<circle cx="662.0" cy="262.3" r="2.4" fill="#5d4a8c"/>
+<circle cx="851.1" cy="349.3" r="2.4" fill="#5d4a8c"/>
+<line x1="720.0" y1="160.0" x2="720.0" y2="124.0" stroke="#333" stroke-width="1.2"/><circle cx="720.0" cy="160.0" r="2.2" fill="#333"/><text x="0.0" y="0.0" font-size="15" fill="#222" text-anchor="start" font-weight="bold" font-style="normal"></text>
+<text x="720.0" y="118.0" font-size="12.5" fill="#222" text-anchor="middle" font-weight="normal" font-style="normal">плёнка толстая, спаяна с подлежащей тканью</text>
+<text x="918.0" y="98.0" font-size="12" fill="#b03a2e" text-anchor="end" font-weight="normal" font-style="normal">не отделяется</text>
+<path d="M792 102 L 806 88 M 792 88 L 806 102" stroke="#b03a2e" stroke-width="2"/>
+<line x1="760.0" y1="270.0" x2="800.0" y2="372.0" stroke="#333" stroke-width="1.2"/><circle cx="760.0" cy="270.0" r="2.2" fill="#333"/><text x="0.0" y="0.0" font-size="15" fill="#222" text-anchor="start" font-weight="bold" font-style="normal"></text>
+<text x="510.0" y="388.0" font-size="12.5" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">глубокий некроз: эпителий и часть стромы</text>
+<text x="510.0" y="404.0" font-size="12" fill="#888" text-anchor="start" font-weight="normal" font-style="normal">пропитаны нитями фибрина</text>
+<text x="510.0" y="426.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold" font-style="normal">Итог: при отторжении — глубокий дефект</text>
+<text x="510.0" y="444.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold" font-style="normal">(язва) → заживает рубцом.</text>
+<text x="510.0" y="466.0" font-size="12.5" fill="#444" text-anchor="start" font-weight="normal" font-style="normal">Примеры: дифтерия зева (дифтеритическая ангина),</text>
+<text x="510.0" y="482.0" font-size="12.5" fill="#444" text-anchor="start" font-weight="normal" font-style="normal">дизентерийный колит (фибринозный, чаще дифтеритический).</text>
+</g>
+<line x1="480" y1="80" x2="480" y2="526" stroke="#ccc" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="40.0" y="564.0" font-size="13" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">Правило: многослойный плоский эпителий (полость рта, зев, миндалины, надгортанник, пищевод, истинные голосовые</text>
+<text x="40.0" y="585.0" font-size="13" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">связки, шейка матки) крепко держит плёнку → дифтеритический вариант; на призматическом эпителии (дыхательные</text>
+<text x="40.0" y="606.0" font-size="13" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">пути, ЖКТ) связь рыхлая → плёнка отделяется. При дифтерии в одном организме: в зеве — дифтеритическое, в трахее — крупозное.</text>
+<text x="40.0" y="646.0" font-size="12" fill="#666" text-anchor="start" font-weight="normal" font-style="normal">Схема, не в масштабе, для перерисовки. Сверить: Струков А.И., Серов В.В., 2015, гл. 5, рис. 5-8, 5-9.</text>
+<text x="40.0" y="664.0" font-size="12" fill="#666" text-anchor="start" font-weight="normal" font-style="normal">Цвета — как при окраске Г+Э: фибрин ярко-розовый, ядра фиолетовые; пунктир — базальная мембрана.</text>
+</svg>
