@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 980" font-family="Georgia, 'Times New Roman', serif">
+<title>Адренорецепторы в организме</title>
+<defs>
+<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<filter id="soft" x="-3%" y="-3%" width="106%" height="106%">
+ <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="1" seed="9" result="n"/>
+ <feDisplacementMap in="SourceGraphic" in2="n" scale="1.1" xChannelSelector="R" yChannelSelector="G"/>
+</filter>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+ <path d="M0 0 L10 5 L0 10 z" fill="#333"/>
+</marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+ <path d="M0 0 L10 5 L0 10 z" fill="#b0262d"/>
+</marker>
+<marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+ <path d="M0 0 L10 5 L0 10 z" fill="#2c4f9e"/>
+</marker>
+<marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+ <path d="M0 0 L10 5 L0 10 z" fill="#2f8a4a"/>
+</marker>
+</defs>
+<rect width="960" height="980" fill="#ffffff"/>
+<text x="480.0" y="30.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold" font-style="normal">Адренорецепторы в организме: какой рецептор — какой эффект</text>
+<text x="480.0" y="52.0" font-size="13.5" fill="#555" text-anchor="middle" font-weight="normal" font-style="italic">стимуляция адреномиметиком; в скобках — главный рецептор; схема, не в масштабе</text>
+<path d="M480 92 C 522 92, 532 128, 526 160 C 522 180, 510 192, 506 204 L 510 222 C 572 232, 598 250, 602 300 L 608 520 C 610 600, 596 650, 576 700 L 550 760 L 410 760 L 384 700 C 364 650, 350 600, 352 520 L 358 300 C 362 250, 388 232, 450 222 L 454 204 C 450 192, 438 180, 434 160 C 428 128, 438 92, 480 92 Z" fill="#fbfaf7" stroke="#777" stroke-width="2" filter="url(#pencil)"/>
+<ellipse cx="462" cy="140" rx="11" ry="6.5" fill="#fff" stroke="#555" stroke-width="1.4"/><circle cx="462" cy="140" r="4" fill="#4a6fa5"/>
+<ellipse cx="498" cy="140" rx="11" ry="6.5" fill="#fff" stroke="#555" stroke-width="1.4"/><circle cx="498" cy="140" r="4" fill="#4a6fa5"/>
+<path d="M480 146 L 474 166 L 486 166" fill="#f6d3d5" stroke="#8a5050" stroke-width="1.3"/>
+<ellipse cx="514" cy="180" rx="9" ry="7" fill="#f0e2c8" stroke="#8a6a3a" stroke-width="1.3"/>
+<path d="M462 250 C 410 252, 384 300, 388 370 C 410 382, 446 372, 458 330 Z" fill="#eaf1f7" stroke="#4a6fa5" stroke-width="1.5" filter="url(#soft)"/>
+<path d="M498 250 C 550 252, 576 300, 572 370 C 550 382, 514 372, 502 330 Z" fill="#eaf1f7" stroke="#4a6fa5" stroke-width="1.5" filter="url(#soft)"/>
+<path d="M480 230 L 480 262 M 480 262 L 450 292 M 480 262 L 510 292" stroke="#4a6fa5" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M486 318 C 502 296, 532 304, 526 334 C 522 356, 502 370, 488 384 C 474 368, 454 352, 456 332 C 458 306, 476 302, 486 318 Z" fill="#f2c4c6" stroke="#b0262d" stroke-width="1.8" filter="url(#soft)"/>
+<path d="M370 400 C 420 384, 490 392, 500 410 C 470 432, 410 452, 372 446 Z" fill="#e8cbb5" stroke="#8a5a3a" stroke-width="1.6" filter="url(#soft)"/>
+<path d="M460 462 C 490 452, 530 452, 554 462 C 530 474, 490 474, 460 470 Z" fill="#f3e3c3" stroke="#a07a3a" stroke-width="1.4"/>
+<path d="M572 470 C 592 466, 596 500, 584 514 C 576 506, 570 492, 572 470 Z" fill="#e7b9b0" stroke="#8a4a3a" stroke-width="1.4"/>
+<path d="M410 520 C 440 500, 520 500, 550 520 C 556 548, 520 566, 480 556 C 440 566, 402 548, 410 520 Z" fill="#f6e0d6" stroke="#9a6a5a" stroke-width="1.5" filter="url(#soft)"/>
+<path d="M430 530 Q 455 516, 480 532 T 530 530" fill="none" stroke="#9a6a5a" stroke-width="1.2"/>
+<ellipse cx="368" cy="540" rx="10" ry="22" fill="#fbf0c8" stroke="#b09a3a" stroke-width="1.3"/>
+<path d="M442 640 C 440 606, 520 606, 518 640 C 510 660, 450 660, 442 640 Z" fill="#fdf3c4" stroke="#a08a2a" stroke-width="1.5"/>
+<path d="M472 660 L 472 676 L 488 676 L 488 660" fill="none" stroke="#a08a2a" stroke-width="2.4"/>
+<path d="M454 690 C 450 676, 510 676, 506 690 C 498 712, 462 712, 454 690 Z" fill="#f4d3e0" stroke="#a04a6a" stroke-width="1.4"/>
+<path d="M604 330 C 630 400, 636 470, 630 540" fill="none" stroke="#b0262d" stroke-width="3" stroke-linecap="round"/>
+<path d="M356 330 C 330 400, 324 470, 330 540" fill="none" stroke="#b0262d" stroke-width="3" stroke-linecap="round"/>
+<line x1="462.0" y1="140.0" x2="308.0" y2="146.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="462.0" cy="140.0" r="2.6" fill="#555"/>
+<text x="40.0" y="150.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Глаз (α₁)</text>
+<text x="40.0" y="166.0" font-size="12.2" fill="#444" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">радиальная мышца → мидриаз;</text>
+<text x="40.0" y="182.0" font-size="12.2" fill="#444" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">ВГД ↓ (секреция влаги ↓ — α₂)</text>
+<line x1="477.0" y1="160.0" x2="308.0" y2="228.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="477.0" cy="160.0" r="2.6" fill="#555"/>
+<text x="40.0" y="232.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Слизистая носа (α₁, α₂)</text>
+<text x="40.0" y="248.0" font-size="12.2" fill="#444" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">сосуды сужены → отёк, секреция ↓</text>
+<line x1="420.0" y1="320.0" x2="308.0" y2="312.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="420.0" cy="320.0" r="2.6" fill="#555"/>
+<text x="40.0" y="316.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Бронхи (β₂)</text>
+<text x="40.0" y="332.0" font-size="12.2" fill="#444" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">гладкие мышцы расслаблены;</text>
+<text x="40.0" y="348.0" font-size="12.2" fill="#444" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">тучные клетки — выброс медиаторов ↓</text>
+<line x1="410.0" y1="418.0" x2="308.0" y2="410.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="410.0" cy="418.0" r="2.6" fill="#555"/>
+<text x="40.0" y="414.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Печень (β₂, α₁)</text>
+<text x="40.0" y="430.0" font-size="12.2" fill="#444" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">гликогенолиз, глюконеогенез →</text>
+<text x="40.0" y="446.0" font-size="12.2" fill="#444" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">гипергликемия</text>
+<line x1="368.0" y1="540.0" x2="308.0" y2="494.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="368.0" cy="540.0" r="2.6" fill="#555"/>
+<text x="40.0" y="498.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Жир (β₃, β₁)</text>
+<text x="40.0" y="514.0" font-size="12.2" fill="#444" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">липолиз → свободные жирные</text>
+<text x="40.0" y="530.0" font-size="12.2" fill="#444" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">кислоты ↑; термогенез</text>
+<line x1="330.0" y1="470.0" x2="308.0" y2="580.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="330.0" cy="470.0" r="2.6" fill="#555"/>
+<text x="40.0" y="584.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Сосуды скелетных мышц (β₂)</text>
+<text x="40.0" y="600.0" font-size="12.2" fill="#444" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">расширение → ОПСС и ДАД ↓;</text>
+<text x="40.0" y="616.0" font-size="12.2" fill="#444" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">мышцы: тремор; K⁺ уходит в клетки</text>
+<line x1="454.0" y1="648.0" x2="308.0" y2="672.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="454.0" cy="648.0" r="2.6" fill="#555"/>
+<text x="40.0" y="676.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Мочевой пузырь</text>
+<text x="40.0" y="692.0" font-size="12.2" fill="#444" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">детрузор расслаблен (β₂, β₃);</text>
+<text x="40.0" y="708.0" font-size="12.2" fill="#444" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">сфинктер сокращён (α₁) → задержка мочи</text>
+<line x1="514.0" y1="180.0" x2="658.0" y2="146.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="514.0" cy="180.0" r="2.6" fill="#555"/>
+<text x="920.0" y="150.0" font-size="13" fill="#222" text-anchor="end" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Слюнные железы (α₁, β)</text>
+<text x="920.0" y="166.0" font-size="12.2" fill="#444" text-anchor="end" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">густая вязкая слюна;</text>
+<text x="920.0" y="182.0" font-size="12.2" fill="#444" text-anchor="end" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">клонидин (α₂ в ЦНС) — сухость во рту</text>
+<line x1="510.0" y1="336.0" x2="658.0" y2="232.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="510.0" cy="336.0" r="2.6" fill="#555"/>
+<text x="920.0" y="236.0" font-size="13" fill="#222" text-anchor="end" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Сердце (β₁, β₂)</text>
+<text x="920.0" y="252.0" font-size="12.2" fill="#444" text-anchor="end" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">ЧСС ↑, сила ↑, АВ-проведение ↑,</text>
+<text x="920.0" y="268.0" font-size="12.2" fill="#444" text-anchor="end" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">автоматизм ↑ → аритмии; O₂ ↑</text>
+<line x1="630.0" y1="400.0" x2="658.0" y2="318.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="630.0" cy="400.0" r="2.6" fill="#555"/>
+<text x="920.0" y="322.0" font-size="13" fill="#222" text-anchor="end" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Сосуды кожи, слизистых, почек,</text>
+<text x="920.0" y="338.0" font-size="13" fill="#222" text-anchor="end" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">органов брюшной полости (α₁)</text>
+<text x="920.0" y="354.0" font-size="12.2" fill="#444" text-anchor="end" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">сужение → ОПСС ↑, АД ↑</text>
+<line x1="540.0" y1="462.0" x2="658.0" y2="404.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="540.0" cy="462.0" r="2.6" fill="#555"/>
+<text x="920.0" y="408.0" font-size="13" fill="#222" text-anchor="end" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Поджелудочная железа</text>
+<text x="920.0" y="424.0" font-size="12.2" fill="#444" text-anchor="end" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">секреция инсулина ↓ (α₂)</text>
+<line x1="584.0" y1="494.0" x2="658.0" y2="470.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="584.0" cy="494.0" r="2.6" fill="#555"/>
+<text x="920.0" y="474.0" font-size="13" fill="#222" text-anchor="end" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Почки (β₁)</text>
+<text x="920.0" y="490.0" font-size="12.2" fill="#444" text-anchor="end" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">секреция ренина ↑; дофамин (D₁) —</text>
+<text x="920.0" y="506.0" font-size="12.2" fill="#444" text-anchor="end" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">почечные сосуды расширены</text>
+<line x1="540.0" y1="540.0" x2="658.0" y2="544.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="540.0" cy="540.0" r="2.6" fill="#555"/>
+<text x="920.0" y="548.0" font-size="13" fill="#222" text-anchor="end" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">ЖКТ (α₂, β₂; сфинктеры — α₁)</text>
+<text x="920.0" y="564.0" font-size="12.2" fill="#444" text-anchor="end" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">тонус и моторика ↓, сфинктеры</text>
+<text x="920.0" y="580.0" font-size="12.2" fill="#444" text-anchor="end" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">сокращены</text>
+<line x1="502.0" y1="694.0" x2="658.0" y2="626.0" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="502.0" cy="694.0" r="2.6" fill="#555"/>
+<text x="920.0" y="630.0" font-size="13" fill="#222" text-anchor="end" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Матка (β₂ — расслабление,</text>
+<text x="920.0" y="646.0" font-size="13" fill="#222" text-anchor="end" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">α₁ — сокращение)</text>
+<text x="920.0" y="662.0" font-size="12.2" fill="#444" text-anchor="end" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">β₂-агонисты — токолиз</text>
+<rect x="40" y="782" width="880" height="150" rx="8" fill="#f7f7f7" stroke="#ddd"/>
+<text x="56.0" y="804.0" font-size="12.6" text-anchor="start"><tspan fill="#222" font-weight="bold">ЦНС: </tspan><tspan fill="#333" font-weight="normal">α₂ (ствол мозга) — симпатический тонус ↓, седация, анальгезия (клонидин); адреналин — беспокойство, тремор (слабо, плохо проходит ГЭБ)</tspan></text>
+<text x="56.0" y="826.0" font-size="12.6" text-anchor="start"><tspan fill="#222" font-weight="bold">Тромбоциты: </tspan><tspan fill="#333" font-weight="normal">α₂ — агрегация ↑; β₂ — агрегация ↓ (цАМФ ↑)</tspan></text>
+<text x="56.0" y="848.0" font-size="12.6" text-anchor="start"><tspan fill="#222" font-weight="bold">Обмен: </tspan><tspan fill="#333" font-weight="normal">гликогенолиз и липолиз (цАМФ → ПКА) → глюкоза, лактат, свободные жирные кислоты ↑; K⁺ уходит в клетки (β₂)</tspan></text>
+<text x="56.0" y="870.0" font-size="12.6" text-anchor="start"><tspan fill="#222" font-weight="bold">Кожа: </tspan><tspan fill="#333" font-weight="normal">α₁ — сужение сосудов (бледность), сокращение мышц, поднимающих волос («гусиная кожа»)</tspan></text>
+<text x="56.0" y="892.0" font-size="12.6" text-anchor="start"><tspan fill="#222" font-weight="bold">Селезёнка: </tspan><tspan fill="#333" font-weight="normal">α — сокращение капсулы, выброс эритроцитов в кровь</tspan></text>
+<text x="56.0" y="914.0" font-size="12.6" text-anchor="start"><tspan fill="#b0262d" font-weight="bold">Правило: </tspan><tspan fill="#333" font-weight="normal">α₁ — сокращает гладкие мышцы (Ca²⁺ ↑), β₂ — расслабляет (цАМФ ↑), β₁ — подстёгивает сердце, α₂ — тормозит выброс</tspan></text>
+</svg>
