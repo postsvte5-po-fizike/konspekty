@@ -1,125 +1,162 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 930" font-family="Georgia, 'Times New Roman', serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 944">
 <title>Адренергический синапс</title>
-<defs>
-<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
- <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4" result="n"/>
- <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
-</filter>
-<filter id="soft" x="-3%" y="-3%" width="106%" height="106%">
- <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="1" seed="9" result="n"/>
- <feDisplacementMap in="SourceGraphic" in2="n" scale="1.1" xChannelSelector="R" yChannelSelector="G"/>
-</filter>
-<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
- <path d="M0 0 L10 5 L0 10 z" fill="#333"/>
-</marker>
-<marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
- <path d="M0 0 L10 5 L0 10 z" fill="#b0262d"/>
-</marker>
-<marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
- <path d="M0 0 L10 5 L0 10 z" fill="#2c4f9e"/>
-</marker>
-<marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
- <path d="M0 0 L10 5 L0 10 z" fill="#2f8a4a"/>
-</marker>
+<defs><style>@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&amp;display=swap'); text { font-family: Onest, 'PT Sans', 'Helvetica Neue', Arial, sans-serif; } .halo { paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }</style>
+<linearGradient id="preG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff8ea"/><stop offset="1" stop-color="#ffe6c2"/></linearGradient>
+<linearGradient id="postG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbe3e8"/><stop offset="1" stop-color="#fdf2f4"/></linearGradient>
+<linearGradient id="vesG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f6d9d9"/><stop offset="0.5" stop-color="#fbecec"/><stop offset="1" stop-color="#f6d9d9"/></linearGradient>
+<pattern id="memPre" width="8" height="24" patternUnits="userSpaceOnUse" y="412"><rect width="8" height="24" fill="#f6dcb2"/><circle cx="4" cy="3.6" r="3.4" fill="#d9944a"/><circle cx="4" cy="20.4" r="3.4" fill="#d9944a"/><path d="M3 7 V 11 M5 7 V 11 M3 13 V 17 M5 13 V 17" stroke="#e2b277" stroke-width="0.9"/></pattern>
+<pattern id="memPost" width="8" height="24" patternUnits="userSpaceOnUse" y="512"><rect width="8" height="24" fill="#f3cdd6"/><circle cx="4" cy="3.6" r="3.4" fill="#cf7487"/><circle cx="4" cy="20.4" r="3.4" fill="#cf7487"/><path d="M3 7 V 11 M5 7 V 11 M3 13 V 17 M5 13 V 17" stroke="#e0a1af" stroke-width="0.9"/></pattern>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0.5 L10 5 L0 9.5 z" fill="#333"/></marker>
+<marker id="arB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0.5 L10 5 L0 9.5 z" fill="#1565c0"/></marker>
+<marker id="arV" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0.5 L10 5 L0 9.5 z" fill="#8e24aa"/></marker>
+<marker id="tee" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M5 0 V 10" stroke="#e65100" stroke-width="2.4"/></marker>
 </defs>
-<rect width="960" height="930" fill="#ffffff"/>
-<text x="480.0" y="30.0" font-size="20" fill="#222" text-anchor="middle" font-weight="bold" font-style="normal">Адренергический синапс: путь норадреналина и точки действия средств</text>
-<text x="480.0" y="52.0" font-size="13.5" fill="#555" text-anchor="middle" font-weight="normal" font-style="italic">окончание постганглионарного симпатического волокна (варикозное утолщение) и клетка-эффектор</text>
-<path d="M120 70 C 160 90, 200 110, 250 130" fill="none" stroke="#777" stroke-width="10" stroke-linecap="round" filter="url(#pencil)"/>
-<path d="M230 120 C 330 80, 560 80, 640 140 C 700 190, 690 330, 610 380 C 520 430, 330 430, 250 380 C 170 330, 160 170, 230 120 Z" fill="#f6f3ec" stroke="#666" stroke-width="2.2" filter="url(#pencil)"/>
-<text x="112.0" y="112.0" font-size="12.5" fill="#777" text-anchor="start" font-weight="normal" font-style="italic">аксон</text>
-<text x="250.0" y="146.0" font-size="13" fill="#333" text-anchor="start" font-weight="bold" font-style="normal">Синтез в цитоплазме:</text>
-<text x="250.0" y="166.0" font-size="13" text-anchor="start"><tspan fill="#222" font-weight="bold">Тирозин</tspan><tspan fill="#222" font-weight="normal"> → </tspan><tspan fill="#222" font-weight="bold">ДОФА</tspan><tspan fill="#222" font-weight="normal"> → </tspan><tspan fill="#222" font-weight="bold">Дофамин</tspan></text>
-<text x="250.0" y="183.0" font-size="11.5" fill="#666" text-anchor="start" font-weight="normal" font-style="italic">тирозингидроксилаза (лимитирует),</text>
-<text x="250.0" y="197.0" font-size="11.5" fill="#666" text-anchor="start" font-weight="normal" font-style="italic">ДОФА-декарбоксилаза</text>
-<ellipse cx="318" cy="248" rx="46" ry="20" fill="#efe2d0" stroke="#8a6a3a" stroke-width="1.6" filter="url(#soft)"/>
-<path d="M285 248 Q 295 238, 305 250 T 325 248 T 345 248" fill="none" stroke="#8a6a3a" stroke-width="1.2"/>
-<text x="318.0" y="286.0" font-size="12.5" fill="#8a6a3a" text-anchor="middle" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">МАО (митохондрии)</text>
-<circle cx="478" cy="236" r="28" fill="#e7eef8" stroke="#2c4f9e" stroke-width="1.6" filter="url(#soft)"/>
-<circle cx="478.9" cy="222.0" r="2.6" fill="#2c4f9e"/>
-<circle cx="490.6" cy="229.9" r="2.6" fill="#2c4f9e"/>
-<circle cx="489.6" cy="243.9" r="2.6" fill="#2c4f9e"/>
-<circle cx="476.9" cy="250.0" r="2.6" fill="#2c4f9e"/>
-<circle cx="465.4" cy="242.0" r="2.6" fill="#2c4f9e"/>
-<circle cx="466.5" cy="228.0" r="2.6" fill="#2c4f9e"/>
-<circle cx="556" cy="262" r="25" fill="#e7eef8" stroke="#2c4f9e" stroke-width="1.6" filter="url(#soft)"/>
-<circle cx="565.4" cy="253.7" r="2.6" fill="#2c4f9e"/>
-<circle cx="567.8" cy="266.0" r="2.6" fill="#2c4f9e"/>
-<circle cx="558.4" cy="274.3" r="2.6" fill="#2c4f9e"/>
-<circle cx="546.6" cy="270.2" r="2.6" fill="#2c4f9e"/>
-<circle cx="544.2" cy="257.9" r="2.6" fill="#2c4f9e"/>
-<circle cx="553.7" cy="249.7" r="2.6" fill="#2c4f9e"/>
-<circle cx="462" cy="318" r="26" fill="#e7eef8" stroke="#2c4f9e" stroke-width="1.6" filter="url(#soft)"/>
-<circle cx="460.8" cy="305.1" r="2.6" fill="#2c4f9e"/>
-<circle cx="472.6" cy="310.5" r="2.6" fill="#2c4f9e"/>
-<circle cx="473.8" cy="323.5" r="2.6" fill="#2c4f9e"/>
-<circle cx="463.1" cy="331.0" r="2.6" fill="#2c4f9e"/>
-<circle cx="451.3" cy="325.4" r="2.6" fill="#2c4f9e"/>
-<circle cx="450.3" cy="312.4" r="2.6" fill="#2c4f9e"/>
-<circle cx="540" cy="340" r="23" fill="#e7eef8" stroke="#2c4f9e" stroke-width="1.6" filter="url(#soft)"/>
-<circle cx="547.3" cy="331.1" r="2.6" fill="#2c4f9e"/>
-<circle cx="551.3" cy="341.9" r="2.6" fill="#2c4f9e"/>
-<circle cx="544.0" cy="350.8" r="2.6" fill="#2c4f9e"/>
-<circle cx="532.6" cy="348.8" r="2.6" fill="#2c4f9e"/>
-<circle cx="528.7" cy="338.0" r="2.6" fill="#2c4f9e"/>
-<circle cx="536.1" cy="329.2" r="2.6" fill="#2c4f9e"/>
-<text x="566.0" y="184.0" font-size="12.5" fill="#2c4f9e" text-anchor="middle" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">везикулы: дофамин → НА</text>
-<text x="566.0" y="200.0" font-size="11.5" fill="#666" text-anchor="middle" font-weight="normal" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">(дофамин-β-гидроксилаза)</text>
-<path d="M500 372 Q 505 404, 512 428" fill="none" stroke="#333" stroke-width="1.6" marker-end="url(#arr)"/>
-<text x="484.0" y="392.0" font-size="12.5" fill="#333" text-anchor="end" font-weight="normal" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">Ca²⁺ → экзоцитоз</text>
-<circle cx="470" cy="452" r="3.2" fill="#2c4f9e"/>
-<circle cx="500" cy="462" r="3.2" fill="#2c4f9e"/>
-<circle cx="530" cy="450" r="3.2" fill="#2c4f9e"/>
-<circle cx="560" cy="466" r="3.2" fill="#2c4f9e"/>
-<circle cx="590" cy="454" r="3.2" fill="#2c4f9e"/>
-<circle cx="440" cy="466" r="3.2" fill="#2c4f9e"/>
-<circle cx="620" cy="462" r="3.2" fill="#2c4f9e"/>
-<circle cx="410" cy="455" r="3.2" fill="#2c4f9e"/>
-<text x="118.0" y="466.0" font-size="12.5" fill="#2c4f9e" text-anchor="start" font-weight="normal" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">синаптическая щель:</text>
-<text x="118.0" y="482.0" font-size="12.5" fill="#2c4f9e" text-anchor="start" font-weight="normal" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">точки — норадреналин (НА)</text>
-<path d="M319.0 402.0 L 319.0 418.0 Q 330.0 406.0 341.0 418.0 L 341.0 402.0" fill="#b0262d" fill-opacity="0.25" stroke="#b0262d" stroke-width="2" filter="url(#soft)"/><text x="330.0" y="438.0" font-size="13" fill="#b0262d" text-anchor="middle" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">α₂ (−)</text>
-<path d="M637.0 352.0 L 637.0 368.0 Q 648.0 356.0 659.0 368.0 L 659.0 352.0" fill="#2f8a4a" fill-opacity="0.25" stroke="#2f8a4a" stroke-width="2" filter="url(#soft)"/><text x="648.0" y="388.0" font-size="13" fill="#2f8a4a" text-anchor="middle" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">β₂ (+)</text>
-<text x="330.0" y="452.0" font-size="12" fill="#b0262d" text-anchor="middle" font-weight="normal" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">выброс НА ↓</text>
-<text x="760.0" y="392.0" font-size="12" fill="#2f8a4a" text-anchor="middle" font-weight="normal" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">выброс НА ↑</text>
-<path d="M600 440 C 640 420, 650 400, 628 382" fill="none" stroke="#333" stroke-width="1.6" stroke-dasharray="5 3" marker-end="url(#arr)"/>
-<text x="612.0" y="430.0" font-size="1" fill="#222" text-anchor="start" font-weight="normal" font-style="normal"></text>
-<text x="676.0" y="432.0" font-size="12.5" fill="#333" text-anchor="start" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">захват I (нейрональный, 75–80%)</text>
-<path d="M120 520 C 300 500, 660 500, 840 520 L 840 700 C 660 720, 300 720, 120 700 Z" fill="#fbf2f2" stroke="#8a5050" stroke-width="2" filter="url(#pencil)"/>
-<text x="150.0" y="690.0" font-size="12.5" fill="#8a5050" text-anchor="start" font-weight="normal" font-style="italic">клетка-эффектор (гладкая мышца, кардиомиоцит, железа, адипоцит)</text>
-<path d="M319.0 512.0 L 319.0 496.0 Q 330.0 508.0 341.0 496.0 L 341.0 512.0" fill="#b0262d" fill-opacity="0.25" stroke="#b0262d" stroke-width="2" filter="url(#soft)"/><text x="330.0" y="488.0" font-size="13" fill="#b0262d" text-anchor="middle" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">α₁</text>
-<path d="M459.0 508.0 L 459.0 492.0 Q 470.0 504.0 481.0 492.0 L 481.0 508.0" fill="#c46a12" fill-opacity="0.25" stroke="#c46a12" stroke-width="2" filter="url(#soft)"/><text x="470.0" y="484.0" font-size="13" fill="#c46a12" text-anchor="middle" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">β₁</text>
-<path d="M599.0 510.0 L 599.0 494.0 Q 610.0 506.0 621.0 494.0 L 621.0 510.0" fill="#2f8a4a" fill-opacity="0.25" stroke="#2f8a4a" stroke-width="2" filter="url(#soft)"/><text x="610.0" y="486.0" font-size="13" fill="#2f8a4a" text-anchor="middle" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">β₂</text>
-<path d="M749.0 516.0 L 749.0 500.0 Q 760.0 512.0 771.0 500.0 L 771.0 516.0" fill="#b0262d" fill-opacity="0.25" stroke="#b0262d" stroke-width="2" filter="url(#soft)"/><text x="760.0" y="492.0" font-size="13" fill="#b0262d" text-anchor="middle" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">α₂</text>
-<text x="330.0" y="560.0" font-size="12" fill="#b0262d" text-anchor="middle" font-weight="normal" font-style="normal">Gq → Ca²⁺ ↑</text>
-<text x="470.0" y="560.0" font-size="12" fill="#c46a12" text-anchor="middle" font-weight="normal" font-style="normal">Gs → цАМФ ↑</text>
-<text x="610.0" y="560.0" font-size="12" fill="#2f8a4a" text-anchor="middle" font-weight="normal" font-style="normal">Gs → цАМФ ↑</text>
-<text x="760.0" y="560.0" font-size="12" fill="#b0262d" text-anchor="middle" font-weight="normal" font-style="normal">Gi → цАМФ ↓</text>
-<text x="760.0" y="576.0" font-size="11.5" fill="#888" text-anchor="middle" font-weight="normal" font-style="italic">(вне синапса)</text>
-<path d="M412 470 C 395 520, 300 590, 250 620" fill="none" stroke="#333" stroke-width="1.6" stroke-dasharray="5 3" marker-end="url(#arr)"/>
-<ellipse cx="220" cy="630" rx="44" ry="17" fill="#efe2d0" stroke="#8a6a3a" stroke-width="1.6" filter="url(#soft)"/>
-<text x="220.0" y="635.0" font-size="13" fill="#8a6a3a" text-anchor="middle" font-weight="bold" font-style="normal">КОМТ</text>
-<text x="282.0" y="610.0" font-size="12.5" fill="#333" text-anchor="start" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">захват II (экстранейрональный)</text>
-<path d="M870 90 L 870 700" stroke="#c98c8c" stroke-width="34" stroke-linecap="round" opacity="0.35"/>
-<text x="870.0" y="82.0" font-size="12.5" fill="#8a5050" text-anchor="middle" font-weight="normal" font-style="italic">кровь</text>
-<circle cx="876" cy="150" r="4" fill="#7b3fa0"/>
-<circle cx="876" cy="230" r="4" fill="#7b3fa0"/>
-<circle cx="876" cy="310" r="4" fill="#7b3fa0"/>
-<circle cx="876" cy="390" r="4" fill="#7b3fa0"/>
-<text x="850.0" y="128.0" font-size="12.5" fill="#7b3fa0" text-anchor="end" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">адреналин</text>
-<text x="850.0" y="144.0" font-size="11.5" fill="#7b3fa0" text-anchor="end" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">мозгового вещества</text>
-<text x="850.0" y="158.0" font-size="11.5" fill="#7b3fa0" text-anchor="end" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">надпочечников</text>
-<path d="M856 470 C 820 480, 800 492, 780 500" fill="none" stroke="#7b3fa0" stroke-width="1.4" marker-end="url(#arr)"/>
-<circle cx="232.0" cy="142.0" r="12" fill="#444" stroke="#fff" stroke-width="1.5"/><text x="232.0" y="146.6" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
-<circle cx="420.0" cy="300.0" r="12" fill="#444" stroke="#fff" stroke-width="1.5"/><text x="420.0" y="304.6" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">2</text>
-<circle cx="540.0" cy="404.0" r="12" fill="#444" stroke="#fff" stroke-width="1.5"/><text x="540.0" y="408.6" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">3</text>
-<circle cx="270.0" cy="420.0" r="12" fill="#444" stroke="#fff" stroke-width="1.5"/><text x="270.0" y="424.6" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">4</text>
-<circle cx="398.0" cy="520.0" r="12" fill="#444" stroke="#fff" stroke-width="1.5"/><text x="398.0" y="524.6" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">5</text>
-<circle cx="660.0" cy="410.0" r="12" fill="#444" stroke="#fff" stroke-width="1.5"/><text x="660.0" y="414.6" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">6</text>
-<text x="40.0" y="742.0" font-size="13.2" text-anchor="start"><tspan fill="#444" font-weight="bold">1</tspan><tspan fill="#222" font-weight="normal"> синтез: метилдопа → ложный медиатор α-метилнорадреналин (действует на α₂ в ЦНС)</tspan></text>
-<text x="40.0" y="764.0" font-size="13.2" text-anchor="start"><tspan fill="#444" font-weight="bold">2</tspan><tspan fill="#222" font-weight="normal"> депо в везикулах: резерпин истощает запасы НА (симпатолитик — занятие 9)</tspan></text>
-<text x="40.0" y="786.0" font-size="13.2" text-anchor="start"><tspan fill="#444" font-weight="bold">3</tspan><tspan fill="#222" font-weight="normal"> выделение: эфедрин вытесняет НА из окончания → тахифилаксия при истощении запасов</tspan></text>
-<text x="40.0" y="808.0" font-size="13.2" text-anchor="start"><tspan fill="#444" font-weight="bold">4</tspan><tspan fill="#222" font-weight="normal"> пресинаптические α₂: клонидин в ЦНС и на окончаниях — выброс НА ↓</tspan></text>
-<text x="40.0" y="830.0" font-size="13.2" text-anchor="start"><tspan fill="#444" font-weight="bold">5</tspan><tspan fill="#222" font-weight="normal"> постсинаптические рецепторы: прямые адреномиметики (адреналин, НА, фенилэфрин, сальбутамол, добутамин)</tspan></text>
-<text x="40.0" y="852.0" font-size="13.2" text-anchor="start"><tspan fill="#444" font-weight="bold">6</tspan><tspan fill="#222" font-weight="normal"> захват I: блокируют кокаин и трициклические антидепрессанты → НА в щели ↑ (внешний источник)</tspan></text>
-<text x="40.0" y="886.0" font-size="12.5" fill="#555" text-anchor="start" font-weight="normal" font-style="italic">Действие НА прекращают: захват I (основной путь), захват II в клетку-эффектор и ферменты — МАО в окончании, КОМТ в клетке и печени.</text>
+<rect width="960" height="944" fill="#fff"/>
+<text x="480" y="34" font-size="22" fill="#1f1f1f" text-anchor="middle" font-weight="700">Адренергический синапс: путь норадреналина и точки действия средств</text>
+<text x="480" y="58" font-size="14" fill="#666" text-anchor="middle" font-weight="400">варикозное утолщение постганглионарного симпатического волокна и клетка-эффектор; схема, не в масштабе</text>
+<path d="M20 524 H 940 V 676 Q 940 708 908 708 H 52 Q 20 708 20 676 Z" fill="url(#postG)" stroke="#d48a99" stroke-width="2.4"/>
+<rect x="20" y="512" width="920" height="24" fill="url(#memPost)"/>
+<rect x="826" y="150" width="84" height="320" fill="url(#vesG)"/>
+<path d="M826 150 V 470 M910 150 V 470" stroke="#c0606a" stroke-width="5"/>
+<path d="M834 150 V 470 M902 150 V 470" stroke="#e7a5ab" stroke-width="2"/>
+<ellipse cx="852" cy="196" rx="15" ry="8" fill="#d9454f" stroke="#a32a33" stroke-width="1.2"/><ellipse cx="852" cy="196" rx="6" ry="3" fill="#b9333c"/>
+<ellipse cx="884" cy="262" rx="15" ry="8" fill="#d9454f" stroke="#a32a33" stroke-width="1.2"/><ellipse cx="884" cy="262" rx="6" ry="3" fill="#b9333c"/>
+<ellipse cx="856" cy="342" rx="15" ry="8" fill="#d9454f" stroke="#a32a33" stroke-width="1.2"/><ellipse cx="856" cy="342" rx="6" ry="3" fill="#b9333c"/>
+<ellipse cx="882" cy="420" rx="15" ry="8" fill="#d9454f" stroke="#a32a33" stroke-width="1.2"/><ellipse cx="882" cy="420" rx="6" ry="3" fill="#b9333c"/>
+<circle cx="870" cy="228" r="4.6" fill="#8e24aa" stroke="#fff" stroke-width="1"/>
+<circle cx="850" cy="296" r="4.6" fill="#8e24aa" stroke="#fff" stroke-width="1"/>
+<circle cx="888" cy="312" r="4.6" fill="#8e24aa" stroke="#fff" stroke-width="1"/>
+<circle cx="866" cy="382" r="4.6" fill="#8e24aa" stroke="#fff" stroke-width="1"/>
+<circle cx="850" cy="448" r="4.6" fill="#8e24aa" stroke="#fff" stroke-width="1"/>
+<circle cx="884" cy="176" r="4.6" fill="#8e24aa" stroke="#fff" stroke-width="1"/>
+<rect x="828" y="156" width="80" height="44" rx="8" fill="#fff" fill-opacity="0.94" stroke="#c0606a" stroke-width="1.2"/>
+<text x="868" y="174" font-size="13" fill="#a32a33" text-anchor="middle" font-weight="700">кровь</text>
+<circle cx="838" cy="188" r="4" fill="#8e24aa"/><text x="873" y="192" font-size="11.5" fill="#8e24aa" text-anchor="middle" font-weight="700">адреналин</text>
+<path d="M842 472 C 820 492, 800 498, 784 506" fill="none" stroke="#8e24aa" stroke-width="2.2" marker-end="url(#arV)"/>
+<path d="M892 472 C 892 488, 880 498, 870 504" fill="none" stroke="#8e24aa" stroke-width="2.2" marker-end="url(#arV)"/>
+<path d="M0 92 L 140 92 C 200 92, 236 72, 300 70 L 600 70 C 664 72, 700 92, 760 92 L 960 92 L 960 124 L 780 124 C 726 124, 720 168, 716 232 C 712 318, 694 392, 650 424 L 230 424 C 186 392, 168 318, 164 232 C 160 168, 150 124, 96 124 L 0 124 Z" fill="url(#preG)" stroke="#d9a35a" stroke-width="3"/>
+<rect x="230" y="412" width="420" height="24" fill="url(#memPre)"/>
+<text x="60" y="116" font-size="13" fill="#9a6a2a" text-anchor="middle" font-weight="400" font-style="italic">аксон</text>
+<text x="196" y="152" font-size="15" fill="#222" text-anchor="start" font-weight="700">Тирозин</text>
+<path d="M268 147 H 318" stroke="#333" stroke-width="2" marker-end="url(#ar)"/>
+<text x="326" y="152" font-size="15" fill="#222" text-anchor="start" font-weight="700">ДОФА</text>
+<path d="M374 147 H 424" stroke="#333" stroke-width="2" marker-end="url(#ar)"/>
+<text x="432" y="152" font-size="15" fill="#222" text-anchor="start" font-weight="700">дофамин</text>
+<text x="293" y="172" font-size="11.5" fill="#777" text-anchor="middle" font-weight="400" font-style="italic">тирозин-</text>
+<text x="293" y="186" font-size="11.5" fill="#777" text-anchor="middle" font-weight="400" font-style="italic">гидроксилаза</text>
+<text x="399" y="172" font-size="11.5" fill="#777" text-anchor="middle" font-weight="400" font-style="italic">ДОФА-</text>
+<text x="399" y="186" font-size="11.5" fill="#777" text-anchor="middle" font-weight="400" font-style="italic">декарбоксилаза</text>
+<text x="196" y="206" font-size="11.5" fill="#888" text-anchor="start" font-weight="400" font-style="italic">лимитирующий этап — тирозингидроксилаза</text>
+<circle cx="578" cy="214" r="50" fill="#e7f1fb" stroke="#5a86bd" stroke-width="2.6"/><circle cx="578" cy="214" r="46" fill="none" stroke="#9bbbe0" stroke-width="1"/><circle cx="570.9" cy="228.2" r="3.3" fill="#1f5fae"/><circle cx="571.6" cy="205.0" r="3.3" fill="#1f5fae"/><circle cx="553.8" cy="208.5" r="3.3" fill="#1f5fae"/><circle cx="605.3" cy="224.4" r="3.3" fill="#1f5fae"/><circle cx="604.3" cy="220.3" r="3.3" fill="#1f5fae"/><circle cx="589.2" cy="219.2" r="3.3" fill="#1f5fae"/><circle cx="544.8" cy="231.0" r="3.3" fill="#1f5fae"/><circle cx="591.8" cy="227.6" r="3.3" fill="#1f5fae"/><circle cx="550.2" cy="185.3" r="3.3" fill="#1f5fae"/>
+<path d="M500 147 C 540 147, 556 156, 548 170" fill="none" stroke="#333" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="536" y="166" width="16" height="12" rx="3" fill="#3f8f8f" transform="rotate(35 544 172)"/>
+<text x="658" y="196" font-size="13" fill="#2b4f7a" text-anchor="start" font-weight="700">везикула:</text>
+<text x="658" y="213" font-size="13" fill="#2b4f7a" text-anchor="start" font-weight="700">дофамин → НА</text>
+<text x="658" y="229" font-size="11.5" fill="#6a7f99" text-anchor="start" font-weight="400" font-style="italic">(дофамин-β-</text>
+<text x="658" y="243" font-size="11.5" fill="#6a7f99" text-anchor="start" font-weight="400" font-style="italic">гидроксилаза)</text>
+<ellipse cx="300" cy="292" rx="63.0" ry="28.0" fill="#f7cfc9" stroke="#c46a5f" stroke-width="2.4"/><ellipse cx="300" cy="292" rx="57.0" ry="22.0" fill="#fbe2de" stroke="#d9897f" stroke-width="1.2"/><path d="M255.0 270.0 V 298.0" stroke="#d9897f" stroke-width="3" stroke-linecap="round"/><path d="M273.0 314.0 V 286.0" stroke="#d9897f" stroke-width="3" stroke-linecap="round"/><path d="M291.0 270.0 V 298.0" stroke="#d9897f" stroke-width="3" stroke-linecap="round"/><path d="M309.0 314.0 V 286.0" stroke="#d9897f" stroke-width="3" stroke-linecap="round"/><path d="M327.0 270.0 V 298.0" stroke="#d9897f" stroke-width="3" stroke-linecap="round"/><path d="M345.0 314.0 V 286.0" stroke="#d9897f" stroke-width="3" stroke-linecap="round"/>
+<text x="300" y="344" font-size="14" fill="#a2453b" text-anchor="middle" font-weight="800">МАО</text>
+<text x="300" y="360" font-size="11.5" fill="#a2453b" text-anchor="middle" font-weight="400" font-style="italic">на митохондриях</text>
+<circle cx="452" cy="268" r="30" fill="#e7f1fb" stroke="#5a86bd" stroke-width="2.6"/><circle cx="452" cy="268" r="26" fill="none" stroke="#9bbbe0" stroke-width="1"/><circle cx="440.3" cy="261.8" r="3.3" fill="#1f5fae"/><circle cx="456.5" cy="267.3" r="3.3" fill="#1f5fae"/><circle cx="459.1" cy="259.2" r="3.3" fill="#1f5fae"/><circle cx="456.4" cy="273.7" r="3.3" fill="#1f5fae"/><circle cx="445.2" cy="285.7" r="3.3" fill="#1f5fae"/><circle cx="458.8" cy="282.5" r="3.3" fill="#1f5fae"/><circle cx="443.8" cy="258.2" r="3.3" fill="#1f5fae"/><circle cx="447.0" cy="266.4" r="3.3" fill="#1f5fae"/><circle cx="460.9" cy="271.5" r="3.3" fill="#1f5fae"/><circle cx="446.2" cy="255.6" r="3.3" fill="#1f5fae"/><circle cx="445.7" cy="282.8" r="3.3" fill="#1f5fae"/><circle cx="441.0" cy="271.3" r="3.3" fill="#1f5fae"/><circle cx="456.8" cy="251.1" r="3.3" fill="#1f5fae"/>
+<circle cx="528" cy="318" r="28" fill="#e7f1fb" stroke="#5a86bd" stroke-width="2.6"/><circle cx="528" cy="318" r="24" fill="none" stroke="#9bbbe0" stroke-width="1"/><circle cx="528.5" cy="332.4" r="3.3" fill="#1f5fae"/><circle cx="510.4" cy="315.2" r="3.3" fill="#1f5fae"/><circle cx="526.7" cy="307.9" r="3.3" fill="#1f5fae"/><circle cx="534.5" cy="317.2" r="3.3" fill="#1f5fae"/><circle cx="513.6" cy="326.1" r="3.3" fill="#1f5fae"/><circle cx="535.7" cy="328.8" r="3.3" fill="#1f5fae"/><circle cx="543.1" cy="321.8" r="3.3" fill="#1f5fae"/><circle cx="529.3" cy="303.7" r="3.3" fill="#1f5fae"/><circle cx="535.5" cy="310.5" r="3.3" fill="#1f5fae"/><circle cx="523.1" cy="304.2" r="3.3" fill="#1f5fae"/><circle cx="516.8" cy="311.8" r="3.3" fill="#1f5fae"/><circle cx="537.9" cy="302.4" r="3.3" fill="#1f5fae"/>
+<circle cx="612" cy="300" r="26" fill="#e7f1fb" stroke="#5a86bd" stroke-width="2.6"/><circle cx="612" cy="300" r="22" fill="none" stroke="#9bbbe0" stroke-width="1"/><circle cx="598.3" cy="302.2" r="3.3" fill="#1f5fae"/><circle cx="625.2" cy="305.3" r="3.3" fill="#1f5fae"/><circle cx="601.8" cy="286.5" r="3.3" fill="#1f5fae"/><circle cx="616.0" cy="291.8" r="3.3" fill="#1f5fae"/><circle cx="601.5" cy="309.1" r="3.3" fill="#1f5fae"/><circle cx="623.4" cy="301.6" r="3.3" fill="#1f5fae"/><circle cx="614.9" cy="305.1" r="3.3" fill="#1f5fae"/><circle cx="625.9" cy="305.4" r="3.3" fill="#1f5fae"/><circle cx="617.8" cy="306.1" r="3.3" fill="#1f5fae"/><circle cx="599.7" cy="310.0" r="3.3" fill="#1f5fae"/><circle cx="622.0" cy="305.5" r="3.3" fill="#1f5fae"/>
+<circle cx="392" cy="350" r="26" fill="#e7f1fb" stroke="#5a86bd" stroke-width="2.6"/><circle cx="392" cy="350" r="22" fill="none" stroke="#9bbbe0" stroke-width="1"/><circle cx="376.8" cy="345.1" r="3.3" fill="#1f5fae"/><circle cx="398.7" cy="335.7" r="3.3" fill="#1f5fae"/><circle cx="390.1" cy="360.8" r="3.3" fill="#1f5fae"/><circle cx="381.9" cy="362.4" r="3.3" fill="#1f5fae"/><circle cx="398.4" cy="348.3" r="3.3" fill="#1f5fae"/><circle cx="395.7" cy="357.3" r="3.3" fill="#1f5fae"/><circle cx="393.2" cy="361.8" r="3.3" fill="#1f5fae"/><circle cx="384.6" cy="345.4" r="3.3" fill="#1f5fae"/><circle cx="403.0" cy="350.3" r="3.3" fill="#1f5fae"/><circle cx="383.3" cy="359.4" r="3.3" fill="#1f5fae"/><circle cx="405.5" cy="345.9" r="3.3" fill="#1f5fae"/>
+<path d="M406 412 C 406 364, 474 364, 474 412" fill="#e7f1fb" stroke="#5a86bd" stroke-width="2.6"/>
+<rect x="426" y="411" width="28" height="26" fill="#f7fafc"/>
+<circle cx="424" cy="390" r="3.3" fill="#1f5fae"/>
+<circle cx="444" cy="384" r="3.3" fill="#1f5fae"/>
+<circle cx="456" cy="398" r="3.3" fill="#1f5fae"/>
+<circle cx="434" cy="404" r="3.3" fill="#1f5fae"/>
+<rect x="283" y="403" width="12" height="42" rx="5" fill="#7d8a96" stroke="#fff"/><rect x="305" y="403" width="12" height="42" rx="5" fill="#7d8a96" stroke="#fff"/>
+<circle cx="278" cy="458" r="5" fill="#9e9d24" stroke="#fff"/>
+<circle cx="294" cy="470" r="5" fill="#9e9d24" stroke="#fff"/>
+<circle cx="312" cy="460" r="5" fill="#9e9d24" stroke="#fff"/>
+<path d="M300 454 V 390" stroke="#7a7a1a" stroke-width="2.2" marker-end="url(#ar)"/>
+<text x="268" y="380" font-size="13" fill="#6d6c12" text-anchor="middle" font-weight="700">Ca²⁺</text>
+<text x="330" y="394" font-size="12" fill="#6d6c12" text-anchor="start" font-weight="400" font-style="italic" class="halo">→ экзоцитоз</text>
+<rect x="508" y="405" width="8" height="38" rx="4" fill="#e65100" stroke="#fff" stroke-width="0.8"/><rect x="517" y="405" width="8" height="38" rx="4" fill="#e65100" stroke="#fff" stroke-width="0.8"/><rect x="526" y="405" width="8" height="38" rx="4" fill="#e65100" stroke="#fff" stroke-width="0.8"/><rect x="535" y="405" width="8" height="38" rx="4" fill="#e65100" stroke="#fff" stroke-width="0.8"/><rect x="544" y="405" width="8" height="38" rx="4" fill="#e65100" stroke="#fff" stroke-width="0.8"/><path d="M510 443 Q 530 459 550 443" fill="none" stroke="#e65100" stroke-width="3" stroke-linecap="round"/><ellipse cx="523" cy="392" rx="12" ry="9" fill="#e65100" fill-opacity="0.45" stroke="#e65100" stroke-width="1.2"/><ellipse cx="541" cy="389" rx="8" ry="7" fill="#e65100" fill-opacity="0.3" stroke="#e65100" stroke-width="1.2"/><circle cx="550" cy="398" r="4" fill="#e65100" fill-opacity="0.3" stroke="#e65100" stroke-width="1.2"/><circle cx="560" cy="458" r="10" fill="#fff" stroke="#e65100" stroke-width="2"/><text x="560" y="463" font-size="16" fill="#e65100" text-anchor="middle" font-weight="800">−</text>
+<rect x="566" y="405" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><rect x="575" y="405" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><rect x="584" y="405" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><rect x="593" y="405" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><rect x="602" y="405" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><path d="M568 443 Q 588 459 608 443" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/><ellipse cx="581" cy="392" rx="12" ry="9" fill="#2e7d32" fill-opacity="0.45" stroke="#2e7d32" stroke-width="1.2"/><ellipse cx="599" cy="389" rx="8" ry="7" fill="#2e7d32" fill-opacity="0.3" stroke="#2e7d32" stroke-width="1.2"/><circle cx="608" cy="398" r="4" fill="#2e7d32" fill-opacity="0.3" stroke="#2e7d32" stroke-width="1.2"/><circle cx="618" cy="458" r="10" fill="#fff" stroke="#2e7d32" stroke-width="2"/><text x="618" y="463" font-size="16" fill="#2e7d32" text-anchor="middle" font-weight="800">+</text>
+<path d="M520 394 C 500 364, 476 362, 466 378" fill="none" stroke="#e65100" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#tee)"/>
+<path d="M625.0 404.0 q -6 20.0 0 40 h 12 q 4 -20.0 0 -40 Z" fill="#1565c0" stroke="#fff" stroke-width="1"/><path d="M659.0 404.0 q 6 20.0 0 40 h -12 q -4 -20.0 0 -40 Z" fill="#1565c0" stroke="#fff" stroke-width="1"/>
+<path d="M642 468 V 394 C 642 344, 640 328, 628 324" fill="none" stroke="#1565c0" stroke-width="2.6" marker-end="url(#arB)"/>
+<path d="M640 354 C 560 364, 420 344, 368 316" fill="none" stroke="#1565c0" stroke-width="1.8" stroke-dasharray="5 4" marker-end="url(#arB)"/>
+<text x="700" y="366" font-size="14" fill="#1565c0" text-anchor="start" font-weight="800">захват I</text>
+<text x="700" y="383" font-size="12" fill="#1565c0" text-anchor="start" font-weight="400">нейрональный,</text>
+<text x="700" y="398" font-size="12" fill="#1565c0" text-anchor="start" font-weight="400">75–80% НА</text>
+<text x="700" y="414" font-size="12" fill="#1565c0" text-anchor="start" font-weight="400" font-style="italic">→ в везикулы, к МАО</text>
+<circle cx="420" cy="452" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="446" cy="470" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="470" cy="456" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="402" cy="486" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="436" cy="498" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="494" cy="482" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="520" cy="464" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="548" cy="492" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="360" cy="470" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="330" cy="494" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="290" cy="480" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="600" cy="470" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="626" cy="494" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="250" cy="500" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="580" cy="500" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<circle cx="390" cy="504" r="4.4" fill="#1f5fae" stroke="#fff" stroke-width="1"/>
+<text x="26" y="452" font-size="13" fill="#555" text-anchor="start" font-weight="400" font-style="italic">синаптическая щель</text>
+<text x="26" y="470" font-size="13" fill="#1f5fae" text-anchor="start" font-weight="700">• норадреналин (НА)</text>
+<rect x="278" y="505" width="8" height="38" rx="4" fill="#c62828" stroke="#fff" stroke-width="0.8"/><rect x="287" y="505" width="8" height="38" rx="4" fill="#c62828" stroke="#fff" stroke-width="0.8"/><rect x="296" y="505" width="8" height="38" rx="4" fill="#c62828" stroke="#fff" stroke-width="0.8"/><rect x="305" y="505" width="8" height="38" rx="4" fill="#c62828" stroke="#fff" stroke-width="0.8"/><rect x="314" y="505" width="8" height="38" rx="4" fill="#c62828" stroke="#fff" stroke-width="0.8"/><path d="M280 505 Q 300 489 320 505" fill="none" stroke="#c62828" stroke-width="3" stroke-linecap="round"/><ellipse cx="293" cy="556" rx="12" ry="9" fill="#c62828" fill-opacity="0.45" stroke="#c62828" stroke-width="1.2"/><ellipse cx="311" cy="559" rx="8" ry="7" fill="#c62828" fill-opacity="0.3" stroke="#c62828" stroke-width="1.2"/><circle cx="320" cy="550" r="4" fill="#c62828" fill-opacity="0.3" stroke="#c62828" stroke-width="1.2"/>
+<text x="300" y="494" font-size="15" fill="#c62828" text-anchor="middle" font-weight="800" class="halo">α₁</text>
+<text x="300" y="590" font-size="12.5" fill="#c62828" text-anchor="middle" font-weight="700">Gq → ФЛС →</text>
+<text x="300" y="607" font-size="12.5" fill="#c62828" text-anchor="middle" font-weight="400">ИФ₃, ДАГ → Ca²⁺ ↑</text>
+<text x="300" y="624" font-size="12" fill="#555" text-anchor="middle" font-weight="400" font-style="italic">сокращение ГМК</text>
+<rect x="408" y="505" width="8" height="38" rx="4" fill="#6a1b9a" stroke="#fff" stroke-width="0.8"/><rect x="417" y="505" width="8" height="38" rx="4" fill="#6a1b9a" stroke="#fff" stroke-width="0.8"/><rect x="426" y="505" width="8" height="38" rx="4" fill="#6a1b9a" stroke="#fff" stroke-width="0.8"/><rect x="435" y="505" width="8" height="38" rx="4" fill="#6a1b9a" stroke="#fff" stroke-width="0.8"/><rect x="444" y="505" width="8" height="38" rx="4" fill="#6a1b9a" stroke="#fff" stroke-width="0.8"/><path d="M410 505 Q 430 489 450 505" fill="none" stroke="#6a1b9a" stroke-width="3" stroke-linecap="round"/><ellipse cx="423" cy="556" rx="12" ry="9" fill="#6a1b9a" fill-opacity="0.45" stroke="#6a1b9a" stroke-width="1.2"/><ellipse cx="441" cy="559" rx="8" ry="7" fill="#6a1b9a" fill-opacity="0.3" stroke="#6a1b9a" stroke-width="1.2"/><circle cx="450" cy="550" r="4" fill="#6a1b9a" fill-opacity="0.3" stroke="#6a1b9a" stroke-width="1.2"/>
+<text x="430" y="494" font-size="15" fill="#6a1b9a" text-anchor="middle" font-weight="800" class="halo">β₁</text>
+<text x="430" y="590" font-size="12.5" fill="#6a1b9a" text-anchor="middle" font-weight="700">Gs → АЦ →</text>
+<text x="430" y="607" font-size="12.5" fill="#6a1b9a" text-anchor="middle" font-weight="400">цАМФ ↑ → ПКА</text>
+<text x="430" y="624" font-size="12" fill="#555" text-anchor="middle" font-weight="400" font-style="italic">сердце: сила, ЧСС ↑</text>
+<rect x="538" y="505" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><rect x="547" y="505" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><rect x="556" y="505" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><rect x="565" y="505" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><rect x="574" y="505" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><path d="M540 505 Q 560 489 580 505" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/><ellipse cx="553" cy="556" rx="12" ry="9" fill="#2e7d32" fill-opacity="0.45" stroke="#2e7d32" stroke-width="1.2"/><ellipse cx="571" cy="559" rx="8" ry="7" fill="#2e7d32" fill-opacity="0.3" stroke="#2e7d32" stroke-width="1.2"/><circle cx="580" cy="550" r="4" fill="#2e7d32" fill-opacity="0.3" stroke="#2e7d32" stroke-width="1.2"/>
+<text x="560" y="494" font-size="15" fill="#2e7d32" text-anchor="middle" font-weight="800" class="halo">β₂</text>
+<text x="560" y="590" font-size="12.5" fill="#2e7d32" text-anchor="middle" font-weight="700">Gs → АЦ →</text>
+<text x="560" y="607" font-size="12.5" fill="#2e7d32" text-anchor="middle" font-weight="400">цАМФ ↑ → ПКА</text>
+<text x="560" y="624" font-size="12" fill="#555" text-anchor="middle" font-weight="400" font-style="italic">расслабление ГМК</text>
+<rect x="748" y="505" width="8" height="38" rx="4" fill="#e65100" stroke="#fff" stroke-width="0.8"/><rect x="757" y="505" width="8" height="38" rx="4" fill="#e65100" stroke="#fff" stroke-width="0.8"/><rect x="766" y="505" width="8" height="38" rx="4" fill="#e65100" stroke="#fff" stroke-width="0.8"/><rect x="775" y="505" width="8" height="38" rx="4" fill="#e65100" stroke="#fff" stroke-width="0.8"/><rect x="784" y="505" width="8" height="38" rx="4" fill="#e65100" stroke="#fff" stroke-width="0.8"/><path d="M750 505 Q 770 489 790 505" fill="none" stroke="#e65100" stroke-width="3" stroke-linecap="round"/><ellipse cx="763" cy="556" rx="12" ry="9" fill="#e65100" fill-opacity="0.45" stroke="#e65100" stroke-width="1.2"/><ellipse cx="781" cy="559" rx="8" ry="7" fill="#e65100" fill-opacity="0.3" stroke="#e65100" stroke-width="1.2"/><circle cx="790" cy="550" r="4" fill="#e65100" fill-opacity="0.3" stroke="#e65100" stroke-width="1.2"/>
+<text x="770" y="494" font-size="15" fill="#e65100" text-anchor="middle" font-weight="800" class="halo">α₂</text>
+<text x="770" y="590" font-size="12.5" fill="#e65100" text-anchor="middle" font-weight="700">Gi → АЦ ↓</text>
+<text x="770" y="607" font-size="12.5" fill="#e65100" text-anchor="middle" font-weight="400">цАМФ ↓</text>
+<text x="770" y="624" font-size="12" fill="#555" text-anchor="middle" font-weight="400" font-style="italic">внесинаптический</text>
+<rect x="846" y="505" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><rect x="855" y="505" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><rect x="864" y="505" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><rect x="873" y="505" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><rect x="882" y="505" width="8" height="38" rx="4" fill="#2e7d32" stroke="#fff" stroke-width="0.8"/><path d="M848 505 Q 868 489 888 505" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/><ellipse cx="861" cy="556" rx="12" ry="9" fill="#2e7d32" fill-opacity="0.45" stroke="#2e7d32" stroke-width="1.2"/><ellipse cx="879" cy="559" rx="8" ry="7" fill="#2e7d32" fill-opacity="0.3" stroke="#2e7d32" stroke-width="1.2"/><circle cx="888" cy="550" r="4" fill="#2e7d32" fill-opacity="0.3" stroke="#2e7d32" stroke-width="1.2"/>
+<text x="868" y="494" font-size="15" fill="#2e7d32" text-anchor="middle" font-weight="800" class="halo">β₂</text>
+<text x="868" y="590" font-size="12.5" fill="#2e7d32" text-anchor="middle" font-weight="700">Gs → цАМФ ↑</text>
+<text x="868" y="607" font-size="12.5" fill="#2e7d32" text-anchor="middle" font-weight="400">внесинаптический</text>
+<path d="M133.0 504.0 q -6 20.0 0 40 h 12 q 4 -20.0 0 -40 Z" fill="#00897b" stroke="#fff" stroke-width="1"/><path d="M167.0 504.0 q 6 20.0 0 40 h -12 q -4 -20.0 0 -40 Z" fill="#00897b" stroke="#fff" stroke-width="1"/>
+<path d="M244 494 C 200 490, 160 488, 150 496 V 560 C 150 576, 140 584, 132 590" fill="none" stroke="#00897b" stroke-width="2.4" marker-end="url(#ar)"/>
+<ellipse cx="110" cy="610" rx="44" ry="18" fill="#e0f2f1" stroke="#00897b" stroke-width="2"/>
+<text x="110" y="615" font-size="14" fill="#00695c" text-anchor="middle" font-weight="800">КОМТ</text>
+<text x="110" y="652" font-size="14" fill="#00695c" text-anchor="middle" font-weight="800">захват II</text>
+<text x="110" y="669" font-size="12" fill="#00695c" text-anchor="middle" font-weight="400">(экстранейрональный)</text>
+<text x="520" y="694" font-size="13" fill="#8a4b58" text-anchor="middle" font-weight="400" font-style="italic">клетка-эффектор: гладкая мышечная клетка, кардиомиоцит, железа, адипоцит (рецепторы — на разных клетках)</text>
+<text x="868" y="108" font-size="1" fill="#333" text-anchor="middle" font-weight="400"></text>
+<text x="868" y="132" font-size="1" fill="#333" text-anchor="middle" font-weight="400"></text>
+<text x="824" y="500" font-size="1" fill="#333" text-anchor="middle" font-weight="400"></text>
+<text x="735" y="120" font-size="1" fill="#333" text-anchor="middle" font-weight="400"></text>
+<text x="868" y="108" font-size="1" fill="#333" text-anchor="middle" font-weight="400"></text>
+<circle cx="178" cy="147" r="13" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="178" y="152" font-size="14" fill="#fff" text-anchor="middle" font-weight="800">1</text>
+<circle cx="632" cy="160" r="13" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="632" y="165" font-size="14" fill="#fff" text-anchor="middle" font-weight="800">2</text>
+<circle cx="476" cy="384" r="13" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="476" y="389" font-size="14" fill="#fff" text-anchor="middle" font-weight="800">3</text>
+<circle cx="504" cy="466" r="13" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="504" y="471" font-size="14" fill="#fff" text-anchor="middle" font-weight="800">4</text>
+<circle cx="366" cy="562" r="13" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="366" y="567" font-size="14" fill="#fff" text-anchor="middle" font-weight="800">5</text>
+<circle cx="676" cy="470" r="13" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="676" y="475" font-size="14" fill="#fff" text-anchor="middle" font-weight="800">6</text>
+<line x1="20" y1="728" x2="940" y2="728" stroke="#e3e3e3"/>
+<circle cx="34" cy="741" r="10" fill="#1f1f1f"/><text x="34" y="745.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="800">1</text>
+<text x="52" y="746" font-size="13.5" fill="#222" text-anchor="start" font-weight="400">синтез: метилдопа → «ложный медиатор» α-метилнорадреналин (действует на α₂ в ЦНС)</text>
+<circle cx="34" cy="764" r="10" fill="#1f1f1f"/><text x="34" y="768.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="800">2</text>
+<text x="52" y="769" font-size="13.5" fill="#222" text-anchor="start" font-weight="400">депонирование в везикулах: резерпин истощает запасы НА (симпатолитики — занятие 9)</text>
+<circle cx="34" cy="787" r="10" fill="#1f1f1f"/><text x="34" y="791.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="800">3</text>
+<text x="52" y="792" font-size="13.5" fill="#222" text-anchor="start" font-weight="400">выделение: эфедрин вытесняет НА из окончания → тахифилаксия при истощении запасов</text>
+<circle cx="34" cy="810" r="10" fill="#1f1f1f"/><text x="34" y="814.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="800">4</text>
+<text x="52" y="815" font-size="13.5" fill="#222" text-anchor="start" font-weight="400">пресинаптические α₂: клонидин (в ЦНС и на окончаниях) → выброс НА ↓</text>
+<circle cx="34" cy="833" r="10" fill="#1f1f1f"/><text x="34" y="837.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="800">5</text>
+<text x="52" y="838" font-size="13.5" fill="#222" text-anchor="start" font-weight="400">рецепторы клетки-эффектора: прямые адреномиметики (адреналин, НА, фенилэфрин, сальбутамол, добутамин)</text>
+<circle cx="34" cy="856" r="10" fill="#1f1f1f"/><text x="34" y="860.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="800">6</text>
+<text x="52" y="861" font-size="13.5" fill="#222" text-anchor="start" font-weight="400">захват I: кокаин и трициклические антидепрессанты блокируют → НА в щели ↑</text>
+<text x="20" y="890" font-size="13" fill="#555" text-anchor="start" font-weight="400" font-style="italic">Действие НА прекращают: захват I (главный путь), захват II в клетку-эффектор; ферменты — МАО в окончании, КОМТ в клетке и печени.</text>
+<text x="20" y="910" font-size="13" fill="#555" text-anchor="start" font-weight="400" font-style="italic">Адреналин (фиолетовые точки) приходит с кровью из мозгового вещества надпочечников и действует на внесинаптические α₂ и β₂.</text>
 </svg>
