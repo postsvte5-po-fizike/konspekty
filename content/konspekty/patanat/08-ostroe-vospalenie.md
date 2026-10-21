@@ -668,7 +668,7 @@ tags: [patanat, vospalenie, ostroe-vospalenie, ekssudativnoe-vospalenie, fibrino
 
 <a class="fig-open" href="08-ostroe-vospalenie-3.svg" target="_blank">Открыть схему крупно ↗</a>
 
-*Схема поля зрения с обозначениями тетради: а — фибрин на эпикарде, б — инфильтрат в эпикарде; серым — ориентиры (жир эпикарда, миокард). Схема, не в масштабе, для перерисовки. Сверить: атлас ЯГМУ, препарат c_07.*
+*Схема поля зрения с обозначениями тетради: а — фибрин на эпикарде, б — инфильтрат в эпикарде; ориентиры — жир эпикарда и миокард. Иллюстрация создана в Figma AI по моему описанию и сверена с атласом ЯГМУ (c_07); обозначения — из тетради.*
 
 ![[08-atlas-fibrinoznyj-perikardit.jpg]]
 
@@ -690,7 +690,7 @@ tags: [patanat, vospalenie, ostroe-vospalenie, ekssudativnoe-vospalenie, fibrino
 
 <a class="fig-open" href="08-ostroe-vospalenie-4.svg" target="_blank">Открыть схему крупно ↗</a>
 
-*Схема поля зрения: а — мышечные волокна, б — диффузная лейкоцитарная инфильтрация межмышечной соединительной ткани; серым — полнокровный сосуд. Схема, не в масштабе, для перерисовки. Сверить: атлас ЯГМУ, препарат c_01.*
+*Схема поля зрения: а — мышечные волокна, б — диффузная лейкоцитарная инфильтрация межмышечной соединительной ткани; в прослойке — полнокровный сосуд. Иллюстрация создана в Figma AI по моему описанию и сверена с атласом ЯГМУ (c_01); обозначения — из тетради.*
 
 ![[08-atlas-flegmonoznyj-appendicit.jpg]]
 
@@ -716,7 +716,7 @@ tags: [patanat, vospalenie, ostroe-vospalenie, ekssudativnoe-vospalenie, fibrino
 
 <a class="fig-open" href="08-ostroe-vospalenie-5.svg" target="_blank">Открыть схему крупно ↗</a>
 
-*Схема поля зрения: а — гнойный детрит в полости, б — грануляционный слой стенки, в — соединительнотканная капсула; серым — фибрин и печёночные балки. Схема, не в масштабе, для перерисовки. Сверить: учебник Струкова–Серова, гл. 5 (абсцесс, рис. 5-10).*
+*Схема поля зрения: а — гнойный детрит в полости, б — грануляционный слой стенки, в — соединительнотканная капсула; ориентиры — фибрин и печёночные балки. Иллюстрация создана в Figma AI по моему описанию и сверена со Струковым–Серовым, гл. 5 (абсцесс, рис. 5-10); обозначения — из тетради.*
 
 ![[08-abscess-legkogo.jpg]]
 
@@ -875,5 +875,5 @@ tags: [patanat, vospalenie, ostroe-vospalenie, ekssudativnoe-vospalenie, fibrino
 - Внешний: Kumar V., Abbas A.K., Aster J.C. «Robbins & Cotran Pathologic Basis of Disease», глава «Inflammation and Repair» (острофазовый ответ, каскад адгезии, механизмы проницаемости, кислородный взрыв, сроки смены клеток).
 - Иллюстрации (микро- и макропрепараты): «Атлас по патологической анатомии» ЯГМУ (Ярославский государственный медицинский университет), https://hist.yma.ac.ru/path/frame/frames_gp.html — препараты c_01, c_02, c_07, c_07m, macr_05, macr_25; © ЯГМУ, все права защищены; снимки — обзорный уровень и фрагменты виртуальных препаратов.
 - Иллюстрации: Yale Rosen, «Lung abscess» (https://commons.wikimedia.org/wiki/File:Lung_abscess_(5568606757).jpg) и «Lobar pneumonia» (https://commons.wikimedia.org/wiki/File:Lobar_pneumonia_(13431416354).jpg), Wikimedia Commons, CC BY-SA 2.0; Dileepunnikri, «Dirty white pseudomembrane classically seen in diphtheria» (https://commons.wikimedia.org/wiki/File:Dirty_white_pseudomembrane_classically_seen_in_diphtheria_2013-07-06_11-07.jpg), Wikimedia Commons, CC BY-SA 3.0.
-- Рисунки: Created in BioRender (biorender.com) — сгенерированы по моему описанию, проверены по учебникам кафедры, ошибки исправлены, подписи — мои.
+- Рисунки: Created in BioRender (biorender.com) — сгенерированы по моему описанию, проверены по учебникам кафедры, ошибки исправлены, подписи — мои. Зарисовки № 29, 31, 32 — иллюстрации Figma AI (модель gpt-image) по моему описанию, сверены с атласом ЯГМУ и учебником.
 
