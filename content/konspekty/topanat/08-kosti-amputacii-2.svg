@@ -1,102 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 800" font-family="Georgia, 'Times New Roman', serif">
-<title>Трёхмоментная конусно-круговая ампутация бедра по Пирогову</title>
-<defs>
-<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
- <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5" result="n"/>
- <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
-</filter>
-<pattern id="bone" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
- <rect width="6" height="6" fill="#f4f1ea"/><line x1="0" y1="0" x2="0" y2="6" stroke="#9d9d9d" stroke-width="0.8"/></pattern>
-<pattern id="marrow" width="8" height="8" patternUnits="userSpaceOnUse">
- <rect width="8" height="8" fill="#fbf3dc"/><circle cx="2" cy="2" r="0.9" fill="#d9c98f"/><circle cx="6" cy="6" r="0.7" fill="#e0d29e"/></pattern>
-<pattern id="mus1" width="12" height="6" patternUnits="userSpaceOnUse">
- <rect width="12" height="6" fill="#f6e1d8"/><line x1="0" y1="3" x2="12" y2="3" stroke="#d9a998" stroke-width="0.8"/></pattern>
-<pattern id="mus2" width="12" height="6" patternUnits="userSpaceOnUse">
- <rect width="12" height="6" fill="#ecc9bc"/><line x1="0" y1="3" x2="12" y2="3" stroke="#c48d7c" stroke-width="0.8"/></pattern>
-<pattern id="fat" width="10" height="10" patternUnits="userSpaceOnUse">
- <rect width="10" height="10" fill="#fdf7e3"/><circle cx="3" cy="3" r="2" fill="none" stroke="#e2d3a4" stroke-width="0.6"/><circle cx="8" cy="8" r="1.6" fill="none" stroke="#e2d3a4" stroke-width="0.6"/></pattern>
-<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#555"/></marker>
-</defs>
-<rect width="900" height="800" fill="#ffffff"/>
-<text x="450" y="30" font-size="19" text-anchor="middle" fill="#222">Трёхмоментная конусно-круговая ампутация бедра (Н.И. Пирогов)</text>
-<text x="450" y="52" font-size="13.5" text-anchor="middle" fill="#555">А — продольный разрез: уровни рассечения тканей; Б — готовая культя. Проксимально — слева</text>
-<text x="40" y="92" font-size="17" font-weight="bold" fill="#222">А</text>
-
-<!-- удаляемая часть конечности (бледно) -->
-<g opacity="0.35" filter="url(#pencil)" stroke="#9a9a9a" stroke-width="1.2" fill="none" stroke-dasharray="5 5">
-<path d="M760 182 L860 182 M760 418 L860 418 M700 200 L860 200 M700 400 L860 400 M640 240 L860 240 M640 360 L860 360 M590 280 L860 280 M590 320 L860 320"/>
-</g>
-
-<g filter="url(#pencil)" stroke-linecap="round" stroke-linejoin="round" stroke="#3a3a3a" stroke-width="1.6">
-<!-- кожа + клетчатка (до I) -->
-<path d="M80 182 L760 182 L760 200 L80 200 Z" fill="url(#fat)"/>
-<path d="M80 400 L760 400 L760 418 L80 418 Z" fill="url(#fat)"/>
-<line x1="80" y1="182" x2="760" y2="182" stroke-width="2.4"/>
-<line x1="80" y1="418" x2="760" y2="418" stroke-width="2.4"/>
-<!-- фасция -->
-<line x1="80" y1="200" x2="760" y2="200" stroke="#555" stroke-width="1.4" stroke-dasharray="9 3"/>
-<line x1="80" y1="400" x2="760" y2="400" stroke="#555" stroke-width="1.4" stroke-dasharray="9 3"/>
-<!-- поверхностные мышцы (до II) -->
-<path d="M80 200 L700 200 L700 240 L80 240 Z" fill="url(#mus1)"/>
-<path d="M80 360 L700 360 L700 400 L80 400 Z" fill="url(#mus1)"/>
-<!-- глубокие мышцы (до III) -->
-<path d="M80 240 L640 240 L640 280 L80 280 Z" fill="url(#mus2)"/>
-<path d="M80 320 L640 320 L640 360 L80 360 Z" fill="url(#mus2)"/>
-<!-- кость (до распила) -->
-<path d="M80 280 L590 280 L590 320 L80 320 Z" fill="url(#bone)"/>
-<path d="M80 290 L590 290 L590 310 L80 310 Z" fill="url(#marrow)" stroke-width="1"/>
-<!-- надкостница -->
-<line x1="80" y1="278" x2="584" y2="278" stroke="#7a5c2e" stroke-width="1.2"/>
-<line x1="80" y1="322" x2="584" y2="322" stroke="#7a5c2e" stroke-width="1.2"/>
-</g>
-
-<!-- уровни -->
-<g font-size="14" fill="#222">
-<line x1="760" y1="120" x2="760" y2="440" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6 4"/>
-<line x1="700" y1="140" x2="700" y2="440" stroke="#d35400" stroke-width="1.6" stroke-dasharray="6 4"/>
-<line x1="640" y1="160" x2="640" y2="440" stroke="#8e44ad" stroke-width="1.6" stroke-dasharray="6 4"/>
-<line x1="590" y1="180" x2="590" y2="440" stroke="#1f6fb2" stroke-width="2" stroke-dasharray="2 4"/>
-<text x="764" y="116" fill="#c0392b" font-weight="bold">I</text>
-<text x="704" y="136" fill="#d35400" font-weight="bold">II</text>
-<text x="644" y="156" fill="#8e44ad" font-weight="bold">III</text>
-<text x="574" y="176" fill="#1f6fb2" font-weight="bold" text-anchor="end">распил</text>
-</g>
-<!-- стрелки оттягивания -->
-<g stroke="#555" stroke-width="1.4" fill="none" marker-end="url(#ar)">
-<path d="M752 172 L712 172"/><path d="M692 212 L652 212"/><path d="M632 252 L600 252"/>
-</g>
-
-<!-- подписи слоёв -->
-<g font-size="12.5" fill="#444">
-<text x="60" y="186" text-anchor="end">кожа</text>
-<text x="60" y="204" text-anchor="end">фасция</text>
-<text x="60" y="226" text-anchor="end">поверхн.</text><text x="60" y="240" text-anchor="end">мышцы</text>
-<text x="60" y="266" text-anchor="end">глубокие</text><text x="60" y="280" text-anchor="end">мышцы</text>
-<text x="60" y="305" text-anchor="end">кость</text>
-</g>
-
-<!-- легенда моментов -->
-<g font-size="13.5" fill="#222">
-<text x="80" y="470"><tspan fill="#c0392b" font-weight="bold">I момент</tspan> — круговой разрез кожи, клетчатки и фасции; кожа сокращается, её оттягивают проксимально.</text>
-<text x="80" y="492"><tspan fill="#d35400" font-weight="bold">II момент</tspan> — по краю сократившейся кожи рассекают поверхностные мышцы.</text>
-<text x="80" y="514"><tspan fill="#8e44ad" font-weight="bold">III момент</tspan> — по краю сократившихся поверхностных мышц рассекают глубокие мышцы до кости.</text>
-<text x="80" y="536"><tspan fill="#1f6fb2" font-weight="bold">Распил</tspan> — ткани убирают ретрактором, кость перепиливают; «моментом» распил не считается.</text>
-</g>
-
-<!-- Б: готовая культя -->
-<text x="40" y="590" font-size="17" font-weight="bold" fill="#222">Б</text>
-<g filter="url(#pencil)" stroke-linecap="round" stroke-linejoin="round" stroke="#3a3a3a" stroke-width="1.6">
-<path d="M80 600 L440 600 C520 600, 600 640, 640 680 C600 720, 520 760, 440 760 L80 760 Z" fill="url(#mus1)"/>
-<path d="M80 616 L420 616 C480 618, 540 650, 568 680 C540 710, 480 742, 420 744 L80 744 Z" fill="url(#mus2)"/>
-<path d="M80 660 L470 660 L470 700 L80 700 Z" fill="url(#bone)"/>
-<path d="M80 670 L470 670 L470 690 L80 690 Z" fill="url(#marrow)" stroke-width="1"/>
-<path d="M80 600 L440 600 C520 600, 600 640, 640 680 C600 720, 520 760, 440 760 L80 760" fill="none" stroke-width="2.6"/>
-</g>
-<g stroke="#c0392b" stroke-width="1.6"><line x1="630" y1="668" x2="648" y2="692"/><line x1="648" y1="668" x2="630" y2="692"/></g>
-<g font-size="12.5" fill="#444">
-<line x1="470" y1="680" x2="520" y2="560" stroke="#888" stroke-width="0.9"/><text x="524" y="556">опил кости — в глубине конуса мягких тканей</text>
-<line x1="645" y1="690" x2="690" y2="730" stroke="#888" stroke-width="0.9"/><text x="694" y="734">рубец кожи — на торце культи</text>
-<text x="694" y="750">(на опорной поверхности)</text>
-</g>
-<text x="450" y="790" font-size="12" text-anchor="middle" fill="#666">Схема, не в масштабе (по рис. 3.64 учебника Николаева). Рисовать: кость с надкостницей → глубокие и поверхностные мышцы → кожа; уровни I–III цветом.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1081">
+<title>Трёхмоментная конусно-круговая ампутация бедра</title>
+<defs><style>@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&amp;display=swap'); text { font-family: Onest, 'PT Sans', 'Helvetica Neue', Arial, sans-serif; } .halo { paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }</style>
+<pattern id="musS" width="14" height="6" patternUnits="userSpaceOnUse"><rect width="14" height="6" fill="#d9777b"/><path d="M0 3 H 14" stroke="#b9555b" stroke-width="1"/></pattern>
+<pattern id="musD" width="14" height="6" patternUnits="userSpaceOnUse"><rect width="14" height="6" fill="#c45a62"/><path d="M0 3 H 14" stroke="#9c3d46" stroke-width="1"/></pattern>
+<pattern id="fat" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#fbe7a6"/><circle cx="6" cy="6" r="4.6" fill="none" stroke="#e2c46c" stroke-width="1"/></pattern>
+<pattern id="spong" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#f2e7d4"/><circle cx="2.5" cy="3" r="1.2" fill="#d9c7a6"/></pattern>
+<linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.06" stop-color="#fff"/></linearGradient>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0.5 L10 5 L0 9.5 z" fill="#333"/></marker><mask id="mR" maskUnits="userSpaceOnUse" x="0" y="0" width="960" height="600"><rect x="50" y="0" width="850" height="600" fill="url(#fadeR)"/></mask><mask id="mR2" maskUnits="userSpaceOnUse" x="0" y="679" width="960" height="400"><rect x="50" y="679" width="850" height="400" fill="url(#fadeR)"/></mask></defs>
+<rect width="960" height="1081" fill="#fff"/>
+<text x="480" y="34" font-size="23" font-weight="700" fill="#1f1f1f" text-anchor="middle">Трёхмоментная конусно-круговая ампутация бедра (Н.И. Пирогов)</text>
+<text x="480" y="58" font-size="14.5" fill="#666" text-anchor="middle">продольный разрез бедра; проксимально — слева, дистально — справа</text>
+<g mask="url(#mR)"><rect x="60" y="143" width="840" height="13" fill="#e9b9a6" opacity="0.28"/><rect x="60" y="444" width="840" height="13" fill="#e9b9a6" opacity="0.28"/><rect x="60" y="156" width="840" height="23" fill="url(#fat)" opacity="0.28"/><rect x="60" y="421" width="840" height="23" fill="url(#fat)" opacity="0.28"/><rect x="60" y="179" width="840" height="5" fill="#c9cdd6" opacity="0.28"/><rect x="60" y="416" width="840" height="5" fill="#c9cdd6" opacity="0.28"/><rect x="60" y="184" width="840" height="44" fill="url(#musS)" opacity="0.28"/><rect x="60" y="372" width="840" height="44" fill="url(#musS)" opacity="0.28"/><rect x="60" y="228" width="840" height="42" fill="url(#musD)" opacity="0.28"/><rect x="60" y="330" width="840" height="42" fill="url(#musD)" opacity="0.28"/><rect x="60" y="270" width="840" height="60" fill="url(#spong)" opacity="0.28"/><rect x="60" y="286" width="840" height="28" fill="#f6d27a" opacity="0.28"/><rect x="60" y="143" width="720" height="13" fill="#e9b9a6" /><rect x="60" y="444" width="720" height="13" fill="#e9b9a6" /><rect x="60" y="156" width="720" height="23" fill="url(#fat)" /><rect x="60" y="421" width="720" height="23" fill="url(#fat)" /><rect x="60" y="179" width="720" height="5" fill="#c9cdd6" /><rect x="60" y="416" width="720" height="5" fill="#c9cdd6" /><rect x="60" y="184" width="630" height="44" fill="url(#musS)" /><rect x="60" y="372" width="630" height="44" fill="url(#musS)" /><rect x="60" y="228" width="550" height="42" fill="url(#musD)" /><rect x="60" y="330" width="550" height="42" fill="url(#musD)" /><rect x="60" y="270" width="524" height="60" fill="url(#spong)"/><rect x="60" y="286" width="524" height="28" fill="#f6d27a"/><path d="M60 143 H 900" stroke="#8a6f62" stroke-width="1.6" opacity="0.8"/><path d="M60 457 H 900" stroke="#8a6f62" stroke-width="1.6" opacity="0.8"/><path d="M60 156 H 900" stroke="#8a6f62" stroke-width="0.9" opacity="0.8"/><path d="M60 444 H 900" stroke="#8a6f62" stroke-width="0.9" opacity="0.8"/><path d="M60 179 H 900" stroke="#8a6f62" stroke-width="0.9" opacity="0.8"/><path d="M60 421 H 900" stroke="#8a6f62" stroke-width="0.9" opacity="0.8"/><path d="M60 184 H 900" stroke="#8a6f62" stroke-width="0.9" opacity="0.8"/><path d="M60 416 H 900" stroke="#8a6f62" stroke-width="0.9" opacity="0.8"/><path d="M60 228 H 900" stroke="#8a6f62" stroke-width="0.9" opacity="0.8"/><path d="M60 372 H 900" stroke="#8a6f62" stroke-width="0.9" opacity="0.8"/><path d="M60 270 H 900" stroke="#8a6f62" stroke-width="1.6" opacity="0.8"/><path d="M60 330 H 900" stroke="#8a6f62" stroke-width="1.6" opacity="0.8"/><path d="M780 129 V 184 M780 416 V 471" stroke="#c62828" stroke-width="3.4" stroke-dasharray="9 5"/><circle cx="780" cy="113" r="14" fill="#fff" stroke="#c62828" stroke-width="2.6"/><text x="780" y="118" font-size="14" font-weight="800" fill="#c62828" text-anchor="middle">I</text><path d="M690 129 V 228 M690 372 V 471" stroke="#e65100" stroke-width="3.4" stroke-dasharray="9 5"/><circle cx="690" cy="113" r="14" fill="#fff" stroke="#e65100" stroke-width="2.6"/><text x="690" y="118" font-size="14" font-weight="800" fill="#e65100" text-anchor="middle">II</text><path d="M610 129 V 270 M610 330 V 471" stroke="#6a1b9a" stroke-width="3.4" stroke-dasharray="9 5"/><circle cx="610" cy="113" r="14" fill="#fff" stroke="#6a1b9a" stroke-width="2.6"/><text x="610" y="118" font-size="14" font-weight="800" fill="#6a1b9a" text-anchor="middle">III</text><path d="M584 262 V 338" stroke="#1565c0" stroke-width="3.6"/><text x="576" y="305" font-size="13.5" font-weight="700" fill="#1565c0" text-anchor="end" class="halo">распил кости</text><path d="M774 149.5 H 716" stroke="#c62828" stroke-width="2.4" marker-end="url(#ar)"/><path d="M684 206.0 H 626" stroke="#e65100" stroke-width="2.4" marker-end="url(#ar)"/></g>
+<text x="40" y="96" font-size="20" font-weight="800" fill="#222">А</text><text x="66" y="96" font-size="14.5" fill="#444">три «момента» — каждый слой режут по краю сократившегося предыдущего</text>
+<text x="78" y="210.5" font-size="13" font-weight="700" fill="#fff">поверхностные мышцы</text>
+<text x="78" y="253.5" font-size="13" font-weight="700" fill="#fff">глубокие мышцы</text>
+<text x="78" y="304.5" font-size="13" font-weight="700" fill="#5a4a38">бедренная кость</text>
+<text x="100" y="154.0" font-size="12.5" font-weight="700" fill="#7a2e1f">кожа</text>
+<text x="100" y="172.0" font-size="12.5" font-weight="700" fill="#7a5d10">подкожная клетчатка</text>
+<path d="M130 473 L 110 418.5" stroke="#666" stroke-width="1.1"/><circle cx="110" cy="418.5" r="2.4" fill="#333"/>
+<text x="134" y="479" font-size="12.5" font-weight="700" fill="#445">фасция</text>
+<text x="44" y="517" font-size="14" font-weight="800" fill="#c62828">I</text>
+<text x="76" y="517" font-size="13.5" fill="#222">кожа, клетчатка и фасция — по намеченной окружности; кожа сокращается и её оттягивают кверху</text>
+<text x="44" y="540" font-size="14" font-weight="800" fill="#e65100">II</text>
+<text x="76" y="540" font-size="13.5" fill="#222">поверхностные мышцы — по краю сократившейся кожи (они сокращаются сильнее всего)</text>
+<text x="44" y="563" font-size="14" font-weight="800" fill="#6a1b9a">III</text>
+<text x="76" y="563" font-size="13.5" fill="#222">глубокие мышцы — до кости, по краю сократившихся поверхностных</text>
+<path d="M40 581 H 62" stroke="#1565c0" stroke-width="3.4"/>
+<text x="76" y="586" font-size="13.5" fill="#222">затем ретрактором оттягивают весь массив мягких тканей и перепиливают кость ещё проксимальнее</text>
+<rect x="20" y="645" width="920" height="1" fill="#e3e3e3"/>
+<text x="40" y="679" font-size="20" font-weight="800" fill="#222">Б</text><text x="66" y="679" font-size="14.5" fill="#444">готовая культя: опил кости — в глубине конуса мягких тканей</text>
+<g mask="url(#mR2)"><path d="M60.0 697.0 L500.0 697.0 L590.0 703.0 L630.0 784.0 L646.0 846.0 L646.0 854.0 L60.0 854.0 Z" fill="#e9b9a6"/><path d="M60.0 710.0 L500.0 710.0 L584.0 718.0 L622.0 790.0 L636.0 848.0 L636.0 854.0 L60.0 854.0 Z" fill="url(#fat)"/><path d="M60.0 733.0 L500.0 733.0 L572.0 747.0 L606.0 796.0 L618.0 848.0 L618.0 854.0 L60.0 854.0 Z" fill="#c9cdd6"/><path d="M60.0 738.0 L500.0 738.0 L560.0 758.0 L600.0 798.0 L608.0 848.0 L608.0 854.0 L60.0 854.0 Z" fill="url(#musS)"/><path d="M60.0 782.0 L520.0 782.0 L560.0 790.0 L580.0 816.0 L578.0 854.0 L60.0 854.0 Z" fill="url(#musD)"/><path d="M60.0 1011.0 L500.0 1011.0 L590.0 1005.0 L630.0 924.0 L646.0 862.0 L646.0 854.0 L60.0 854.0 Z" fill="#e9b9a6"/><path d="M60.0 998.0 L500.0 998.0 L584.0 990.0 L622.0 918.0 L636.0 860.0 L636.0 854.0 L60.0 854.0 Z" fill="url(#fat)"/><path d="M60.0 975.0 L500.0 975.0 L572.0 961.0 L606.0 912.0 L618.0 860.0 L618.0 854.0 L60.0 854.0 Z" fill="#c9cdd6"/><path d="M60.0 970.0 L500.0 970.0 L560.0 950.0 L600.0 910.0 L608.0 860.0 L608.0 854.0 L60.0 854.0 Z" fill="url(#musS)"/><path d="M60.0 926.0 L520.0 926.0 L560.0 918.0 L580.0 892.0 L578.0 854.0 L60.0 854.0 Z" fill="url(#musD)"/><rect x="60" y="824" width="500" height="60" fill="url(#spong)" stroke="#6e5c45" stroke-width="1.4"/><rect x="60" y="840" width="500" height="28" fill="#f6d27a"/><path d="M560 818 V 890" stroke="#1565c0" stroke-width="3.4"/><path d="M646 840 V 868" stroke="#7a2e1f" stroke-width="3"/><path d="M640 842 h 12" stroke="#7a2e1f" stroke-width="1.4"/><path d="M640 848 h 12" stroke="#7a2e1f" stroke-width="1.4"/><path d="M640 854 h 12" stroke="#7a2e1f" stroke-width="1.4"/><path d="M640 860 h 12" stroke="#7a2e1f" stroke-width="1.4"/><path d="M640 866 h 12" stroke="#7a2e1f" stroke-width="1.4"/><path d="M60 697 H 500 L 590 703 L 630 784 L 646 846" fill="none" stroke="#8a6f62" stroke-width="1.6"/><path d="M60 1011 H 500 L 590 1005 L 630 924 L 646 862" fill="none" stroke="#8a6f62" stroke-width="1.6"/></g>
+<path d="M700 739 L 560 854" stroke="#9a9a9a" stroke-width="1.1"/><circle cx="560" cy="854" r="2.6" fill="#333"/>
+<text x="704" y="744" font-size="13.5" font-weight="600" fill="#1565c0">опил кости — в глубине конуса</text>
+<path d="M700 799 L 646 854" stroke="#9a9a9a" stroke-width="1.1"/><circle cx="646" cy="854" r="2.6" fill="#333"/>
+<text x="704" y="804" font-size="13.5" font-weight="600" fill="#7a2e1f">рубец кожи — на торце культи</text>
+<text x="704" y="821" font-size="12.5" fill="#666">(на опорной поверхности — недостаток</text>
+<text x="704" y="838" font-size="12.5" fill="#666">круговых ампутаций)</text>
+<path d="M700 909 L 600 914" stroke="#9a9a9a" stroke-width="1.1"/><circle cx="600" cy="914" r="2.6" fill="#333"/>
+<text x="704" y="914" font-size="13.5" font-weight="600" fill="#8a3b2b">мягкие ткани укрывают опил</text>
+<text x="704" y="931" font-size="12.5" fill="#666">за счёт запаса, созданного «моментами»</text>
+<text x="480" y="1061" font-size="11.5" fill="#999" text-anchor="middle">Схема, не в масштабе: по смыслу рис. 3.64 учебника Николаева. Слои: кожа, клетчатка, фасция, поверхностные и глубокие мышцы, кость с костномозговым каналом.</text>
 </svg>

@@ -409,7 +409,7 @@ tags: [topanat, operativnaya-hirurgiya, operacii-na-kostyah, osteomielit, amputa
 
 <a class="fig-open" href="08-kosti-amputacii-1.svg" target="_blank">Открыть схему крупно ↗</a>
 
-*Схема, не в масштабе. Для перерисовки: сначала кости предплюсны, затем плюсневые, пальцы, в конце цветом — четыре линии уровней. Ступенька линии Лисфранка у основания II плюсневой кости — главное, что надо нарисовать правильно. Сверить: атлас Неттера — кости стопы (вид сверху).*
+*Схема, не в масштабе. Для перерисовки: сначала кости предплюсны, затем плюсневые, пальцы, в конце цветом — четыре линии уровней. Ступенька линии Лисфранка у основания II плюсневой кости — главное, что надо нарисовать правильно. Контуры костей обведены по Gray's Anatomy, fig. 268. Сверить: атлас Неттера — кости стопы (вид сверху).*
 
 #### Вычленение пальцев стопы по Гаранжо (II.31)
 
@@ -702,4 +702,5 @@ tags: [topanat, operativnaya-hirurgiya, operacii-na-kostyah, osteomielit, amputa
 - РПД «Топографическая анатомия и оперативная хирургия», набор 2024, тема Т21; перечень экзаменационных вопросов (II.6, II.26–II.36). — `_библиотека/topanat/тематический-план/topanat-rpd-2024.pdf`
 - Внешнее (разделы 1.1–1.2, 1.6–1.8: операции на костях, остеомиелит, частные ампутации): классические отечественные учебники оперативной хирургии — Сергиенко В.И., Петросян Э.А. «Топографическая анатомия и оперативная хирургия»; Островерхов Г.Е., Бомаш Ю.М., Лубоцкий Д.Н. «Оперативная хирургия и топографическая анатомия» — без страниц, требует сверки.
 - Внешнее (разделы 1.8 и 3): Smith D.G., Michael J.W., Bowker J.H. (ред.) Atlas of Amputations and Limb Deficiencies. AAOS, 4-е изд.; Dumanian G.A. et al. Targeted muscle reinnervation treats neuroma and phantom pain in major limb amputees: a randomized clinical trial. Ann Surg, 2019; Valerio I.L. et al. Preemptive treatment of phantom and residual limb pain with targeted muscle reinnervation at the time of major limb amputation. J Am Coll Surg, 2019; Johansen K. et al. Objective criteria accurately predict amputation following lower extremity trauma. J Trauma, 1990.
+- Внешнее (основа рисунков): Gray H. «Anatomy of the Human Body», 20th ed., 1918 — fig. 268 (кости стопы, тыл), fig. 290 и 354 (стопа и голень, медиальная сторона), fig. 350 (сагиттальный срез колена); Wikimedia Commons, общественное достояние.
 - Фото: аппарат Илизарова — Pagemaker787, Wikimedia Commons, CC BY-SA 4.0.
