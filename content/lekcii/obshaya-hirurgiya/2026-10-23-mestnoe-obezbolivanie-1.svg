@@ -1,98 +1,106 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 830" font-family="Georgia, 'Times New Roman', serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1130">
 <title>Спинномозговая и эпидуральная анестезия</title>
-<defs>
-<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
- <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4" result="n"/>
- <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
-</filter>
-<filter id="soft" x="-3%" y="-3%" width="106%" height="106%">
- <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="1" seed="9" result="n"/>
- <feDisplacementMap in="SourceGraphic" in2="n" scale="1.1" xChannelSelector="R" yChannelSelector="G"/>
-</filter>
-<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
- <path d="M0 0 L10 5 L0 10 z" fill="#333"/>
-</marker>
-<marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
- <path d="M0 0 L10 5 L0 10 z" fill="#b0262d"/>
-</marker>
-<marker id="arrB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
- <path d="M0 0 L10 5 L0 10 z" fill="#2c4f9e"/>
-</marker>
-<marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
- <path d="M0 0 L10 5 L0 10 z" fill="#2f8a4a"/>
-</marker>
-</defs>
-<rect width="960" height="830" fill="#ffffff"/>
-<text x="480.0" y="30.0" font-size="19" fill="#222" text-anchor="middle" font-weight="bold" font-style="normal">Поясничный отдел: куда попадает игла при спинномозговой и эпидуральной анестезии</text>
-<text x="480.0" y="52.0" font-size="13.5" fill="#555" text-anchor="middle" font-weight="normal" font-style="italic">сагиттальный разрез, спина больного — справа; схема, не в масштабе</text>
-<path d="M150 104 L 330 108 L 330 190 L 150 194 Z" fill="#efeae0" stroke="#7a7a7a" stroke-width="2" filter="url(#pencil)"/>
-<text x="240.0" y="154.0" font-size="16" fill="#777" text-anchor="middle" font-weight="bold" font-style="normal">L1</text>
-<path d="M152 196 L 328 196 L 328 218 L 152 218 Z" fill="#dfe8ef" stroke="#9aa" stroke-width="1.2"/>
-<path d="M560 122 C 640 116, 720 132, 760 156 C 730 182, 640 186, 560 182 Z" fill="#efeae0" stroke="#7a7a7a" stroke-width="2" filter="url(#pencil)"/>
-<path d="M548 184 L 548 236" stroke="#d4b21f" stroke-width="9" stroke-linecap="round"/>
-<path d="M600 184 L 600 236 M 650 186 L 650 234 M 700 180 L 700 238" stroke="#b8b8b8" stroke-width="2" stroke-dasharray="4 3"/>
-<path d="M150 220 L 330 224 L 330 306 L 150 310 Z" fill="#efeae0" stroke="#7a7a7a" stroke-width="2" filter="url(#pencil)"/>
-<text x="240.0" y="270.0" font-size="16" fill="#777" text-anchor="middle" font-weight="bold" font-style="normal">L2</text>
-<path d="M152 312 L 328 312 L 328 334 L 152 334 Z" fill="#dfe8ef" stroke="#9aa" stroke-width="1.2"/>
-<path d="M560 238 C 640 232, 720 248, 760 272 C 730 298, 640 302, 560 298 Z" fill="#efeae0" stroke="#7a7a7a" stroke-width="2" filter="url(#pencil)"/>
-<path d="M548 300 L 548 352" stroke="#d4b21f" stroke-width="9" stroke-linecap="round"/>
-<path d="M600 300 L 600 352 M 650 302 L 650 350 M 700 296 L 700 354" stroke="#b8b8b8" stroke-width="2" stroke-dasharray="4 3"/>
-<path d="M150 336 L 330 340 L 330 422 L 150 426 Z" fill="#efeae0" stroke="#7a7a7a" stroke-width="2" filter="url(#pencil)"/>
-<text x="240.0" y="386.0" font-size="16" fill="#777" text-anchor="middle" font-weight="bold" font-style="normal">L3</text>
-<path d="M152 428 L 328 428 L 328 450 L 152 450 Z" fill="#dfe8ef" stroke="#9aa" stroke-width="1.2"/>
-<path d="M560 354 C 640 348, 720 364, 760 388 C 730 414, 640 418, 560 414 Z" fill="#efeae0" stroke="#7a7a7a" stroke-width="2" filter="url(#pencil)"/>
-<path d="M548 416 L 548 468" stroke="#d4b21f" stroke-width="9" stroke-linecap="round"/>
-<path d="M600 416 L 600 468 M 650 418 L 650 466 M 700 412 L 700 470" stroke="#b8b8b8" stroke-width="2" stroke-dasharray="4 3"/>
-<path d="M150 452 L 330 456 L 330 538 L 150 542 Z" fill="#efeae0" stroke="#7a7a7a" stroke-width="2" filter="url(#pencil)"/>
-<text x="240.0" y="502.0" font-size="16" fill="#777" text-anchor="middle" font-weight="bold" font-style="normal">L4</text>
-<path d="M152 544 L 328 544 L 328 566 L 152 566 Z" fill="#dfe8ef" stroke="#9aa" stroke-width="1.2"/>
-<path d="M560 470 C 640 464, 720 480, 760 504 C 730 530, 640 534, 560 530 Z" fill="#efeae0" stroke="#7a7a7a" stroke-width="2" filter="url(#pencil)"/>
-<path d="M548 532 L 548 584" stroke="#d4b21f" stroke-width="9" stroke-linecap="round"/>
-<path d="M600 532 L 600 584 M 650 534 L 650 582 M 700 528 L 700 586" stroke="#b8b8b8" stroke-width="2" stroke-dasharray="4 3"/>
-<path d="M150 568 L 330 572 L 330 654 L 150 658 Z" fill="#efeae0" stroke="#7a7a7a" stroke-width="2" filter="url(#pencil)"/>
-<text x="240.0" y="618.0" font-size="16" fill="#777" text-anchor="middle" font-weight="bold" font-style="normal">L5</text>
-<path d="M560 586 C 640 580, 720 596, 760 620 C 730 646, 640 650, 560 646 Z" fill="#efeae0" stroke="#7a7a7a" stroke-width="2" filter="url(#pencil)"/>
-<path d="M352 94 L 352 694 M 530 94 L 530 694" stroke="#555" stroke-width="2.4"/>
-<rect x="354" y="94" width="174" height="600" fill="#e5f0f7" opacity="0.7"/>
-<rect x="531" y="94" width="12" height="600" fill="#fbe9c6" opacity="0.9"/>
-<path d="M420 94 L 420 164 C 420 224, 462 224, 462 164 L 462 94 Z" fill="#f1e6c8" stroke="#8a7a4a" stroke-width="1.6"/>
-<path d="M426.0 204 C 418.0 354, 414.0 504, 408.0 684" fill="none" stroke="#b39a5a" stroke-width="1.1"/>
-<path d="M430.5 204 C 424.5 354, 421.5 504, 416.5 684" fill="none" stroke="#b39a5a" stroke-width="1.1"/>
-<path d="M435.0 204 C 431.0 354, 429.0 504, 425.0 684" fill="none" stroke="#b39a5a" stroke-width="1.1"/>
-<path d="M439.5 204 C 437.5 354, 436.5 504, 433.5 684" fill="none" stroke="#b39a5a" stroke-width="1.1"/>
-<path d="M444.0 204 C 444.0 354, 444.0 504, 442.0 684" fill="none" stroke="#b39a5a" stroke-width="1.1"/>
-<path d="M448.5 204 C 450.5 354, 451.5 504, 450.5 684" fill="none" stroke="#b39a5a" stroke-width="1.1"/>
-<path d="M453.0 204 C 457.0 354, 459.0 504, 459.0 684" fill="none" stroke="#b39a5a" stroke-width="1.1"/>
-<path d="M457.5 204 C 463.5 354, 466.5 504, 467.5 684" fill="none" stroke="#b39a5a" stroke-width="1.1"/>
-<path d="M462.0 204 C 470.0 354, 474.0 504, 476.0 684" fill="none" stroke="#b39a5a" stroke-width="1.1"/>
-<text x="441.0" y="240.0" font-size="12" fill="#8a7a4a" text-anchor="middle" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">конус</text>
-<text x="441.0" y="254.0" font-size="11.5" fill="#8a7a4a" text-anchor="middle" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">спинного мозга</text>
-<text x="441.0" y="268.0" font-size="11.5" fill="#8a7a4a" text-anchor="middle" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">(L1–L2)</text>
-<text x="441.0" y="544.0" font-size="12" fill="#8a7a4a" text-anchor="middle" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">конский хвост</text>
-<text x="441.0" y="560.0" font-size="11.5" fill="#4a6fa5" text-anchor="middle" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">в ликворе</text>
-<path d="M800 94 C 812 254, 806 484, 816 694" stroke="#a07a6a" stroke-width="3" fill="none"/>
-<path d="M800 94 C 790 254, 784 484, 792 694" stroke="#e8c8a8" stroke-width="18" fill="none" opacity="0.6"/>
-<line x1="900" y1="437.0" x2="470" y2="443.0" stroke="#2c4f9e" stroke-width="2.4"/>
-<rect x="890" y="427.0" width="34" height="20" rx="3" fill="#2c4f9e" opacity="0.8"/>
-<text x="880.0" y="421.0" font-size="12.5" fill="#2c4f9e" text-anchor="end" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">спинальная игла (тонкая)</text>
-<circle cx="470" cy="443.0" r="4" fill="#2c4f9e"/>
-<line x1="900" y1="319.0" x2="540" y2="327.0" stroke="#b0262d" stroke-width="4.2"/>
-<path d="M540 327.0 q -6 2 -4 8" fill="none" stroke="#b0262d" stroke-width="3"/>
-<rect x="890" y="307.0" width="38" height="22" rx="3" fill="#b0262d" opacity="0.8"/>
-<path d="M538 333.0 C 534 367.0, 538 407.0, 536 447.0" fill="none" stroke="#c46a12" stroke-width="2" stroke-dasharray="5 3"/>
-<text x="880.0" y="303.0" font-size="12.5" fill="#b0262d" text-anchor="end" font-weight="bold" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">эпидуральная игла (Туохи)</text>
-<text x="240.0" y="90.0" font-size="12" fill="#777" text-anchor="middle" font-weight="bold" font-style="normal">тела позвонков и диски</text>
-<text x="441.0" y="90.0" font-size="12" fill="#4a6fa5" text-anchor="middle" font-weight="bold" font-style="normal">дуральный мешок</text>
-<text x="806.0" y="90.0" font-size="12" fill="#a07a6a" text-anchor="middle" font-weight="bold" font-style="normal">кожа</text>
-<circle cx="806.0" cy="285.0" r="11" fill="#444" stroke="#fff" stroke-width="1.5"/><text x="806.0" y="289.6" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
-<circle cx="676.0" cy="295.0" r="11" fill="#444" stroke="#fff" stroke-width="1.5"/><text x="676.0" y="299.6" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">2</text>
-<circle cx="562.0" cy="287.0" r="11" fill="#444" stroke="#fff" stroke-width="1.5"/><text x="562.0" y="291.6" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">3</text>
-<circle cx="537.0" cy="333.0" r="11" fill="#444" stroke="#fff" stroke-width="1.5"/><text x="537.0" y="337.6" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">4</text>
-<circle cx="512.0" cy="367.0" r="11" fill="#444" stroke="#fff" stroke-width="1.5"/><text x="512.0" y="371.6" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">5</text>
-<circle cx="486.0" cy="305.0" r="11" fill="#444" stroke="#fff" stroke-width="1.5"/><text x="486.0" y="309.6" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">6</text>
-<text x="40.0" y="730.0" font-size="12.8" text-anchor="start"><tspan fill="#222" font-weight="bold">Путь иглы: </tspan><tspan fill="#333" font-weight="normal">1 кожа и подкожная клетчатка → 2 надостистая и межостистая связки → 3 жёлтая связка (за ней —</tspan></text>
-<text x="40.0" y="752.0" font-size="12.8" text-anchor="start"><tspan fill="#222" font-weight="normal"></tspan><tspan fill="#333" font-weight="normal">«потеря сопротивления») → 4 </tspan><tspan fill="#c46a12" font-weight="bold">эпидуральное пространство</tspan><tspan fill="#333" font-weight="normal"> → 5 твёрдая и паутинная оболочки → 6 </tspan><tspan fill="#2c4f9e" font-weight="bold">субарахноидальное (ликвор)</tspan></text>
-<text x="40.0" y="774.0" font-size="12.8" text-anchor="start"><tspan fill="#2c4f9e" font-weight="bold">Спинномозговая: </tspan><tspan fill="#333" font-weight="normal">малая доза анестетика в ликвор ниже конца спинного мозга (L2–L3 и ниже); блок быстрый и глубокий</tspan></text>
-<text x="40.0" y="796.0" font-size="12.8" text-anchor="start"><tspan fill="#b0262d" font-weight="bold">Эпидуральная: </tspan><tspan fill="#333" font-weight="normal">большой объём кнаружи от твёрдой оболочки; блок медленнее; через катетер — продлённое обезболивание</tspan></text>
-<text x="40.0" y="818.0" font-size="12.8" text-anchor="start"><tspan fill="#222" font-weight="bold">Общее осложнение — гипотензия: </tspan><tspan fill="#333" font-weight="normal">блок симпатических волокон → сосуды расширены; лечат инфузией и вазопрессорами</tspan></text>
+<defs><style>@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&amp;display=swap'); text { font-family: Onest, 'PT Sans', 'Helvetica Neue', Arial, sans-serif; } .halo { paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }</style>
+<pattern id="spong" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#f2e7d4"/><circle cx="3" cy="3" r="1.6" fill="#d9c49e"/><circle cx="8" cy="7.5" r="1.2" fill="#d9c49e"/></pattern>
+<pattern id="fat" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#fbe7a6"/><circle cx="6" cy="6" r="4.6" fill="none" stroke="#e2c46c" stroke-width="1"/></pattern>
+<pattern id="lig" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#efe1c4"/><path d="M0 3 H 6" stroke="#d6c39e" stroke-width="1"/></pattern>
+<linearGradient id="csf" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#cfe6f7"/><stop offset="1" stop-color="#e3f1fb"/></linearGradient>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0.5 L10 5 L0 9.5 z" fill="#333"/></marker><linearGradient id="fadeB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.7" stop-color="#fff"/></linearGradient></defs>
+<rect width="960" height="1130" fill="#fff"/>
+<text x="480" y="34" font-size="22" font-weight="700" fill="#1f1f1f" text-anchor="middle">Куда попадает игла при спинномозговой и эпидуральной анестезии</text>
+<text x="480" y="58" font-size="14.5" fill="#666" text-anchor="middle">срединный сагиттальный разрез; спина больного — справа, голова — вверху; схема, не в масштабе</text>
+<rect x="372" y="70" width="328" height="880" fill="#f6d2d6"/>
+<path d="M640 70 V 950" stroke="none"/>
+<rect x="636" y="70" width="64" height="880" fill="url(#fat)"/>
+<rect x="700" y="70" width="18" height="880" fill="#e9b9a6" stroke="#c48d78" stroke-width="1.4"/>
+<rect x="110" y="70" width="10" height="880" fill="url(#lig)"/>
+<rect x="262" y="70" width="8" height="880" fill="url(#lig)"/>
+<rect x="270" y="70" width="102" height="880" fill="url(#fat)" opacity="0.85"/>
+<rect x="284" y="70" width="68" height="880" fill="url(#csf)" stroke="#2f6db5" stroke-width="3"/>
+<path d="M288 70 V 950 M348 70 V 950" stroke="#7aa6d6" stroke-width="1.2" stroke-dasharray="4 3"/>
+<path d="M300.0 70 L 300.0 161.0 Q 302.0 211.0 318.0 231.0 Q 334.0 211.0 336.0 161.0 L 336.0 70 Z" fill="#f3e3b5" stroke="#b38f3a" stroke-width="2"/>
+<path d="M304.0 225.0 C 304.0 291.0, 292.0 391.0, 292.0 950" fill="none" stroke="#c9a24a" stroke-width="1.8"/>
+<path d="M307.5 219.0 C 307.5 291.0, 298.4 391.0, 298.4 950" fill="none" stroke="#c9a24a" stroke-width="1.8"/>
+<path d="M311.0 213.0 C 311.0 291.0, 304.8 391.0, 304.8 950" fill="none" stroke="#c9a24a" stroke-width="1.8"/>
+<path d="M314.5 207.0 C 314.5 291.0, 311.2 391.0, 311.2 950" fill="none" stroke="#c9a24a" stroke-width="1.8"/>
+<path d="M318.0 201.0 C 318.0 291.0, 317.6 391.0, 317.6 950" fill="none" stroke="#c9a24a" stroke-width="1.8"/>
+<path d="M321.5 207.0 C 321.5 291.0, 324.0 391.0, 324.0 950" fill="none" stroke="#c9a24a" stroke-width="1.8"/>
+<path d="M325.0 213.0 C 325.0 291.0, 330.4 391.0, 330.4 950" fill="none" stroke="#c9a24a" stroke-width="1.8"/>
+<path d="M328.5 219.0 C 328.5 291.0, 336.8 391.0, 336.8 950" fill="none" stroke="#c9a24a" stroke-width="1.8"/>
+<path d="M332.0 225.0 C 332.0 291.0, 343.2 391.0, 343.2 950" fill="none" stroke="#c9a24a" stroke-width="1.8"/>
+<path d="M318.0 231.0 V 950" stroke="#b38f3a" stroke-width="1.2" stroke-dasharray="2 3"/>
+<path d="M120 116 Q 191.0 124 262 116 L 262 208 Q 191.0 200 120 208 Z" fill="url(#spong)" stroke="#7b6a55" stroke-width="2"/>
+<path d="M120 208 Q 191.0 200 262 208 L 262 254 Q 191.0 262 120 254 Z" fill="#dfe8ee" stroke="#8aa0ad" stroke-width="1.4"/><path d="M130 210 V 252 M252 210 V 252" stroke="#aebfca" stroke-width="1"/><path d="M140 210 V 252 M242 210 V 252" stroke="#aebfca" stroke-width="1"/><path d="M150 210 V 252 M232 210 V 252" stroke="#aebfca" stroke-width="1"/><ellipse cx="199.0" cy="231.0" rx="30" ry="15.0" fill="#c8dbe8"/>
+<path d="M120 254 Q 191.0 262 262 254 L 262 346 Q 191.0 338 120 346 Z" fill="url(#spong)" stroke="#7b6a55" stroke-width="2"/>
+<path d="M120 346 Q 191.0 338 262 346 L 262 392 Q 191.0 400 120 392 Z" fill="#dfe8ee" stroke="#8aa0ad" stroke-width="1.4"/><path d="M130 348 V 390 M252 348 V 390" stroke="#aebfca" stroke-width="1"/><path d="M140 348 V 390 M242 348 V 390" stroke="#aebfca" stroke-width="1"/><path d="M150 348 V 390 M232 348 V 390" stroke="#aebfca" stroke-width="1"/><ellipse cx="199.0" cy="369.0" rx="30" ry="15.0" fill="#c8dbe8"/>
+<path d="M120 392 Q 191.0 400 262 392 L 262 484 Q 191.0 476 120 484 Z" fill="url(#spong)" stroke="#7b6a55" stroke-width="2"/>
+<path d="M120 484 Q 191.0 476 262 484 L 262 530 Q 191.0 538 120 530 Z" fill="#dfe8ee" stroke="#8aa0ad" stroke-width="1.4"/><path d="M130 486 V 528 M252 486 V 528" stroke="#aebfca" stroke-width="1"/><path d="M140 486 V 528 M242 486 V 528" stroke="#aebfca" stroke-width="1"/><path d="M150 486 V 528 M232 486 V 528" stroke="#aebfca" stroke-width="1"/><ellipse cx="199.0" cy="507.0" rx="30" ry="15.0" fill="#c8dbe8"/>
+<path d="M120 530 Q 191.0 538 262 530 L 262 622 Q 191.0 614 120 622 Z" fill="url(#spong)" stroke="#7b6a55" stroke-width="2"/>
+<path d="M120 622 Q 191.0 614 262 622 L 262 668 Q 191.0 676 120 668 Z" fill="#dfe8ee" stroke="#8aa0ad" stroke-width="1.4"/><path d="M130 624 V 666 M252 624 V 666" stroke="#aebfca" stroke-width="1"/><path d="M140 624 V 666 M242 624 V 666" stroke="#aebfca" stroke-width="1"/><path d="M150 624 V 666 M232 624 V 666" stroke="#aebfca" stroke-width="1"/><ellipse cx="199.0" cy="645.0" rx="30" ry="15.0" fill="#c8dbe8"/>
+<path d="M120 668 Q 191.0 676 262 668 L 262 760 Q 191.0 752 120 760 Z" fill="url(#spong)" stroke="#7b6a55" stroke-width="2"/>
+<path d="M120 760 Q 191.0 752 262 760 L 262 806 Q 191.0 814 120 806 Z" fill="#dfe8ee" stroke="#8aa0ad" stroke-width="1.4"/><path d="M130 762 V 804 M252 762 V 804" stroke="#aebfca" stroke-width="1"/><path d="M140 762 V 804 M242 762 V 804" stroke="#aebfca" stroke-width="1"/><path d="M150 762 V 804 M232 762 V 804" stroke="#aebfca" stroke-width="1"/><ellipse cx="199.0" cy="783.0" rx="30" ry="15.0" fill="#c8dbe8"/>
+<path d="M372 114 C 402 106, 432 112, 452 120 L 612 132 C 634 136, 640 162, 634 188 C 628 212, 608 218, 584 214 L 452 206 C 424 214, 396 222, 372 210 Z" fill="url(#spong)" stroke="#7b6a55" stroke-width="2"/>
+<path d="M372 252 C 402 244, 432 250, 452 258 L 612 270 C 634 274, 640 300, 634 326 C 628 350, 608 356, 584 352 L 452 344 C 424 352, 396 360, 372 348 Z" fill="url(#spong)" stroke="#7b6a55" stroke-width="2"/>
+<path d="M372 390 C 402 382, 432 388, 452 396 L 612 408 C 634 412, 640 438, 634 464 C 628 488, 608 494, 584 490 L 452 482 C 424 490, 396 498, 372 486 Z" fill="url(#spong)" stroke="#7b6a55" stroke-width="2"/>
+<path d="M372 528 C 402 520, 432 526, 452 534 L 612 546 C 634 550, 640 576, 634 602 C 628 626, 608 632, 584 628 L 452 620 C 424 628, 396 636, 372 624 Z" fill="url(#spong)" stroke="#7b6a55" stroke-width="2"/>
+<path d="M372 666 C 402 658, 432 664, 452 672 L 612 684 C 634 688, 640 714, 634 740 C 628 764, 608 770, 584 766 L 452 758 C 424 766, 396 774, 372 762 Z" fill="url(#spong)" stroke="#7b6a55" stroke-width="2"/>
+<path d="M370 210 L 386 214 L 386 250 L 370 252 Z" fill="#f2c94c" stroke="#b8901c" stroke-width="1.6"/>
+<path d="M370 348 L 386 352 L 386 388 L 370 390 Z" fill="#f2c94c" stroke="#b8901c" stroke-width="1.6"/>
+<path d="M370 486 L 386 490 L 386 526 L 370 528 Z" fill="#f2c94c" stroke="#b8901c" stroke-width="1.6"/>
+<path d="M370 624 L 386 628 L 386 664 L 370 666 Z" fill="#f2c94c" stroke="#b8901c" stroke-width="1.6"/>
+<path d="M452 206 L 584 214 L 612 270 L 452 258 Z" fill="url(#lig)" opacity="0.9"/>
+<path d="M452 344 L 584 352 L 612 408 L 452 396 Z" fill="url(#lig)" opacity="0.9"/>
+<path d="M452 482 L 584 490 L 612 546 L 452 534 Z" fill="url(#lig)" opacity="0.9"/>
+<path d="M452 620 L 584 628 L 612 684 L 452 672 Z" fill="url(#lig)" opacity="0.9"/>
+<path d="M634 70 C 644 386, 644 662, 634 950" fill="none" stroke="#d6c39e" stroke-width="12"/>
+<path d="M130 806 L 268 806 L 252 950 L 150 950 Z" fill="url(#spong)" stroke="#7b6a55" stroke-width="2"/>
+<rect x="0" y="860" width="960" height="100" fill="url(#fadeB)"/>
+<path d="M820 347.0 L 366 377.0 q -8 2 -8 10" fill="none" stroke="#5d6b78" stroke-width="7" stroke-linecap="round"/>
+<path d="M820 347.0 L 366 377.0 q -8 2 -8 10" fill="none" stroke="#c7d0d8" stroke-width="3" stroke-linecap="round"/>
+<path d="M820 491.0 L 318.0 513.0" fill="none" stroke="#5d6b78" stroke-width="4" stroke-linecap="round"/>
+<path d="M820 491.0 L 318.0 513.0" fill="none" stroke="#d9e0e6" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="312.0" cy="521.0" r="2.2" fill="#2f6db5"/>
+<circle cx="316.0" cy="526.0" r="2.2" fill="#2f6db5"/>
+<circle cx="320.0" cy="531.0" r="2.2" fill="#2f6db5"/>
+<circle cx="324.0" cy="536.0" r="2.2" fill="#2f6db5"/>
+<text x="142" y="168.0" font-size="17" font-weight="800" fill="#6d5a43" class="halo">L1</text>
+<text x="142" y="306.0" font-size="17" font-weight="800" fill="#6d5a43" class="halo">L2</text>
+<text x="142" y="444.0" font-size="17" font-weight="800" fill="#6d5a43" class="halo">L3</text>
+<text x="142" y="582.0" font-size="17" font-weight="800" fill="#6d5a43" class="halo">L4</text>
+<text x="142" y="720.0" font-size="17" font-weight="800" fill="#6d5a43" class="halo">L5</text>
+<path d="M40 91 L 310.0 217.0" stroke="#222" stroke-width="1.1"/><circle cx="310.0" cy="217.0" r="2.8" fill="#222" stroke="#fff" stroke-width="1"/>
+<text x="44" y="96" font-size="13.5" font-weight="700" fill="#8a6a1a" text-anchor="start" class="halo">конус спинного мозга</text>
+<text x="44" y="112" font-size="12.5" fill="#555" text-anchor="start" class="halo">оканчивается на уровне L1–L2</text>
+<path d="M40 529 L 304.0 564.0" stroke="#222" stroke-width="1.1"/><circle cx="304.0" cy="564.0" r="2.8" fill="#222" stroke="#fff" stroke-width="1"/>
+<text x="44" y="534" font-size="13.5" font-weight="700" fill="#8a6a1a" text-anchor="start" class="halo">конский хвост в ликворе</text>
+<text x="44" y="550" font-size="12.5" fill="#555" text-anchor="start" class="halo">корешки отходят от иглы</text>
+<path d="M40 727 L 180.0 782.0" stroke="#222" stroke-width="1.1"/><circle cx="180.0" cy="782.0" r="2.8" fill="#222" stroke="#fff" stroke-width="1"/>
+<text x="44" y="732" font-size="13.5" font-weight="700" fill="#5a7a8a" text-anchor="start" class="halo">межпозвонковый диск</text>
+<path d="M708 496 V 517" stroke="#1f1f1f" stroke-width="1.2"/>
+<circle cx="708" cy="530" r="12" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="708" y="535" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<path d="M634 499 V 478" stroke="#1f1f1f" stroke-width="1.2"/>
+<circle cx="634" cy="465" r="12" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="634" y="470" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<path d="M532 504 V 525" stroke="#1f1f1f" stroke-width="1.2"/>
+<circle cx="532" cy="538" r="12" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="532" y="543" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<path d="M378 510 V 489" stroke="#1f1f1f" stroke-width="1.2"/>
+<circle cx="378" cy="476" r="12" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="378" y="481" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<path d="M362 511 V 532" stroke="#1f1f1f" stroke-width="1.2"/>
+<circle cx="362" cy="545" r="12" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="362" y="550" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">5</text>
+<path d="M324.0 513 V 492" stroke="#1f1f1f" stroke-width="1.2"/>
+<circle cx="324.0" cy="479" r="12" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="324.0" y="484" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">6</text>
+<text x="726" y="281.0" font-size="14" font-weight="800" fill="#1f4fa0" text-anchor="start">эпидуральная игла</text><text x="726" y="297.0" font-size="12.5" fill="#555">Туохи, L2–L3: изогнутый</text><text x="726" y="313.0" font-size="12.5" fill="#555">кончик — в эпидуральном</text><text x="726" y="329.0" font-size="12.5" fill="#555">пространстве</text>
+<text x="726" y="557.0" font-size="14" font-weight="800" fill="#b3261e">спинальная игла</text><text x="726" y="573.0" font-size="12.5" fill="#555">тонкая, L3–L4:</text><text x="726" y="589.0" font-size="12.5" fill="#555">прокалывает дуру;</text><text x="726" y="605.0" font-size="12.5" fill="#555">из иглы — ликвор</text>
+<path d="M40 265 L 284.0 130.0" stroke="#222" stroke-width="1.1"/><circle cx="284.0" cy="130.0" r="2.8" fill="#222" stroke="#fff" stroke-width="1"/>
+<text x="44" y="270" font-size="13.5" font-weight="700" fill="#2f6db5" text-anchor="start" class="halo">дуральный мешок</text>
+<text x="44" y="286" font-size="12.5" fill="#555" text-anchor="start" class="halo">(твёрдая оболочка) — до S2</text>
+<text x="40" y="970" font-size="14.5" font-weight="700" fill="#222">Слои по ходу иглы (сзади наперёд):</text>
+<text x="40" y="994" font-size="13.5" fill="#222"><tspan font-weight="800">1</tspan> — кожа и подкожная клетчатка</text>
+<text x="40" y="1015" font-size="13.5" fill="#222"><tspan font-weight="800">2</tspan> — надостистая связка</text>
+<text x="40" y="1036" font-size="13.5" fill="#222"><tspan font-weight="800">3</tspan> — межостистая связка</text>
+<text x="480" y="994" font-size="13.5" fill="#222"><tspan font-weight="800">4</tspan> — жёлтая связка — «провал», потеря сопротивления</text>
+<text x="480" y="1015" font-size="13.5" fill="#222"><tspan font-weight="800">5</tspan> — эпидуральное пространство: жир, венозное сплетение</text>
+<text x="480" y="1036" font-size="13.5" fill="#222"><tspan font-weight="800">6</tspan> — твёрдая и паутинная оболочки → ликвор</text>
+<text x="40" y="1070" font-size="13" fill="#555">Пункцию делают ниже L2, чтобы не ранить спинной мозг: в мешке ниже конуса — только корешки конского хвоста.</text>
+<text x="40" y="1088" font-size="13" fill="#555">Субарахноидальное пространство (6) — для спинномозговой анестезии; эпидуральное (5) — для эпидуральной.</text>
+<text x="480" y="1114" font-size="11.5" fill="#999" text-anchor="middle">Пропорции позвонков — по Gray’s Anatomy, fig. 301 (общественное достояние). Сверить: атлас Неттера — поясничный отдел.</text>
 </svg>
