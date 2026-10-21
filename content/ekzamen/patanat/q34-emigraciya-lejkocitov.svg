@@ -1,148 +1,206 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" font-family="Georgia, 'Times New Roman', serif">
-<title>Экссудация: реакция венулы и эмиграция лейкоцитов</title>
-<defs>
-<filter id="pencil" x="-3%" y="-3%" width="106%" height="106%">
- <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5" result="n"/>
- <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
-</filter>
-<filter id="soft" x="-3%" y="-3%" width="106%" height="106%">
- <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="1" seed="9" result="n"/>
- <feDisplacementMap in="SourceGraphic" in2="n" scale="1.2" xChannelSelector="R" yChannelSelector="G"/>
-</filter>
-
-</defs>
-<rect width="960" height="580" fill="#ffffff"/>
-<text x="480.0" y="30.0" font-size="19" fill="#222" text-anchor="middle" font-weight="normal" font-style="normal">Экссудация: реакция венулы и эмиграция лейкоцитов</text>
-<text x="480.0" y="52.0" font-size="13" fill="#555" text-anchor="middle" font-weight="normal" font-style="normal">продольный срез посткапиллярной венулы в очаге воспаления; ток крови — слева направо, замедлен</text>
-<g filter="url(#soft)" fill="none" stroke="#e3c9cf" stroke-width="1.3">
-<path d="M30 292 C 200 284, 360 301, 520 289 S 800 298, 930 292"/>
-<path d="M30 309 C 200 301, 360 318, 520 306 S 800 315, 930 309"/>
-<path d="M30 326 C 200 318, 360 335, 520 323 S 800 332, 930 326"/>
-<path d="M30 343 C 200 335, 360 352, 520 340 S 800 349, 930 343"/>
-<path d="M30 360 C 200 352, 360 369, 520 357 S 800 366, 930 360"/>
-<path d="M30 377 C 200 369, 360 386, 520 374 S 800 383, 930 377"/>
-<path d="M30 394 C 200 386, 360 403, 520 391 S 800 400, 930 394"/>
-</g>
-<g filter="url(#pencil)">
-<rect x="30" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="80" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="130" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="180" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="230" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="280" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="330" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="380" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="430" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="480" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="530" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="580" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="630" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="680" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="730" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="780" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="830" y="80" width="97" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="880" cy="86" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="30" y="250" width="92" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="78" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="125" y="250" width="92" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="173" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="221" y="250" width="92" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="268" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="316" y="250" width="92" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="364" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="412" y="250" width="92" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="459" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="533" y="250" width="96" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="583" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="632" y="250" width="96" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="682" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="732" y="250" width="96" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="781" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
-<rect x="831" y="250" width="96" height="12" rx="5" fill="#fbe6d8" stroke="#b5835f" stroke-width="1.2"/>
-<ellipse cx="880" cy="256" rx="13" ry="3" fill="#8d7bb5"/>
-</g>
-<line x1="30" y1="74" x2="930" y2="74" stroke="#8a96a8" stroke-width="1.6" stroke-dasharray="4 3"/>
-<path d="M30 270 L 592 270 M 632 270 L 930 270" stroke="#8a96a8" stroke-width="1.6" stroke-dasharray="4 3" fill="none"/>
-<text x="934.0" y="274.0" font-size="11" fill="#666" text-anchor="start" font-weight="normal" font-style="normal">БМ</text>
-<text x="36.0" y="70.0" font-size="12" fill="#8a4a20" text-anchor="start" font-weight="normal" font-style="italic">эндотелий венулы</text>
-<g transform="translate(59.2,210.3) rotate(14)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(99.2,202.3) rotate(15)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(139.6,209.5) rotate(-20)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(176.9,118.5) rotate(20)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(222.2,211.8) rotate(23)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(262.5,207.8) rotate(6)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(305.3,112.7) rotate(-15)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(335.9,121.3) rotate(-9)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(381.5,140.2) rotate(7)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(420.0,117.5) rotate(-11)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(468.0,120.5) rotate(-9)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(495.7,156.4) rotate(3)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(533.7,122.2) rotate(-6)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(587.3,114.6) rotate(21)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(612.8,189.8) rotate(-5)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(653.2,143.3) rotate(-12)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(693.4,156.2) rotate(-4)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(746.8,137.0) rotate(-20)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(773.0,180.1) rotate(3)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(819.2,145.8) rotate(13)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(858.7,179.4) rotate(-4)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<g transform="translate(895.4,166.4) rotate(24)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<line x1="48" y1="232" x2="150" y2="232" stroke="#666" stroke-width="1.6"/><polygon points="150,227 160,232 150,237" fill="#666"/>
-<text x="48.0" y="224.0" font-size="11.5" fill="#666" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">медленный ток</text>
-<g transform="translate(230.0,170.0) rotate(0)"><circle r="13.0" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.67"/><ellipse cx="-4.8" cy="-1.9" rx="3.5" ry="2.7" fill="#5d4a8c"/><ellipse cx="0.7" cy="-5.2" rx="3.5" ry="2.7" fill="#5d4a8c"/><ellipse cx="5.2" cy="1.7" rx="3.5" ry="2.7" fill="#5d4a8c"/></g>
-<g transform="translate(330.0,232.0) rotate(0)"><circle r="13.0" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.67"/><ellipse cx="-4.8" cy="-1.9" rx="3.5" ry="2.7" fill="#5d4a8c"/><ellipse cx="0.7" cy="-5.2" rx="3.5" ry="2.7" fill="#5d4a8c"/><ellipse cx="5.2" cy="1.7" rx="3.5" ry="2.7" fill="#5d4a8c"/></g>
-<g filter="url(#soft)"><ellipse cx="420" cy="241" rx="24" ry="9" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.3"/></g>
-<ellipse cx="411" cy="242" rx="3.6" ry="2.6" fill="#5d4a8c"/>
-<ellipse cx="420" cy="239" rx="3.6" ry="2.6" fill="#5d4a8c"/>
-<ellipse cx="429" cy="242" rx="3.6" ry="2.6" fill="#5d4a8c"/>
-<path d="M520 228 C 532 228, 536 238, 530 246 L 527 262 C 534 268, 536 276, 528 280 C 518 284, 510 278, 512 270 L 512 262 L 510 246 C 504 238, 508 228, 520 228 Z" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.3"/>
-<ellipse cx="517" cy="236" rx="3.4" ry="2.5" fill="#5d4a8c"/>
-<ellipse cx="524" cy="241" rx="3.4" ry="2.5" fill="#5d4a8c"/>
-<ellipse cx="521" cy="274" rx="3.4" ry="2.5" fill="#5d4a8c"/>
-<path d="M592 266 C 600 262, 624 262, 632 268 C 640 276, 630 286, 612 287 C 596 288, 586 280, 592 266 Z" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.3"/>
-<ellipse cx="604" cy="272" rx="3.2" ry="2.4" fill="#5d4a8c"/>
-<ellipse cx="613" cy="276" rx="3.2" ry="2.4" fill="#5d4a8c"/>
-<ellipse cx="621" cy="271" rx="3.2" ry="2.4" fill="#5d4a8c"/>
-<path d="M700 352 C 700 340, 712 334, 722 338 L 754 344 L 722 352 C 716 366, 700 364, 700 352 Z" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.3"/>
-<ellipse cx="707" cy="348" rx="3" ry="2.2" fill="#5d4a8c"/>
-<ellipse cx="714" cy="355" rx="3" ry="2.2" fill="#5d4a8c"/>
-<ellipse cx="716" cy="343" rx="3" ry="2.2" fill="#5d4a8c"/>
-<path d="M760 350 L 800 360" stroke="#2e7d32" stroke-width="1.8" stroke-dasharray="5 4" fill="none"/><polygon points="798,355 808,362 797,365" fill="#2e7d32"/>
-<rect x="804" y="349" width="16" height="6" rx="3" fill="#9ccc8a" stroke="#2e7d32" stroke-width="1" transform="rotate(10 812 352)"/>
-<rect x="822" y="363" width="16" height="6" rx="3" fill="#9ccc8a" stroke="#2e7d32" stroke-width="1" transform="rotate(-20 830 366)"/>
-<rect x="808" y="375" width="16" height="6" rx="3" fill="#9ccc8a" stroke="#2e7d32" stroke-width="1" transform="rotate(35 816 378)"/>
-<rect x="834" y="345" width="16" height="6" rx="3" fill="#9ccc8a" stroke="#2e7d32" stroke-width="1" transform="rotate(60 842 348)"/>
-<rect x="840" y="379" width="16" height="6" rx="3" fill="#9ccc8a" stroke="#2e7d32" stroke-width="1" transform="rotate(0 848 382)"/>
-<g transform="translate(890.0,368.0) rotate(0)"><circle r="15.0" fill="#efe7f4" stroke="#5d4a8c" stroke-width="1.93"/><ellipse cx="-5.6" cy="-2.1" rx="4.1" ry="3.1" fill="#5d4a8c"/><ellipse cx="0.9" cy="-6.0" rx="4.1" ry="3.1" fill="#5d4a8c"/><ellipse cx="6.0" cy="1.9" rx="4.1" ry="3.1" fill="#5d4a8c"/></g>
-<circle cx="886" cy="373" r="6" fill="#fff" stroke="#2e7d32" stroke-width="0.8" stroke-dasharray="2 1.5"/>
-<rect x="881" y="371" width="10" height="4.5" rx="2.2" fill="#9ccc8a" stroke="#2e7d32" stroke-width="0.7"/>
-<path d="M250 262 C 246 290, 240 312, 232 336" fill="none" stroke="#2f5f98" stroke-width="1.8" stroke-dasharray="5 4"/>
-<polygon points="227,332 232,344 238,333" fill="#2f5f98"/>
-<path d="M280 262 C 276 290, 270 312, 262 336" fill="none" stroke="#2f5f98" stroke-width="1.8" stroke-dasharray="5 4"/>
-<polygon points="257,332 262,344 268,333" fill="#2f5f98"/>
-<text x="150.0" y="362.0" font-size="12.5" fill="#2f5f98" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">выход плазмы: вода, электролиты, белки</text>
-<text x="150.0" y="378.0" font-size="12.5" fill="#2f5f98" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">(при высокой проницаемости — и фибриноген)</text>
-<path d="M470 262 C 472 280, 474 292, 478 306" fill="none" stroke="#b03a2e" stroke-width="1.6" stroke-dasharray="4 3"/>
-<g transform="translate(482.0,316.0) rotate(60)"><ellipse rx="9.0" ry="4.5" fill="#ef9a9a" stroke="#b45a5a" stroke-width="0.9"/><ellipse rx="3.8" ry="1.7" fill="#f8cccc"/></g>
-<text x="440.0" y="345.0" font-size="12.5" fill="#b03a2e" text-anchor="start" font-weight="normal" font-style="normal" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">эритродиапедез</text>
-<text x="36.0" y="428.0" font-size="12.5" fill="#666" text-anchor="start" font-weight="normal" font-style="italic" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke">периваскулярная ткань — очаг воспаления: здесь накапливаются экссудат и воспалительный клеточный инфильтрат</text>
-<circle cx="230" cy="146" r="10" fill="#5d4a8c"/>
-<text x="230.0" y="150.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">1</text>
-<circle cx="330" cy="208" r="10" fill="#5d4a8c"/>
-<text x="330.0" y="212.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">2</text>
-<circle cx="420" cy="218" r="10" fill="#5d4a8c"/>
-<text x="420.0" y="222.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">3</text>
-<circle cx="548" cy="230" r="10" fill="#5d4a8c"/>
-<text x="548.0" y="234.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">4</text>
-<circle cx="652" cy="290" r="10" fill="#5d4a8c"/>
-<text x="652.0" y="294.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">5</text>
-<circle cx="700" cy="320" r="10" fill="#5d4a8c"/>
-<text x="700.0" y="324.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">6</text>
-<circle cx="890" cy="338" r="10" fill="#5d4a8c"/>
-<text x="890.0" y="342.5" font-size="12.5" fill="#fff" text-anchor="middle" font-weight="bold" font-style="normal">7</text>
-<text x="30.0" y="460.0" font-size="13" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">1 — нейтрофил выходит из осевого тока; 2 — краевое расположение у стенки; 3 — краевое стояние: прилипание к эндотелию;</text>
-<text x="30.0" y="481.0" font-size="13" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">4 — межэндотелиальная эмиграция: псевдоподии проникают между эндотелиоцитами; 5 — прохождение базальной мембраны</text>
-<text x="30.0" y="502.0" font-size="13" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">(тиксотропия: гель мембраны переходит в золь); 6 — движение к очагу по хемотаксическим медиаторам; 7 — фагоцитоз.</text>
-<text x="30.0" y="523.0" font-size="13" fill="#222" text-anchor="start" font-weight="normal" font-style="normal">Лейкодиапедез — выход лейкоцитов, эритродиапедез — выход эритроцитов. Эмиграция идёт главным образом в посткапиллярах и венулах.</text>
-<text x="30.0" y="560.0" font-size="12" fill="#666" text-anchor="start" font-weight="normal" font-style="normal">Схема, не в масштабе, для перерисовки. Сверить: Струков А.И., Серов В.В., 2015, гл. 5, рис. 5-4.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 794">
+<title>Эмиграция лейкоцитов из венулы</title>
+<defs><style>@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&amp;display=swap'); text { font-family: Onest, 'PT Sans', 'Helvetica Neue', Arial, sans-serif; } .halo { paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }</style>
+<linearGradient id="lum" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbe3ea"/><stop offset="0.5" stop-color="#fdf0f4"/><stop offset="1" stop-color="#fbe3ea"/></linearGradient>
+<linearGradient id="tis" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fdf4e6"/><stop offset="1" stop-color="#f8e9d3"/></linearGradient>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0.5 L10 5 L0 9.5 z" fill="#333"/></marker>
+<marker id="arB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0.5 L10 5 L0 9.5 z" fill="#2f6db5"/></marker></defs>
+<rect width="960" height="794" fill="#fff"/>
+<text x="480" y="34" font-size="23" font-weight="700" fill="#1f1f1f" text-anchor="middle">Экссудация: реакция венулы и эмиграция лейкоцитов</text>
+<text x="480" y="58" font-size="14.5" fill="#666" text-anchor="middle">продольный срез посткапиллярной венулы в очаге воспаления; ток крови замедлен, слева направо</text>
+<rect x="30" y="94" width="900" height="10" fill="#e9d6f0"/>
+<path d="M30 94 H 930" stroke="#8e5aa8" stroke-width="2.4"/>
+<rect x="34" y="104" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="82" cy="112.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="134" y="104" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="182" cy="112.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="234" y="104" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="282" cy="112.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="334" y="104" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="382" cy="112.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="434" y="104" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="482" cy="112.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="534" y="104" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="582" cy="112.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="634" y="104" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="682" cy="112.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="734" y="104" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="782" cy="112.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="834" y="104" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="882" cy="112.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="30" y="120" width="900" height="210" fill="url(#lum)"/>
+<rect x="34" y="330" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="82" cy="338.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="134" y="330" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="182" cy="338.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="234" y="330" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="282" cy="338.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="334" y="330" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="382" cy="338.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="434" y="330" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="482" cy="338.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="534" y="330" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="582" cy="338.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="634" y="330" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="682" cy="338.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="734" y="330" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="782" cy="338.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="834" y="330" width="96" height="16" rx="7" fill="#f6c8d6" stroke="#c97a98" stroke-width="1.2"/><ellipse cx="882" cy="338.0" rx="14" ry="4.5" fill="#6a3f86"/>
+<rect x="30" y="346" width="900" height="10" fill="#e9d6f0"/>
+<path d="M30 356 H 612 M 652 356 H 930" stroke="#8e5aa8" stroke-width="2.4"/>
+<path d="M612 356 Q 632 362 652 356" stroke="#8e5aa8" stroke-width="2.4" stroke-dasharray="3 3" fill="none"/>
+<rect x="30" y="357" width="900" height="290" fill="url(#tis)"/>
+<path d="M506 528 q 40 8 90 14" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M824 471 q 40 -2 90 18" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M306 401 q 40 -7 90 0" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M277 535 q 40 5 90 11" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M108 392 q 40 1 90 -10" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M785 584 q 40 2 90 17" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M603 452 q 40 -6 90 -7" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M512 534 q 40 -2 90 3" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M412 441 q 40 2 90 13" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M704 587 q 40 -8 90 -9" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M285 612 q 40 -2 90 12" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M729 465 q 40 -8 90 15" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M697 631 q 40 -1 90 -3" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M148 448 q 40 -4 90 -11" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M92 454 q 40 0 90 -16" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M396 435 q 40 -4 90 18" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M508 609 q 40 9 90 10" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M578 602 q 40 5 90 -17" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M332 459 q 40 5 90 11" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M338 470 q 40 9 90 -9" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M583 444 q 40 -9 90 1" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M273 506 q 40 7 90 19" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M523 574 q 40 4 90 -10" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M927 416 q 40 10 90 17" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M361 588 q 40 -7 90 20" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<path d="M448 530 q 40 -5 90 12" fill="none" stroke="#efc9a4" stroke-width="2"/>
+<circle cx="445.5" cy="442.8" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="477.4" cy="446.3" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="478.3" cy="431.7" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="383.0" cy="415.7" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="342.0" cy="415.8" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="368.0" cy="407.9" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="263.5" cy="408.5" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="503.5" cy="398.3" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="514.8" cy="457.2" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="356.0" cy="388.4" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="483.7" cy="471.0" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="313.2" cy="438.9" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="446.1" cy="433.5" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="256.1" cy="390.4" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="436.5" cy="435.1" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="421.5" cy="395.4" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="483.9" cy="451.0" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="365.5" cy="459.7" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="310.6" cy="423.7" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="376.1" cy="472.4" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="501.2" cy="402.2" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="454.1" cy="397.3" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="484.9" cy="463.9" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="424.5" cy="368.0" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="311.6" cy="383.2" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="371.3" cy="368.1" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="238.8" cy="375.1" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="479.4" cy="431.4" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="480.0" cy="469.6" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="390.6" cy="458.8" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="350.4" cy="432.2" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="270.1" cy="413.9" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="248.9" cy="415.7" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="508.8" cy="475.1" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="445.0" cy="369.0" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="516.8" cy="423.5" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="422.6" cy="409.6" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="452.5" cy="399.2" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="252.9" cy="415.4" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="276.2" cy="389.1" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="279.3" cy="442.6" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="424.4" cy="388.8" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="426.0" cy="367.1" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="503.4" cy="390.2" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="373.5" cy="405.5" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="476.3" cy="413.2" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="270.3" cy="460.4" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="394.7" cy="393.8" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="434.0" cy="464.3" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="443.2" cy="452.8" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="325.9" cy="390.3" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="236.5" cy="464.4" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="289.8" cy="405.3" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="461.0" cy="376.6" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="498.6" cy="426.9" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="271.1" cy="454.8" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="420.9" cy="371.1" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="366.2" cy="443.5" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="301.8" cy="401.6" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="477.0" cy="379.8" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="295.5" cy="377.9" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="366.4" cy="413.8" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="302.3" cy="374.5" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="257.3" cy="448.6" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="394.3" cy="453.9" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="253.7" cy="470.7" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="426.8" cy="428.6" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="468.2" cy="372.2" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="402.6" cy="398.0" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<circle cx="229.3" cy="448.7" r="1.6" fill="#7da7d8" opacity="0.8"/>
+<path d="M310 296 V 402" stroke="#2f6db5" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arB)"/>
+<path d="M360 296 V 402" stroke="#2f6db5" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arB)"/>
+<path d="M460 296 V 402" stroke="#2f6db5" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arB)"/>
+<g transform="translate(287.3 232.3) rotate(-1) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(892.6 216.7) scale(1.1)"><circle r="9" fill="#d93a50"/><circle r="4" fill="#ef7083"/></g>
+<g transform="translate(494.6 219.6) rotate(-14) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(305.1 231.9) rotate(12) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(856.5 236.5) scale(1.1)"><circle r="9" fill="#d93a50"/><circle r="4" fill="#ef7083"/></g>
+<g transform="translate(822.9 222.4) rotate(-24) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(466.0 214.5) rotate(5) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(354.5 209.7) rotate(17) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(739.9 227.4) rotate(-29) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(871.7 220.9) scale(1.1)"><circle r="9" fill="#d93a50"/><circle r="4" fill="#ef7083"/></g>
+<g transform="translate(400.9 229.8) rotate(-25) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(638.0 223.6) rotate(2) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(589.4 201.6) rotate(-2) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(281.7 238.1) rotate(2) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(241.0 211.2) rotate(-17) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(689.1 227.3) scale(1.1)"><circle r="9" fill="#d93a50"/><circle r="4" fill="#ef7083"/></g>
+<g transform="translate(906.2 237.9) rotate(23) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(633.2 228.9) rotate(26) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(646.4 196.1) rotate(-8) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(612.6 206.5) rotate(15) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(264.4 192.0) rotate(-9) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(609.9 195.2) scale(1.1)"><circle r="9" fill="#d93a50"/><circle r="4" fill="#ef7083"/></g>
+<g transform="translate(896.2 227.4) rotate(-18) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(861.1 205.5) scale(1.1)"><circle r="9" fill="#d93a50"/><circle r="4" fill="#ef7083"/></g>
+<g transform="translate(877.1 231.0) rotate(13) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(330.0 214.6) rotate(18) scale(1.15)"><ellipse rx="11" ry="4.6" fill="#d93a50"/><ellipse rx="5.5" ry="1.6" fill="#b52638"/></g>
+<g transform="translate(267.9 231.8) scale(1.1)"><circle r="9" fill="#d93a50"/><circle r="4" fill="#ef7083"/></g>
+<ellipse cx="110" cy="200" rx="24.0" ry="24.0" fill="#f3d3e2" stroke="#d9a1bd" stroke-width="1.4"/><circle cx="111.1" cy="206.2" r="0.9" fill="#c98fb0"/><circle cx="105.6" cy="190.8" r="0.9" fill="#c98fb0"/><circle cx="96.2" cy="187.9" r="0.9" fill="#c98fb0"/><circle cx="108.3" cy="206.9" r="0.9" fill="#c98fb0"/><circle cx="96.1" cy="192.7" r="0.9" fill="#c98fb0"/><circle cx="105.1" cy="198.3" r="0.9" fill="#c98fb0"/><circle cx="95.9" cy="203.8" r="0.9" fill="#c98fb0"/><circle cx="117.9" cy="195.5" r="0.9" fill="#c98fb0"/><circle cx="104.6" cy="209.0" r="0.9" fill="#c98fb0"/><circle cx="108.3" cy="190.8" r="0.9" fill="#c98fb0"/><circle cx="112.2" cy="186.8" r="0.9" fill="#c98fb0"/><circle cx="105.3" cy="195.7" r="0.9" fill="#c98fb0"/><circle cx="118.3" cy="191.1" r="0.9" fill="#c98fb0"/><circle cx="99.7" cy="203.5" r="0.9" fill="#c98fb0"/><circle cx="127.5" cy="191.6" r="0.9" fill="#c98fb0"/><circle cx="114.3" cy="180.5" r="0.9" fill="#c98fb0"/><path d="M101.2 192.6 L109.0 188.5 L117.4 191.2 L121.5 199.0" fill="none" stroke="#3f2370" stroke-width="2.2" stroke-linecap="round"/><ellipse cx="101.2" cy="192.6" rx="5.8" ry="4.8" fill="#3f2370"/><ellipse cx="109.0" cy="188.5" rx="5.8" ry="4.8" fill="#3f2370"/><ellipse cx="117.4" cy="191.2" rx="5.8" ry="4.8" fill="#3f2370"/><ellipse cx="121.5" cy="199.0" rx="5.8" ry="4.8" fill="#3f2370"/>
+<ellipse cx="250" cy="284" rx="24.0" ry="24.0" fill="#f3d3e2" stroke="#d9a1bd" stroke-width="1.4"/><circle cx="237.0" cy="299.4" r="0.9" fill="#c98fb0"/><circle cx="249.8" cy="267.2" r="0.9" fill="#c98fb0"/><circle cx="255.7" cy="278.9" r="0.9" fill="#c98fb0"/><circle cx="256.9" cy="285.3" r="0.9" fill="#c98fb0"/><circle cx="261.9" cy="279.6" r="0.9" fill="#c98fb0"/><circle cx="265.1" cy="284.2" r="0.9" fill="#c98fb0"/><circle cx="252.7" cy="276.0" r="0.9" fill="#c98fb0"/><circle cx="241.3" cy="284.1" r="0.9" fill="#c98fb0"/><circle cx="240.6" cy="283.1" r="0.9" fill="#c98fb0"/><circle cx="242.9" cy="296.8" r="0.9" fill="#c98fb0"/><circle cx="248.1" cy="263.7" r="0.9" fill="#c98fb0"/><circle cx="248.8" cy="304.0" r="0.9" fill="#c98fb0"/><circle cx="242.8" cy="292.9" r="0.9" fill="#c98fb0"/><circle cx="241.4" cy="288.4" r="0.9" fill="#c98fb0"/><circle cx="232.4" cy="284.5" r="0.9" fill="#c98fb0"/><circle cx="266.8" cy="273.3" r="0.9" fill="#c98fb0"/><path d="M248.0 272.7 L256.6 274.6 L261.3 282.0 L259.4 290.6" fill="none" stroke="#3f2370" stroke-width="2.2" stroke-linecap="round"/><ellipse cx="248.0" cy="272.7" rx="5.8" ry="4.8" fill="#3f2370"/><ellipse cx="256.6" cy="274.6" rx="5.8" ry="4.8" fill="#3f2370"/><ellipse cx="261.3" cy="282.0" rx="5.8" ry="4.8" fill="#3f2370"/><ellipse cx="259.4" cy="290.6" rx="5.8" ry="4.8" fill="#3f2370"/>
+<ellipse cx="400" cy="313" rx="34.7" ry="18.0" fill="#f3d3e2" stroke="#d9a1bd" stroke-width="1.4"/><circle cx="388.8" cy="317.5" r="0.9" fill="#c98fb0"/><circle cx="408.8" cy="322.4" r="0.9" fill="#c98fb0"/><circle cx="395.5" cy="316.8" r="0.9" fill="#c98fb0"/><circle cx="392.8" cy="325.3" r="0.9" fill="#c98fb0"/><circle cx="392.6" cy="302.9" r="0.9" fill="#c98fb0"/><circle cx="390.4" cy="325.5" r="0.9" fill="#c98fb0"/><circle cx="386.3" cy="314.6" r="0.9" fill="#c98fb0"/><circle cx="398.4" cy="321.1" r="0.9" fill="#c98fb0"/><circle cx="387.7" cy="316.9" r="0.9" fill="#c98fb0"/><circle cx="383.7" cy="315.7" r="0.9" fill="#c98fb0"/><circle cx="392.8" cy="317.6" r="0.9" fill="#c98fb0"/><circle cx="398.0" cy="321.6" r="0.9" fill="#c98fb0"/><circle cx="407.2" cy="312.8" r="0.9" fill="#c98fb0"/><circle cx="417.8" cy="311.1" r="0.9" fill="#c98fb0"/><circle cx="416.7" cy="313.8" r="0.9" fill="#c98fb0"/><circle cx="398.8" cy="316.6" r="0.9" fill="#c98fb0"/><path d="M384.3 310.0 L393.0 305.2 L405.7 304.9 L415.1 309.3" fill="none" stroke="#3f2370" stroke-width="2.2" stroke-linecap="round"/><ellipse cx="384.3" cy="310.0" rx="6.0" ry="5.0" fill="#3f2370"/><ellipse cx="393.0" cy="305.2" rx="6.0" ry="5.0" fill="#3f2370"/><ellipse cx="405.7" cy="304.9" rx="6.0" ry="5.0" fill="#3f2370"/><ellipse cx="415.1" cy="309.3" rx="6.0" ry="5.0" fill="#3f2370"/>
+<path d="M520.5 323.8 Q 526.0 346.0 532.0 356.0 Q 538.0 346.0 543.5 323.8 Z" fill="#f3d3e2" stroke="#d9a1bd" stroke-width="1.4"/><ellipse cx="532" cy="310" rx="23.0" ry="23.0" fill="#f3d3e2" stroke="#d9a1bd" stroke-width="1.4"/><circle cx="538.2" cy="296.3" r="0.9" fill="#c98fb0"/><circle cx="541.9" cy="308.7" r="0.9" fill="#c98fb0"/><circle cx="550.0" cy="305.2" r="0.9" fill="#c98fb0"/><circle cx="522.0" cy="301.7" r="0.9" fill="#c98fb0"/><circle cx="533.6" cy="325.1" r="0.9" fill="#c98fb0"/><circle cx="516.9" cy="308.7" r="0.9" fill="#c98fb0"/><circle cx="533.0" cy="314.6" r="0.9" fill="#c98fb0"/><circle cx="535.5" cy="316.6" r="0.9" fill="#c98fb0"/><circle cx="523.9" cy="303.1" r="0.9" fill="#c98fb0"/><circle cx="516.0" cy="300.9" r="0.9" fill="#c98fb0"/><circle cx="529.1" cy="321.7" r="0.9" fill="#c98fb0"/><circle cx="531.5" cy="304.5" r="0.9" fill="#c98fb0"/><circle cx="540.5" cy="299.8" r="0.9" fill="#c98fb0"/><circle cx="514.6" cy="316.2" r="0.9" fill="#c98fb0"/><circle cx="523.5" cy="297.7" r="0.9" fill="#c98fb0"/><circle cx="541.2" cy="304.1" r="0.9" fill="#c98fb0"/><path d="M524.9 301.5 L533.0 299.0 L540.5 302.9 L543.0 311.0" fill="none" stroke="#3f2370" stroke-width="2.2" stroke-linecap="round"/><ellipse cx="524.9" cy="301.5" rx="5.5" ry="4.6" fill="#3f2370"/><ellipse cx="533.0" cy="299.0" rx="5.5" ry="4.6" fill="#3f2370"/><ellipse cx="540.5" cy="302.9" rx="5.5" ry="4.6" fill="#3f2370"/><ellipse cx="543.0" cy="311.0" rx="5.5" ry="4.6" fill="#3f2370"/>
+<ellipse cx="632" cy="370" rx="22" ry="15" fill="#f3d3e2" stroke="#d9a1bd" stroke-width="1.4"/>
+<path d="M626 332 L 626 356 L 638 356 L 638 332 Z" fill="#f3d3e2"/>
+<ellipse cx="632" cy="370" rx="21.3" ry="12.0" fill="#f3d3e2" stroke="#d9a1bd" stroke-width="1.4"/><circle cx="642.5" cy="374.8" r="0.9" fill="#c98fb0"/><circle cx="629.7" cy="366.8" r="0.9" fill="#c98fb0"/><circle cx="642.7" cy="376.0" r="0.9" fill="#c98fb0"/><circle cx="638.2" cy="370.6" r="0.9" fill="#c98fb0"/><circle cx="628.6" cy="360.3" r="0.9" fill="#c98fb0"/><circle cx="631.5" cy="362.7" r="0.9" fill="#c98fb0"/><circle cx="636.3" cy="365.4" r="0.9" fill="#c98fb0"/><circle cx="639.9" cy="377.7" r="0.9" fill="#c98fb0"/><circle cx="626.2" cy="376.7" r="0.9" fill="#c98fb0"/><circle cx="620.6" cy="370.6" r="0.9" fill="#c98fb0"/><circle cx="633.3" cy="374.1" r="0.9" fill="#c98fb0"/><circle cx="618.0" cy="375.2" r="0.9" fill="#c98fb0"/><circle cx="642.9" cy="370.8" r="0.9" fill="#c98fb0"/><circle cx="634.8" cy="374.1" r="0.9" fill="#c98fb0"/><circle cx="636.3" cy="365.1" r="0.9" fill="#c98fb0"/><circle cx="635.9" cy="375.5" r="0.9" fill="#c98fb0"/><path d="M635.5 364.6 L641.3 367.6 L641.6 372.0 L636.3 375.2" fill="none" stroke="#3f2370" stroke-width="2.2" stroke-linecap="round"/><ellipse cx="635.5" cy="364.6" rx="3.8" ry="3.2" fill="#3f2370"/><ellipse cx="641.3" cy="367.6" rx="3.8" ry="3.2" fill="#3f2370"/><ellipse cx="641.6" cy="372.0" rx="3.8" ry="3.2" fill="#3f2370"/><ellipse cx="636.3" cy="375.2" rx="3.8" ry="3.2" fill="#3f2370"/>
+<ellipse cx="640" cy="506" rx="24.0" ry="24.0" fill="#f3d3e2" stroke="#d9a1bd" stroke-width="1.4"/><circle cx="639.2" cy="490.8" r="0.9" fill="#c98fb0"/><circle cx="630.2" cy="494.8" r="0.9" fill="#c98fb0"/><circle cx="654.1" cy="498.2" r="0.9" fill="#c98fb0"/><circle cx="651.4" cy="514.6" r="0.9" fill="#c98fb0"/><circle cx="626.6" cy="497.0" r="0.9" fill="#c98fb0"/><circle cx="632.8" cy="514.6" r="0.9" fill="#c98fb0"/><circle cx="651.0" cy="500.0" r="0.9" fill="#c98fb0"/><circle cx="653.0" cy="495.0" r="0.9" fill="#c98fb0"/><circle cx="642.6" cy="518.5" r="0.9" fill="#c98fb0"/><circle cx="624.9" cy="518.0" r="0.9" fill="#c98fb0"/><circle cx="640.4" cy="511.3" r="0.9" fill="#c98fb0"/><circle cx="645.8" cy="497.2" r="0.9" fill="#c98fb0"/><circle cx="627.9" cy="514.2" r="0.9" fill="#c98fb0"/><circle cx="638.8" cy="500.1" r="0.9" fill="#c98fb0"/><circle cx="651.1" cy="501.9" r="0.9" fill="#c98fb0"/><circle cx="643.6" cy="500.9" r="0.9" fill="#c98fb0"/><path d="M650.8 502.1 L650.4 510.9 L643.9 516.8 L635.1 516.4" fill="none" stroke="#3f2370" stroke-width="2.2" stroke-linecap="round"/><ellipse cx="650.8" cy="502.1" rx="5.8" ry="4.8" fill="#3f2370"/><ellipse cx="650.4" cy="510.9" rx="5.8" ry="4.8" fill="#3f2370"/><ellipse cx="643.9" cy="516.8" rx="5.8" ry="4.8" fill="#3f2370"/><ellipse cx="635.1" cy="516.4" rx="5.8" ry="4.8" fill="#3f2370"/>
+<path d="M668 514 C 700 526, 730 542, 760 560" stroke="#333" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar)" fill="none"/>
+<ellipse cx="830" cy="571" rx="27.0" ry="27.0" fill="#f3d3e2" stroke="#d9a1bd" stroke-width="1.4"/><circle cx="833.5" cy="563.4" r="0.9" fill="#c98fb0"/><circle cx="828.7" cy="565.6" r="0.9" fill="#c98fb0"/><circle cx="840.0" cy="561.5" r="0.9" fill="#c98fb0"/><circle cx="827.1" cy="577.2" r="0.9" fill="#c98fb0"/><circle cx="818.9" cy="580.0" r="0.9" fill="#c98fb0"/><circle cx="814.1" cy="556.4" r="0.9" fill="#c98fb0"/><circle cx="836.7" cy="562.3" r="0.9" fill="#c98fb0"/><circle cx="845.3" cy="569.0" r="0.9" fill="#c98fb0"/><circle cx="813.6" cy="558.1" r="0.9" fill="#c98fb0"/><circle cx="845.4" cy="563.8" r="0.9" fill="#c98fb0"/><circle cx="843.7" cy="562.9" r="0.9" fill="#c98fb0"/><circle cx="820.6" cy="573.7" r="0.9" fill="#c98fb0"/><circle cx="816.2" cy="554.6" r="0.9" fill="#c98fb0"/><circle cx="827.6" cy="565.4" r="0.9" fill="#c98fb0"/><circle cx="842.1" cy="580.3" r="0.9" fill="#c98fb0"/><circle cx="833.5" cy="552.7" r="0.9" fill="#c98fb0"/><path d="M839.9 579.3 L831.1 583.9 L821.7 580.9 L817.1 572.1" fill="none" stroke="#3f2370" stroke-width="2.2" stroke-linecap="round"/><ellipse cx="839.9" cy="579.3" rx="6.5" ry="5.4" fill="#3f2370"/><ellipse cx="831.1" cy="583.9" rx="6.5" ry="5.4" fill="#3f2370"/><ellipse cx="821.7" cy="580.9" rx="6.5" ry="5.4" fill="#3f2370"/><ellipse cx="817.1" cy="572.1" rx="6.5" ry="5.4" fill="#3f2370"/>
+<circle cx="818" cy="576" r="9" fill="#fff" stroke="#c98fb0"/><g transform="translate(818.0 576.0)"><circle cx="-3.5" r="3.3" fill="#1d6e3a"/><circle cx="3.5" r="3.3" fill="#1d6e3a"/></g>
+<g transform="translate(786.0 618.0)"><circle cx="-3.5" r="3.3" fill="#1d6e3a"/><circle cx="3.5" r="3.3" fill="#1d6e3a"/></g>
+<g transform="translate(880.0 528.0)"><circle cx="-3.5" r="3.3" fill="#1d6e3a"/><circle cx="3.5" r="3.3" fill="#1d6e3a"/></g>
+<g transform="translate(890.0 612.0)"><circle cx="-3.5" r="3.3" fill="#1d6e3a"/><circle cx="3.5" r="3.3" fill="#1d6e3a"/></g>
+<g transform="translate(752.0 592.0)"><circle cx="-3.5" r="3.3" fill="#1d6e3a"/><circle cx="3.5" r="3.3" fill="#1d6e3a"/></g>
+<g transform="translate(906.0 570.0)"><circle cx="-3.5" r="3.3" fill="#1d6e3a"/><circle cx="3.5" r="3.3" fill="#1d6e3a"/></g>
+<g transform="translate(850.0 624.0)"><circle cx="-3.5" r="3.3" fill="#1d6e3a"/><circle cx="3.5" r="3.3" fill="#1d6e3a"/></g>
+<ellipse cx="732" cy="338" rx="4" ry="11" fill="#d93a50"/>
+<g transform="translate(744.0 382.0) scale(1.0)"><circle r="9" fill="#d93a50"/><circle r="4" fill="#ef7083"/></g>
+<g transform="translate(722.0 408.0) scale(1.0)"><circle r="9" fill="#d93a50"/><circle r="4" fill="#ef7083"/></g>
+<circle cx="110" cy="160" r="13" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="110" y="165" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<circle cx="250" cy="244" r="13" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="250" y="249" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<circle cx="400" cy="268" r="13" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="400" y="273" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<circle cx="500" cy="262" r="13" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="500" y="267" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<circle cx="678" cy="372" r="13" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="678" y="377" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">5</text>
+<circle cx="640" cy="462" r="13" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="640" y="467" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">6</text>
+<circle cx="830" cy="524" r="13" fill="#1f1f1f" stroke="#fff" stroke-width="2"/><text x="830" y="529" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">7</text>
+<path d="M60 395 L 80 338.0" stroke="#8a8a8a" stroke-width="1.1"/><circle cx="80" cy="338.0" r="2.4" fill="#333"/>
+<text x="64" y="400" font-size="13" font-weight="600" fill="#8a3b5c" text-anchor="start" class="halo">эндотелий</text>
+<path d="M150 425 L 160 356" stroke="#8a8a8a" stroke-width="1.1"/><circle cx="160" cy="356" r="2.4" fill="#333"/>
+<text x="154" y="430" font-size="13" font-weight="600" fill="#8e5aa8" text-anchor="start" class="halo">базальная мембрана</text>
+<text x="480" y="146" font-size="13" font-weight="600" fill="#a3333d" text-anchor="middle" class="halo">просвет: ток замедлен — эритроциты в осевом токе, лейкоциты оттесняются к стенке</text>
+<path d="M250 521 L 320 426" stroke="#8a8a8a" stroke-width="1.1"/><circle cx="320" cy="426" r="2.4" fill="#333"/>
+<text x="254" y="526" font-size="13" font-weight="600" fill="#2f6db5" text-anchor="start" class="halo">выход плазмы: вода, электролиты, белки</text>
+<path d="M790 401 L 744 382" stroke="#8a8a8a" stroke-width="1.1"/><circle cx="744" cy="382" r="2.4" fill="#333"/>
+<text x="794" y="406" font-size="13" font-weight="600" fill="#d93a50" text-anchor="start" class="halo">эритродиапедез</text>
+<path d="M640 619 L 786 618" stroke="#8a8a8a" stroke-width="1.1"/><circle cx="786" cy="618" r="2.4" fill="#333"/>
+<text x="644" y="624" font-size="13" font-weight="600" fill="#1d6e3a" text-anchor="start" class="halo">бактерии в очаге</text>
+<text x="40" y="636" font-size="12.5" fill="#8a6d3b" font-style="italic">периваскулярная ткань — очаг воспаления: экссудат и клеточный инфильтрат</text>
+<text x="30" y="686" font-size="13" fill="#333">1 — нейтрофил выходит из осевого тока; 2 — краевое расположение у стенки; 3 — краевое стояние: прилипание к эндотелию;</text>
+<text x="30" y="705" font-size="13" fill="#333">4 — межэндотелиальная эмиграция: псевдоподия проникает между эндотелиоцитами; 5 — прохождение базальной мембраны</text>
+<text x="30" y="724" font-size="13" fill="#333">(тиксотропия: гель мембраны переходит в золь); 6 — движение к очагу по хемотаксическим медиаторам; 7 — фагоцитоз.</text>
+<text x="30" y="743" font-size="13" fill="#333">Эмиграция идёт главным образом в посткапиллярах и венулах. Лейкодиапедез — выход лейкоцитов, эритродиапедез — выход эритроцитов.</text>
+<text x="480" y="778" font-size="11.5" fill="#999" text-anchor="middle">Схема, не в масштабе, для перерисовки. Сверить: Струков — Серов, гл. 5, рис. 5-4.</text>
 </svg>
