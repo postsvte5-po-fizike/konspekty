@@ -1102,6 +1102,6 @@ Gs → цАМФ ↑. **Жировая ткань** (белая и бурая) �
 - Внешний: De Backer D. et al. Comparison of dopamine and norepinephrine in the treatment of shock. *N Engl J Med*. 2010; 362(9): 779–789.
 - Внешний: First Aid for the USMLE Step 1 (феохромоцитома).
 - Внешний (найден через PubMed): von Känel R., Dimsdale J.E. Effects of sympathetic activation by adrenergic infusions on hemostasis in vivo. *Eur J Haematol.* 2000; 65(6): 357–369. [doi:10.1034/j.1600-0609.2000.065006357.x](https://doi.org/10.1034/j.1600-0609.2000.065006357.x) — адреналин и свёртывание крови.
-- Схема 1 (адренергический синапс) нарисована в Figma по рис. 4.1 и 4.2 Харкевича — файл «Конспекты — рисунки (AI)», страница «Схемы (векторные)».
+- Схема 1 (адренергический синапс) нарисована в Figma по рис. 4.1 и 4.2 Харкевича — файл «Конспекты — рисунки (AI)», страница «Схемы (векторные)», фрейм «Фарма 08 — адренергический синапс» (рецепторы, G-белки, везикулы, переносчики — компоненты); на сайте — SVG-экспорт из Figma.
 - Внешний (основа схемы 3): Häggström M. «Internal organs» — Wikimedia Commons, общественное достояние.
 
