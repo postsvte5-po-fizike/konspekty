@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640">
+<title>Морфогенез гранулёмы: от моноцита к гигантской клетке</title>
+<defs><style>@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&amp;display=swap'); text { font-family: Onest, 'PT Sans', 'Helvetica Neue', Arial, sans-serif; } .halo { paint-order: stroke; stroke: #fff; stroke-width: 4.5px; stroke-linejoin: round; }</style><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#555"/></marker></defs>
+<rect width="960" height="640" fill="#fff"/>
+<text x="480.0" y="32" font-size="22" font-weight="700" fill="#1f1f1f" text-anchor="middle">Морфогенез гранулёмы: четыре стадии</text>
+<text x="480.0" y="55" font-size="14" fill="#666" text-anchor="middle">клетки моноцитарно-макрофагального ряда созревают и трансформируются в очаге; схема, не в масштабе</text>
+<rect x="6" y="78" width="228" height="236" rx="14" fill="#e8eef9"/>
+<text x="120" y="104" font-size="15" font-weight="700" fill="#222" text-anchor="middle">1. Накопление</text>
+<text x="120" y="123" font-size="12" fill="#555" text-anchor="middle">юных моноцитарных</text>
+<text x="120" y="139" font-size="12" font-weight="600" fill="#555" text-anchor="middle">фагоцитов в очаге</text>
+<rect x="246" y="78" width="228" height="236" rx="14" fill="#eaf4ec"/>
+<text x="360" y="104" font-size="15" font-weight="700" fill="#222" text-anchor="middle">2. Созревание</text>
+<text x="360" y="123" font-size="12" fill="#555" text-anchor="middle">в макрофаги:</text>
+<text x="360" y="139" font-size="12" font-weight="600" fill="#555" text-anchor="middle">макрофагальная гранулёма</text>
+<rect x="486" y="78" width="228" height="236" rx="14" fill="#fbeef2"/>
+<text x="600" y="104" font-size="15" font-weight="700" fill="#222" text-anchor="middle">3. Трансформация</text>
+<text x="600" y="123" font-size="12" fill="#555" text-anchor="middle">в эпителиоидные клетки:</text>
+<text x="600" y="139" font-size="12" font-weight="600" fill="#555" text-anchor="middle">эпителиоидноклеточная гранулёма</text>
+<rect x="726" y="78" width="228" height="236" rx="14" fill="#f6efe2"/>
+<text x="840" y="104" font-size="15" font-weight="700" fill="#222" text-anchor="middle">4. Гигантские клетки</text>
+<text x="840" y="123" font-size="12" fill="#555" text-anchor="middle">из эпителиоидных клеток:</text>
+<text x="840" y="139" font-size="12" font-weight="600" fill="#555" text-anchor="middle">гигантоклеточная гранулёма</text>
+<circle cx="120.0" cy="212.0" r="34.0" fill="#d7d3ea" stroke="#a59cc9" stroke-width="1.2"/>
+<path d="M100 206 C 98 186, 134 182, 140 202 C 144 214, 130 218, 122 210 C 114 204, 110 216, 112 226 C 102 230, 98 218, 100 206 Z" fill="#5d469a"/>
+<text x="120" y="274" font-size="13" font-weight="700" fill="#222" text-anchor="middle">моноцит</text>
+<text x="120" y="291" font-size="12" fill="#555" text-anchor="middle">приходит из крови;</text>
+<text x="120" y="306" font-size="12" fill="#555" text-anchor="middle">ядро бобовидное</text>
+<path d="M406.9 212.0 L406.3 218.1 L405.9 224.3 L402.4 229.6 L395.0 232.2 L387.6 233.2 L384.9 236.9 L385.9 245.7 L385.4 256.1 L380.3 261.1 L372.5 258.6 L365.5 253.5 L360.0 252.1 L354.4 254.4 L348.3 255.7 L342.9 253.2 L338.7 248.9 L333.9 246.0 L328.0 244.0 L323.8 239.8 L323.4 233.1 L324.6 226.7 L321.9 222.2 L314.1 218.0 L306.8 212.0 L307.1 205.0 L315.3 200.0 L324.6 197.3 L329.0 194.1 L329.1 188.3 L329.7 181.7 L333.0 176.9 L337.7 173.4 L342.2 169.1 L347.2 164.2 L353.5 162.9 L360.0 167.4 L365.0 173.7 L369.7 175.8 L376.4 172.5 L384.5 169.6 L390.2 172.7 L391.1 180.9 L390.2 188.8 L392.7 193.1 L399.2 195.7 L405.5 199.8 L407.7 205.7 Z" fill="#e3d4e6" stroke="#b49bc0" stroke-width="1.2"/>
+<ellipse cx="374.0" cy="206.0" rx="15.0" ry="11.0" transform="rotate(20.0 374.0 206.0)" fill="#5d469a"/>
+<circle cx="340.0" cy="198.0" r="7.5" fill="#f7eef3" stroke="#b49bc0" stroke-width="0.8"/>
+<ellipse cx="340.0" cy="198.0" rx="3.2" ry="1.3" transform="rotate(10.4 340.0 198.0)" fill="#2f7d4a"/>
+<circle cx="338.0" cy="222.0" r="7.5" fill="#f7eef3" stroke="#b49bc0" stroke-width="0.8"/>
+<ellipse cx="338.0" cy="222.0" rx="3.2" ry="1.3" transform="rotate(91.3 338.0 222.0)" fill="#2f7d4a"/>
+<circle cx="356.0" cy="234.0" r="7.5" fill="#f7eef3" stroke="#b49bc0" stroke-width="0.8"/>
+<ellipse cx="356.0" cy="234.0" rx="3.2" ry="1.3" transform="rotate(6.7 356.0 234.0)" fill="#2f7d4a"/>
+<circle cx="366.0" cy="186.0" r="7.5" fill="#f7eef3" stroke="#b49bc0" stroke-width="0.8"/>
+<ellipse cx="366.0" cy="186.0" rx="3.2" ry="1.3" transform="rotate(78.1 366.0 186.0)" fill="#2f7d4a"/>
+<text x="360" y="274" font-size="13" font-weight="700" fill="#222" text-anchor="middle">макрофаг</text>
+<text x="360" y="291" font-size="12" fill="#555" text-anchor="middle">фагоцитоз; фагосомы</text>
+<text x="360" y="306" font-size="12" fill="#555" text-anchor="middle">с микробами (зелёные)</text>
+<ellipse cx="600.0" cy="212.0" rx="62.0" ry="27.0" transform="rotate(-8.0 600.0 212.0)" fill="#f0bccb" stroke="#d48ea5" stroke-width="1.2"/>
+<path d="M576 214 C 578 200, 618 198, 624 206 C 628 214, 616 220, 604 218 C 592 216, 586 224, 576 214 Z" fill="#9a86c4" stroke="#6f5aa0" stroke-width="0.8"/>
+<circle cx="606.0" cy="209.0" r="2.4" fill="#4a3482"/>
+<text x="600" y="274" font-size="13" font-weight="700" fill="#222" text-anchor="middle">эпителиоидная клетка</text>
+<text x="600" y="291" font-size="12" fill="#555" text-anchor="middle">похожа на эпителий; ядро светлое,</text>
+<text x="600" y="306" font-size="12" fill="#555" text-anchor="middle">вытянутое; фагоцитоз слабый</text>
+<ellipse cx="840.0" cy="212.0" rx="58.0" ry="40.0" transform="rotate(0.0 840.0 212.0)" fill="#eeaec2" stroke="#cf849c" stroke-width="1.0"/>
+<ellipse cx="873.8" cy="230.0" rx="3.7" ry="2.3" transform="rotate(130.0 873.8 230.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="862.0" cy="236.2" rx="3.7" ry="2.3" transform="rotate(150.0 862.0 236.2)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="847.7" cy="239.6" rx="3.7" ry="2.3" transform="rotate(170.0 847.7 239.6)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="832.3" cy="239.6" rx="3.7" ry="2.3" transform="rotate(190.0 832.3 239.6)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="818.0" cy="236.2" rx="3.7" ry="2.3" transform="rotate(210.0 818.0 236.2)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="806.2" cy="230.0" rx="3.7" ry="2.3" transform="rotate(230.0 806.2 230.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="798.6" cy="221.6" rx="3.7" ry="2.3" transform="rotate(250.0 798.6 221.6)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="795.9" cy="212.0" rx="3.7" ry="2.3" transform="rotate(270.0 795.9 212.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="798.6" cy="202.4" rx="3.7" ry="2.3" transform="rotate(290.0 798.6 202.4)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="806.2" cy="194.0" rx="3.7" ry="2.3" transform="rotate(310.0 806.2 194.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="818.0" cy="187.8" rx="3.7" ry="2.3" transform="rotate(330.0 818.0 187.8)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="832.3" cy="184.4" rx="3.7" ry="2.3" transform="rotate(350.0 832.3 184.4)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="847.7" cy="184.4" rx="3.7" ry="2.3" transform="rotate(370.0 847.7 184.4)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="862.0" cy="187.8" rx="3.7" ry="2.3" transform="rotate(390.0 862.0 187.8)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="873.8" cy="194.0" rx="3.7" ry="2.3" transform="rotate(410.0 873.8 194.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<text x="840" y="274" font-size="13" font-weight="700" fill="#222" text-anchor="middle">многоядерная клетка</text>
+<text x="840" y="291" font-size="12" fill="#555" text-anchor="middle">десятки ядер; слияние</text>
+<text x="840" y="306" font-size="12" fill="#555" text-anchor="middle">клеток или деление ядер</text>
+<line x1="202" y1="212" x2="282" y2="212" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="442" y1="212" x2="522" y2="212" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="682" y1="212" x2="762" y2="212" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="20" y1="330" x2="940" y2="330" stroke="#e3e3e3"/>
+<text x="480.0" y="358" font-size="16" font-weight="700" fill="#222" text-anchor="middle">Два типа гигантских клеток — различают по расположению ядер</text>
+<ellipse cx="250.0" cy="445.0" rx="92.0" ry="58.0" transform="rotate(0.0 250.0 445.0)" fill="#eeaec2" stroke="#cf849c" stroke-width="1.0"/>
+<ellipse cx="303.6" cy="471.1" rx="3.7" ry="2.3" transform="rotate(130.0 303.6 471.1)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="285.0" cy="480.2" rx="3.7" ry="2.3" transform="rotate(150.0 285.0 480.2)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="262.1" cy="485.0" rx="3.7" ry="2.3" transform="rotate(170.0 262.1 485.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="237.9" cy="485.0" rx="3.7" ry="2.3" transform="rotate(190.0 237.9 485.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="215.0" cy="480.2" rx="3.7" ry="2.3" transform="rotate(210.0 215.0 480.2)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="196.4" cy="471.1" rx="3.7" ry="2.3" transform="rotate(230.0 196.4 471.1)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="184.3" cy="458.9" rx="3.7" ry="2.3" transform="rotate(250.0 184.3 458.9)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="180.1" cy="445.0" rx="3.7" ry="2.3" transform="rotate(270.0 180.1 445.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="184.3" cy="431.1" rx="3.7" ry="2.3" transform="rotate(290.0 184.3 431.1)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="196.4" cy="418.9" rx="3.7" ry="2.3" transform="rotate(310.0 196.4 418.9)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="215.0" cy="409.8" rx="3.7" ry="2.3" transform="rotate(330.0 215.0 409.8)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="237.9" cy="405.0" rx="3.7" ry="2.3" transform="rotate(350.0 237.9 405.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="262.1" cy="405.0" rx="3.7" ry="2.3" transform="rotate(370.0 262.1 405.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="285.0" cy="409.8" rx="3.7" ry="2.3" transform="rotate(390.0 285.0 409.8)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="303.6" cy="418.9" rx="3.7" ry="2.3" transform="rotate(410.0 303.6 418.9)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="710.0" cy="445.0" rx="92.0" ry="58.0" transform="rotate(0.0 710.0 445.0)" fill="#eeaec2" stroke="#cf849c" stroke-width="1.0"/>
+<ellipse cx="724.0" cy="460.4" rx="3.6" ry="2.4" transform="rotate(143.1 724.0 460.4)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="706.1" cy="473.3" rx="3.6" ry="2.4" transform="rotate(116.8 706.1 473.3)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="706.5" cy="428.8" rx="3.6" ry="2.4" transform="rotate(97.9 706.5 428.8)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="718.4" cy="413.9" rx="3.6" ry="2.4" transform="rotate(39.0 718.4 413.9)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="684.8" cy="471.6" rx="3.6" ry="2.4" transform="rotate(137.8 684.8 471.6)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="671.2" cy="464.0" rx="3.6" ry="2.4" transform="rotate(25.0 671.2 464.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="723.4" cy="421.2" rx="3.6" ry="2.4" transform="rotate(0.3 723.4 421.2)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="752.4" cy="426.5" rx="3.6" ry="2.4" transform="rotate(38.8 752.4 426.5)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="714.5" cy="456.3" rx="3.6" ry="2.4" transform="rotate(36.9 714.5 456.3)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="760.3" cy="457.2" rx="3.6" ry="2.4" transform="rotate(174.0 760.3 457.2)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="754.9" cy="432.2" rx="3.6" ry="2.4" transform="rotate(65.0 754.9 432.2)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="671.9" cy="422.4" rx="3.6" ry="2.4" transform="rotate(11.7 671.9 422.4)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="687.3" cy="451.6" rx="3.6" ry="2.4" transform="rotate(0.6 687.3 451.6)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="730.3" cy="434.7" rx="3.6" ry="2.4" transform="rotate(55.8 730.3 434.7)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="746.3" cy="443.8" rx="3.6" ry="2.4" transform="rotate(56.8 746.3 443.8)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="707.9" cy="458.1" rx="3.6" ry="2.4" transform="rotate(10.3 707.9 458.1)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="738.5" cy="467.0" rx="3.6" ry="2.4" transform="rotate(3.3 738.5 467.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="742.8" cy="436.5" rx="3.6" ry="2.4" transform="rotate(104.1 742.8 436.5)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="692.2" cy="435.7" rx="3.6" ry="2.4" transform="rotate(94.4 692.2 435.7)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="741.4" cy="420.0" rx="3.6" ry="2.4" transform="rotate(134.7 741.4 420.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="663.4" cy="434.8" rx="3.6" ry="2.4" transform="rotate(109.9 663.4 434.8)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="758.4" cy="447.9" rx="3.6" ry="2.4" transform="rotate(56.2 758.4 447.9)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<text x="250" y="533" font-size="15" font-weight="700" fill="#222" text-anchor="middle">Клетка Пирогова — Лангханса</text>
+<text x="250" y="553" font-size="13" fill="#444" text-anchor="middle">ядра по периферии — подковой или венчиком</text>
+<text x="250" y="571" font-size="13" fill="#444" text-anchor="middle">типична для туберкулёза (иммунная гранулёма)</text>
+<text x="710" y="533" font-size="15" font-weight="700" fill="#222" text-anchor="middle">Клетка инородных тел</text>
+<text x="710" y="553" font-size="13" fill="#444" text-anchor="middle">ядра беспорядочно, скоплены в центре</text>
+<text x="710" y="571" font-size="13" fill="#444" text-anchor="middle">вокруг шовного материала, талька, кристаллов</text>
+<text x="480.0" y="628" font-size="11.5" fill="#999" text-anchor="middle">Своя схема по описанию морфогенеза гранулёмы в учебнике Струкова — Серова (гл. 5) и Robbins &amp; Cotran (Inflammation and Repair).</text>
+</svg>
