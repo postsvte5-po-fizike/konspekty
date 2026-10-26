@@ -61,8 +61,8 @@
 <ellipse cx="862.0" cy="187.8" rx="3.7" ry="2.3" transform="rotate(390.0 862.0 187.8)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
 <ellipse cx="873.8" cy="194.0" rx="3.7" ry="2.3" transform="rotate(410.0 873.8 194.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
 <text x="840" y="274" font-size="13" font-weight="700" fill="#222" text-anchor="middle">многоядерная клетка</text>
-<text x="840" y="291" font-size="12" fill="#555" text-anchor="middle">десятки ядер; слияние</text>
-<text x="840" y="306" font-size="12" fill="#555" text-anchor="middle">клеток или деление ядер</text>
+<text x="840" y="291" font-size="12" fill="#555" text-anchor="middle">от 2–3 до 100 ядер;</text>
+<text x="840" y="306" font-size="12" fill="#555" text-anchor="middle">слияние эпителиоидных клеток</text>
 <line x1="202" y1="212" x2="282" y2="212" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
 <line x1="442" y1="212" x2="522" y2="212" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
 <line x1="682" y1="212" x2="762" y2="212" stroke="#555" stroke-width="2" marker-end="url(#ar)"/>
@@ -85,33 +85,33 @@
 <ellipse cx="285.0" cy="409.8" rx="3.7" ry="2.3" transform="rotate(390.0 285.0 409.8)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
 <ellipse cx="303.6" cy="418.9" rx="3.7" ry="2.3" transform="rotate(410.0 303.6 418.9)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
 <ellipse cx="710.0" cy="445.0" rx="92.0" ry="58.0" transform="rotate(0.0 710.0 445.0)" fill="#eeaec2" stroke="#cf849c" stroke-width="1.0"/>
-<ellipse cx="724.0" cy="460.4" rx="3.6" ry="2.4" transform="rotate(143.1 724.0 460.4)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="706.1" cy="473.3" rx="3.6" ry="2.4" transform="rotate(116.8 706.1 473.3)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="706.5" cy="428.8" rx="3.6" ry="2.4" transform="rotate(97.9 706.5 428.8)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="718.4" cy="413.9" rx="3.6" ry="2.4" transform="rotate(39.0 718.4 413.9)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="684.8" cy="471.6" rx="3.6" ry="2.4" transform="rotate(137.8 684.8 471.6)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="671.2" cy="464.0" rx="3.6" ry="2.4" transform="rotate(25.0 671.2 464.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="723.4" cy="421.2" rx="3.6" ry="2.4" transform="rotate(0.3 723.4 421.2)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="752.4" cy="426.5" rx="3.6" ry="2.4" transform="rotate(38.8 752.4 426.5)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="714.5" cy="456.3" rx="3.6" ry="2.4" transform="rotate(36.9 714.5 456.3)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="760.3" cy="457.2" rx="3.6" ry="2.4" transform="rotate(174.0 760.3 457.2)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="754.9" cy="432.2" rx="3.6" ry="2.4" transform="rotate(65.0 754.9 432.2)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="671.9" cy="422.4" rx="3.6" ry="2.4" transform="rotate(11.7 671.9 422.4)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="687.3" cy="451.6" rx="3.6" ry="2.4" transform="rotate(0.6 687.3 451.6)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="730.3" cy="434.7" rx="3.6" ry="2.4" transform="rotate(55.8 730.3 434.7)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="746.3" cy="443.8" rx="3.6" ry="2.4" transform="rotate(56.8 746.3 443.8)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="707.9" cy="458.1" rx="3.6" ry="2.4" transform="rotate(10.3 707.9 458.1)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="738.5" cy="467.0" rx="3.6" ry="2.4" transform="rotate(3.3 738.5 467.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="742.8" cy="436.5" rx="3.6" ry="2.4" transform="rotate(104.1 742.8 436.5)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="692.2" cy="435.7" rx="3.6" ry="2.4" transform="rotate(94.4 692.2 435.7)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="741.4" cy="420.0" rx="3.6" ry="2.4" transform="rotate(134.7 741.4 420.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="663.4" cy="434.8" rx="3.6" ry="2.4" transform="rotate(109.9 663.4 434.8)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
-<ellipse cx="758.4" cy="447.9" rx="3.6" ry="2.4" transform="rotate(56.2 758.4 447.9)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="728.1" cy="465.8" rx="3.6" ry="2.4" transform="rotate(143.1 728.1 465.8)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="704.9" cy="483.1" rx="3.6" ry="2.4" transform="rotate(116.8 704.9 483.1)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="705.4" cy="423.2" rx="3.6" ry="2.4" transform="rotate(97.9 705.4 423.2)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="720.9" cy="403.2" rx="3.6" ry="2.4" transform="rotate(39.0 720.9 403.2)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="677.5" cy="480.7" rx="3.6" ry="2.4" transform="rotate(137.8 677.5 480.7)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="659.9" cy="470.5" rx="3.6" ry="2.4" transform="rotate(25.0 659.9 470.5)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="727.3" cy="413.0" rx="3.6" ry="2.4" transform="rotate(0.3 727.3 413.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="764.7" cy="420.1" rx="3.6" ry="2.4" transform="rotate(38.8 764.7 420.1)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="715.8" cy="460.3" rx="3.6" ry="2.4" transform="rotate(36.9 715.8 460.3)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="774.9" cy="461.4" rx="3.6" ry="2.4" transform="rotate(174.0 774.9 461.4)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="768.0" cy="427.7" rx="3.6" ry="2.4" transform="rotate(65.0 768.0 427.7)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="660.8" cy="414.6" rx="3.6" ry="2.4" transform="rotate(11.7 660.8 414.6)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="680.8" cy="453.9" rx="3.6" ry="2.4" transform="rotate(0.6 680.8 453.9)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="736.2" cy="431.1" rx="3.6" ry="2.4" transform="rotate(55.8 736.2 431.1)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="756.9" cy="443.3" rx="3.6" ry="2.4" transform="rotate(56.8 756.9 443.3)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="707.2" cy="462.6" rx="3.6" ry="2.4" transform="rotate(10.3 707.2 462.6)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="746.8" cy="474.6" rx="3.6" ry="2.4" transform="rotate(3.3 746.8 474.6)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="752.4" cy="433.5" rx="3.6" ry="2.4" transform="rotate(104.1 752.4 433.5)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="665.3" cy="467.0" rx="3.6" ry="2.4" transform="rotate(167.3 665.3 467.0)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="775.1" cy="431.6" rx="3.6" ry="2.4" transform="rotate(63.9 775.1 431.6)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="713.6" cy="468.7" rx="3.6" ry="2.4" transform="rotate(19.4 713.6 468.7)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
+<ellipse cx="772.4" cy="448.9" rx="3.6" ry="2.4" transform="rotate(56.2 772.4 448.9)" fill="#5d469a" stroke="#3c2a6c" stroke-width="0.4"/>
 <text x="250" y="533" font-size="15" font-weight="700" fill="#222" text-anchor="middle">Клетка Пирогова — Лангханса</text>
-<text x="250" y="553" font-size="13" fill="#444" text-anchor="middle">ядра по периферии — подковой или венчиком</text>
+<text x="250" y="553" font-size="13" fill="#444" text-anchor="middle">ядра преимущественно по периферии — подковой</text>
 <text x="250" y="571" font-size="13" fill="#444" text-anchor="middle">типична для туберкулёза (иммунная гранулёма)</text>
 <text x="710" y="533" font-size="15" font-weight="700" fill="#222" text-anchor="middle">Клетка инородных тел</text>
-<text x="710" y="553" font-size="13" fill="#444" text-anchor="middle">ядра беспорядочно, скоплены в центре</text>
+<text x="710" y="553" font-size="13" fill="#444" text-anchor="middle">ядра равномерно по всей цитоплазме</text>
 <text x="710" y="571" font-size="13" fill="#444" text-anchor="middle">вокруг шовного материала, талька, кристаллов</text>
-<text x="480.0" y="628" font-size="11.5" fill="#999" text-anchor="middle">Своя схема по описанию морфогенеза гранулёмы в учебнике Струкова — Серова (гл. 5) и Robbins &amp; Cotran (Inflammation and Repair).</text>
+<text x="480.0" y="628" font-size="11.5" fill="#999" text-anchor="middle">Своя схема по описанию морфогенеза гранулёмы в учебнике Струкова — Серова (2015, с. 201–202) и Robbins &amp; Cotran.</text>
 </svg>
