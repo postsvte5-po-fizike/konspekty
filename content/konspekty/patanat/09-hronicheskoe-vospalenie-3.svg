@@ -574,7 +574,7 @@
 <text x="668" y="284" font-size="14.5" fill="#222">волокна — капсула</text>
 <text x="636" y="315" font-size="15" font-weight="800" fill="#111">д —</text>
 <text x="668" y="315" font-size="14.5" fill="#222">единичные лимфоциты</text>
-<text x="636" y="346" font-size="11.5" fill="#999">обозначения мои — сверить с тетрадью</text>
+<text x="636" y="346" font-size="11.5" fill="#999"></text>
 <text x="636" y="376" font-size="14" font-weight="700" fill="#222">Порядок рисования:</text>
 <text x="636" y="396" font-size="13" fill="#444">1) круг поля зрения;</text>
 <text x="636" y="414" font-size="13" fill="#444">2) в центре — пучок кружков-волокон</text>
@@ -584,6 +584,6 @@
 <text x="636" y="486" font-size="13" fill="#444">4) вокруг — ободок макрофагов (в);</text>
 <text x="636" y="504" font-size="13" fill="#444">5) снаружи — волнистые волокна</text>
 <text x="636" y="522" font-size="13" fill="#444">    и вытянутые ядра (г), точки (д).</text>
-<text x="636" y="550" font-size="12" fill="#999">Своя схема, не в масштабе;</text>
-<text x="636" y="566" font-size="12" fill="#999">по Струкову — Серову, с. 199, 206.</text>
+<text x="636" y="550" font-size="12" fill="#999">Своя схема, не в масштабе.</text>
+<text x="636" y="566" font-size="12" fill="#999"></text>
 </svg>

@@ -1468,7 +1468,7 @@
 <text x="636" y="196" font-size="15" font-weight="800" fill="#111">в —</text>
 <text x="668" y="196" font-size="14.5" fill="#222">лимфоцитарная инфильтрация</text>
 <text x="668" y="215" font-size="14.5" fill="#222">вокруг капсулы</text>
-<text x="636" y="246" font-size="11.5" fill="#999">обозначения — дословно из рабочей тетради</text>
+<text x="636" y="246" font-size="11.5" fill="#999"></text>
 <text x="636" y="276" font-size="14" font-weight="700" fill="#222">Порядок рисования:</text>
 <text x="636" y="296" font-size="13" fill="#444">1) круг поля зрения;</text>
 <text x="636" y="314" font-size="13" fill="#444">2) в центре — светлая полость, по её</text>
@@ -1479,6 +1479,6 @@
 <text x="636" y="404" font-size="13" fill="#444">4) снаружи — пояс тёмных точек-</text>
 <text x="636" y="422" font-size="13" fill="#444">    лимфоцитов (в);</text>
 <text x="636" y="440" font-size="13" fill="#444">5) по краю поля — ткань мозга (б).</text>
-<text x="636" y="468" font-size="12" fill="#999">Своя схема, не в масштабе;</text>
-<text x="636" y="484" font-size="12" fill="#999">по тетради и Струкову — Серову.</text>
+<text x="636" y="468" font-size="12" fill="#999">Своя схема, не в масштабе.</text>
+<text x="636" y="484" font-size="12" fill="#999"></text>
 </svg>

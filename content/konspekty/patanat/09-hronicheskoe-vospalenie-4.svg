@@ -1391,7 +1391,7 @@
 <text x="668" y="222" font-size="14.5" fill="#222">и перипортальных полей</text>
 <text x="636" y="253" font-size="15" font-weight="800" fill="#111">в —</text>
 <text x="668" y="253" font-size="14.5" fill="#222">дистрофия гепатоцитов</text>
-<text x="636" y="284" font-size="11.5" fill="#999">обозначения — дословно из рабочей тетради</text>
+<text x="636" y="284" font-size="11.5" fill="#999"></text>
 <text x="636" y="314" font-size="14" font-weight="700" fill="#222">Порядок рисования:</text>
 <text x="636" y="334" font-size="13" fill="#444">1) круг поля зрения;</text>
 <text x="636" y="352" font-size="13" fill="#444">2) в центре — расширенный</text>
@@ -1402,6 +1402,6 @@
 <text x="636" y="442" font-size="13" fill="#444">4) вокруг — балки гепатоцитов;</text>
 <text x="636" y="460" font-size="13" fill="#444">    часть — светлые, с вакуолями (в);</text>
 <text x="636" y="478" font-size="13" fill="#444">5) в углу — центральная вена.</text>
-<text x="636" y="506" font-size="12" fill="#999">Своя схема, не в масштабе;</text>
-<text x="636" y="522" font-size="12" fill="#999">по тетради и Струкову — Серову.</text>
+<text x="636" y="506" font-size="12" fill="#999">Своя схема, не в масштабе.</text>
+<text x="636" y="522" font-size="12" fill="#999"></text>
 </svg>

@@ -2300,7 +2300,7 @@
 <text x="668" y="215" font-size="14.5" fill="#222">клетки Пирогова — Лангханса</text>
 <text x="636" y="246" font-size="15" font-weight="800" fill="#111">г —</text>
 <text x="668" y="246" font-size="14.5" fill="#222">вал из лимфоцитов</text>
-<text x="636" y="277" font-size="11.5" fill="#999">обозначения — дословно из рабочей тетради</text>
+<text x="636" y="277" font-size="11.5" fill="#999"></text>
 <text x="636" y="307" font-size="14" font-weight="700" fill="#222">Порядок рисования:</text>
 <text x="636" y="327" font-size="13" fill="#444">1) круг поля зрения, фон — мелкие</text>
 <text x="636" y="345" font-size="13" fill="#444">    точки лимфоидной ткани узла;</text>
@@ -2312,6 +2312,6 @@
 <text x="636" y="453" font-size="13" fill="#444">    с ядрами подковой по краю (в);</text>
 <text x="636" y="471" font-size="13" fill="#444">5) снаружи — плотный венчик</text>
 <text x="636" y="489" font-size="13" fill="#444">    тёмных лимфоцитов (г).</text>
-<text x="636" y="517" font-size="12" fill="#999">Своя схема, не в масштабе;</text>
-<text x="636" y="533" font-size="12" fill="#999">по тетради и Струкову — Серову, с. 203.</text>
+<text x="636" y="517" font-size="12" fill="#999">Своя схема, не в масштабе.</text>
+<text x="636" y="533" font-size="12" fill="#999"></text>
 </svg>
