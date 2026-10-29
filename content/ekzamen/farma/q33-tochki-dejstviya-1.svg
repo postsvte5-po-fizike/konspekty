@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 930">
+<title>Точки действия адреноблокаторов и симпатолитиков</title>
+<defs><style>@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&amp;display=swap'); text { font-family: Onest, 'PT Sans', 'Helvetica Neue', Arial, sans-serif; } .h { paint-order: stroke; stroke: #fff; stroke-width: 4px; stroke-linejoin: round; }</style>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0.5 L10 5 L0 9.5 z" fill="#555"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0.5 L10 5 L0 9.5 z" fill="#b23a2e"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0.5 L10 5 L0 9.5 z" fill="#2a6db0"/></marker>
+<marker id="ap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0.5 L10 5 L0 9.5 z" fill="#5b3fa0"/></marker>
+</defs>
+<rect width="1000" height="930" fill="#fff"/>
+<text x="500.0" y="34.0" font-size="21" font-weight="700" fill="#1f1f1f" text-anchor="middle">Адренергический синапс: где действуют адреноблокаторы и симпатолитики</text>
+<text x="500.0" y="58.0" font-size="13.5" font-weight="400" fill="#666" text-anchor="middle">варикозное утолщение симпатического волокна над клеткой-эффектором; цифры 1–7 — точки действия препаратов (список внизу)</text>
+<path d="M40 440 Q40 424 56 424 L944 424 Q960 424 960 440 L960 600 L40 600 Z" fill="#fbeee9" stroke="#b07a6a" stroke-width="2"/>
+<path d="M40 431 Q40 418 56 418 L944 418 Q960 418 960 431" fill="none" stroke="#b07a6a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="56.0" y="588.0" font-size="13" font-weight="500" fill="#8a5a4a" text-anchor="start">клетка-эффектор: гладкая мышца сосуда, кардиомиоцит, клетка юкстагломерулярного аппарата и др.</text>
+<rect x="740" y="250" width="240" height="70" rx="35" fill="#fde3e1" stroke="#c0564b" stroke-width="2"/>
+<rect x="748" y="258" width="224" height="54" rx="27" fill="#fff4f3" stroke="#e7a39b" stroke-width="1"/>
+<ellipse cx="790" cy="285" rx="16" ry="9" fill="#d9534f" opacity=".85"/>
+<ellipse cx="870" cy="285" rx="16" ry="9" fill="#d9534f" opacity=".85"/>
+<ellipse cx="940" cy="285" rx="16" ry="9" fill="#d9534f" opacity=".85"/>
+<text x="860.0" y="242.0" font-size="12.5" font-weight="600" fill="#a23b33" text-anchor="middle">капилляр: адреналин крови</text>
+<circle cx="828" cy="300" r="4" fill="#7b2cbf"/>
+<circle cx="908" cy="270" r="4" fill="#7b2cbf"/>
+<circle cx="760" cy="298" r="4" fill="#7b2cbf"/>
+<path d="M20 168 L210 168 L210 204 L20 204 Z" fill="#fff6dc" stroke="#c9a227" stroke-width="2"/>
+<path d="M694 168 L990 168 L990 204 L694 204 Z" fill="#fff6dc" stroke="#c9a227" stroke-width="2"/>
+<path d="M200 170 C 220 110, 320 92, 440 92 C 570 92, 668 112, 700 170 C 724 218, 712 306, 640 360 C 600 376, 300 376, 260 360 C 196 322, 186 230, 200 170 Z" fill="#fff6dc" stroke="#c9a227" stroke-width="2.4"/>
+<path d="M207 171 L207 201" stroke="#fff6dc" stroke-width="5"/><path d="M697 171 L697 201" stroke="#fff6dc" stroke-width="5"/>
+<text x="28.0" y="191.0" font-size="12.5" font-weight="600" fill="#9a7b10" text-anchor="start">симпатическое волокно</text>
+<text x="975.0" y="191.0" font-size="12" font-weight="400" fill="#9a7b10" text-anchor="end" font-style="italic">к следующему утолщению →</text>
+<text x="250.0" y="140.0" font-size="13" font-weight="600" fill="#6d5a1a" text-anchor="start">тирозин → ДОФА → дофамин</text>
+<path d="M330 148 C 320 162, 316 176, 314 190" fill="none" stroke="#555" stroke-width="1.4" marker-end="url(#ak)"/>
+<circle cx="330" cy="225" r="25" fill="#fff" stroke="#c98a2c" stroke-width="2"/>
+<circle cx="330" cy="225" r="16" fill="#f6d9a8"/>
+<circle cx="338.0" cy="225.0" r="2.6" fill="#7a4d10"/>
+<circle cx="335.0" cy="231.3" r="2.6" fill="#7a4d10"/>
+<circle cx="328.2" cy="232.8" r="2.6" fill="#7a4d10"/>
+<circle cx="322.8" cy="228.5" r="2.6" fill="#7a4d10"/>
+<circle cx="322.8" cy="221.5" r="2.6" fill="#7a4d10"/>
+<circle cx="328.2" cy="217.2" r="2.6" fill="#7a4d10"/>
+<circle cx="335.0" cy="218.7" r="2.6" fill="#7a4d10"/>
+<circle cx="410" cy="185" r="25" fill="#fff" stroke="#c98a2c" stroke-width="2"/>
+<circle cx="410" cy="185" r="16" fill="#f6d9a8"/>
+<circle cx="418.0" cy="185.0" r="2.6" fill="#7a4d10"/>
+<circle cx="415.0" cy="191.3" r="2.6" fill="#7a4d10"/>
+<circle cx="408.2" cy="192.8" r="2.6" fill="#7a4d10"/>
+<circle cx="402.8" cy="188.5" r="2.6" fill="#7a4d10"/>
+<circle cx="402.8" cy="181.5" r="2.6" fill="#7a4d10"/>
+<circle cx="408.2" cy="177.2" r="2.6" fill="#7a4d10"/>
+<circle cx="415.0" cy="178.7" r="2.6" fill="#7a4d10"/>
+<circle cx="490" cy="220" r="25" fill="#fff" stroke="#c98a2c" stroke-width="2"/>
+<circle cx="490" cy="220" r="16" fill="#f6d9a8"/>
+<circle cx="498.0" cy="220.0" r="2.6" fill="#7a4d10"/>
+<circle cx="495.0" cy="226.3" r="2.6" fill="#7a4d10"/>
+<circle cx="488.2" cy="227.8" r="2.6" fill="#7a4d10"/>
+<circle cx="482.8" cy="223.5" r="2.6" fill="#7a4d10"/>
+<circle cx="482.8" cy="216.5" r="2.6" fill="#7a4d10"/>
+<circle cx="488.2" cy="212.2" r="2.6" fill="#7a4d10"/>
+<circle cx="495.0" cy="213.7" r="2.6" fill="#7a4d10"/>
+<circle cx="560" cy="175" r="25" fill="#fff" stroke="#c98a2c" stroke-width="2"/>
+<circle cx="560" cy="175" r="16" fill="#f6d9a8"/>
+<circle cx="568.0" cy="175.0" r="2.6" fill="#7a4d10"/>
+<circle cx="565.0" cy="181.3" r="2.6" fill="#7a4d10"/>
+<circle cx="558.2" cy="182.8" r="2.6" fill="#7a4d10"/>
+<circle cx="552.8" cy="178.5" r="2.6" fill="#7a4d10"/>
+<circle cx="552.8" cy="171.5" r="2.6" fill="#7a4d10"/>
+<circle cx="558.2" cy="167.2" r="2.6" fill="#7a4d10"/>
+<circle cx="565.0" cy="168.7" r="2.6" fill="#7a4d10"/>
+<circle cx="420" cy="280" r="25" fill="#fff" stroke="#c98a2c" stroke-width="2"/>
+<circle cx="420" cy="280" r="16" fill="#f6d9a8"/>
+<circle cx="428.0" cy="280.0" r="2.6" fill="#7a4d10"/>
+<circle cx="425.0" cy="286.3" r="2.6" fill="#7a4d10"/>
+<circle cx="418.2" cy="287.8" r="2.6" fill="#7a4d10"/>
+<circle cx="412.8" cy="283.5" r="2.6" fill="#7a4d10"/>
+<circle cx="412.8" cy="276.5" r="2.6" fill="#7a4d10"/>
+<circle cx="418.2" cy="272.2" r="2.6" fill="#7a4d10"/>
+<circle cx="425.0" cy="273.7" r="2.6" fill="#7a4d10"/>
+<circle cx="520" cy="290" r="25" fill="#fff" stroke="#c98a2c" stroke-width="2"/>
+<circle cx="520" cy="290" r="16" fill="#f6d9a8"/>
+<circle cx="528.0" cy="290.0" r="2.6" fill="#7a4d10"/>
+<circle cx="525.0" cy="296.3" r="2.6" fill="#7a4d10"/>
+<circle cx="518.2" cy="297.8" r="2.6" fill="#7a4d10"/>
+<circle cx="512.8" cy="293.5" r="2.6" fill="#7a4d10"/>
+<circle cx="512.8" cy="286.5" r="2.6" fill="#7a4d10"/>
+<circle cx="518.2" cy="282.2" r="2.6" fill="#7a4d10"/>
+<circle cx="525.0" cy="283.7" r="2.6" fill="#7a4d10"/>
+<text x="612.0" y="150.0" font-size="12.5" font-weight="600" fill="#8a5a10" text-anchor="start">везикулы с НА</text>
+<line x1="608" y1="154" x2="580" y2="168" stroke="#888" stroke-width="1"/>
+<rect x="296" y="216" width="12" height="18" rx="3" fill="#7b5cc4" stroke="#4b3590"/>
+<text x="262.0" y="262.0" font-size="12.5" font-weight="700" fill="#5b3fa0" text-anchor="start">VMAT</text>
+<ellipse cx="622" cy="262" rx="52" ry="24" fill="#f7e2c8" stroke="#b77b3b" stroke-width="2"/>
+<path d="M586 262 q8 -14 16 0 t16 0 t16 0 t16 0 t8 0" fill="none" stroke="#b77b3b" stroke-width="1.6"/>
+<text x="622.0" y="298.0" font-size="13" font-weight="700" fill="#8a4f1a" text-anchor="middle">МАО</text>
+<circle cx="560" cy="250" r="3" fill="#7a4d10"/><circle cx="572" cy="262" r="3" fill="#7a4d10"/>
+<path d="M562 254 L 578 258" stroke="#555" stroke-width="1.2" marker-end="url(#ak)"/>
+<path d="M430 352 C 430 330, 470 330, 470 352" fill="#fff" stroke="#c98a2c" stroke-width="2"/>
+<circle cx="440" cy="384" r="3.2" fill="#7a4d10"/>
+<circle cx="452" cy="396" r="3.2" fill="#7a4d10"/>
+<circle cx="466" cy="386" r="3.2" fill="#7a4d10"/>
+<circle cx="478" cy="402" r="3.2" fill="#7a4d10"/>
+<circle cx="430" cy="404" r="3.2" fill="#7a4d10"/>
+<circle cx="500" cy="392" r="3.2" fill="#7a4d10"/>
+<circle cx="412" cy="392" r="3.2" fill="#7a4d10"/>
+<circle cx="520" cy="402" r="3.2" fill="#7a4d10"/>
+<circle cx="395" cy="405" r="3.2" fill="#7a4d10"/>
+<text x="476.0" y="330.0" font-size="12" font-weight="600" fill="#8a5a10" text-anchor="start">экзоцитоз</text>
+<path d="M406 340 L 424 340" stroke="none"/>
+<text x="486.0" y="412.0" font-size="12.5" font-weight="700" fill="#7a4d10" text-anchor="start">НА</text>
+<rect x="600" y="340" width="20" height="26" rx="4" fill="#3a8f6a" stroke="#22664a" stroke-width="1.2" transform="rotate(-40 610 353)"/>
+<path d="M588 398 C 596 382, 606 370, 612 350" fill="none" stroke="#22664a" stroke-width="1.6" marker-end="url(#ak)"/>
+<text x="660.0" y="384.0" font-size="12.5" font-weight="700" fill="#22664a" text-anchor="start">захват I (NET)</text>
+<rect x="285" y="344" width="22" height="26" rx="8" fill="#e08a1e" stroke="#fff" stroke-width="1.6"/>
+<text x="296.0" y="362.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">α₂</text>
+<rect x="341" y="355" width="22" height="26" rx="8" fill="#1f9a9a" stroke="#fff" stroke-width="1.6"/>
+<text x="352.0" y="373.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">β₂</text>
+<text x="362.0" y="330.0" font-size="18" font-weight="700" fill="#e08a1e" text-anchor="start">−</text>
+<path d="M364 356 C 384 346, 404 346, 424 350" fill="none" stroke="#1f9a9a" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#ak)"/>
+<text x="396.0" y="346.0" font-size="16" font-weight="700" fill="#1f9a9a" text-anchor="start">+</text>
+<path d="M306 346 C 336 326, 386 324, 422 342" fill="none" stroke="#e08a1e" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#ak)"/>
+<text x="214.0" y="312.0" font-size="11.5" font-weight="500" fill="#777" text-anchor="start" font-style="italic">пресинаптические</text>
+<rect x="319" y="411" width="22" height="26" rx="8" fill="#d64535" stroke="#fff" stroke-width="1.6"/>
+<text x="330.0" y="429.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">α₁</text>
+<rect x="549" y="411" width="22" height="26" rx="8" fill="#2f6fb3" stroke="#fff" stroke-width="1.6"/>
+<text x="560.0" y="429.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">β₁</text>
+<rect x="819" y="411" width="22" height="26" rx="8" fill="#1f9a9a" stroke="#fff" stroke-width="1.6"/>
+<text x="830.0" y="429.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">β₂</text>
+<rect x="889" y="411" width="22" height="26" rx="8" fill="#e08a1e" stroke="#fff" stroke-width="1.6"/>
+<text x="900.0" y="429.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">α₂</text>
+<path d="M828 318 L 830 404" stroke="#7b2cbf" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#ak)"/>
+<path d="M904 318 L 900 404" stroke="#7b2cbf" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#ak)"/>
+<text x="866.0" y="450.0" font-size="11.5" font-weight="500" fill="#777" text-anchor="middle" font-style="italic">внесинаптические</text>
+<text x="445.0" y="450.0" font-size="11.5" font-weight="500" fill="#777" text-anchor="middle" font-style="italic">постсинаптические</text>
+<text x="150.0" y="480.0" font-size="12.5" font-weight="700" fill="#b23a2e" text-anchor="start">α₁ → Gq → фосфолипаза C → ИФ₃</text>
+<text x="150.0" y="498.0" font-size="12.5" font-weight="500" fill="#b23a2e" text-anchor="start">→ Ca²⁺ ↑ → сокращение</text>
+<text x="150.0" y="516.0" font-size="12.5" font-weight="500" fill="#b23a2e" text-anchor="start">гладкой мышцы сосуда</text>
+<text x="470.0" y="480.0" font-size="12.5" font-weight="700" fill="#2a6db0" text-anchor="start">β₁ → Gs → аденилатциклаза → цАМФ ↑</text>
+<text x="470.0" y="498.0" font-size="12.5" font-weight="500" fill="#2a6db0" text-anchor="start">→ ПКА → Ca²⁺ ↑: ЧСС, сила, проводимость ↑;</text>
+<text x="470.0" y="516.0" font-size="12.5" font-weight="500" fill="#2a6db0" text-anchor="start">в ЮГА — выброс ренина ↑</text>
+<text x="760.0" y="480.0" font-size="12.5" font-weight="700" fill="#17807f" text-anchor="start">β₂ → Gs → цАМФ ↑ →</text>
+<text x="760.0" y="498.0" font-size="12.5" font-weight="500" fill="#17807f" text-anchor="start">расслабление бронхов, сосудов</text>
+<text x="760.0" y="516.0" font-size="12.5" font-weight="500" fill="#17807f" text-anchor="start">мышц; гликогенолиз</text>
+<path d="M293 214 L302 203 L311 214 L302 225 Z" fill="#5b3fa0" stroke="#fff" stroke-width="1.4"/>
+<circle cx="270" cy="200" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="270.0" y="205.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<path d="M603 336 L612 325 L621 336 L612 347 Z" fill="#5b3fa0" stroke="#fff" stroke-width="1.4"/>
+<circle cx="642" cy="322" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="642.0" y="327.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<path d="M279 344 L288 333 L297 344 L288 355 Z" fill="#5b3fa0" stroke="#fff" stroke-width="1.4"/>
+<circle cx="262" cy="330" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="262.0" y="335.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<path d="M353 356 L362 345 L371 356 L362 367 Z" fill="#5b3fa0" stroke="#fff" stroke-width="1.4"/>
+<circle cx="384" cy="340" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="384.0" y="345.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<path d="M331 410 L340 399 L349 410 L340 421 Z" fill="#5b3fa0" stroke="#fff" stroke-width="1.4"/>
+<circle cx="300" cy="404" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="300.0" y="409.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<path d="M561 410 L570 399 L579 410 L570 421 Z" fill="#5b3fa0" stroke="#fff" stroke-width="1.4"/>
+<circle cx="600" cy="402" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="600.0" y="407.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+<path d="M831 410 L840 399 L849 410 L840 421 Z" fill="#5b3fa0" stroke="#fff" stroke-width="1.4"/>
+<circle cx="862" cy="396" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="862.0" y="401.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+<line x1="40" y1="622" x2="960" y2="622" stroke="#ddd"/>
+<circle cx="56" cy="640" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="56.0" y="645.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="78.0" y="645.0" font-size="13.5" font-weight="700" fill="#222" text-anchor="start">VMAT везикул — резерпин:</text>
+<text x="78.0" y="663.0" font-size="12.5" font-weight="400" fill="#555" text-anchor="start">НА не попадает в везикулы, разрушается МАО → запасы НА ↓ (и серотонина, дофамина в ЦНС)</text>
+<circle cx="56" cy="678" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="56.0" y="683.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="78.0" y="683.0" font-size="13.5" font-weight="700" fill="#222" text-anchor="start">Захват I и везикулы — гуанетидин (октадин):</text>
+<text x="78.0" y="701.0" font-size="12.5" font-weight="400" fill="#555" text-anchor="start">входит через NET, вытесняет НА из везикул, нарушает выброс; в мозг не проникает</text>
+<circle cx="56" cy="716" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="56.0" y="721.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="78.0" y="721.0" font-size="13.5" font-weight="700" fill="#222" text-anchor="start">Пресинаптические α₂ — фентоламин и др. неселективные α-блокаторы:</text>
+<text x="78.0" y="739.0" font-size="12.5" font-weight="400" fill="#555" text-anchor="start">тормоз выброса снят → НА ↑ → тахикардия</text>
+<circle cx="56" cy="754" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="56.0" y="759.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="78.0" y="759.0" font-size="13.5" font-weight="700" fill="#222" text-anchor="start">Пресинаптические β₂ — неселективные β-блокаторы:</text>
+<text x="78.0" y="777.0" font-size="12.5" font-weight="400" fill="#555" text-anchor="start">выброс НА ↓ (один из механизмов снижения давления)</text>
+<circle cx="56" cy="792" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="56.0" y="797.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<text x="78.0" y="797.0" font-size="13.5" font-weight="700" fill="#222" text-anchor="start">Постсинаптические α₁ — празозин, доксазозин, тамсулозин (α₁A), фентоламин:</text>
+<text x="78.0" y="815.0" font-size="12.5" font-weight="400" fill="#555" text-anchor="start">сосуды расширяются, тонус простаты ↓</text>
+<circle cx="56" cy="830" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="56.0" y="835.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+<text x="78.0" y="835.0" font-size="13.5" font-weight="700" fill="#222" text-anchor="start">Постсинаптические β₁ — метопролол, бисопролол, атенолол, небиволол; пропранолол:</text>
+<text x="78.0" y="853.0" font-size="12.5" font-weight="400" fill="#555" text-anchor="start">ЧСС, сила, проводимость ↓; ренин ↓</text>
+<circle cx="56" cy="868" r="12.5" fill="#5b3fa0" stroke="#fff" stroke-width="2"/>
+<text x="56.0" y="873.0" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+<text x="78.0" y="873.0" font-size="13.5" font-weight="700" fill="#222" text-anchor="start">Внесинаптические β₂ — пропранолол, тимолол (неселективные):</text>
+<text x="78.0" y="891.0" font-size="12.5" font-weight="400" fill="#555" text-anchor="start">бронхоспазм, гликогенолиз ↓; в глазу — продукция влаги ↓</text>
+<text x="40.0" y="916.0" font-size="12.5" font-weight="600" fill="#5b3fa0" text-anchor="start">α,β-адреноблокаторы (лабеталол, карведилол) действуют сразу в точках 5, 6 и 7.</text>
+</svg>
