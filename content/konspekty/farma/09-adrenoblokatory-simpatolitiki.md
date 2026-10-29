@@ -545,19 +545,19 @@ tags: [farma, vegetotropnye, adrenoblokatory, beta-adrenoblokatory, alfa-adrenob
 <div class="sx-cols sx-tight">
 <div class="sx-col" style="--hue: 245">
 <div class="sx-head">Сердце и сосуды</div>
-<div class="sx-box">брадикардия, выброс ↓, ОПСС ↓ → давление ↓ постепенно; <b>ортостатическая гипотензия</b>; задержка Na⁺ и воды</div>
+<div class="sx-box">брадикардия, выброс ↓, ОПСС ↓ → давление ↓ постепенно; <strong>ортостатическая гипотензия</strong>; задержка Na⁺ и воды</div>
 </div>
 <div class="sx-col" style="--hue: 150">
 <div class="sx-head">ЖКТ</div>
-<div class="sx-box">моторика ↑ — <b>диарея</b>; секреция соляной кислоты ↑ — язвы</div>
+<div class="sx-box">моторика ↑ — <strong>диарея</strong>; секреция соляной кислоты ↑ — язвы</div>
 </div>
 <div class="sx-col" style="--hue: 55">
 <div class="sx-head">Глаз и нос</div>
-<div class="sx-box">миоз, ВГД ↓; <b>заложенность носа</b></div>
+<div class="sx-box">миоз, ВГД ↓; <strong>заложенность носа</strong></div>
 </div>
 <div class="sx-col" style="--hue: 300">
 <div class="sx-head">ЦНС (резерпин)</div>
-<div class="sx-box">седация, <b>депрессия</b>, паркинсонизм, пролактин ↑</div>
+<div class="sx-box">седация, <strong>депрессия</strong>, паркинсонизм, пролактин ↑</div>
 </div>
 </div>
 <div class="sx-result" style="--hue: 85"><b>Чувствительность к катехоламинам</b>прямые адреномиметики — сильнее, непрямые — слабее</div>
