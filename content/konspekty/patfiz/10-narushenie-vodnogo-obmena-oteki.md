@@ -2,8 +2,8 @@
 title: "10. Нарушения водного обмена. Отёки"
 predmet: patfiz
 zanyatie: 10
-nedelya: 10
-data: 02.11.2026
+nedelya: 11
+data: 09.11.2026
 ekz_voprosy: [70, 71, 72, 73, 74, 75]
 tags: [patfiz, vodnyj-obmen, disgidrii, degidrataciya, gipergidrataciya, oteki, starling, serdechnye-oteki, pechenochnye-oteki, pochechnye-oteki]
 ---
