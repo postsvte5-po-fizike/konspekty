@@ -76,10 +76,12 @@ tags: [patanat, rasstrojstva-krovoobrashheniya, polnokrovie, venoznyj-zastoj, se
 </div>
 <div class="sx-cols sx-tight">
 <div class="sx-col sx-neutral">
-<div class="sx-box"><b>Лимфообращение</b>лимфостаз, лимфедема, лимфорея</div>
+<div class="sx-head">Лимфообращение</div>
+<div class="sx-box">лимфостаз, лимфедема, лимфорея</div>
 </div>
 <div class="sx-col sx-neutral">
-<div class="sx-box"><b>Тканевая жидкость</b>отёк ↑, эксикоз ↓</div>
+<div class="sx-head">Тканевая жидкость</div>
+<div class="sx-box">отёк ↑, эксикоз ↓</div>
 </div>
 </div>
 <div class="sx-result"><b>Связи:</b> полнокровие → кровотечение, плазморрагия, отёк; тромбоз и эмболия → малокровие; стаз и венозный застой → тромбоз</div>
@@ -613,13 +615,16 @@ tags: [patanat, rasstrojstva-krovoobrashheniya, polnokrovie, venoznyj-zastoj, se
 <div class="sx-down">↓ исход зависит от внезапности, длительности и чувствительности ткани</div>
 <div class="sx-cols sx-tight">
 <div class="sx-col sx-neutral">
-<div class="sx-box"><b>Острое</b>гликоген исчезает, ферменты ↓ → дистрофия, некробиоз → инфаркт</div>
+<div class="sx-head">Острое</div>
+<div class="sx-box">гликоген исчезает, ферменты ↓ → дистрофия, некробиоз → инфаркт</div>
 </div>
 <div class="sx-col sx-neutral">
-<div class="sx-box"><b>Хроническое</b>атрофия паренхимы + склероз</div>
+<div class="sx-head">Хроническое</div>
+<div class="sx-box">атрофия паренхимы + склероз</div>
 </div>
 <div class="sx-col sx-neutral">
-<div class="sx-box"><b>Медленная обтурация</b>коллатерали успевают — последствия малы</div>
+<div class="sx-head">Медленная обтурация</div>
+<div class="sx-box">коллатерали успевают — последствия малы</div>
 </div>
 </div>
 </div>
@@ -692,13 +697,16 @@ tags: [patanat, rasstrojstva-krovoobrashheniya, polnokrovie, venoznyj-zastoj, se
 <div class="sx-down">↓ куда изливается кровь</div>
 <div class="sx-cols sx-tight">
 <div class="sx-col sx-neutral">
-<div class="sx-box"><b>Наружу</b>кровохарканье, носовое, рвота кровью, мелена, маточное</div>
+<div class="sx-head">Наружу</div>
+<div class="sx-box">кровохарканье, носовое, рвота кровью, мелена, маточное</div>
 </div>
 <div class="sx-col sx-neutral">
-<div class="sx-box"><b>В полость</b>гемоперикард, гемоторакс, гемоперитонеум</div>
+<div class="sx-head">В полость</div>
+<div class="sx-box">гемоперикард, гемоторакс, гемоперитонеум</div>
 </div>
 <div class="sx-col sx-neutral">
-<div class="sx-box"><b>В ткань</b>гематома, геморрагическое пропитывание, кровоподтёк, петехии</div>
+<div class="sx-head">В ткань</div>
+<div class="sx-box">гематома, геморрагическое пропитывание, кровоподтёк, петехии</div>
 </div>
 </div>
 <div class="sx-result"><b>Исходы кровоизлияния:</b> рассасывание (гемосидерин) · киста (в мозге) · инкапсуляция · организация · нагноение</div>
