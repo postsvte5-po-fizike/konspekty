@@ -76,7 +76,7 @@ tags: [patanat, rasstrojstva-krovoobrashheniya, polnokrovie, venoznyj-zastoj, se
 </div>
 <div class="sx-cols sx-tight">
 <div class="sx-col sx-neutral">
-<div class="sx-head">Лимфообращение</div>
+<div class="sx-head">Лимфа</div>
 <div class="sx-box">лимфостаз, лимфедема, лимфорея</div>
 </div>
 <div class="sx-col sx-neutral">
