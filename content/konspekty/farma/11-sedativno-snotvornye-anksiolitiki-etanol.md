@@ -136,7 +136,7 @@ tags: [farma, cns, gamk, snotvornye, benzodiazepiny, barbiturary, anksiolitiki, 
 <div class="sx">
 <div class="sx-title">Классификация препаратов занятия</div>
 <div class="sx-sub">одно и то же вещество может стоять в двух столбцах — различают их доза и цель назначения</div>
-<div class="sx-cols sx-tight">
+<div class="sx-cols">
 <div class="sx-col" style="--hue: 245">
 <div class="sx-head">I. Снотворные</div>
 <div class="sx-box"><b>1. Агонисты БД-рецепторов</b><ul><li>производные бензодиазепина: нитразепам, диазепам, феназепам, оксазепам, лоразепам, темазепам, флуразепам</li><li>небензодиазепиновые («Z»): золпидем, зопиклон, залеплон</li></ul></div>
@@ -179,7 +179,7 @@ tags: [farma, cns, gamk, snotvornye, benzodiazepiny, barbiturary, anksiolitiki, 
 <div class="sx">
 <div class="sx-title">Один препарат — шесть эффектов</div>
 <div class="sx-sub">какой из них главный, решает клиническая задача; остальные в это время — побочные</div>
-<div class="sx-cols sx-tight">
+<div class="sx-cols">
 <div class="sx-col" style="--hue: 150">
 <div class="sx-head">Нужны в клинике</div>
 <div class="sx-box"><b>Анксиолитический</b>неврозы и неврозоподобные состояния, тревога, страх</div>
@@ -492,7 +492,7 @@ tags: [farma, cns, gamk, snotvornye, benzodiazepiny, barbiturary, anksiolitiki, 
 <div class="sx">
 <div class="sx-title">Десять заданий кафедры — десять опознавательных признаков</div>
 <div class="sx-sub">в задании всегда описан механизм или показание; по ним и восстанавливается препарат</div>
-<div class="sx-cols sx-tight">
+<div class="sx-cols">
 <div class="sx-col" style="--hue: 245">
 <div class="sx-head">Через ГАМК-комплекс</div>
 <div class="sx-box"><b>1. Производное бензодиазепина при инсомнии</b>нитразепам</div>
