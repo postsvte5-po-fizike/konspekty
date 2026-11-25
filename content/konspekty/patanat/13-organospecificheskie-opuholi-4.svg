@@ -56,6 +56,8 @@
 <path d="M300,245 L300,170" fill="none" stroke="#c0392b" stroke-width="3" marker-end="url(#ar)" stroke-linecap="round"/>
 <ellipse cx="300.0" cy="128.0" rx="46.0" ry="32.0" fill="#f2b8b0" stroke="#c0392b" stroke-width="1.8"/>
 <text x="300.0" y="133.0" font-size="12.5" font-weight="700" fill="#c0392b" text-anchor="middle">сердце</text>
+<path d="M256,124 C236,118 220,124 204,134" fill="none" stroke="#c0392b" stroke-width="2.2" marker-end="url(#ar)" stroke-linecap="round"/>
+<path d="M344,124 C364,118 380,124 398,134" fill="none" stroke="#c0392b" stroke-width="2.2" marker-end="url(#ar)" stroke-linecap="round"/>
 <text x="272.0" y="222.0" font-size="12" font-weight="600" fill="#c0392b" text-anchor="end" class="halo">через правые отделы</text>
 <text x="272.0" y="237.0" font-size="12" font-weight="600" fill="#c0392b" text-anchor="end" class="halo">сердца — в лёгкие</text>
 <path d="M120,100 C180,96 200,150 190,190 C160,196 120,196 110,170 C106,140 112,110 120,100 Z" fill="#f8dfe6" stroke="#b06a86" stroke-width="1.6" />

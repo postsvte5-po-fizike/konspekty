@@ -509,7 +509,9 @@
 <circle cx="582.1" cy="436.0" r="2.4" fill="#2f6b45" stroke="none" stroke-width="1" />
 <circle cx="671.5" cy="390.8" r="2.4" fill="#2f6b45" stroke="none" stroke-width="1" />
 <circle cx="505.8" cy="368.4" r="2.4" fill="#2f6b45" stroke="none" stroke-width="1" />
+<circle cx="600.0" cy="320.0" r="52.0" fill="#f6dbe8" stroke="#d08aa8" stroke-width="1.5" />
 <circle cx="600.0" cy="320.0" r="46.0" fill="#fbe8a6" stroke="#b38b00" stroke-width="2" />
+<text x="600.0" y="388.0" font-size="10.5" font-weight="600" fill="#a0527a" text-anchor="middle" class="halo">блестящая оболочка</text>
 <circle cx="600.0" cy="320.0" r="15.0" fill="#e9c35a" stroke="#8a6a00" stroke-width="1.2" />
 <circle cx="52.0" cy="272.0" r="11.0" fill="#fff" stroke="#2f5fa7" stroke-width="1.6" />
 <text x="52.0" y="276.5" font-size="13" font-weight="800" fill="#2f5fa7" text-anchor="middle">1</text>
