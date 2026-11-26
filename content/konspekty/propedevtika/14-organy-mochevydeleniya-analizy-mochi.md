@@ -1266,7 +1266,7 @@ tags: [propedevtika, pochki, mochevydelenie, pochechnaya-kolika, simptom-pastern
 > Клубочковая фильтрация F равна клиренсу креатинина: F = U × V / P. Реабсорбция R = (F − V) / F × 100%; норма 98–99%. При поражении канальцев и интерстиция (пиелонефрит) раньше и сильнее падает реабсорбция (концентрационная функция) при близкой к норме фильтрации; при остром гломерулонефрите снижается фильтрация, а концентрационная функция сохранена.
 
 <!-- test-cta -->
-<div class="test-cta"><div class="test-cta-text"><b>Проверь себя</b><span>Тест по теме — 35 вопросов: выбор ответа, порядок, «вопрос — ответ».</span></div><a class="test-cta-btn" href="https://postsvte5-po-fizike.github.io/konspekty/static/testy/?deck=propedevtika-14">Решить тест →</a></div>
+<div class="test-cta"><div class="test-cta-text"><b>Проверь себя</b><span>Тест по теме — 37 вопросов: выбор ответа, порядок, «вопрос — ответ».</span></div><a class="test-cta-btn" href="https://postsvte5-po-fizike.github.io/konspekty/static/testy/?deck=propedevtika-14">Решить тест →</a></div>
 
 ## Источники
 
